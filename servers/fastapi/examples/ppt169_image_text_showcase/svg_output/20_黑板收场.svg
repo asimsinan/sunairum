@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="chalkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A3A1A" />
+      <stop offset="100%" stop-color="#142A14" />
+    </linearGradient>
+    <linearGradient id="chalkTextFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8E8E0" stop-opacity="0" />
+      <stop offset="20%" stop-color="#E8E8E0" stop-opacity="1" />
+      <stop offset="80%" stop-color="#E8E8E0" stop-opacity="1" />
+      <stop offset="100%" stop-color="#E8E8E0" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#chalkBg)" />
+
+  
+  <image href="../images/p20_closing.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect width="1280" height="720" fill="#142A14" fill-opacity="0.35" />
+
+  
+  <text x="640" y="52" text-anchor="middle" font-family="Consolas, monospace" font-size="10.08" fill="#E8E8E0" fill-opacity="0.35" letter-spacing="3">P20  ·  chalkboard × mono-ink  ·  chalkboard finale</text>
+
+  
+  <text x="640" y="310" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="39.20" font-weight="bold" fill="#E8E8E0" fill-opacity="0.92" letter-spacing="4" textLength="224.0" lengthAdjust="spacingAndGlyphs">Every combination</text>
+  <text x="640" y="382" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="39.20" font-weight="bold" fill="#E8E8E0" fill-opacity="0.92" letter-spacing="4" textLength="336.0" lengthAdjust="spacingAndGlyphs">They are all a language</text>
+
+  
+  <line x1="280" y1="398" x2="1000" y2="398" stroke="#E8E8E0" stroke-opacity="0.2" stroke-width="2" />
+
+  
+  <text x="640" y="460" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#E8E8E0" fill-opacity="0.6" letter-spacing="2">Images + Text · Infinite combinations · Infinite possibilities</text>
+
+  
+  <text x="640" y="650" text-anchor="middle" font-family="Consolas, monospace" font-size="13" fill="#E8E8E0" fill-opacity="0.3" letter-spacing="4">PPT MASTER  ·  2026</text>
+
+  
+  <text x="1240" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#E8E8E0" fill-opacity="0.3">20</text>
+</svg>

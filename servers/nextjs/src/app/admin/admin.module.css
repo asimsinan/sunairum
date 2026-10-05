@@ -1,0 +1,444 @@
+.page {
+  --admin-display: "Sora", "Avenir Next", "Segoe UI", sans-serif;
+  --admin-body: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+  --admin-radius: 18px;
+  --admin-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 36px clamp(20px, 4vw, 48px) 96px;
+  font-family: var(--admin-body);
+  animation: pageIn 420ms var(--admin-ease);
+}
+
+.page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 480px at 8% -8%, color-mix(in srgb, var(--accent-primary) 18%, transparent), transparent 58%),
+    radial-gradient(720px 420px at 92% 6%, color-mix(in srgb, var(--accent-secondary) 14%, transparent), transparent 55%),
+    radial-gradient(640px 360px at 70% 100%, color-mix(in srgb, #0ea5e9 8%, transparent), transparent 50%),
+    var(--page-bg);
+}
+
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  color: var(--accent-primary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.eyebrowMark {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+}
+
+.title {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: var(--admin-display);
+  font-size: clamp(36px, 5vw, 52px);
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.02;
+}
+
+.subtitle {
+  max-width: 48ch;
+  margin: 12px 0 0;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.stat {
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--card-border) 85%, transparent);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--card-bg) 80%, transparent);
+  backdrop-filter: blur(10px);
+}
+
+.statLabel {
+  color: var(--text-subtle);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.statValue {
+  margin-top: 4px;
+  color: var(--text-primary);
+  font-family: var(--admin-display);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 12px;
+  border: 1px solid color-mix(in srgb, var(--card-border) 85%, transparent);
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--card-bg) 78%, transparent);
+}
+
+.search {
+  flex: 1 1 220px;
+  min-width: 180px;
+  height: 42px;
+  padding: 0 14px;
+  border: 1px solid var(--input-border);
+  border-radius: 12px;
+  background: var(--input-bg, var(--card-bg));
+  color: var(--text-primary);
+  font: inherit;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filterBtn {
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filterBtn[data-active="true"] {
+  border-color: color-mix(in srgb, var(--accent-primary) 30%, transparent);
+  background: color-mix(in srgb, var(--accent-primary) 12%, transparent);
+  color: var(--accent-primary);
+}
+
+.createBtn {
+  height: 42px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #fff;
+  font-family: var(--admin-display);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dangerBtn {
+  height: 42px;
+  padding: 0 16px;
+  border: 1px solid color-mix(in srgb, #ef4444 40%, var(--card-border));
+  border-radius: 12px;
+  background: color-mix(in srgb, #ef4444 10%, var(--surface-soft));
+  color: #dc2626;
+  font-family: var(--admin-display);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dangerBtn:hover:not(:disabled) {
+  background: color-mix(in srgb, #ef4444 18%, var(--surface-soft));
+}
+
+.dangerBtn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.panel {
+  border: 1px solid color-mix(in srgb, var(--card-border) 90%, transparent);
+  border-radius: var(--admin-radius);
+  background: color-mix(in srgb, var(--card-bg) 92%, transparent);
+  overflow: hidden;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.table th,
+.table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid color-mix(in srgb, var(--card-border) 80%, transparent);
+  vertical-align: top;
+}
+
+.table th {
+  color: var(--text-subtle);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: color-mix(in srgb, var(--text-primary) 3%, transparent);
+}
+
+.userCell {
+  display: grid;
+  gap: 2px;
+}
+
+.userName {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.userEmail {
+  color: var(--text-muted);
+  font-size: 12.5px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badgePending {
+  background: color-mix(in srgb, #f59e0b 16%, transparent);
+  color: #d97706;
+}
+
+.badgeApproved {
+  background: color-mix(in srgb, #10b981 16%, transparent);
+  color: #059669;
+}
+
+.badgeRejected {
+  background: color-mix(in srgb, #ef4444 14%, transparent);
+  color: #dc2626;
+}
+
+.badgeDisabled {
+  background: color-mix(in srgb, var(--text-muted) 16%, transparent);
+  color: var(--text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.actionBtn {
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  background: var(--surface-soft);
+  color: var(--text-primary);
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+}
+
+.actionBtn:hover {
+  border-color: color-mix(in srgb, var(--accent-primary) 35%, var(--card-border));
+}
+
+/* Approve / enable — go */
+.actionSuccess {
+  border-color: color-mix(in srgb, #10b981 40%, var(--card-border));
+  background: color-mix(in srgb, #10b981 12%, var(--surface-soft));
+  color: #059669;
+}
+
+.actionSuccess:hover {
+  border-color: color-mix(in srgb, #10b981 60%, var(--card-border));
+  background: color-mix(in srgb, #10b981 20%, var(--surface-soft));
+  color: #047857;
+}
+
+/* Disable — pause */
+.actionWarn {
+  border-color: color-mix(in srgb, #f59e0b 42%, var(--card-border));
+  background: color-mix(in srgb, #f59e0b 12%, var(--surface-soft));
+  color: #d97706;
+}
+
+.actionWarn:hover {
+  border-color: color-mix(in srgb, #f59e0b 62%, var(--card-border));
+  background: color-mix(in srgb, #f59e0b 20%, var(--surface-soft));
+  color: #b45309;
+}
+
+/* Reset password — accent */
+.actionAccent {
+  border-color: color-mix(in srgb, var(--accent-primary) 38%, var(--card-border));
+  background: color-mix(in srgb, var(--accent-primary) 10%, var(--surface-soft));
+  color: var(--accent-primary);
+}
+
+.actionAccent:hover {
+  border-color: color-mix(in srgb, var(--accent-primary) 55%, var(--card-border));
+  background: color-mix(in srgb, var(--accent-primary) 18%, var(--surface-soft));
+}
+
+/* Reject / remove — stop */
+.actionDanger {
+  border-color: color-mix(in srgb, #ef4444 40%, var(--card-border));
+  background: color-mix(in srgb, #ef4444 10%, var(--surface-soft));
+  color: #dc2626;
+}
+
+.actionDanger:hover {
+  border-color: color-mix(in srgb, #ef4444 60%, var(--card-border));
+  background: color-mix(in srgb, #ef4444 18%, var(--surface-soft));
+  color: #b91c1c;
+}
+
+.select {
+  height: 32px;
+  padding: 0 8px;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  background: var(--surface-soft);
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 12px;
+}
+
+.empty {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: var(--modal-overlay);
+}
+
+.modal {
+  width: min(100%, 440px);
+  padding: 28px;
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  background: var(--card-bg);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.2);
+}
+
+.modalTitle {
+  margin: 0 0 8px;
+  font-family: var(--admin-display);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.modalDesc {
+  margin: 0 0 20px;
+  color: var(--text-muted);
+  font-size: 13.5px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.input {
+  height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--input-border);
+  border-radius: 12px;
+  background: var(--input-bg, var(--card-bg));
+  color: var(--text-primary);
+  font: inherit;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.btnSecondary,
+.btnPrimary {
+  height: 42px;
+  padding: 0 16px;
+  border-radius: 12px;
+  font-family: var(--admin-display);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnSecondary {
+  border: 1px solid var(--card-border);
+  background: var(--surface-soft);
+  color: var(--text-primary);
+}
+
+.btnPrimary {
+  border: 0;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #fff;
+}

@@ -1,0 +1,201 @@
+{
+ "schema_version": "sunairum.layout-contracts/v1",
+ "certified": true,
+ "pack": "catarc",
+ "layouts": {
+  "01_cover": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "SUBTITLE",
+     "role": "subtitle",
+     "required": false
+    },
+    {
+     "slot_id": "AUTHOR",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "AUTHOR_EN",
+     "role": "body",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "02_toc": {
+   "archetypes": [
+    "single-figure",
+    "narrative"
+   ],
+   "slots": [
+    {
+     "slot_id": "PAGE_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TOC_ITEM_1_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TOC_ITEM_2_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TOC_ITEM_3_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TOC_ITEM_4_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TOC_ITEM_5_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "CONTENT_AREA",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "PAGE_NUM",
+     "role": "page-number",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "03_chapter": {
+   "archetypes": [
+    "narrative"
+   ],
+   "slots": [
+    {
+     "slot_id": "CHAPTER_NUM",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "CHAPTER_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "CHAPTER_SUBTITLE",
+     "role": "body",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 0,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "04_content": {
+   "archetypes": [
+    "single-figure",
+    "narrative"
+   ],
+   "slots": [
+    {
+     "slot_id": "CHAPTER_NUM",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "PAGE_TITLE",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "CONTENT_AREA",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "PAGE_NUM",
+     "role": "page-number",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "05_ending": {
+   "archetypes": [
+    "closing",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "THANK_YOU",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "THANK_YOU_EN",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "CONTACT_INFO",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "ENDING_SUBTITLE",
+     "role": "body",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <rect x="20" y="20" width="360" height="80" fill="#fff"/>
+  <text x="30" y="60" font-size="16">First label</text>
+  <text x="90" y="60" font-size="16">Second label</text>
+</svg>

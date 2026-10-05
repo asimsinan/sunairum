@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.25" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="75%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="imgOverlay" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A1A2E" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#1A1A2E" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <text x="60" y="42" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#C9A96E" letter-spacing="3">
+    <tspan>PART 03 · Strength and spirit</tspan>
+  </text>
+
+  
+  <rect x="60" y="55" width="4" height="32" fill="#C9A96E" />
+  <text x="80" y="82" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>An Architectural Warrior Through the Fires of War</tspan>
+  </text>
+
+  
+  
+  <rect x="60" y="120" width="620" height="80" rx="10" fill="#16213E" stroke="#C9A96E" stroke-width="1.5" filter="url(#cardShadow)" />
+  <text x="80" y="152" font-family="'Georgia', Georgia, serif" font-size="22" fill="#C9A96E">
+    <tspan>"What beauty or no beauty—she's simply a woman</tspan>
+  </text>
+  <text x="80" y="180" font-family="'Georgia', Georgia, serif" font-size="22" fill="#C9A96E">
+    <tspan>  It may seem like there’s nothing to do, but I still have so much to do!</tspan>
+  </text>
+
+  
+  <rect x="60" y="220" width="620" height="90" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="60" y="220" width="4" height="90" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/map" x="80" y="240" width="24" height="24" fill="#C9A96E" />
+  <text x="116" y="250" font-family="'Georgia', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8D5B7">
+    <tspan>Surveying Ancient Architecture in Remote Countryside and Valleys</tspan>
+  </text>
+  <text x="80" y="278" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Braving the elements and sleeping rough, facing food shortages and bandit attacks, yet never backing down</tspan>
+  </text>
+  <text x="80" y="298" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>"Whatever Mr. Liang dared to climb, Mr. Lin dared to climb too"</tspan>
+  </text>
+
+  <rect x="60" y="325" width="620" height="75" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="60" y="325" width="4" height="75" rx="2" fill="#8B6F47" />
+  <use data-icon="chunk/heart" x="80" y="343" width="24" height="24" fill="#8B6F47" />
+  <text x="116" y="353" font-family="'Georgia', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8D5B7">
+    <tspan>Resilience amid war</tspan>
+  </text>
+  <text x="80" y="381" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Pneumonia struck during his life in exile; he never recovered his health, yet continued his research</tspan>
+  </text>
+
+  <rect x="60" y="415" width="620" height="75" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="60" y="415" width="4" height="75" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/flag" x="80" y="433" width="24" height="24" fill="#C9A96E" />
+  <text x="116" y="443" font-family="'Georgia', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8D5B7">
+    <tspan>A Mother with a Hero’s Spirit</tspan>
+  </text>
+  <text x="80" y="471" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>"To be Chinese, one must be brave, fear nothing, and be utterly determined"</tspan>
+  </text>
+
+  <rect x="60" y="505" width="620" height="75" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="60" y="505" width="4" height="75" rx="2" fill="#E8D5B7" />
+  <use data-icon="chunk/pen-nib" x="80" y="523" width="24" height="24" fill="#E8D5B7" />
+  <text x="116" y="533" font-family="'Georgia', Arial, sans-serif" font-size="16" font-weight="bold" fill="#E8D5B7">
+    <tspan>Writing architectural history from her sickbed</tspan>
+  </text>
+  <text x="80" y="561" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Writing Chinese architectural history stroke by stroke in a remote town, she persisted in working despite her failing health</tspan>
+  </text>
+
+  
+  <rect x="60" y="600" width="620" height="60" rx="8" fill="#16213E" stroke="#8B6F47" stroke-width="1" />
+  <text x="80" y="627" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Her life contained something far greater than the “small self” or “personal gain”</tspan>
+  </text>
+  <text x="80" y="649" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#C9A96E">
+    <tspan>What she truly wanted to devote her life to was the advancement of architectural scholarship in China</tspan>
+  </text>
+
+  
+  <rect x="720" y="120" width="500" height="540" rx="12" fill="#16213E" />
+  <image href="../images/lin_survey.png" x="720" y="120" width="500" height="500" preserveAspectRatio="xMidYMid slice" />
+  <rect x="720" y="120" width="500" height="500" fill="url(#imgOverlay)" />
+  <text x="970" y="640" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="middle">
+    <tspan>In 1933, Lin Huiyin on the roof frame of the Bell Tower at Kaiyuan Temple in Zhengding, Hebei</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>08 / 10</tspan>
+  </text>
+</svg>

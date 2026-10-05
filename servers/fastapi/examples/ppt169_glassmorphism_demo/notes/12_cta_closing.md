@@ -1,0 +1,1 @@
+One final summary. Agent engineering is not simply adding an LLM to a system and calling it done. It means truly embedding the LLM in an engineering system with architecture, context, evaluation, and observability. Only when all four are addressed can an Agent move from demo to production. I hope the framework I shared today can help you on your journey. Thank you, everyone.

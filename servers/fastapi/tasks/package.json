@@ -1,0 +1,9 @@
+{
+  "name": "sunairum-tasks",
+  "private": true,
+  "description": "Worker-side Node deps for HTML→PPTX (vendored deckhtml)",
+  "dependencies": {
+    "@deckflow/deckhtml": "file:../vendor/deckhtml",
+    "pptxgenjs": "4.0.1"
+  }
+}

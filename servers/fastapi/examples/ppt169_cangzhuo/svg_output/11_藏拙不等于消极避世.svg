@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#F5F1E8" />
+
+  
+  <text x="640" y="80" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="28.00" font-weight="700" fill="#1A1A1A" letter-spacing="6">Keep a Low Profile · Does Not Mean · Withdrawing from the World</text>
+  <text x="640" y="115" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852" letter-spacing="3">Surface similarities · Opposite in essence · Four dimensions make it clear</text>
+
+  
+  <g transform="translate(60, 150)">
+    <rect x="0" y="0" width="560" height="44" fill="#8B8680" />
+    <text x="280" y="30" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F1E8" letter-spacing="6" textLength="109.8" lengthAdjust="spacingAndGlyphs">Passive escapism</text>
+  </g>
+  <g transform="translate(660, 150)">
+    <rect x="0" y="0" width="560" height="44" fill="#1A1A1A" />
+    <text x="280" y="30" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#A52A2A" letter-spacing="6" textLength="109.8" lengthAdjust="spacingAndGlyphs">Keep a Low Profile · Build Your Strength</text>
+  </g>
+
+  
+  <circle cx="640" cy="400" r="32" fill="#F5F1E8" stroke="#A52A2A" stroke-width="2" />
+  <text x="640" y="409" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="700" fill="#A52A2A" textLength="22.0" lengthAdjust="spacingAndGlyphs">Discern</text>
+
+  
+  <line x1="640" y1="220" x2="640" y2="370" stroke="#C8C0AE" stroke-width="1" stroke-dasharray="6 6" />
+  <line x1="640" y1="430" x2="640" y2="600" stroke="#C8C0AE" stroke-width="1" stroke-dasharray="6 6" />
+
+  
+  <g transform="translate(60, 220)">
+    <rect x="0" y="0" width="560" height="80" fill="#EFEAD9" />
+    <rect x="0" y="0" width="6" height="80" fill="#8B8680" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" letter-spacing="3" textLength="28.0" lengthAdjust="spacingAndGlyphs">Motivation</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#1A1A1A" letter-spacing="3" textLength="183.1" lengthAdjust="spacingAndGlyphs">Afraid to lose · so they hide</text>
+  </g>
+  <g transform="translate(660, 220)">
+    <rect x="0" y="0" width="560" height="80" fill="#1A1A1A" />
+    <rect x="0" y="0" width="6" height="80" fill="#A52A2A" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#A52A2A" letter-spacing="3" textLength="28.0" lengthAdjust="spacingAndGlyphs">Motivation</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.32" fill="#F5F1E8" letter-spacing="3">To win · so endure</text>
+  </g>
+
+  
+  <g transform="translate(60, 310)">
+    <rect x="0" y="0" width="560" height="80" fill="#EFEAD9" />
+    <rect x="0" y="0" width="6" height="80" fill="#8B8680" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" letter-spacing="3">Status</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#1A1A1A" letter-spacing="3" textLength="139.7" lengthAdjust="spacingAndGlyphs">The more you hide, the more useless you become</text>
+  </g>
+  <g transform="translate(660, 310)">
+    <rect x="0" y="0" width="560" height="80" fill="#1A1A1A" />
+    <rect x="0" y="0" width="6" height="80" fill="#A52A2A" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#A52A2A" letter-spacing="3">Status</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#F5F1E8" letter-spacing="3" textLength="139.7" lengthAdjust="spacingAndGlyphs">The more it hides, the thicker it gets</text>
+  </g>
+
+  
+  <g transform="translate(60, 440)">
+    <rect x="0" y="0" width="560" height="80" fill="#EFEAD9" />
+    <rect x="0" y="0" width="6" height="80" fill="#8B8680" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" letter-spacing="3" textLength="28.0" lengthAdjust="spacingAndGlyphs">Silence</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#1A1A1A" letter-spacing="3" textLength="183.1" lengthAdjust="spacingAndGlyphs">Silence is — an excuse</text>
+  </g>
+  <g transform="translate(660, 440)">
+    <rect x="0" y="0" width="560" height="80" fill="#1A1A1A" />
+    <rect x="0" y="0" width="6" height="80" fill="#A52A2A" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#A52A2A" letter-spacing="3" textLength="28.0" lengthAdjust="spacingAndGlyphs">Silence</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#F5F1E8" letter-spacing="3" textLength="183.1" lengthAdjust="spacingAndGlyphs">Silence is — building strength</text>
+  </g>
+
+  
+  <g transform="translate(60, 530)">
+    <rect x="0" y="0" width="560" height="80" fill="#EFEAD9" />
+    <rect x="0" y="0" width="6" height="80" fill="#8B8680" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" letter-spacing="3" textLength="28.0" lengthAdjust="spacingAndGlyphs">Inner self</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#1A1A1A" letter-spacing="3" textLength="211.1" lengthAdjust="spacingAndGlyphs">All that remains inside — G R I E V A N C E</text>
+  </g>
+  <g transform="translate(660, 530)">
+    <rect x="0" y="0" width="560" height="80" fill="#1A1A1A" />
+    <rect x="0" y="0" width="6" height="80" fill="#A52A2A" />
+    <text x="24" y="34" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#A52A2A" letter-spacing="3" textLength="28.0" lengthAdjust="spacingAndGlyphs">Inner self</text>
+    <text x="24" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" fill="#F5F1E8" letter-spacing="3" textLength="239.1" lengthAdjust="spacingAndGlyphs">Always planning inside — P L A N N I N G</text>
+  </g>
+
+  
+  <text x="640" y="660" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#5C5852" letter-spacing="3">No movement on the surface · Growth never stops below</text>
+  <text x="60" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="58.9" lengthAdjust="spacingAndGlyphs">Concealing One’s Brilliance · Nine</text>
+  <text x="1220" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">11</text>
+</svg>

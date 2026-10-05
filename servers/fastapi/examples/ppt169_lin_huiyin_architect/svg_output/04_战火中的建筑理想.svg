@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.25" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="70%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="imgOverlay" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1A1A2E" stop-opacity="0" />
+      <stop offset="85%" stop-color="#1A1A2E" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0.6" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <text x="60" y="42" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#C9A96E" letter-spacing="3">
+    <tspan>PART 01 · Architect Lin Huiyin</tspan>
+  </text>
+
+  
+  <rect x="60" y="55" width="4" height="32" fill="#C9A96E" />
+  <text x="80" y="82" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>Architectural ideals amid war</tspan>
+  </text>
+
+  
+  <rect x="60" y="120" width="480" height="540" rx="12" fill="#16213E" />
+  <image href="../images/kunming_site.png" x="60" y="120" width="480" height="340" preserveAspectRatio="xMidYMid slice" />
+  <rect x="60" y="120" width="480" height="340" fill="url(#imgOverlay)" />
+  <text x="80" y="480" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#6B6B80">
+    <tspan>Lin Huiyin (center) and Liang Congjie (left) at the construction site of their home in Kunming</tspan>
+  </text>
+
+  
+  <image href="../images/yingqiu_院.png" x="60" y="500" width="230" height="160" preserveAspectRatio="xMidYMid slice" />
+  <text x="80" y="655" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#6B6B80">
+    <tspan>Historical photographs of Yingqiu Courtyard</tspan>
+  </text>
+  <image href="../images/pku_geology.png" x="310" y="500" width="230" height="160" preserveAspectRatio="xMidYMid slice" />
+  <text x="330" y="655" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#6B6B80">
+    <tspan>Former site of the Peking University Geology Hall</tspan>
+  </text>
+
+  
+  
+  <rect x="580" y="120" width="640" height="120" rx="10" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="580" y="120" width="4" height="120" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/museum" x="604" y="140" width="28" height="28" fill="#C9A96E" />
+  <text x="644" y="147" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E">
+    <tspan>1932</tspan>
+  </text>
+  <text x="644" y="170" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Peking University Geology Hall and women’s dormitory</tspan>
+  </text>
+  <text x="604" y="198" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>One of the earliest works in China to introduce the Western modernist architectural style</tspan>
+  </text>
+  <text x="604" y="220" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>The handrails on the girls’ dormitory staircases are unusually slender — because girls have smaller hands</tspan>
+  </text>
+
+  
+  <rect x="580" y="260" width="640" height="120" rx="10" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="580" y="260" width="4" height="120" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/building" x="604" y="280" width="28" height="28" fill="#C9A96E" />
+  <text x="644" y="287" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E">
+    <tspan>1938</tspan>
+  </text>
+  <text x="644" y="310" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Yingqiu Court, Yunnan University</tspan>
+  </text>
+  <text x="604" y="338" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Incorporating vernacular Yunnan architecture with earth, stone, and wood</tspan>
+  </text>
+  <text x="604" y="360" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Use traditional Chinese residential elements such as covered walkways and watchtowers</tspan>
+  </text>
+
+  
+  <rect x="580" y="400" width="640" height="120" rx="10" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="580" y="400" width="4" height="120" rx="2" fill="#8B6F47" />
+  <use data-icon="chunk/building" x="604" y="420" width="28" height="28" fill="#8B6F47" />
+  <text x="644" y="427" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#8B6F47">
+    <tspan>1938</tspan>
+  </text>
+  <text x="644" y="450" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Southwest Associated University campus buildings</tspan>
+  </text>
+  <text x="604" y="478" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>"The most painful and unjust design of a lifetime"</tspan>
+  </text>
+  <text x="604" y="500" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>High-rises become low buildings, brick walls become earthen walls, and eventually turn into thatched huts</tspan>
+  </text>
+
+  
+  <rect x="580" y="540" width="640" height="120" rx="10" fill="#16213E" stroke="#C9A96E" stroke-width="1" />
+  <rect x="580" y="540" width="4" height="120" rx="2" fill="#E8D5B7" />
+  <use data-icon="chunk/heart" x="604" y="560" width="28" height="28" fill="#E8D5B7" />
+  <text x="644" y="567" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8D5B7">
+    <tspan>1940</tspan>
+  </text>
+  <text x="644" y="590" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Kunming Residence</tspan>
+  </text>
+  <text x="604" y="618" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>The only house the two architects ever designed for themselves</tspan>
+  </text>
+  <text x="604" y="640" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Adobe white walls, timber structures, and gray-tiled roofs—simple, bright, elegant, and clean</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>04 / 10</tspan>
+  </text>
+</svg>

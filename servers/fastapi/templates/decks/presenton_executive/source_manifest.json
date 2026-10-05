@@ -1,0 +1,737 @@
+{
+  "source": "presenton/templates/executive/template.json",
+  "source_sha256": "e661c168dea545f5b5df56b231de48a50236a09941b26fdeb581e7f8a91ee622",
+  "template_id": "executive",
+  "layouts": 32,
+  "asset_manifest": "asset_manifest.json",
+  "font_declarations": {
+    "DM Sans Bold": "static/DM Sans Bold.ttf",
+    "Montserrat Medium": "static/Montserrat Medium.ttf",
+    "Montserrat Bold": "static/Montserrat Bold.ttf",
+    "Anton": "static/Anton Regular.ttf",
+    "Montserrat Semi-Bold": "static/Montserrat SemiBold.ttf",
+    "Montserrat": "static/Montserrat Regular.ttf"
+  },
+  "geometry_adjustments": [
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -162.44,
+        354.59,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        354.59,
+        1017.57,
+        365.41
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -217.91,
+        311.37,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        311.37,
+        1017.57,
+        408.63
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        638.13,
+        -796.38,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        638.13,
+        0.0,
+        641.87,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        582.65,
+        -839.6,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        582.65,
+        0.0,
+        697.35,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        482.24,
+        374.34,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        482.24,
+        374.34,
+        797.76,
+        345.66
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        426.76,
+        331.12,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        426.76,
+        331.12,
+        853.24,
+        388.88
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -407.01,
+        -802.33,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -462.49,
+        -845.56,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -407.01,
+        -802.33,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -462.49,
+        -845.56,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -676.41,
+        -204.49,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -731.89,
+        -247.71,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -683.83,
+        -646.2,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -739.31,
+        -689.42,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        866.15,
+        707.52,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        866.15,
+        707.52,
+        413.85,
+        12.48
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        810.67,
+        664.3,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        810.67,
+        664.3,
+        469.33,
+        55.7
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        674.62,
+        576.01,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        674.62,
+        576.01,
+        605.38,
+        143.99
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -602.42,
+        560.0,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        560.0,
+        1017.57,
+        160.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -657.89,
+        516.78,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        516.78,
+        1017.57,
+        203.22
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -612.0,
+        623.0,
+        1018.0,
+        997.0
+      ],
+      "adjusted": [
+        0.0,
+        623.0,
+        1018.0,
+        97.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -668.0,
+        580.0,
+        1018.0,
+        997.0
+      ],
+      "adjusted": [
+        0.0,
+        580.0,
+        1018.0,
+        140.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -609.0,
+        649.0,
+        1018.0,
+        997.0
+      ],
+      "adjusted": [
+        0.0,
+        649.0,
+        1018.0,
+        71.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        735.0,
+        -855.0,
+        1018.0,
+        997.0
+      ],
+      "adjusted": [
+        735.0,
+        0.0,
+        545.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -645.67,
+        633.8,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        633.8,
+        1017.57,
+        86.2
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -701.15,
+        590.58,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        590.58,
+        1017.57,
+        129.42
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        788.55,
+        562.46,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        788.55,
+        562.46,
+        491.45,
+        157.54
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -827.93,
+        413.86,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        413.86,
+        1017.57,
+        306.14
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -883.41,
+        370.64,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        370.64,
+        1017.57,
+        349.36
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        985.8,
+        607.36,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        985.8,
+        607.36,
+        294.2,
+        112.64
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        930.32,
+        564.14,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        930.32,
+        564.14,
+        349.68,
+        155.86
+      ]
+    },
+    {
+      "label": "plan_name",
+      "original": [
+        1326.16,
+        48.41,
+        237.07,
+        35.0
+      ],
+      "adjusted": [
+        1279.0,
+        48.41,
+        1.0,
+        35.0
+      ]
+    },
+    {
+      "label": "plan_price",
+      "original": [
+        1326.16,
+        100.41,
+        245.01,
+        60.0
+      ],
+      "adjusted": [
+        1279.0,
+        100.41,
+        1.0,
+        60.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        699.22,
+        604.38,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        699.22,
+        604.38,
+        580.78,
+        115.62
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -779.05,
+        -829.51,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        678.63,
+        592.12,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        678.63,
+        592.12,
+        601.37,
+        127.88
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -682.06,
+        -845.11,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -676.2,
+        493.25,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        493.25,
+        1017.57,
+        226.75
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -791.42,
+        -735.68,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -846.9,
+        -778.9,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        978.32,
+        578.47,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        978.32,
+        578.47,
+        301.68,
+        141.53
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        922.84,
+        535.25,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        922.84,
+        535.25,
+        357.16,
+        184.75
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        592.85,
+        672.47,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        592.85,
+        672.47,
+        687.15,
+        47.53
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        537.37,
+        629.25,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        537.37,
+        629.25,
+        742.63,
+        90.75
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -407.01,
+        -802.33,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -462.49,
+        -845.56,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image-778d1de63f45a60f.png",
+      "original": [
+        366.43,
+        96.75,
+        553.95,
+        681.3
+      ],
+      "adjusted": [
+        366.43,
+        96.75,
+        553.95,
+        623.25
+      ]
+    },
+    {
+      "label": "static/image1-7f30c6c93dd1.png",
+      "original": [
+        -407.01,
+        -802.33,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image2-f9ab39ea57ed.png",
+      "original": [
+        -462.49,
+        -845.56,
+        1017.57,
+        997.22
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1017.57,
+        720.0
+      ]
+    }
+  ]
+}

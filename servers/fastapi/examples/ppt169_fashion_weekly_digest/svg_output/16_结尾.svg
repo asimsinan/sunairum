@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0" />
+      <stop offset="20%" stop-color="#C9A96E" />
+      <stop offset="80%" stop-color="#E8D5B5" />
+      <stop offset="100%" stop-color="#E8D5B5" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="endGlow" cx="50%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <rect width="1280" height="720" fill="url(#endGlow)" />
+
+  
+  <rect x="50" y="45" width="1180" height="1" fill="url(#goldLine)" fill-opacity="0.3" />
+
+  
+  <use data-icon="phosphor-duotone/crown" x="604" y="230" width="48" height="48" fill="#C9A96E" />
+
+  
+  <text x="640" y="330" font-family="Georgia, Georgia, serif" font-size="48" fill="#F5F0EB" text-anchor="middle" font-weight="bold" letter-spacing="6">NEWS Café</text>
+
+  
+  <rect x="440" y="350" width="400" height="1.5" fill="url(#goldLine)" />
+
+  
+  <text x="640" y="395" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#E8D5B5" text-anchor="middle" letter-spacing="6">The Aesthetic Weekly, unlocking the prologue to trends</text>
+
+  
+  <text x="640" y="440" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.66" fill="#9E9690" text-anchor="middle" letter-spacing="3">See You Next Week · See You Next Week</text>
+
+  
+  <use data-icon="phosphor-duotone/sparkle" x="380" y="460" width="20" height="20" fill="#8B7355" />
+  <use data-icon="phosphor-duotone/sparkle" x="870" y="460" width="20" height="20" fill="#8B7355" />
+
+  
+  <rect x="50" y="670" width="1180" height="1" fill="url(#goldLine)" fill-opacity="0.3" />
+
+  
+  <text x="640" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.77" fill="#8B7355" text-anchor="middle">NEWS Café · Weekly aesthetic digest · April 2026 · Issue 16</text>
+</svg>

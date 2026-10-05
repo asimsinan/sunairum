@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect x="0" y="0" width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="decor-corner">
+    <line x1="60" y1="60" x2="60" y2="160" stroke="#B8935A" stroke-width="2" />
+    <line x1="60" y1="60" x2="160" y2="60" stroke="#B8935A" stroke-width="2" />
+    <line x1="1120" y1="660" x2="1220" y2="660" stroke="#B8935A" stroke-width="2" />
+    <line x1="1220" y1="560" x2="1220" y2="660" stroke="#B8935A" stroke-width="2" />
+  </g>
+
+  <g id="eyebrow">
+    <text x="640" y="166" text-anchor="middle" font-family="Georgia, serif" font-size="11.67" fill="#B8935A" letter-spacing="6">EPILOGUE · Conclusion</text>
+  </g>
+
+  <g id="hero-quote">
+    <text x="640" y="280" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="bold" fill="#1C1C1C">All enduring classics</text>
+    <text x="640" y="350" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" fill="#B8935A" font-style="italic">All stem from daily persistence.</text>
+    <line x1="540" y1="394" x2="740" y2="394" stroke="#B8935A" stroke-width="2" />
+  </g>
+
+  <g id="three-paths">
+    <text x="175" y="476" text-anchor="middle" font-family="Georgia, serif" font-size="19.60" font-weight="bold" fill="#B8935A" font-style="italic" textLength="56.0" lengthAdjust="spacingAndGlyphs">Patience</text>
+    <text x="175" y="510" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1C1C1C" textLength="154.0" lengthAdjust="spacingAndGlyphs">Spending twenty years refining a venue</text>
+    <text x="175" y="534" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.28" fill="#8B8680">— Zumthor · Gehry</text>
+
+    <line x1="330" y1="466" x2="330" y2="544" stroke="#D4CFC4" stroke-width="1" />
+
+    <text x="485" y="476" text-anchor="middle" font-family="Georgia, serif" font-size="19.60" font-weight="bold" fill="#B8935A" font-style="italic" textLength="56.0" lengthAdjust="spacingAndGlyphs">Take root</text>
+    <text x="485" y="510" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1C1C1C" textLength="156.9" lengthAdjust="spacingAndGlyphs">Rooted in local culture · Warming the heart</text>
+    <text x="485" y="534" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.84" fill="#8B8680">— Kéré · Ando · Chipperfield</text>
+
+    <line x1="640" y1="466" x2="640" y2="544" stroke="#D4CFC4" stroke-width="1" />
+
+    <text x="795" y="476" text-anchor="middle" font-family="Georgia, serif" font-size="19.60" font-weight="bold" fill="#B8935A" font-style="italic" textLength="56.0" lengthAdjust="spacingAndGlyphs">Breaking Boundaries</text>
+    <text x="795" y="510" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1C1C1C" textLength="128.9" lengthAdjust="spacingAndGlyphs">Breaking Boundaries · Subverting Conventions</text>
+    <text x="795" y="534" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12" fill="#8B8680">— Zaha · Foster · OMA</text>
+
+    <line x1="950" y1="466" x2="950" y2="544" stroke="#D4CFC4" stroke-width="1" />
+
+    <text x="1105" y="476" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#B8935A" font-style="italic">Awe</text>
+    <text x="1105" y="510" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.31" fill="#1C1C1C">For Space · Nature · Humanity</text>
+    <text x="1105" y="534" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#8B8680" textLength="108.0" lengthAdjust="spacingAndGlyphs">Ultimate reverence and deep reflection</text>
+  </g>
+
+  <g id="closing">
+    <text x="640" y="620" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#5C5852" font-style="italic">The 2026 Masterpiece Season · Not Just a Global Aesthetic Feast · But Also a Reminder That</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#8B8680">Source · WeChat public account Sun Wantong · In tribute to eight Pritzker laureates</text>
+    <text x="1220" y="700" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#8B8680">11 / 11 · END</text>
+  </g>
+</svg>

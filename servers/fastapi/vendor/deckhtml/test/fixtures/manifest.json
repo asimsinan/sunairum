@@ -1,0 +1,71 @@
+{
+  "fixtures": [
+    {
+      "path": "sunairum-slides-02-13/slide_02.html",
+      "sha256": "2e7b0f8308e7175ec3404cae79beef6f564e4db016e0a9ae4c932fc57e4cc826",
+      "element_ids": 44
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_03.html",
+      "sha256": "938a823139af3760faae9e8d2c0eb2c03639accd55dc448cb48521d5d1fc6245",
+      "element_ids": 43
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_04.html",
+      "sha256": "395f5a654a9d06fccda37f68b837001567082725cf593611c992dddc547a1e62",
+      "element_ids": 66
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_05.html",
+      "sha256": "abbb85b2b50fa8931b2abe77c287a67c7cc5a130a30504721408515ab793a138",
+      "element_ids": 25
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_06.html",
+      "sha256": "52ad5931d866e387f32cac59b73e7c8dba5e99a08e213c9569f475bd7a06c687",
+      "element_ids": 34
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_07.html",
+      "sha256": "f600b68eb612e9c175ff7b59668692f1f88d4709c9903cc55ddbcf50d336eb39",
+      "element_ids": 37
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_08.html",
+      "sha256": "4aa95d32eac9ffe4c04b11d2c14f7cb22368e25742c52c160f925592b4dc2b50",
+      "element_ids": 40
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_09.html",
+      "sha256": "f04f261517b0affb9d75e93388c60feface48deeb43a70e7f67aaee714243219",
+      "element_ids": 47
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_10.html",
+      "sha256": "46d7e4f5b5b228ecb7562aa2a50bd1923f79e59dbdffe6b01e51a95a9ded1f3a",
+      "element_ids": 86
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_11.html",
+      "sha256": "5ed2c5ceac741b72aab6333b19909d5f52f4e205c7cd0cddd8d5703ed10058cb",
+      "element_ids": 60
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_12.html",
+      "sha256": "bebfef17b1ca6c16ef1a14a9e026ed77ed238cb2a43a5f2b2dcb5089d502a601",
+      "element_ids": 42
+    },
+    {
+      "path": "sunairum-slides-02-13/slide_13.html",
+      "sha256": "391083f1d36a6f56bf82160e90002316b1f31b413730f4a06fbb09f23ff8e3dc",
+      "element_ids": 38
+    },
+    {
+      "path": "wrapping-matrix/matrix.html",
+      "sha256": "e3e341b722f1f61d9848579d735eafa7fdcc43fa7a9db73a3e7e5aefb758002d",
+      "element_ids": 14
+    }
+  ],
+  "contract": "LAYOUT_FAITHFUL.md",
+  "canonical_renderer": "Microsoft PowerPoint"
+}

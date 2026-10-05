@@ -1,0 +1,18 @@
+# A host node_modules would be copied over the one npm ci installs in the image,
+# replacing the Linux SWC binary with the host's and failing the build with
+# "Attempted to load @next/swc-linux-arm64-gnu, but it was not installed". It also
+# dominated the build context at ~300MB.
+node_modules
+.next
+out
+
+.env
+.env.*
+!.env.example
+
+.git
+.gitignore
+Dockerfile*
+.dockerignore
+npm-debug.log*
+.DS_Store

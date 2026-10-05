@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="huangluGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0BC7E" />
+      <stop offset="100%" stop-color="#C99E62" />
+    </linearGradient>
+    <linearGradient id="malanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8BA998" />
+      <stop offset="100%" stop-color="#6F8F75" />
+    </linearGradient>
+    <linearGradient id="diaoyanVert" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C99E62" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#6F8F75" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="cardShadow03" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+      <feOffset dx="0" dy="3" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.15" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="#F7F2E8" />
+
+  <g id="header">
+    <text x="60" y="50" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9B948B" letter-spacing="3" textLength="146.9" lengthAdjust="spacingAndGlyphs">CHAPTER 01 · Decoding the Battle Robe</text>
+    <line x1="60" y1="62" x2="240" y2="62" stroke="#C99E62" stroke-width="2" />
+    <text x="60" y="108" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26.60" font-weight="bold" fill="#3A3530" letter-spacing="3" textLength="350.0" lengthAdjust="spacingAndGlyphs">Five Directional Colors · Hand-Tied Dyeing</text>
+    <text x="60" y="140" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7A7068" letter-spacing="2">Yellow for the earth · cyan for spring · one cord, one dye, creating an ink-wash-like gradient</text>
+  </g>
+
+  <g id="color-huanglu" transform="translate(60,180)" filter="url(#cardShadow03)">
+    <rect x="0" y="0" width="360" height="300" rx="10" fill="#FFFFFF" />
+    <rect x="0" y="0" width="360" height="110" rx="10" fill="url(#huangluGrad)" />
+    <rect x="0" y="100" width="360" height="10" fill="url(#huangluGrad)" />
+    <text x="24" y="52" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" font-weight="bold" fill="#F7F2E8" letter-spacing="4" textLength="102.0" lengthAdjust="spacingAndGlyphs">Smoketree yellow</text>
+    <text x="24" y="86" font-family="Georgia, Georgia, Georgia, serif" font-size="15" fill="#F7F2E8" letter-spacing="3">HuangLu Yellow · #C99E62</text>
+    <g transform="translate(24,145)">
+      <use data-icon="tabler-filled/leaf" x="0" y="0" width="22" height="22" fill="#C99E62" />
+      <text x="34" y="17" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.30" fill="#3A3530" font-weight="bold">Derived from · Chinese smoketree from Shennongjia, Hubei</text>
+    </g>
+    <text x="24" y="198" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#7A7068" letter-spacing="1" textLength="127.8" lengthAdjust="spacingAndGlyphs">The “Earth” of the Five Directional Colors</text>
+    <text x="24" y="226" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#7A7068" letter-spacing="1" textLength="198.0" lengthAdjust="spacingAndGlyphs">Symbolizing the vast and profound land of China</text>
+    <rect x="24" y="248" width="312" height="1" fill="#D7CEB9" />
+    <text x="24" y="275" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#9B948B" font-style="italic">The Yellow Emperor fashioned a black cap and yellow robe · dyed with plant juices</text>
+  </g>
+
+  <g id="color-malan" transform="translate(440,180)" filter="url(#cardShadow03)">
+    <rect x="0" y="0" width="360" height="300" rx="10" fill="#FFFFFF" />
+    <rect x="0" y="0" width="360" height="110" rx="10" fill="url(#malanGrad)" />
+    <rect x="0" y="100" width="360" height="10" fill="url(#malanGrad)" />
+    <text x="24" y="52" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" font-weight="bold" fill="#F7F2E8" letter-spacing="4" textLength="102.0" lengthAdjust="spacingAndGlyphs">Ma Lanqing</text>
+    <text x="24" y="86" font-family="Georgia, Georgia, Georgia, serif" font-size="15" fill="#F7F2E8" letter-spacing="3">MaLan Green · #6F8F75</text>
+    <g transform="translate(24,145)">
+      <use data-icon="tabler-filled/flower" x="0" y="0" width="22" height="22" fill="#6F8F75" />
+      <text x="34" y="17" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.30" fill="#3A3530" font-weight="bold">Derived from · Malan grass in early springtime Jiangnan</text>
+    </g>
+    <text x="24" y="198" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#7A7068" letter-spacing="1" textLength="127.8" lengthAdjust="spacingAndGlyphs">The “Spring” of the Five Directional Colors</text>
+    <text x="24" y="226" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#7A7068" letter-spacing="1">Represents the birth of all things and the endless renewal of life</text>
+    <rect x="24" y="248" width="312" height="1" fill="#D7CEB9" />
+    <text x="24" y="275" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#9B948B" font-style="italic">Yellow-to-cyan gradient · symbolizing the land of China · everlasting vitality</text>
+  </g>
+
+  <g id="image-diaoyan" transform="translate(820,180)">
+    <rect x="-6" y="-6" width="412" height="312" fill="#EDE5D3" stroke="#C99E62" stroke-width="1" />
+    <image href="../images/640.jpg" x="0" y="0" width="400" height="300" preserveAspectRatio="xMidYMid slice" filter="url(#cardShadow03)" />
+    <rect x="-6" y="300" width="412" height="28" fill="#3A3530" />
+    <text x="200" y="319" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#F7F2E8" letter-spacing="2">Li Ziqi and Huang Ronghua collaborate on dip-dyeing</text>
+  </g>
+
+  <g id="diaoyan-process" transform="translate(60,520)">
+    <rect x="0" y="0" width="1160" height="136" rx="10" fill="#EDE5D3" />
+
+    <g transform="translate(24,18)">
+      <use data-icon="tabler-filled/droplet" x="0" y="0" width="24" height="24" fill="#6B9AAE" />
+      <text x="34" y="18" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#3A3530" font-weight="bold" textLength="204.2" lengthAdjust="spacingAndGlyphs">Hand-dyed gradients · Ink-wash-like transitions</text>
+      <text x="800" y="18" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9B948B" letter-spacing="2" text-anchor="end">No Room for the Slightest Error · A Dual Test of Patience and Skill</text>
+    </g>
+
+    <line x1="80" y1="85" x2="1080" y2="85" stroke="#D7CEB9" stroke-width="2" />
+
+    <g transform="translate(80,85)">
+      <circle cx="0" cy="0" r="18" fill="#C99E62" />
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#F7F2E8">01</text>
+      <text x="0" y="34" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#3A3530" font-weight="bold" textLength="64.0" lengthAdjust="spacingAndGlyphs">Ropes Up, Fabric Suspended</text>
+    </g>
+    <g transform="translate(330,85)">
+      <circle cx="0" cy="0" r="18" fill="#C99E62" />
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#F7F2E8">02</text>
+      <text x="0" y="34" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#3A3530" font-weight="bold" textLength="64.0" lengthAdjust="spacingAndGlyphs">Immersion dyeing</text>
+    </g>
+    <g transform="translate(580,85)">
+      <circle cx="0" cy="0" r="18" fill="#C99E62" />
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#F7F2E8">03</text>
+      <text x="0" y="34" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#3A3530" font-weight="bold" textLength="106.2" lengthAdjust="spacingAndGlyphs">Pulls 1 centimeter in 30 seconds</text>
+    </g>
+    <g transform="translate(830,85)">
+      <circle cx="0" cy="0" r="18" fill="#6F8F75" />
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#F7F2E8">04</text>
+      <text x="0" y="34" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#3A3530" font-weight="bold" textLength="64.0" lengthAdjust="spacingAndGlyphs">Repeated raising and lowering</text>
+    </g>
+    <g transform="translate(1080,85)">
+      <circle cx="0" cy="0" r="18" fill="#6F8F75" />
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#F7F2E8">05</text>
+      <text x="0" y="34" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#3A3530" font-weight="bold" textLength="64.0" lengthAdjust="spacingAndGlyphs">Silky gradient</text>
+    </g>
+
+    <polygon points="205,85 215,80 215,90" fill="#9B948B" />
+    <polygon points="455,85 465,80 465,90" fill="#9B948B" />
+    <polygon points="705,85 715,80 715,90" fill="#9B948B" />
+    <polygon points="955,85 965,80 965,90" fill="#9B948B" />
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="690" x2="1220" y2="690" stroke="#D7CEB9" stroke-width="1" />
+    <text x="60" y="710" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#9B948B">Cutting Clouds, Weaving Moonlight · Plants and Trees Become Poetry</text>
+    <text x="1220" y="710" text-anchor="end" font-family="Georgia, Georgia, Georgia, serif" font-size="12" fill="#9B948B">03 / 12</text>
+  </g>
+</svg>

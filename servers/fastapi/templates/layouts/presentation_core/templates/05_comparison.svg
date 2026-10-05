@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="presentation_core_master" data-pptx-master-name="Presentation Core"
+  data-pptx-layout="comparison" data-pptx-layout-name="Comparison">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="comparison-left-panel" x="64" y="184" width="552" height="360" rx="12" fill="#F4F6F8"
+    stroke="#D6DCE3" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="comparison-right-panel" x="664" y="184" width="552" height="360" rx="12" fill="#F4F6F8"
+    stroke="#D6DCE3" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="comparison-divider" x="638" y="208" width="4" height="312" rx="2" fill="#CBD5E1"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="comparison-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="64 40 1152 72">
+    <text id="comparison-title-carrier" data-pptx-carrier="true"
+      x="64" y="90" fill="#1E293B" font-family="Inter, Arial, sans-serif"
+      font-size="36" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="comparison-left-title-slot" data-pptx-placeholder="body" data-pptx-idx="1"
+    data-pptx-bounds="88 208 504 56">
+    <text id="comparison-left-title-carrier" data-pptx-carrier="true"
+      x="88" y="246" fill="#334155" font-family="Inter, Arial, sans-serif"
+      font-size="24" font-weight="700">{{LEFT_TITLE}}</text>
+  </g>
+  <g id="comparison-left-content-slot" data-pptx-placeholder="object" data-pptx-idx="2"
+    data-pptx-bounds="88 280 504 232">
+    <text id="comparison-left-content-carrier" data-pptx-carrier="true"
+      x="88" y="318" fill="#475569"
+      font-family="Inter, Arial, sans-serif" font-size="24">{{LEFT_CONTENT}}</text>
+  </g>
+  <g id="comparison-right-title-slot" data-pptx-placeholder="body" data-pptx-idx="3"
+    data-pptx-bounds="688 208 504 56">
+    <text id="comparison-right-title-carrier" data-pptx-carrier="true"
+      x="688" y="246" fill="#334155" font-family="Inter, Arial, sans-serif"
+      font-size="24" font-weight="700">{{RIGHT_TITLE}}</text>
+  </g>
+  <g id="comparison-right-content-slot" data-pptx-placeholder="object" data-pptx-idx="4"
+    data-pptx-bounds="688 280 504 232">
+    <text id="comparison-right-content-carrier" data-pptx-carrier="true"
+      x="688" y="318" fill="#475569"
+      font-family="Inter, Arial, sans-serif" font-size="24">{{RIGHT_CONTENT}}</text>
+  </g>
+</svg>

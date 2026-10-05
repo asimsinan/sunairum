@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"
+  data-pptx-master="presentation_core_master" data-pptx-master-name="Presentation Core"
+  data-pptx-layout="title_content" data-pptx-layout-name="Title and Content">
+  <rect id="master-background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"
+    data-pptx-layer="master" data-pptx-editable="false"/>
+  <rect id="title-content-rule" x="64" y="120" width="112" height="5" rx="2.5" fill="#2563EB"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="title-content-panel" x="64" y="220" width="1152" height="240" rx="18" fill="#EFF6FF"
+    stroke="#BFDBFE" stroke-width="1" data-pptx-layer="layout" data-pptx-editable="false"/>
+  <rect id="title-content-accent" x="64" y="220" width="10" height="240" rx="5" fill="#2563EB"
+    data-pptx-layer="layout" data-pptx-editable="false"/>
+  <g id="title-content-title-slot" data-pptx-placeholder="title"
+    data-pptx-bounds="64 40 1152 72">
+    <text id="title-content-title-carrier" data-pptx-carrier="true"
+      x="64" y="90" fill="#0F172A" font-family="Inter, Arial, sans-serif"
+      font-size="36" font-weight="700">{{PAGE_TITLE}}</text>
+  </g>
+  <g id="title-content-object-slot" data-pptx-placeholder="object" data-pptx-idx="1"
+    data-pptx-bounds="104 252 1072 168">
+    <text id="title-content-object-carrier" data-pptx-carrier="true"
+      x="104" y="294" fill="#334155"
+      font-family="Inter, Arial, sans-serif" font-size="24">{{CONTENT_AREA}}</text>
+  </g>
+</svg>

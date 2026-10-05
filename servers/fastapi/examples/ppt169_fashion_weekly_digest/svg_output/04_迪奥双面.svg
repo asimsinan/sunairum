@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="leftImg">
+      <rect x="50" y="120" width="280" height="280" rx="10" />
+    </clipPath>
+    <clipPath id="rightImg">
+      <rect x="670" y="120" width="280" height="280" rx="10" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.7" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="1180" height="1" fill="#2A2520" />
+
+  
+  <text x="640" y="85" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" fill="#F5F0EB" font-weight="bold" text-anchor="middle" textLength="195.9" lengthAdjust="spacingAndGlyphs">Dior’s Two-Sided Charm</text>
+  <text x="640" y="105" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" text-anchor="middle" letter-spacing="2">HAUTE COUTURE · HAUTE HORLOGERIE</text>
+
+  
+  
+  <rect x="50" y="120" width="280" height="280" rx="10" fill="#1A1A1A" />
+  <image href="../images/dior_fashion.jpg" x="50" y="120" width="280" height="280" preserveAspectRatio="xMidYMid slice" clip-path="url(#leftImg)" />
+
+  
+  <use data-icon="phosphor-duotone/dress" x="50" y="420" width="28" height="28" fill="#C9A96E" />
+  <text x="86" y="442" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17.12" fill="#E8D5B5" font-weight="bold">Fashion · Coachella</text>
+
+  <rect x="50" y="458" width="560" height="1" fill="#2A2520" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="16" fill="#F5F0EB">
+    <tspan x="50" y="490">Sabrina Carpenter Wearing Jonathan Anderson</tspan>
+    <tspan x="50" dy="26">Several exquisitely crafted gowns debuted at the Coachella Music Festival,</tspan>
+    <tspan x="50" dy="26">Heritage and transformation converge in the interplay of light and shadow.</tspan>
+  </text>
+
+  
+  <rect x="630" y="120" width="1" height="530" fill="#2A2520" />
+
+  
+  
+  <rect x="670" y="120" width="280" height="280" rx="10" fill="#1A1A1A" />
+  <image href="../images/dior_watch1.jpg" x="670" y="120" width="280" height="280" preserveAspectRatio="xMidYMid slice" clip-path="url(#rightImg)" />
+
+  
+  <use data-icon="phosphor-duotone/watch" x="670" y="420" width="28" height="28" fill="#C9A96E" />
+  <text x="706" y="442" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.61" fill="#E8D5B5" font-weight="bold">Timepieces · Chiffre Rouge</text>
+
+  <rect x="670" y="458" width="560" height="1" fill="#2A2520" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="16" fill="#F5F0EB">
+    <tspan x="670" y="490">The Chiffre Rouge watch collection returns refreshed, introducing three</tspan>
+    <tspan x="670" dy="26">Limited-edition fine pieces. A striking red second hand, paying tribute to Monsieur Dior</tspan>
+    <tspan x="670" dy="26">The searing, intense color of life within.</tspan>
+  </text>
+
+  
+  <rect x="670" y="580" width="560" height="44" rx="6" fill="#1A1A1A" />
+  <rect x="670" y="580" width="3" height="44" fill="#C9A96E" />
+  <text x="690" y="607" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690">Her beloved number “8” becomes a romantic talisman · On sale at the end of April 2026</text>
+
+  
+  <rect x="50" y="580" width="560" height="44" rx="6" fill="#1A1A1A" />
+  <rect x="50" y="580" width="3" height="44" fill="#C9A96E" />
+  <text x="70" y="607" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690">Creative Director Jonathan Anderson · A modern interpretation of the spirit of haute couture</text>
+
+  
+  <text x="960" y="395" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.99" fill="#9E9690" text-anchor="start">41mm chronograph · 38mm rose gold</text>
+
+  
+  <rect x="50" y="670" width="1180" height="1" fill="#2A2520" />
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">04 / 16</text>
+</svg>

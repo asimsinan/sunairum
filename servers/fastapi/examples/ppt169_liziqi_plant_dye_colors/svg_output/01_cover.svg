@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad01" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F2E8" />
+      <stop offset="100%" stop-color="#EDE5D3" />
+    </linearGradient>
+    <linearGradient id="sealGrad01" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C99E62" />
+      <stop offset="100%" stop-color="#6F8F75" />
+    </linearGradient>
+    <radialGradient id="decor01" cx="85%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#6B9AAE" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#6B9AAE" stop-opacity="0" />
+    </radialGradient>
+    <filter id="imgShadow01" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" />
+      <feOffset dx="0" dy="6" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.25" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad01)" />
+  <rect width="1280" height="720" fill="url(#decor01)" />
+
+  <g id="bg-texture-dots">
+    <circle cx="120" cy="120" r="1.5" fill="#D7CEB9" fill-opacity="0.5" />
+    <circle cx="220" cy="180" r="1" fill="#D7CEB9" fill-opacity="0.4" />
+    <circle cx="380" cy="90" r="1.2" fill="#D7CEB9" fill-opacity="0.4" />
+    <circle cx="520" cy="140" r="1" fill="#D7CEB9" fill-opacity="0.5" />
+    <circle cx="1080" cy="640" r="1.5" fill="#D7CEB9" fill-opacity="0.4" />
+    <circle cx="1180" cy="580" r="1" fill="#D7CEB9" fill-opacity="0.5" />
+    <circle cx="980" cy="680" r="1.2" fill="#D7CEB9" fill-opacity="0.4" />
+  </g>
+
+  <g id="top-bar">
+    <line x1="60" y1="80" x2="160" y2="80" stroke="#C99E62" stroke-width="2" />
+    <text x="175" y="85" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#7A7068" letter-spacing="2" textLength="165.8" lengthAdjust="spacingAndGlyphs">300 National Colors · Plants Become Poetry</text>
+  </g>
+
+  <g id="main-seal" transform="translate(80,180)">
+    <rect x="0" y="0" width="110" height="110" fill="url(#sealGrad01)" rx="4" />
+    <rect x="8" y="8" width="94" height="94" fill="none" stroke="#F7F2E8" stroke-width="2" rx="2" />
+    <text x="55" y="50" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="bold" fill="#F7F2E8" letter-spacing="2">Plants</text>
+    <text x="55" y="85" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="bold" fill="#F7F2E8" letter-spacing="2" textLength="48.0" lengthAdjust="spacingAndGlyphs">Become poetry</text>
+  </g>
+
+  <g id="title-group">
+    <text x="80" y="380" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="57.40" font-weight="bold" fill="#3A3530" letter-spacing="6" textLength="328.0" lengthAdjust="spacingAndGlyphs">Cutting Clouds, Weaving Moonlight</text>
+    <text x="80" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="57.40" font-weight="bold" fill="#6B9AAE" letter-spacing="6" textLength="328.0" lengthAdjust="spacingAndGlyphs">Plants in Poetry</text>
+    <rect x="80" y="500" width="120" height="3" fill="#C99E62" />
+    <text x="80" y="545" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#7A7068" letter-spacing="3">Revealing the story behind Li Ziqi’s Spring Festival Gala outfit</text>
+    <text x="80" y="580" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#7A7068" letter-spacing="3">300 traditional Chinese colors made with plant dyes</text>
+  </g>
+
+  <g id="cover-image" transform="translate(720,135)">
+    <rect x="-8" y="-8" width="496" height="296" fill="#F7F2E8" stroke="#C99E62" stroke-width="1" />
+    <image href="../images/640.png" x="0" y="0" width="480" height="280" preserveAspectRatio="xMidYMid slice" filter="url(#imgShadow01)" />
+    <text x="240" y="305" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9B948B" letter-spacing="1">CCTV Spring Festival Gala 2025 “Welcoming Fortune” Visual Show</text>
+  </g>
+
+  <g id="cover-tags" transform="translate(720,370)">
+    <rect x="0" y="0" width="150" height="38" rx="19" fill="none" stroke="#6B9AAE" stroke-width="1.5" />
+    <text x="75" y="24" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6B9AAE" letter-spacing="2" textLength="99.4" lengthAdjust="spacingAndGlyphs">Plant dyeing · Intangible cultural heritage</text>
+
+    <rect x="165" y="0" width="150" height="38" rx="19" fill="none" stroke="#C99E62" stroke-width="1.5" />
+    <text x="240" y="24" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#C99E62" letter-spacing="2" textLength="83.4" lengthAdjust="spacingAndGlyphs">Eastern · Aesthetics</text>
+
+    <rect x="330" y="0" width="150" height="38" rx="19" fill="none" stroke="#B04A5C" stroke-width="1.5" />
+    <text x="405" y="24" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B04A5C" letter-spacing="2" textLength="83.4" lengthAdjust="spacingAndGlyphs">Five Directions · True Colors</text>
+  </g>
+
+  <g id="bottom-decor">
+    <use data-icon="tabler-filled/leaf" x="720" y="480" width="32" height="32" fill="#6F8F75" />
+    <text x="765" y="503" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#3A3530">One robe of yellow-green, dyed with the colors of mountains and rivers</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="670" x2="1220" y2="670" stroke="#D7CEB9" stroke-width="1" />
+    <text x="60" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9B948B" letter-spacing="1">Text compiled from Fenghuang Space · Sun Wantong</text>
+    <text x="1220" y="695" text-anchor="end" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9B948B" letter-spacing="1">2026.04 · Cultural Sharing</text>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+# Single entry point for the stack. Fronting both services on one origin is what
+# lets the frontend call the API with relative paths, so a prebuilt image is not
+# pinned to a hostname.
+#
+# SITE_ADDRESS is a domain name in production, which makes Caddy provision and
+# renew a Let's Encrypt certificate automatically. Compose passes `:80` when no
+# domain is set, so an IP-only Droplet still works before DNS is pointed. It must
+# never expand to nothing, or this block parses as global options.
+{$SITE_ADDRESS::80} {
+	encode zstd gzip
+
+	# Uploads are PDFs and generated decks are multi-megabyte PPTX files, so the
+	# default request cap is too small.
+	request_body {
+		max_size 64MB
+	}
+
+	# The API surface. /ws carries the generation progress socket, which Caddy
+	# upgrades without extra configuration.
+	# /api/files serves user assets after auth; /storage is no longer public.
+	@backend path /api/* /ws/* /health
+	handle @backend {
+		reverse_proxy fastapi:8000
+	}
+
+	handle {
+		reverse_proxy nextjs:3000
+	}
+}

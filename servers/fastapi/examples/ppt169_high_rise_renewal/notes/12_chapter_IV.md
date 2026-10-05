@@ -1,0 +1,1 @@
+This brings us to the real challenge we must confront. Well-funded commercial projects with clear ownership are relatively manageable; retrofitting old high-rise residential buildings is the truly tough problem. Part Four: back to ourselves.

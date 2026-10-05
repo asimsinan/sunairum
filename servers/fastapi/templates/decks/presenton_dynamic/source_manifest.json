@@ -1,0 +1,449 @@
+{
+  "source": "presenton/templates/dynamic/template.json",
+  "source_sha256": "bf772065cbfb5a92fe0f33625bc9d88a47a2c7f0a92321dc007998a970749ad8",
+  "template_id": "dynamic",
+  "layouts": 32,
+  "asset_manifest": "asset_manifest.json",
+  "font_declarations": {
+    "Montserrat Medium": "static/Montserrat Medium.ttf",
+    "Montserrat Semi-Bold": "static/Montserrat SemiBold.ttf",
+    "Montserrat": "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+  },
+  "geometry_adjustments": [
+    {
+      "label": "static/image1-8f0be57474f1.jpeg",
+      "original": [
+        0.0,
+        -1.5,
+        1285.35,
+        723.01
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "/static/images/replaceable_template_image.png",
+      "original": [
+        706.1,
+        72.0,
+        575.99,
+        576.0
+      ],
+      "adjusted": [
+        706.1,
+        72.0,
+        573.9,
+        576.0
+      ]
+    },
+    {
+      "label": "static/image1-8f0be57474f1.jpeg",
+      "original": [
+        -1.33,
+        0.0,
+        1282.66,
+        721.5
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image1-8f0be57474f1.jpeg",
+      "original": [
+        -1.33,
+        0.0,
+        1282.66,
+        721.5
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -676.84,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        0.0,
+        -8.31,
+        1280.0,
+        736.62
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/freeform_13-4df4bbd502a8.svg",
+      "original": [
+        63.25,
+        309.71,
+        362.66,
+        576.0
+      ],
+      "adjusted": [
+        63.25,
+        309.71,
+        362.66,
+        410.29
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -664.37,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -675.5,
+        2483.25,
+        1396.83
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -661.6,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -675.5,
+        2483.25,
+        1396.83
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -8.21,
+        0.0,
+        1288.0,
+        720.0
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -599.9,
+        -673.76,
+        2483.25,
+        1396.82
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -670.24,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -675.49,
+        2483.25,
+        1396.82
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "/static/images/replaceable_template_image.png",
+      "original": [
+        72.0,
+        252.0,
+        1136.0,
+        757.57
+      ],
+      "adjusted": [
+        72.0,
+        252.0,
+        1136.0,
+        468.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -675.49,
+        2483.25,
+        1396.82
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -676.84,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -675.49,
+        2483.25,
+        1396.82
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -676.84,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -675.49,
+        2483.25,
+        1396.82
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -601.63,
+        -676.84,
+        2483.25,
+        1396.84
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -62.71,
+        -45.73,
+        1434.17,
+        829.75
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -776.51,
+        -825.74,
+        2861.77,
+        1609.76
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -776.51,
+        -825.74,
+        2861.77,
+        1609.76
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -776.51,
+        -825.74,
+        2861.77,
+        1609.76
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -776.51,
+        -825.74,
+        2861.77,
+        1609.76
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -62.71,
+        -45.73,
+        1434.17,
+        829.75
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image6-67ec4cfdc5cc.jpeg",
+      "original": [
+        -777.85,
+        -825.74,
+        2861.77,
+        1609.76
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    }
+  ]
+}

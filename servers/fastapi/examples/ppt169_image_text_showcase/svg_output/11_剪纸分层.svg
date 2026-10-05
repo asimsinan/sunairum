@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5EDE0" />
+      <stop offset="100%" stop-color="#E8D8C4" />
+    </linearGradient>
+    <linearGradient id="textBgL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5EDE0" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#F5EDE0" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="textBgR" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#F5EDE0" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#F5EDE0" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#skyGrad)" />
+
+  
+  <image href="../images/p11_papercut.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="0" width="1280" height="48" fill="#2D5A27" fill-opacity="0.6" />
+  <text x="640" y="30" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.91" fill="#E8F5E0" fill-opacity="0.9" letter-spacing="3">P11  ·  paper-cut × nature-organic  ·  Layered paper-cut design</text>
+
+  
+  <rect x="0" y="100" width="300" height="200" fill="url(#textBgL)" />
+  <text x="40" y="138" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="bold" fill="#2D5A27" textLength="56.0" lengthAdjust="spacingAndGlyphs">Paper cutting</text>
+  <text x="40" y="168" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="bold" fill="#2D5A27" textLength="112.0" lengthAdjust="spacingAndGlyphs">Artistic Style</text>
+  <text x="40" y="200" font-family="Arial, 'Georgia', sans-serif" font-size="15" fill="#3A6A30">paper-cut</text>
+  <text x="40" y="224" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#3A6A30" textLength="136.5" lengthAdjust="spacingAndGlyphs">Layered and stacked, with tactile texture,</text>
+  <text x="40" y="244" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#3A6A30" textLength="128.2" lengthAdjust="spacingAndGlyphs">Scissor-like irregular edges.</text>
+
+  
+  <rect x="980" y="100" width="300" height="200" fill="url(#textBgR)" />
+  <text x="1000" y="138" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="bold" fill="#2D5A27" textLength="56.0" lengthAdjust="spacingAndGlyphs">Natural</text>
+  <text x="1000" y="168" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="bold" fill="#2D5A27" textLength="112.0" lengthAdjust="spacingAndGlyphs">Organic color grading</text>
+  <text x="1000" y="200" font-family="Arial, 'Georgia', sans-serif" font-size="15" fill="#3A6A30">nature-organic</text>
+  <text x="1000" y="224" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#3A6A30" textLength="114.7" lengthAdjust="spacingAndGlyphs">Forest green, grass green, warm beige,</text>
+  <text x="1000" y="244" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#3A6A30" textLength="128.2" lengthAdjust="spacingAndGlyphs">Rich in natural, ecological character.</text>
+
+  
+  <rect x="340" y="600" width="600" height="80" fill="#2D5A27" fill-opacity="0.7" rx="4" />
+  <text x="640" y="638" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="bold" fill="#E8F5E0" textLength="176.0" lengthAdjust="spacingAndGlyphs">The text is embedded across layers of depth</text>
+  <text x="640" y="664" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.58" fill="#A8D8A0">Foreground text  ·  Midground text  ·  Sky text</text>
+
+  
+  
+  <rect x="560" y="340" width="160" height="28" rx="14" fill="#6A9E6A" fill-opacity="0.8" />
+  <text x="640" y="358" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#E8F5E0" textLength="59.1" lengthAdjust="spacingAndGlyphs">Midground: Ridge</text>
+
+  <rect x="460" y="460" width="160" height="28" rx="14" fill="#2D5A27" fill-opacity="0.85" />
+  <text x="540" y="478" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#E8F5E0" textLength="59.1" lengthAdjust="spacingAndGlyphs">Foreground: pine forest</text>
+
+  <rect x="660" y="460" width="160" height="28" rx="14" fill="#1A3A18" fill-opacity="0.9" />
+  <text x="740" y="478" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#E8F5E0" textLength="52.0" lengthAdjust="spacingAndGlyphs">Greatest depth of field</text>
+
+  
+  <text x="1240" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#3A6A30">11</text>
+</svg>

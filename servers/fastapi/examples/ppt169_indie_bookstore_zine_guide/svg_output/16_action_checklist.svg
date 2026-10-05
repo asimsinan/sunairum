@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP16" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.08" />
+    </pattern>
+    <marker id="arrow16" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#1A1A1A" />
+    </marker>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="grain" width="1280" height="720" fill="url(#dotP16)" />
+
+  <g id="header">
+    <text x="640" y="100" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="64" fill="#FF5C8A" text-anchor="middle" letter-spacing="-1">Your First ZINE</text>
+    <text x="638" y="98" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="64" fill="#1A1A1A" text-anchor="middle" letter-spacing="-1">Your First ZINE</text>
+    <text x="640" y="138" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#1E4DBC" text-anchor="middle" letter-spacing="5">YOUR FIRST ZINE · 4 STEPS · ONE WEEKEND</text>
+  </g>
+
+  <line x1="220" y1="170" x2="1060" y2="170" stroke="#1A1A1A" stroke-width="3" />
+
+  
+  <g id="step-01">
+    <circle cx="200" cy="320" r="64" fill="#1E4DBC" />
+    <circle cx="203" cy="323" r="64" fill="#FF5C8A" opacity="0.55" />
+    <circle cx="200" cy="320" r="64" fill="#1E4DBC" />
+    <text x="200" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="58" fill="#F5EFE0" text-anchor="middle">01</text>
+    <rect x="120" y="406" width="160" height="36" fill="#1A1A1A" />
+    <text x="200" y="430" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#FF5C8A" text-anchor="middle" letter-spacing="2">CHOOSE</text>
+    <text x="200" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.91" font-weight="900" fill="#1A1A1A" text-anchor="middle">Choose a theme</text>
+    <text x="200" y="498" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="70.0" lengthAdjust="spacingAndGlyphs">What truly matters</text>
+    <text x="200" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="56.0" lengthAdjust="spacingAndGlyphs">It doesn't have to be grand.</text>
+    <text x="200" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#1E4DBC" text-anchor="middle" font-weight="900">Kittens / Breakfast / Commute</text>
+  </g>
+
+  <line x1="276" y1="320" x2="364" y2="320" stroke="#1A1A1A" stroke-width="4" marker-end="url(#arrow16)" />
+
+  
+  <g id="step-02">
+    <circle cx="440" cy="320" r="64" fill="#FF5C8A" />
+    <circle cx="443" cy="323" r="64" fill="#1E4DBC" opacity="0.55" />
+    <circle cx="440" cy="320" r="64" fill="#FF5C8A" />
+    <text x="440" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="58" fill="#F5EFE0" text-anchor="middle">02</text>
+    <rect x="360" y="406" width="160" height="36" fill="#1A1A1A" />
+    <text x="440" y="430" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#FF5C8A" text-anchor="middle" letter-spacing="2">FOLD</text>
+    <text x="440" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" text-anchor="middle" textLength="97.5" lengthAdjust="spacingAndGlyphs">Fold an A4 sheet</text>
+    <text x="440" y="498" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="74.3" lengthAdjust="spacingAndGlyphs">Using the P07 Method</text>
+    <text x="440" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.10" fill="#5A5A5A" text-anchor="middle">8 pages + 1 notch</text>
+    <text x="440" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#FF5C8A" text-anchor="middle" font-weight="900" textLength="63.7" lengthAdjust="spacingAndGlyphs">≈ 30 seconds to complete</text>
+  </g>
+
+  <line x1="516" y1="320" x2="604" y2="320" stroke="#1A1A1A" stroke-width="4" marker-end="url(#arrow16)" />
+
+  
+  <g id="step-03">
+    <circle cx="680" cy="320" r="64" fill="#E8A02E" />
+    <circle cx="683" cy="323" r="64" fill="#1E4DBC" opacity="0.55" />
+    <circle cx="680" cy="320" r="64" fill="#E8A02E" />
+    <text x="680" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="58" fill="#F5EFE0" text-anchor="middle">03</text>
+    <rect x="600" y="406" width="160" height="36" fill="#1A1A1A" />
+    <text x="680" y="430" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#E8A02E" text-anchor="middle" letter-spacing="2">FILL</text>
+    <text x="680" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" text-anchor="middle" textLength="70.6" lengthAdjust="spacingAndGlyphs">Fill 8 pages</text>
+    <text x="680" y="498" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="72.9" lengthAdjust="spacingAndGlyphs">Handwriting / Collage</text>
+    <text x="680" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="82.3" lengthAdjust="spacingAndGlyphs">/ Photocopy old photos</text>
+    <text x="680" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#E8A02E" text-anchor="middle" font-weight="900" textLength="110.5" lengthAdjust="spacingAndGlyphs">The First One = Rough Is Just Right</text>
+  </g>
+
+  <line x1="756" y1="320" x2="844" y2="320" stroke="#1A1A1A" stroke-width="4" marker-end="url(#arrow16)" />
+
+  
+  <g id="step-04">
+    <circle cx="920" cy="320" r="64" fill="#1A1A1A" />
+    <circle cx="923" cy="323" r="64" fill="#FF5C8A" opacity="0.55" />
+    <circle cx="920" cy="320" r="64" fill="#1A1A1A" />
+    <text x="920" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="58" fill="#FF5C8A" text-anchor="middle">04</text>
+    <rect x="840" y="406" width="160" height="36" fill="#FF5C8A" />
+    <text x="920" y="430" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#1A1A1A" text-anchor="middle" letter-spacing="2">SHARE</text>
+    <text x="920" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" text-anchor="middle" textLength="148.7" lengthAdjust="spacingAndGlyphs">Print 10 copies and give them out</text>
+    <text x="920" y="498" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="68.3" lengthAdjust="spacingAndGlyphs">5 copies for friends</text>
+    <text x="920" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="96.3" lengthAdjust="spacingAndGlyphs">5 copies sent to independent bookstores</text>
+    <text x="920" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#FF5C8A" text-anchor="middle" font-weight="900" textLength="154.3" lengthAdjust="spacingAndGlyphs">At this moment, you've become a zine publisher</text>
+  </g>
+
+  
+  <g id="outcome">
+    <text x="1140" y="304" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" text-anchor="middle" textLength="28.0" lengthAdjust="spacingAndGlyphs">Results</text>
+    <text x="1140" y="358" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="48" fill="#FF5C8A" text-anchor="middle">YOU</text>
+    <text x="1140" y="402" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="48" fill="#FF5C8A" text-anchor="middle">ARE A</text>
+    <text x="1140" y="446" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="48" fill="#1E4DBC" text-anchor="middle">PUBLISHER</text>
+    <text x="1138" y="444" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="48" fill="#1A1A1A" text-anchor="middle">PUBLISHER</text>
+  </g>
+
+  
+  <g id="rule">
+    <rect x="60" y="610" width="1160" height="60" fill="#1A1A1A" />
+    <rect x="63" y="613" width="1160" height="60" fill="#FF5C8A" opacity="0.55" />
+    <rect x="60" y="610" width="1160" height="60" fill="#1A1A1A" />
+    <text x="640" y="650" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#F5EFE0" text-anchor="middle">The threshold for becoming a "zine publisher" = the moment you mail out your first one · not commercial registration · not an ISBN · not sales volume</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="704" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P16 · YOUR FIRST ZINE IN 4 STEPS</text>
+    <text x="1220" y="704" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" text-anchor="end" letter-spacing="2">CHOOSE → FOLD → FILL → SHARE</text>
+  </g>
+</svg>

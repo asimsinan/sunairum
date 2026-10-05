@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0" />
+      <stop offset="50%" stop-color="#0A0A0A" stop-opacity="0.2" />
+      <stop offset="80%" stop-color="#0A0A0A" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="topFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#0A0A0A" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <image href="../images/chanel_coco.jpg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect width="1280" height="200" fill="url(#topFade)" />
+
+  
+  <rect width="1280" height="720" fill="url(#bottomFade)" />
+
+  
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.8" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="1180" height="1" fill="#C9A96E" fill-opacity="0.2" />
+
+  
+  <text x="80" y="560" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" letter-spacing="4">CHANEL</text>
+
+  <text x="80" y="600" font-family="Georgia, Georgia, serif" font-size="36" fill="#F5F0EB" font-weight="bold">COCO BEACH 2026</text>
+
+  
+  <rect x="80" y="615" width="80" height="2" fill="#C9A96E" />
+
+  
+  <text x="80" y="648" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#E8D5B5">Limited-time boutique opens in central Shanghai · A garden-facing holiday villa</text>
+
+  <text x="80" y="678" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690">Matthieu Blazy's first COCO BEACH collection · Inspired by pastoral landscapes and black-sand beaches</text>
+
+  
+  <use data-icon="phosphor-duotone/dress" x="1180" y="560" width="32" height="32" fill="#C9A96E" />
+
+  
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">03 / 16</text>
+</svg>

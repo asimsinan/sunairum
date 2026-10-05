@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFFFFF" />
+  </g>
+
+  <g id="header">
+    <text x="64" y="60" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" letter-spacing="2">P · 06</text>
+    <text x="64" y="120" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="32" font-weight="900" fill="#1A1A1A">Josef Müller-Brockmann</text>
+    <text x="64" y="148" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="14" fill="#666666" letter-spacing="2">A LIFE IN GRID · 1914 — 1996 · SEVEN MOMENTS</text>
+    <line x1="64" y1="172" x2="120" y2="172" stroke="#D9251D" stroke-width="3" />
+  </g>
+
+  <g id="big-name">
+    <text x="64" y="280" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="92" font-weight="900" fill="#1A1A1A" letter-spacing="-2">JMB</text>
+    <text x="64" y="324" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="2">JOSEF MÜLLER-BROCKMANN</text>
+    <line x1="64" y1="346" x2="220" y2="346" stroke="#1A1A1A" stroke-width="1" />
+    <text x="64" y="378" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="14" fill="#666666">
+      <tspan x="64" dy="0">Swiss Graphic Designer · Educator</tspan>
+      <tspan x="64" dy="22">Internationalist style</tspan>
+      <tspan x="64" dy="22">The most representative practitioners and theorists</tspan>
+    </text>
+    <text x="64" y="500" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#666666">
+      <tspan x="64" dy="0">Born in Rapperswil</tspan>
+      <tspan x="64" dy="20">Died in Unterengstringen</tspan>
+      <tspan x="64" dy="20">Died at the age of 82</tspan>
+    </text>
+  </g>
+
+  
+  <g id="timeline-track">
+    
+    <line x1="480" y1="200" x2="480" y2="640" stroke="#1A1A1A" stroke-width="2" />
+  </g>
+
+  <g id="event-1914">
+    <circle cx="480" cy="216" r="6" fill="#1A1A1A" />
+    <text x="430" y="222" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A1A" text-anchor="end">1914</text>
+    <text x="510" y="218" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="900" fill="#1A1A1A" textLength="144.0" lengthAdjust="spacingAndGlyphs">Born in Rapperswil, Switzerland</text>
+    <text x="510" y="240" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">A small town 40 kilometers from Zurich · Canton of St. Gallen</text>
+  </g>
+
+  <g id="event-1936">
+    <circle cx="480" cy="286" r="6" fill="#1A1A1A" />
+    <text x="430" y="292" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A1A" text-anchor="end">1936</text>
+    <text x="510" y="288" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="900" fill="#1A1A1A" textLength="176.0" lengthAdjust="spacingAndGlyphs">Establishing an independent studio in Zurich</text>
+    <text x="510" y="310" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">Started at 22 · Worked Across Graphic Design, Exhibitions, and Photography</text>
+  </g>
+
+  <g id="event-1950">
+    <circle cx="480" cy="356" r="10" fill="#D9251D" />
+    <text x="430" y="362" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#D9251D" text-anchor="end">1950</text>
+    <text x="510" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.21" font-weight="900" fill="#D9251D">Tonhalle concert poster series launches</text>
+    <text x="510" y="380" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">"Musica Viva" · using circles · arcs · lines · and rectangles to abstractly express musical structure</text>
+  </g>
+
+  <g id="event-1957">
+    <circle cx="480" cy="426" r="6" fill="#1A1A1A" />
+    <text x="430" y="432" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A1A" text-anchor="end">1957</text>
+    <text x="510" y="428" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="900" fill="#1A1A1A">Serves as a professor at the Zurich University of the Arts</text>
+    <text x="510" y="450" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">Bringing Swiss rationality into the teaching system for the next generation of designers</text>
+  </g>
+
+  <g id="event-1958">
+    <circle cx="480" cy="496" r="6" fill="#1A1A1A" />
+    <text x="430" y="502" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A1A" text-anchor="end">1958</text>
+    <text x="510" y="498" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.36" font-weight="900" fill="#1A1A1A">Founded the journal Neue Grafik</text>
+    <text x="510" y="520" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">Three languages in parallel · Bringing Swiss principles to the international graphic design community</text>
+  </g>
+
+  <g id="event-1981">
+    <circle cx="480" cy="566" r="10" fill="#D9251D" />
+    <text x="430" y="572" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#D9251D" text-anchor="end">1981</text>
+    <text x="510" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16" font-weight="900" fill="#D9251D">Published Grid Systems in Graphic Design</text>
+    <text x="510" y="590" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">It remains the most authoritative grid manual in design education · the source text for this lecture</text>
+  </g>
+
+  <g id="event-1996">
+    <circle cx="480" cy="636" r="6" fill="#1A1A1A" />
+    <text x="430" y="642" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A1A" text-anchor="end">1996</text>
+    <text x="510" y="638" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16" font-weight="900" fill="#1A1A1A">Died in Unterengstringen</text>
+    <text x="510" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#666666">August 30 · aged 82 · influence continues to this day</text>
+  </g>
+
+  <g id="page-footer">
+    <text x="1216" y="688" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" text-anchor="end" letter-spacing="1">06 / 14</text>
+  </g>
+</svg>

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topOverlay09" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7F2E8" stop-opacity="0" />
+      <stop offset="100%" stop-color="#F7F2E8" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="cardShadow09" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+      <feOffset dx="0" dy="3" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.15" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="#F7F2E8" />
+
+  <g id="top-banner">
+    <image href="../images/640_14.png" x="0" y="0" width="1280" height="200" preserveAspectRatio="xMidYMid slice" />
+    <rect x="0" y="0" width="1280" height="200" fill="url(#topOverlay09)" />
+  </g>
+
+  <g id="header">
+    <text x="60" y="45" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.01" fill="#EDE5D3" letter-spacing="3">CHAPTER 04 · Botanicals as Dye</text>
+    <line x1="60" y1="57" x2="220" y2="57" stroke="#C99E62" stroke-width="2" />
+  </g>
+
+  <g id="title-overlay">
+    <text x="60" y="148" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26.60" font-weight="bold" fill="#3A3530" letter-spacing="3">Dye plants · All four colors derived from vegetation</text>
+    <text x="60" y="178" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#7A7068" letter-spacing="2">Flowers, fruits, leaves, and stems can all be used for dyeing · Festive · Noble · Elegant · Mysterious</text>
+  </g>
+
+  <g id="card-red" transform="translate(60,240)" filter="url(#cardShadow09)">
+    <rect x="0" y="0" width="270" height="380" rx="10" fill="#FFFFFF" />
+    <rect x="0" y="0" width="270" height="100" rx="10" fill="#B04A5C" />
+    <rect x="0" y="90" width="270" height="10" fill="#B04A5C" />
+    <circle cx="40" cy="50" r="26" fill="#FFFFFF" fill-opacity="0.2" />
+    <use data-icon="tabler-filled/flower" x="24" y="34" width="32" height="32" fill="#FFFFFF" />
+    <text x="88" y="44" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" font-weight="bold" fill="#FFFFFF" letter-spacing="6">Red</text>
+    <text x="88" y="72" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.54" fill="#FFFFFF" letter-spacing="3">A Festive Hue · RED</text>
+
+    <g transform="translate(24,140)">
+      <circle cx="6" cy="10" r="4" fill="#B04A5C" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.56" fill="#3A3530" font-weight="bold">Madder · Roots</text>
+    </g>
+    <text x="44" y="188" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Traditional red dyeing · the classic</text>
+
+    <g transform="translate(24,220)">
+      <circle cx="6" cy="10" r="4" fill="#B04A5C" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="93.8" lengthAdjust="spacingAndGlyphs">Sappanwood · Stems</text>
+    </g>
+    <text x="44" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Rich hues · Red to reddish purple</text>
+
+    <g transform="translate(24,300)">
+      <circle cx="6" cy="10" r="4" fill="#B04A5C" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="93.8" lengthAdjust="spacingAndGlyphs">Safflower · petals</text>
+    </g>
+    <text x="44" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Dyeing silver red · Paired with cinnabar</text>
+  </g>
+
+  <g id="card-yellow" transform="translate(350,240)" filter="url(#cardShadow09)">
+    <rect x="0" y="0" width="270" height="380" rx="10" fill="#FFFFFF" />
+    <rect x="0" y="0" width="270" height="100" rx="10" fill="#C99E62" />
+    <rect x="0" y="90" width="270" height="10" fill="#C99E62" />
+    <circle cx="40" cy="50" r="26" fill="#FFFFFF" fill-opacity="0.2" />
+    <use data-icon="tabler-filled/sparkles" x="24" y="34" width="32" height="32" fill="#FFFFFF" />
+    <text x="88" y="44" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" font-weight="bold" fill="#FFFFFF" letter-spacing="6" textLength="30.0" lengthAdjust="spacingAndGlyphs">Yellow</text>
+    <text x="88" y="72" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.15" fill="#FFFFFF" letter-spacing="3">A noble color · YELLOW</text>
+
+    <g transform="translate(24,140)">
+      <circle cx="6" cy="10" r="4" fill="#C99E62" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="93.8" lengthAdjust="spacingAndGlyphs">Sophora japonica · Flower buds</text>
+    </g>
+    <text x="44" y="188" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Gentleman's Yellow · Elegant and Soft</text>
+
+    <g transform="translate(24,220)">
+      <circle cx="6" cy="10" r="4" fill="#C99E62" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold">Gardenia · Fruit</text>
+    </g>
+    <text x="44" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068">Dyeing golden yellow · Used for both food and textiles in ancient times</text>
+
+    <g transform="translate(24,300)">
+      <circle cx="6" cy="10" r="4" fill="#C99E62" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="93.8" lengthAdjust="spacingAndGlyphs">Turmeric · Rhizome</text>
+    </g>
+    <text x="44" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068">Rich, deep tones · A commonly used color in Hanfu</text>
+  </g>
+
+  <g id="card-blue" transform="translate(640,240)" filter="url(#cardShadow09)">
+    <rect x="0" y="0" width="270" height="380" rx="10" fill="#FFFFFF" />
+    <rect x="0" y="0" width="270" height="100" rx="10" fill="#6B9AAE" />
+    <rect x="0" y="90" width="270" height="10" fill="#6B9AAE" />
+    <circle cx="40" cy="50" r="26" fill="#FFFFFF" fill-opacity="0.2" />
+    <use data-icon="tabler-filled/droplet" x="24" y="34" width="32" height="32" fill="#FFFFFF" />
+    <text x="88" y="44" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" font-weight="bold" fill="#FFFFFF" letter-spacing="6" textLength="30.0" lengthAdjust="spacingAndGlyphs">Blue</text>
+    <text x="88" y="72" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#FFFFFF" letter-spacing="3">An elegant color · BLUE</text>
+
+    <g transform="translate(24,140)">
+      <circle cx="6" cy="10" r="4" fill="#6B9AAE" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="93.8" lengthAdjust="spacingAndGlyphs">Indigo Plants · Whole Plant</text>
+    </g>
+    <text x="44" y="188" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Blue from indigo · Source: natural indigo</text>
+
+    <g transform="translate(24,220)">
+      <circle cx="6" cy="10" r="4" fill="#6B9AAE" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="93.8" lengthAdjust="spacingAndGlyphs">Buckthorn · Leaf stems</text>
+    </g>
+    <text x="44" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Quiet tones · Pale blue and pale cyan</text>
+
+    <g transform="translate(24,300)">
+      <circle cx="6" cy="10" r="4" fill="#6B9AAE" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="90.0" lengthAdjust="spacingAndGlyphs">Ming–Qing Indigo Workshop</text>
+    </g>
+    <text x="44" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068">Dedicated to indigo dyeing · State-operated at industrial scale</text>
+  </g>
+
+  <g id="card-black" transform="translate(930,240)" filter="url(#cardShadow09)">
+    <rect x="0" y="0" width="290" height="380" rx="10" fill="#FFFFFF" />
+    <rect x="0" y="0" width="290" height="100" rx="10" fill="#3A3530" />
+    <rect x="0" y="90" width="290" height="10" fill="#3A3530" />
+    <circle cx="40" cy="50" r="26" fill="#FFFFFF" fill-opacity="0.2" />
+    <use data-icon="tabler-filled/leaf" x="24" y="34" width="32" height="32" fill="#FFFFFF" />
+    <text x="88" y="44" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" font-weight="bold" fill="#FFFFFF" letter-spacing="6" textLength="30.0" lengthAdjust="spacingAndGlyphs">Black</text>
+    <text x="88" y="72" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#FFFFFF" letter-spacing="3" textLength="111.4" lengthAdjust="spacingAndGlyphs">The Color of Mystery · BLACK</text>
+
+    <g transform="translate(24,140)">
+      <circle cx="6" cy="10" r="4" fill="#3A3530" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.56" fill="#3A3530" font-weight="bold">Walnut · Shell</text>
+    </g>
+    <text x="44" y="188" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="138.2" lengthAdjust="spacingAndGlyphs">Deep ink black · Durable and fade-resistant</text>
+
+    <g transform="translate(24,220)">
+      <circle cx="6" cy="10" r="4" fill="#3A3530" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold">Chestnut · Shell</text>
+    </g>
+    <text x="44" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068">Black with brown undertones · simple and weighty</text>
+
+    <g transform="translate(24,300)">
+      <circle cx="6" cy="10" r="4" fill="#3A3530" />
+      <text x="20" y="15" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#3A3530" font-weight="bold" textLength="72.0" lengthAdjust="spacingAndGlyphs">Iron-vitriol mordant dyeing</text>
+    </g>
+    <text x="44" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068" textLength="168.2" lengthAdjust="spacingAndGlyphs">Use together · For darker, more durable dyeing</text>
+  </g>
+
+  <g id="bottom-strip" transform="translate(60,660)">
+    <rect x="0" y="0" width="1160" height="32" rx="16" fill="#EDE5D3" />
+    <text x="30" y="21" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A7068">Madder · Sappanwood · Safflower · Sophora Flowers · Gardenia · Turmeric · Indigo · Walnut · Chestnut …… All Used by the Ancients</text>
+    <text x="1130" y="21" text-anchor="end" font-family="Georgia, Georgia, Georgia, serif" font-size="13" fill="#9B948B">09 / 12</text>
+  </g>
+</svg>

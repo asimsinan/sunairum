@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect x="0" y="0" width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="p04-header">
+    <text x="60" y="58" font-family="Georgia, serif" font-size="14" fill="#B8935A" letter-spacing="3">02 · MASTERWORK</text>
+    <text x="60" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26.60" font-weight="bold" fill="#1C1C1C">Chipfield · Milano Santa Giulia Ice Hockey Arena</text>
+    <text x="60" y="156" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" fill="#B8935A" font-style="italic">A modern echo of the millennia-old Roman Colosseum</text>
+    <text x="60" y="186" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5C5852">David Chipperfield · 2023 Pritzker Prize · The only new permanent venue for the 2026 Milan Winter Olympics</text>
+  </g>
+
+  <g id="img-amphitheater">
+    <image href="../images/chipperfield_roman_amphitheater.png" x="60" y="220" width="540" height="340" preserveAspectRatio="xMidYMid slice" />
+    <line x1="60" y1="220" x2="60" y2="280" stroke="#8B8680" stroke-width="3" />
+    <text x="76" y="246" font-family="Georgia, serif" font-size="12.51" fill="#8B8680" letter-spacing="2">PRECEDENT · circa 70 AD</text>
+    <text x="76" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="bold" fill="#F5F2EC" textLength="126.0" lengthAdjust="spacingAndGlyphs">Ancient Roman amphitheater</text>
+    <text x="60" y="580" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8B8680">Image source · Unsplash</text>
+  </g>
+
+  <g id="connector">
+    <text x="640" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#B8935A" font-style="italic">→</text>
+    <text x="640" y="416" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852" letter-spacing="3" textLength="65.0" lengthAdjust="spacingAndGlyphs">Echoes of Two Millennia</text>
+  </g>
+
+  <g id="img-milan">
+    <image href="../images/chipperfield_milan_exterior.png" x="680" y="220" width="540" height="340" preserveAspectRatio="xMidYMid slice" />
+    <line x1="680" y1="220" x2="680" y2="280" stroke="#B8935A" stroke-width="3" />
+    <text x="696" y="246" font-family="Georgia, serif" font-size="14" fill="#B8935A" letter-spacing="2">CONTEMPORARY · 2026</text>
+    <text x="696" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="bold" fill="#F5F2EC" textLength="162.0" lengthAdjust="spacingAndGlyphs">Milan San Giulia Ice Hockey Arena</text>
+    <text x="680" y="580" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.06" fill="#8B8680">Image source · David Chipperfield Architects</text>
+  </g>
+
+  <g id="card-spec">
+    <rect x="60" y="600" width="385" height="80" fill="#EDE8DE" />
+    <line x1="60" y1="600" x2="60" y2="680" stroke="#B8935A" stroke-width="2" />
+    <text x="80" y="628" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#1C1C1C">16,000</text>
+    <text x="80" y="664" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852">Audience capacity · Elliptical form echoing ancient Rome</text>
+    <text x="280" y="628" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="14.0" lengthAdjust="spacingAndGlyphs">Seats</text>
+  </g>
+
+  <g id="card-facade">
+    <rect x="465" y="600" width="385" height="80" fill="#EDE8DE" />
+    <line x1="465" y1="600" x2="465" y2="680" stroke="#B8935A" stroke-width="2" />
+    <text x="485" y="628" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="bold" fill="#1C1C1C">Three metal rings + glass waistline</text>
+    <text x="485" y="664" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852">LED light strips — dynamic screens at urban scale</text>
+  </g>
+
+  <g id="card-quote">
+    <rect x="870" y="600" width="350" height="80" fill="#1C1C1C" />
+    <text x="890" y="628" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" font-style="italic" fill="#E8C788" textLength="153.0" lengthAdjust="spacingAndGlyphs">With the utmost restraint and precision</text>
+    <text x="890" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#D4CFC4">Exploring the relationship between architecture, history, and urban public life</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="700" x2="1220" y2="700" stroke="#D4CFC4" stroke-width="1" />
+    <text x="60" y="715" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680" textLength="114.7" lengthAdjust="spacingAndGlyphs">02 Milan Santa Giulia Ice Hockey Arena</text>
+    <text x="1220" y="715" text-anchor="end" font-family="Georgia, serif" font-size="11" fill="#8B8680">04 / 11</text>
+  </g>
+</svg>

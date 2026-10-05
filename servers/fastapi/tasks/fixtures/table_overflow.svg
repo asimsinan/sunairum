@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <g id="table" data-pptx-replace-with="table">
+    <metadata type="application/json">{"name":"fixture","x":20,"y":20,"width":360,"height":40,"column_widths":[1,1],"row_heights":[1],"style":{"font_size":14,"header_font_size":14,"padding":{"left":8,"right":8,"top":4,"bottom":4}},"columns":[{"text":"A"},{"text":"B"}],"rows":[[{"text":"This is deliberately too long for a narrow cell"},{"text":"B"}]]}</metadata>
+  </g>
+</svg>

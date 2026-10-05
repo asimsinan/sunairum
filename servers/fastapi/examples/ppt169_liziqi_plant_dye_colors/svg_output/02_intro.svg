@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bgGrad02" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F2E8" />
+      <stop offset="100%" stop-color="#EDE5D3" />
+    </linearGradient>
+    <filter id="imgShadow02" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" />
+      <feOffset dx="0" dy="4" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.22" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bgGrad02)" />
+
+  <g id="header">
+    <text x="60" y="60" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9B948B" letter-spacing="3">PROLOGUE · Introduction</text>
+    <line x1="60" y1="72" x2="200" y2="72" stroke="#C99E62" stroke-width="2" />
+  </g>
+
+  <g id="main-image" transform="translate(80,110)">
+    <rect x="-6" y="-6" width="312" height="512" fill="#EDE5D3" stroke="#C99E62" stroke-width="1" />
+    <image href="../images/640_4.png" x="0" y="0" width="300" height="500" preserveAspectRatio="xMidYMid slice" filter="url(#imgShadow02)" />
+    <rect x="-6" y="500" width="312" height="30" fill="#3A3530" />
+    <text x="150" y="520" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#F7F2E8" letter-spacing="2" textLength="106.7" lengthAdjust="spacingAndGlyphs">Li Ziqi · Spring Festival Gala outfit</text>
+  </g>
+
+  <g id="right-content" transform="translate(460,110)">
+    <text x="0" y="40" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="35.00" font-weight="bold" fill="#3A3530" letter-spacing="4" textLength="300.0" lengthAdjust="spacingAndGlyphs">The most moving colors</text>
+    <rect x="0" y="60" width="80" height="3" fill="#B04A5C" />
+    <text x="0" y="105" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.20" fill="#6B9AAE" letter-spacing="2" textLength="182.0" lengthAdjust="spacingAndGlyphs">Not found in the Pantone color chart.</text>
+    <text x="0" y="145" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.20" fill="#6F8F75" letter-spacing="2">But long hidden among the mountains, rivers, plants, and trees</text>
+
+    <rect x="0" y="180" width="720" height="1" fill="#D7CEB9" />
+
+    <g transform="translate(0,210)">
+      <use data-icon="tabler-filled/sparkles" x="0" y="0" width="28" height="28" fill="#C99E62" />
+      <text x="44" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#3A3530" font-weight="bold">CCTV Spring Festival Gala 2025 “Welcoming Fortune”</text>
+      <text x="44" y="54" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7A7068" letter-spacing="1">Li Ziqi dances gracefully in a long dress with a yellow-to-teal gradient,</text>
+      <text x="44" y="82" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7A7068" letter-spacing="1">Transformed into a “Butterfly Fairy,” she made a stunning appearance.</text>
+    </g>
+
+    <g transform="translate(0,320)">
+      <use data-icon="tabler-filled/leaf" x="0" y="0" width="28" height="28" fill="#6F8F75" />
+      <text x="44" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#3A3530" font-weight="bold">13 intangible cultural heritage techniques in one</text>
+      <text x="44" y="54" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7A7068" letter-spacing="1">Plant dyeing · Qingshen bamboo weaving · Mother-of-pearl inlay · Chengdu lacquerware</text>
+      <text x="44" y="82" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7A7068" letter-spacing="1">Qiang embroidery · Yingshan wrapped flowers …… Thirteen intangible cultural heritages shine together.</text>
+    </g>
+
+    <g transform="translate(0,430)">
+      <use data-icon="tabler-filled/droplet" x="0" y="0" width="28" height="28" fill="#6B9AAE" />
+      <text x="44" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#3A3530" font-weight="bold">One battle robe, dyed with the colors of mountains and rivers</text>
+      <text x="44" y="54" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7A7068" letter-spacing="1">Yellow-to-cyan gradient · symbolizing the land of China · everlasting vitality.</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="670" x2="1220" y2="670" stroke="#D7CEB9" stroke-width="1" />
+    <text x="60" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9B948B">Cutting Clouds, Weaving Moonlight · Plants and Trees Become Poetry</text>
+    <text x="1220" y="695" text-anchor="end" font-family="Georgia, Georgia, Georgia, serif" font-size="13" fill="#9B948B">02 / 12</text>
+  </g>
+</svg>

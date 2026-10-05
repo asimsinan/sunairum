@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <image href="../images/yinzi_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="0" width="1280" height="720" fill="#F5F1E8" fill-opacity="0.78" />
+
+  
+  <text x="640" y="120" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#8B8680" letter-spacing="12" textLength="73.6" lengthAdjust="spacingAndGlyphs">— Introduction —</text>
+
+  
+  <use data-icon="tabler-outline/quote" x="290" y="220" width="56" height="56" fill="#A52A2A" stroke-width="1.5" />
+
+  
+  <text x="640" y="380" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="44.80" font-weight="700" fill="#1A1A1A" letter-spacing="8" textLength="384.0" lengthAdjust="spacingAndGlyphs">A man reveals his cards too early</text>
+  <text x="640" y="470" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="44.80" font-weight="700" fill="#1A1A1A" letter-spacing="8" textLength="448.0" lengthAdjust="spacingAndGlyphs">You hand others a weapon</text>
+
+  
+  <g transform="translate(990, 530) rotate(180)">
+    <use data-icon="tabler-outline/quote" x="0" y="0" width="56" height="56" fill="#A52A2A" stroke-width="1.5" />
+  </g>
+
+  
+  <line x1="600" y1="560" x2="680" y2="560" stroke="#A52A2A" stroke-width="2" />
+
+  
+  <text x="640" y="640" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="2">Showing off when your ability is insufficient is rashness; fighting to win or lose when your leverage is insufficient is exposing yourself</text>
+
+  
+  <text x="1220" y="690" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">02</text>
+</svg>

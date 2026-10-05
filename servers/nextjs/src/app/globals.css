@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #f4f6f9;
+  --nav-bg: #ffffff;
+  --card-bg: #ffffff;
+  --raised-bg: #ffffff;
+  --chip-bg: #ffffff;
+  --hover-bg: #eef1f5;
+  --surface-soft: #f9fafb;
+  --card-border: #e3e7ee;
+  --input-bg: #ffffff;
+  --input-border: #d3dae3;
+  --text-primary: #111827;
+  --text-muted: #5b6472;
+  --text-subtle: #8b93a1;
+  --text-soft: #4b5563;
+  --track-bg: #e4e7ec;
+  --modal-overlay: rgba(15, 23, 42, 0.55);
+  --accent-primary: #3b82f6;
+  --accent-secondary: #10b981;
+}
+
+.dark {
+  --page-bg: #09090b;
+  --nav-bg: #18181b;
+  --card-bg: #17171a;
+  --raised-bg: rgba(9, 9, 11, 0.4);
+  --chip-bg: rgba(9, 9, 11, 0.6);
+  --hover-bg: #27272a;
+  --surface-soft: rgba(255, 255, 255, 0.02);
+  --card-border: #27272a;
+  --input-bg: rgba(9, 9, 11, 0.5);
+  --input-border: #3f3f46;
+  --text-primary: #fafafa;
+  --text-muted: #a1a1aa;
+  --text-subtle: #71717a;
+  --text-soft: #cbd5e1;
+  --track-bg: rgba(0, 0, 0, 0.5);
+  --modal-overlay: rgba(0, 0, 0, 0.9);
+  --accent-primary: #3b82f6;
+  --accent-secondary: #10b981;
+}
+
+@theme inline {
+  --color-page: var(--page-bg);
+  --color-nav: var(--nav-bg);
+  --color-card: var(--card-bg);
+  --color-raised: var(--raised-bg);
+  --color-chip: var(--chip-bg);
+  --color-hover: var(--hover-bg);
+  --color-soft: var(--surface-soft);
+  --color-card-border: var(--card-border);
+  --color-input: var(--input-bg);
+  --color-input-border: var(--input-border);
+  --color-fg: var(--text-primary);
+  --color-muted: var(--text-muted);
+  --color-subtle: var(--text-subtle);
+  --color-softtext: var(--text-soft);
+  --color-track: var(--track-bg);
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--page-bg);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent-primary) 38%, transparent);
+  outline-offset: 2px;
+}

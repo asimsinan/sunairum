@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F1E8" />
+
+  
+  <text x="60" y="80" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="440.0" lengthAdjust="spacingAndGlyphs">Doesn't waste their edge on small occasions.</text>
+  <line x1="60" y1="100" x2="160" y2="100" stroke="#A52A2A" stroke-width="3" />
+  <text x="60" y="135" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="2">Those who know how to hide their strengths · hold their ground in all three settings</text>
+
+  
+  <g transform="translate(60, 200)">
+    
+    <text x="0" y="40" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="700" fill="#A52A2A">One</text>
+    <line x1="0" y1="60" x2="60" y2="60" stroke="#1A1A1A" stroke-width="2" />
+    <text x="0" y="105" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="117.1" lengthAdjust="spacingAndGlyphs">At the dinner table</text>
+    <text x="0" y="160" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#5C5852" textLength="60.0" lengthAdjust="spacingAndGlyphs">Doesn't interrupt.</text>
+    <text x="0" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B8680" textLength="129.6" lengthAdjust="spacingAndGlyphs">Others compete over "who’s right"</text>
+    <text x="0" y="226" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B8680" textLength="145.6" lengthAdjust="spacingAndGlyphs">He listens for “who holds what”</text>
+    
+    <rect x="0" y="280" width="360" height="2" fill="#A52A2A" />
+    <text x="0" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1A1A1A" letter-spacing="2" textLength="180.6" lengthAdjust="spacingAndGlyphs">Look at the stakes · not appearances</text>
+  </g>
+
+  <g transform="translate(460, 200)">
+    <text x="0" y="40" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="700" fill="#A52A2A">Two</text>
+    <line x1="0" y1="60" x2="60" y2="60" stroke="#1A1A1A" stroke-width="2" />
+    <text x="0" y="105" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="3">In a meeting</text>
+    <text x="0" y="160" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#5C5852" textLength="80.0" lengthAdjust="spacingAndGlyphs">Don't rush to take a position.</text>
+    <text x="0" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B8680" textLength="129.6" lengthAdjust="spacingAndGlyphs">Others compete over "who speaks first"</text>
+    <text x="0" y="226" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B8680" textLength="113.6" lengthAdjust="spacingAndGlyphs">He watches for “who exposes themselves first”</text>
+    <rect x="0" y="280" width="360" height="2" fill="#A52A2A" />
+    <text x="0" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1A1A1A" letter-spacing="2" textLength="180.6" lengthAdjust="spacingAndGlyphs">Look at the cost · not the win or loss</text>
+  </g>
+
+  <g transform="translate(860, 200)">
+    <text x="0" y="40" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="700" fill="#A52A2A" textLength="48.0" lengthAdjust="spacingAndGlyphs">Three</text>
+    <line x1="0" y1="60" x2="60" y2="60" stroke="#1A1A1A" stroke-width="2" />
+    <text x="0" y="105" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="117.1" lengthAdjust="spacingAndGlyphs">Among the crowd</text>
+    <text x="0" y="160" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#5C5852" textLength="100.0" lengthAdjust="spacingAndGlyphs">Doesn't flaunt connections.</text>
+    <text x="0" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B8680" textLength="129.6" lengthAdjust="spacingAndGlyphs">Others compete over "who I know"</text>
+    <text x="0" y="226" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B8680" textLength="161.6" lengthAdjust="spacingAndGlyphs">He thinks about “what path to take next”</text>
+    <rect x="0" y="280" width="360" height="2" fill="#A52A2A" />
+    <text x="0" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1A1A1A" letter-spacing="2">Look at the path · not whether it can be done in one breath</text>
+  </g>
+
+  
+  <g transform="translate(60, 590)">
+    <rect x="0" y="0" width="1160" height="80" fill="#1A1A1A" />
+    
+  <g transform="translate(20.0, 14.0) scale(1.3333333333333333)" fill="none" stroke="#A52A2A" stroke-width="1.5">
+    <path d="M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
+    <path d="M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
+  </g>
+    <text x="68" y="38" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F1E8" letter-spacing="2">Silence is not a blank space; it is a way of gathering information;</text>
+    <text x="68" y="68" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F1E8" letter-spacing="2">Retreat is not incompetence; it means refusing to waste ammunition on worthless targets.</text>
+  </g>
+
+  
+  <text x="60" y="710" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="58.9" lengthAdjust="spacingAndGlyphs">Concealing One’s Brilliance · Five</text>
+  <text x="1220" y="710" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">07</text>
+</svg>

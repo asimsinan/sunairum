@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP05" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="bg-grain" width="1280" height="720" fill="url(#dotP05)" />
+
+  
+  <g id="left-sidebar">
+    <rect x="62" y="62" width="380" height="596" fill="#FF5C8A" />
+    <image href="../images/risograph_machine.png" x="60" y="60" width="380" height="596" preserveAspectRatio="xMidYMid slice" />
+    
+    <rect x="60" y="660" width="380" height="40" fill="#1E4DBC" />
+    <text x="80" y="685" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="22" fill="#F5EFE0">RISO EZ200</text>
+    <text x="420" y="685" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#F5EFE0" text-anchor="end" letter-spacing="2">EST. 1986</text>
+  </g>
+
+  
+  <g id="header">
+    <text x="480" y="100" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A5A" letter-spacing="4">PART 02 · RISOGRAPH ORIGIN + VISUAL TRAITS</text>
+    <line x1="480" y1="116" x2="640" y2="116" stroke="#1E4DBC" stroke-width="3" />
+    <text x="480" y="170" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="56" fill="#FF5C8A" letter-spacing="-1">RISOGRAPH</text>
+    <text x="478" y="168" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="56" fill="#1A1A1A" letter-spacing="-1">RISOGRAPH</text>
+    <text x="480" y="210" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.69" font-weight="900" fill="#1A1A1A">The soul of ZINE-making</text>
+  </g>
+
+  
+  <g id="origin-box">
+    <rect x="480" y="232" width="740" height="60" fill="#1A1A1A" />
+    <rect x="483" y="235" width="740" height="60" fill="#1E4DBC" opacity="0.4" />
+    <rect x="480" y="232" width="740" height="60" fill="#1A1A1A" />
+    <text x="500" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.81" fill="#F5EFE0">RISO KAGAKU Founded in 1946 · “RISO” Means</text>
+    <text x="844" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.45" font-weight="900" fill="#FF5C8A">Ideal</text>
+    <text x="900" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#F5EFE0">· RISOGRAPH 007 duplicator first launched in Japan in 1986</text>
+  </g>
+
+  
+  <g id="trait-01">
+    <rect x="480" y="312" width="50" height="50" fill="#1E4DBC" />
+    <text x="505" y="348" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="28" fill="#F5EFE0" text-anchor="middle">01</text>
+    <rect x="540" y="312" width="680" height="74" fill="#F5EFE0" />
+    <rect x="540" y="312" width="6" height="74" fill="#1E4DBC" />
+    <text x="560" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="20" font-weight="900" fill="#1A1A1A">LIMITED PALETTE</text>
+    <text x="560" y="370" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A5A5A">One ink tube, one color — Multicolor printing requires multiple passes through the press; limited colors become an aesthetic language</text>
+  </g>
+
+  <g id="trait-02">
+    <rect x="480" y="396" width="50" height="50" fill="#FF5C8A" />
+    <text x="505" y="432" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="28" fill="#F5EFE0" text-anchor="middle">02</text>
+    <rect x="540" y="396" width="680" height="74" fill="#F5EFE0" />
+    <rect x="540" y="396" width="6" height="74" fill="#FF5C8A" />
+    <text x="560" y="422" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="900" fill="#1A1A1A">Color Misregistration (MISREGISTRATION)</text>
+    <text x="560" y="454" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A5A5A">Each pass shifts slightly by 1–3px; the misregistration at the overprinted edges becomes an aesthetic</text>
+  </g>
+
+  <g id="trait-03">
+    <rect x="480" y="480" width="50" height="50" fill="#E8A02E" />
+    <text x="505" y="516" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="28" fill="#F5EFE0" text-anchor="middle">03</text>
+    <rect x="540" y="480" width="680" height="74" fill="#F5EFE0" />
+    <rect x="540" y="480" width="6" height="74" fill="#E8A02E" />
+    <text x="560" y="506" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17.28" font-weight="900" fill="#1A1A1A">Halftone dots (HALFTONE)</text>
+    <text x="560" y="538" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A5A5A">Color blocks are rendered as halftone dots, somewhere between industrial printing and screen-printing work; the background of this page is halftone dots</text>
+  </g>
+
+  <g id="trait-04">
+    <rect x="480" y="564" width="50" height="50" fill="#1A1A1A" />
+    <text x="505" y="600" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="28" fill="#F5EFE0" text-anchor="middle">04</text>
+    <rect x="540" y="564" width="680" height="74" fill="#F5EFE0" />
+    <rect x="540" y="564" width="6" height="74" fill="#1A1A1A" />
+    <text x="560" y="590" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="900" fill="#1A1A1A" textLength="201.0" lengthAdjust="spacingAndGlyphs">Color Block Overprinting (OVERPRINT)</text>
+    <text x="560" y="622" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A5A5A">Overlaying identical color blocks creates the illusion of a third color — blue ＋ pink ＝ the illusion of purple; technology is not a defect but a tool</text>
+  </g>
+
+  <g id="footer">
+    <line x1="480" y1="668" x2="1220" y2="668" stroke="#1A1A1A" stroke-width="1" />
+    <text x="480" y="688" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P05 · RISOGRAPH ORIGIN + TRAITS</text>
+    <text x="1220" y="688" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" text-anchor="end" letter-spacing="2">RISO = Ideal = IDEAL</text>
+    <text x="480" y="710" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#8C8275" letter-spacing="1">SOY-BASED INK · POST-WAR JAPAN · 50–10,000 PRINTS / RUN</text>
+  </g>
+</svg>

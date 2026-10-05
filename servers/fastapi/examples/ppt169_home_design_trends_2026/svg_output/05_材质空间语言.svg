@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow05" x="-15%" y="-15%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+      <feOffset dx="0" dy="5" result="offsetBlur" />
+      <feFlood flood-color="#000000" flood-opacity="0.18" result="shadowColor" />
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow" />
+      <feMerge>
+        <feMergeNode in="shadow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="mainImgClip05">
+      <rect x="700" y="90" width="530" height="380" rx="14" />
+    </clipPath>
+    <clipPath id="accentImgClip05">
+      <rect x="700" y="490" width="250" height="170" rx="10" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1714" />
+
+  
+  <g id="p05-header">
+    <use data-icon="tabler-filled/diamond" x="60" y="30" width="28" height="28" fill="#D4956A" />
+    <text x="98" y="52" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B7355" letter-spacing="3">
+      Three foundational elements · II
+    </text>
+  </g>
+
+  
+  <g id="p05-title">
+    <text x="60" y="130" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="27.49" font-weight="bold" fill="#E8E0D4">
+      Material
+    </text>
+    <text x="60" y="172" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.20" fill="#C4A882">
+      A Spatial Language Within Reach
+    </text>
+  </g>
+
+  <rect x="60" y="192" width="40" height="2" fill="#3D362E" />
+
+  
+  <g id="p05-points">
+    <g id="p05-card1">
+      <rect x="60" y="218" width="600" height="72" rx="10" fill="#2A2520" filter="url(#cardShadow05)" />
+      <rect x="60" y="218" width="4" height="72" rx="2" fill="#C4A882" />
+      <use data-icon="tabler-filled/sun" x="80" y="236" width="28" height="28" fill="#C4A882" />
+      <text x="120" y="248" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="bold" fill="#E8E0D4" textLength="175.0" lengthAdjust="spacingAndGlyphs">
+        Physical fundamentals
+      </text>
+      <text x="120" y="274" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#B0A08E">
+        Materials determine a space's color palette, lighting effects, and textural expression
+      </text>
+    </g>
+
+    <g id="p05-card2">
+      <rect x="60" y="308" width="600" height="72" rx="10" fill="#2A2520" filter="url(#cardShadow05)" />
+      <rect x="60" y="308" width="4" height="72" rx="2" fill="#D4956A" />
+      <text x="80" y="340" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="bold" fill="#E8E0D4">
+        Material Language
+      </text>
+      <text x="80" y="366" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#B0A08E">
+        Raw wood → rustic warmth ｜ Handwoven textiles → laid-back relaxation
+      </text>
+    </g>
+
+    <g id="p05-card3">
+      <rect x="60" y="398" width="600" height="72" rx="10" fill="#2A2520" filter="url(#cardShadow05)" />
+      <rect x="60" y="398" width="4" height="72" rx="2" fill="#8B7355" />
+      <text x="80" y="430" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.07" font-weight="bold" fill="#E8E0D4">
+        Light = A Material
+      </text>
+      <text x="80" y="456" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#B0A08E">
+        Different materials reveal distinctly different textures under light.
+      </text>
+    </g>
+
+    <g id="p05-card4">
+      <rect x="60" y="488" width="600" height="72" rx="10" fill="#2A2520" filter="url(#cardShadow05)" />
+      <rect x="60" y="488" width="4" height="72" rx="2" fill="#7BA37B" />
+      <text x="80" y="520" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="bold" fill="#E8E0D4">
+        Not dependent on expensive solutions.
+      </text>
+      <text x="80" y="546" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#B0A08E">
+        Clever lighting + colored light and shadow → elevates the space
+      </text>
+    </g>
+  </g>
+
+  
+  <g id="p05-main-image">
+    <image href="../images/material_detail.png" x="700" y="90" width="530" height="380" preserveAspectRatio="xMidYMid slice" clip-path="url(#mainImgClip05)" />
+  </g>
+
+  
+  <g id="p05-accent-image">
+    <image href="../images/light_material.png" x="700" y="490" width="250" height="170" preserveAspectRatio="xMidYMid slice" clip-path="url(#accentImgClip05)" />
+    <text x="710" y="675" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#7A6E60">
+      Material Qualities in Light and Shadow
+    </text>
+  </g>
+
+  
+  <text x="980" y="580" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B7355" font-style="italic" textLength="162.9" lengthAdjust="spacingAndGlyphs">
+    "Roughness becomes gentleness,
+  </text>
+  <text x="980" y="604" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#8B7355" font-style="italic">
+    Smoothly refracting depth"
+  </text>
+
+  
+  <text x="1210" y="690" text-anchor="end" font-family="Georgia, Georgia, serif" font-size="12" fill="#7A6E60">
+    05 / 12
+  </text>
+</svg>

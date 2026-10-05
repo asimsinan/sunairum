@@ -1,0 +1,199 @@
+# DeckHTML
+
+[![npm version](https://img.shields.io/npm/v/@deckflow/deckhtml?logo=npm&label=npm)](https://www.npmjs.com/package/@deckflow/deckhtml)
+[![npm downloads](https://img.shields.io/npm/dm/@deckflow/deckhtml?logo=npm&label=downloads)](https://www.npmjs.com/package/@deckflow/deckhtml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
+<p align="center">
+  <img src="./assets/preview.png" alt="DeckHTML — HTML to PPTX" width="800" />
+</p>
+
+**Languages:** **English** · [简体中文](./README.zh-CN.md) · [繁體中文](./README.zh-TW.md) · [Français](./README.fr.md) · [Deutsch](./README.de.md) · [Español](./README.es.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md)
+
+Convert HTML files, stdin, or URLs into PPTX or PNG presentations from your terminal.
+
+<p align="center">
+  <img src="./assets/screenshots/demo.gif" alt="HTML → PPTX demo" width="600" />
+</p>
+
+## Quick Start
+
+Run without installing:
+
+```bash
+npx -y @deckflow/deckhtml@latest index.html -o deck.pptx
+```
+
+## Installation
+
+```bash
+npm install -g @deckflow/deckhtml
+deckhtml --version
+```
+
+## Convert HTML
+
+Convert a single HTML file (output defaults to the same path and base name):
+
+```bash
+deckhtml index.html
+# → index.pptx
+```
+
+Specify an output path:
+
+```bash
+deckhtml index.html -o deck.pptx
+```
+
+Pipe HTML from stdin:
+
+```bash
+cat index.html | deckhtml - -o deck.pptx
+```
+
+Convert multiple HTML files in order:
+
+```bash
+deckhtml page1.html page2.html page3.html -o deck.pptx
+```
+
+Convert a hosted page:
+
+```bash
+deckhtml https://example.com/deck.html -o deck.pptx
+```
+
+## Output Formats
+
+Output format is inferred from the `-o` extension:
+
+| Format | Description |
+| --- | --- |
+| `pptx` | PowerPoint deck output (default) |
+| `png` | PNG frame output |
+
+```bash
+deckhtml index.html -o frames.png
+```
+
+## Execution Modes
+
+| Mode | Description |
+| --- | --- |
+| `auto` | Use cloud when an API key is configured; otherwise run locally |
+| `local` | Always run locally (no API key required) |
+| `cloud` | Always run in the cloud (API key required) |
+
+```bash
+deckhtml index.html --mode local
+deckhtml index.html --mode cloud -o deck.pptx
+```
+
+### Cloud-Only Enhancements
+
+These flags require cloud mode:
+
+| Flag | Description |
+| --- | --- |
+| `--embed-fonts` | Embed fonts into the output |
+
+```bash
+deckhtml index.html \
+  -o deck.pptx \
+  --mode cloud \
+  --embed-fonts
+```
+
+## Authentication & Config
+
+Local conversion works without an API key. Cloud mode can start as a rate-limited guest; sign in or configure an API key when prompted or when you need authenticated access.
+
+```bash
+deckhtml auth login
+deckhtml auth status
+deckhtml config set api-key <key>
+```
+
+For CI, Docker, or agent environments, set the environment variable (takes precedence over stored credentials):
+
+```bash
+export DECKHTML_API_KEY=your-api-key
+```
+
+Persistent settings:
+
+| Command | Description | Default |
+| --- | --- | --- |
+| `deckhtml config set api-key <key>` | API key for cloud requests | — |
+| `deckhtml config set size <size>` | PPTX dimensions | `1920x1080` |
+| `deckhtml config set webhook <url>` | Default callback URL | — |
+| `deckhtml config set retention-hours <n>` | Cloud file retention (hours) | `3` |
+
+Credentials are stored locally at `~/.deckflow/credentials`.
+
+## CLI Reference
+
+### Conversion Flags
+
+| Flag | Description | Default |
+| --- | --- | --- |
+| `-h, --help` | Show help | — |
+| `--version` | Show version | — |
+| `-o, --output <path>` | Output path | Same base name as input |
+| `-v, --verbose` | Detailed logs to stderr | `false` |
+| `--quiet` | Only errors and final result | `false` |
+| `--json` | Machine-readable JSON on stdout | `false` |
+| `--report` | Generate a conversion report | Off |
+| `--mode <mode>` | `auto`, `local`, or `cloud` | `auto` |
+| `--width <pixels>` | Playwright viewport width (height scales at 16:9) | `1920` |
+| `--platform <platform>` | `win`, `mac`, `ios`, `android`, or `linux` | Detected |
+| `--embed-fonts` | Embed fonts (cloud only) | `false` |
+| `--executable-path <path>` | Chromium binary for local conversion (else `DECKHTML_CHROMIUM_EXECUTABLE_PATH` env, then Playwright's bundle) | — |
+| `--exclude <selector>` | CSS selector matching runtime/navigation elements to exclude | — |
+| `--identity-attribute <name>` | Attribute carrying a stable element identity (default: `data-element-id`) | `data-element-id` |
+| `--force` | Overwrite an existing output file (default: refuse) | `false` |
+
+`--quiet` and `--verbose` cannot be used together. Output format is inferred from the `-o` extension (`pptx` or `png`).
+
+### JSON Output
+
+```bash
+deckhtml index.html -o deck.pptx --json
+```
+
+```json
+{
+  "ok": true,
+  "input": ["index.html"],
+  "output": "deck.pptx",
+  "format": "pptx",
+  "mode": "local"
+}
+```
+
+## Programmatic API
+
+Use the package as a library in Node.js. The library returns a `Buffer` (or PNG image buffers) — it never writes to disk on its own. Write the output yourself, or use the CLI for file output.
+
+```javascript
+import { convertHtmlToPptx } from '@deckflow/deckhtml';
+
+const result = await convertHtmlToPptx({
+  input: 'index.html',
+});
+// result.data: Buffer containing the PPTX file
+// result.slideCount: number of slides
+// result.usedFonts: resolved font names
+// result.stats: element/font/simplified statistics
+import { writeFileSync } from 'node:fs';
+writeFileSync('deck.pptx', result.data);
+```
+
+## Documentation
+
+Start with the [quick start](./docs/quickstart.md), then learn the [core concepts](./docs/concepts.md) and [architecture](./docs/architecture.md). Detailed CLI documentation is available in the [`docs/cli/`](./docs/cli/) directory.
+
+## License
+
+MIT

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F6F1E8" />
+  <rect x="48" y="48" width="1184" height="624" fill="none" stroke="#D8CBB8" stroke-width="1.5" />
+
+  <g id="image-side">
+    <rect x="772" y="48" width="460" height="624" fill="#EFE7DA" />
+    <image href="../images/lin_survey.png" x="820" y="92" width="360" height="432" preserveAspectRatio="xMidYMid slice" />
+    <rect x="820" y="92" width="360" height="432" fill="#F6F1E8" fill-opacity="0.08" />
+    <image href="../images/lin_later.png" x="842" y="470" width="118" height="118" preserveAspectRatio="xMidYMid slice" />
+    <rect x="990" y="470" width="160" height="118" fill="#F6F1E8" />
+    <text x="1010" y="510" font-family="Arial, Helvetica, sans-serif" font-size="17.40" fill="#A44A3F" font-weight="700">“I still have so much to do.”</text>
+    <text x="1010" y="542" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#1F1B16" textLength="88.8" lengthAdjust="spacingAndGlyphs">This is not rhetoric,</text>
+    <text x="1010" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#1F1B16">But rather, her authentic statement of professional mission.</text>
+  </g>
+
+  <g id="text-side">
+    <text x="86" y="96" font-family="Arial, Helvetica, sans-serif" font-size="23.80" fill="#1F1B16" font-weight="700" textLength="340.0" lengthAdjust="spacingAndGlyphs">How she made her way through war and illness</text>
+    <text x="86" y="124" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#6A6258">She is not a passive recipient, but a professional practitioner who acted continuously.</text>
+    <line x1="86" y1="140" x2="712" y2="140" stroke="#D8CBB8" stroke-width="1.5" />
+
+    <text x="86" y="228" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" fill="#A44A3F" font-weight="600">Field research, not accompanying someone as a companion</text>
+    <text x="86" y="265" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">She crossed mountains and rivers to conduct surveys and records, entering the most difficult field sites alongside Liang Sicheng.</text>
+
+    <text x="86" y="340" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" fill="#A44A3F" font-weight="600">Illness and exile did not interrupt her academic work</text>
+    <text x="86" y="377" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">Lung disease, war, migration, and family pressures continued in parallel, yet she continued to write, conduct research, and teach.</text>
+
+    <text x="86" y="452" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" fill="#A44A3F" font-weight="600">Her “strength” came from a clear sense of purpose</text>
+    <text x="86" y="489" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">She placed her own life within the historic founding moment of architectural scholarship in China; this was the core of her spirit.</text>
+
+    <use data-icon="tabler-outline/heart" x="86" y="560" width="22" height="22" fill="#A44A3F" />
+    <text x="120" y="578" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">She is not a “woman from a legendary story,” but someone who actively shaped the course of history.</text>
+
+    <text x="86" y="640" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#978C7E">08</text>
+  </g>
+</svg>

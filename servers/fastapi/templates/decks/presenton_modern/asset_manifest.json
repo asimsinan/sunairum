@@ -1,0 +1,31 @@
+{
+  "source_static": "presenton/templates/modern/static",
+  "shared_static": "presenton/servers/fastapi/static",
+  "assets": [
+    {
+      "source": "template_static/thumbnail.png",
+      "target": "images/thumbnail.png",
+      "kind": "png",
+      "sha256": "d371cc7a268cd7b7cedb8913527cbf7200ab440f6d9000abb49445c8e3944e5c",
+      "bytes": 523716,
+      "referenced": true
+    },
+    {
+      "source": "presenton_shared_static/replaceable_template_image.png",
+      "target": "images/replaceable_template_image.png",
+      "kind": "png",
+      "sha256": "27ca0c75f9e0b9e1875514c5aa5fe735ed6ec377b197a501f9b1f64841bd6c43",
+      "bytes": 18572,
+      "referenced": true
+    },
+    {
+      "source": "presenton_shared_static/placeholder.svg",
+      "target": "images/placeholder.svg",
+      "kind": "svg",
+      "sha256": "7f434cc2d0ea881b684258256bfff9b3554397447c57f32fc75ce9d40ec10f1a",
+      "bytes": 4068,
+      "referenced": true
+    }
+  ],
+  "missing_references": []
+}

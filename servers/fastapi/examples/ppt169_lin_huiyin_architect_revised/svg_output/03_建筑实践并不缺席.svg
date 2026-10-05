@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F6F1E8" />
+  <rect x="48" y="48" width="1184" height="624" fill="none" stroke="#D8CBB8" stroke-width="1.5" />
+
+  <g id="header">
+    <text x="72" y="92" font-family="Arial, Helvetica, sans-serif" font-size="23.80" fill="#1F1B16" font-weight="700" textLength="272.0" lengthAdjust="spacingAndGlyphs">Architectural practice is not absent</text>
+    <text x="72" y="121" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#6A6258">From monuments and campuses to stations and wartime housing, her architectural practice traces a continuous, visible path</text>
+    <line x1="72" y1="136" x2="1208" y2="136" stroke="#D8CBB8" stroke-width="1.5" />
+    <text x="1196" y="92" text-anchor="end" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#978C7E">03</text>
+  </g>
+
+  <g id="timeline-band">
+    <line x1="124" y1="210" x2="1152" y2="210" stroke="#D8CBB8" stroke-width="4" />
+    <line x1="124" y1="210" x2="890" y2="210" stroke="#A44A3F" stroke-width="4" />
+
+    <g id="t1">
+      <circle cx="170" cy="210" r="12" fill="#A44A3F" />
+      <text x="170" y="180" text-anchor="middle" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#6A6258">1929</text>
+      <text x="170" y="245" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#1F1B16" textLength="32.0" lengthAdjust="spacingAndGlyphs">Tombstone</text>
+    </g>
+    <g id="t2">
+      <circle cx="465" cy="210" r="12" fill="#A44A3F" />
+      <text x="465" y="180" text-anchor="middle" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#6A6258">1929</text>
+      <text x="465" y="245" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#1F1B16">Campus</text>
+    </g>
+    <g id="t3">
+      <circle cx="760" cy="210" r="12" fill="#A44A3F" />
+      <text x="760" y="180" text-anchor="middle" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#6A6258">1932—1940</text>
+      <text x="760" y="245" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#1F1B16" textLength="64.0" lengthAdjust="spacingAndGlyphs">Keep practicing</text>
+    </g>
+    <g id="t4">
+      <circle cx="1055" cy="210" r="12" fill="#6E7C80" />
+      <text x="1055" y="180" text-anchor="middle" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#6A6258">1950s</text>
+      <text x="1055" y="245" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#1F1B16" textLength="64.0" lengthAdjust="spacingAndGlyphs">National Scale</text>
+    </g>
+  </g>
+
+  <g id="cards-row">
+    <g id="card-1">
+      <rect x="72" y="302" width="352" height="310" rx="14" fill="#EFE7DA" stroke="#D8CBB8" stroke-width="1.5" />
+      <use data-icon="tabler-outline/building" x="96" y="328" width="24" height="24" fill="#A44A3F" />
+      <text x="132" y="346" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="88.0" lengthAdjust="spacingAndGlyphs">The Starting Point of Returning Home</text>
+      <text x="96" y="388" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16" textLength="90.0" lengthAdjust="spacingAndGlyphs">Liang Qichao’s tombstone</text>
+      <text x="96" y="417" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6A6258">Her first clearly defined work after returning from her studies, showing that she had indeed entered design practice.</text>
+      <text x="96" y="468" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16" textLength="144.0" lengthAdjust="spacingAndGlyphs">Campus projects such as Shitou Building</text>
+      <text x="96" y="497" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6A6258">Through collaboration at the firm, she entered the discourse of modern campus architecture.</text>
+      <text x="96" y="566" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#978C7E">Keywords: returning home, firm, early works</text>
+    </g>
+
+    <g id="card-2">
+      <rect x="464" y="302" width="352" height="310" rx="14" fill="#FFFFFF" stroke="#D8CBB8" stroke-width="1.5" />
+      <use data-icon="tabler-outline/train" x="488" y="328" width="24" height="24" fill="#A44A3F" />
+      <text x="524" y="346" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="132.0" lengthAdjust="spacingAndGlyphs">The scale of public buildings</text>
+      <text x="488" y="388" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16" textLength="108.0" lengthAdjust="spacingAndGlyphs">Jihai Railway Terminal</text>
+      <text x="488" y="417" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6A6258">A Gothic station building is juxtaposed with the national symbol of the "first awakening of the mighty lion," reflecting an awareness of expression in public architecture.</text>
+      <text x="488" y="468" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">It's not a question of “number of works,” but of “conditions of practice.”</text>
+      <text x="488" y="497" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6A6258">Education, research, war, and family responsibilities together limited the number of works that could actually be completed.</text>
+      <text x="488" y="566" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#978C7E" textLength="163.1" lengthAdjust="spacingAndGlyphs">Keywords: station, symbolism, publicness</text>
+    </g>
+
+    <g id="card-3">
+      <rect x="856" y="302" width="352" height="310" rx="14" fill="#EFE7DA" stroke="#D8CBB8" stroke-width="1.5" />
+      <use data-icon="tabler-outline/timeline" x="880" y="328" width="24" height="24" fill="#A44A3F" />
+      <text x="916" y="346" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="88.0" lengthAdjust="spacingAndGlyphs">Keep extending</text>
+      <text x="880" y="388" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">Peking University, Yingqiu House, Southwest Associated University, Kunming residence</text>
+      <text x="880" y="417" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6A6258">Taken together, these projects show that she never left architectural practice; she continued to respond to specific problems under increasingly difficult conditions.</text>
+      <text x="880" y="468" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">The practice ultimately extended to national memorial architecture</text>
+      <text x="880" y="497" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#6A6258">Her architectural work later expanded into a larger national spatial context.</text>
+      <text x="880" y="566" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#978C7E">Keywords: wartime, continuity, shift to the national level</text>
+    </g>
+  </g>
+</svg>

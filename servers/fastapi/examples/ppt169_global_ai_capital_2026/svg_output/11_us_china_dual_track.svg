@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#0E1116" />
+  </g>
+
+  <g id="page-header">
+    <text x="60" y="56" font-family="Cambria, serif" font-size="11" fill="#8A857E" letter-spacing="3">PART III · CHINA CAMP · 11</text>
+    <line x1="60" y1="72" x2="200" y2="72" stroke="#E63946" stroke-width="1" />
+    <text x="60" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="bold" fill="#E8E6E1" textLength="176.7" lengthAdjust="spacingAndGlyphs">U.S.–China AI capital:<tspan fill="#E63946">Two pathways</tspan>, two rhythms</text>
+    <text x="60" y="152" font-family="Cambria, serif" font-size="14" font-style="italic" fill="#8A857E">Two markets, two playbooks — the structural divergence in 2026</text>
+  </g>
+
+  <g id="table">
+    <line x1="60" y1="200" x2="1220" y2="200" stroke="#5C5852" stroke-width="1.5" />
+    <text x="80" y="226" font-family="Cambria, serif" font-size="12" fill="#8A857E" letter-spacing="2">DIMENSION</text>
+    <text x="380" y="226" font-family="Cambria, serif" font-size="12" fill="#E63946" letter-spacing="2">UNITED STATES</text>
+    <text x="960" y="226" font-family="Cambria, serif" font-size="12" fill="#F4A261" letter-spacing="2">CHINA</text>
+    <line x1="60" y1="246" x2="1220" y2="246" stroke="#5C5852" stroke-width="1.5" />
+
+    <g id="row-1">
+      <text x="80" y="290" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E" textLength="56.0" lengthAdjust="spacingAndGlyphs">Scale per round</text>
+      <text x="80" y="312" font-family="Cambria, serif" font-size="11" fill="#5C5852">Single-round scale</text>
+      <text x="380" y="295" font-family="Cambria, serif" font-size="22" font-weight="bold" fill="#E8E6E1">$30B – $122B</text>
+      <text x="380" y="318" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.46" fill="#C9C5BE">OpenAI $122B · Largest Ever</text>
+      <text x="960" y="295" font-family="Cambria, serif" font-size="22" font-weight="bold" fill="#E8E6E1">$2B – $4B</text>
+      <text x="960" y="318" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#C9C5BE">Moonshot $2B largest single round</text>
+      <line x1="60" y1="340" x2="1220" y2="340" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="row-2">
+      <text x="80" y="370" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.08" fill="#8A857E">IPO rhythm</text>
+      <text x="80" y="392" font-family="Cambria, serif" font-size="11" fill="#5C5852">IPO timing</text>
+      <text x="380" y="375" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#E8E6E1" textLength="144.2" lengthAdjust="spacingAndGlyphs">Postponed · Private placement delayed</text>
+      <text x="380" y="398" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.07" fill="#C9C5BE">Q4 2026 Target: $1T</text>
+      <text x="960" y="375" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#E8E6E1" textLength="88.6" lengthAdjust="spacingAndGlyphs">Q1 has landed in Hong Kong</text>
+      <text x="960" y="398" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="13" fill="#C9C5BE">Zhipu / MiniMax 2026-01</text>
+      <line x1="60" y1="420" x2="1220" y2="420" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="row-3">
+      <text x="80" y="450" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E" textLength="56.0" lengthAdjust="spacingAndGlyphs">The government’s role</text>
+      <text x="80" y="472" font-family="Cambria, serif" font-size="11" fill="#5C5852">Government role</text>
+      <text x="380" y="455" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#E8E6E1" textLength="80.0" lengthAdjust="spacingAndGlyphs">Market-driven</text>
+      <text x="380" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#C9C5BE" textLength="133.8" lengthAdjust="spacingAndGlyphs">Private-Sector Capex · Regulatory Framework</text>
+      <text x="960" y="455" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#E8E6E1" textLength="100.0" lengthAdjust="spacingAndGlyphs">Led by a major fund</text>
+      <text x="960" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#C9C5BE">DeepSeek’s First National Big Fund</text>
+      <line x1="60" y1="500" x2="1220" y2="500" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="row-4">
+      <text x="80" y="530" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E" textLength="56.0" lengthAdjust="spacingAndGlyphs">Peak Valuation</text>
+      <text x="80" y="552" font-family="Cambria, serif" font-size="11" fill="#5C5852">Peak valuation</text>
+      <text x="380" y="540" font-family="Cambria, serif" font-size="28" font-weight="bold" fill="#E63946">$852B</text>
+      <text x="380" y="562" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#C9C5BE" textLength="84.6" lengthAdjust="spacingAndGlyphs">OpenAI · Private Equity</text>
+      <text x="960" y="540" font-family="Cambria, serif" font-size="28" font-weight="bold" fill="#F4A261">$56B</text>
+      <text x="960" y="562" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#C9C5BE" textLength="103.5" lengthAdjust="spacingAndGlyphs">Zhipu · Hong Kong market capitalization</text>
+      <line x1="60" y1="580" x2="1220" y2="580" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="row-5">
+      <text x="80" y="610" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E" textLength="56.0" lengthAdjust="spacingAndGlyphs">Exit strategy</text>
+      <text x="80" y="632" font-family="Cambria, serif" font-size="11" fill="#5C5852">Exit path</text>
+      <text x="380" y="620" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#E8E6E1" textLength="183.8" lengthAdjust="spacingAndGlyphs">Mega private equity firms → Delay IPOs</text>
+      <text x="380" y="642" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="13" fill="#C9C5BE">Anthropic Series G $30B</text>
+      <text x="960" y="620" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#E8E6E1" textLength="120.0" lengthAdjust="spacingAndGlyphs">Secondary markets first</text>
+      <text x="960" y="642" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.06" fill="#C9C5BE">HKEX is the exit</text>
+      <line x1="60" y1="660" x2="1220" y2="660" stroke="#5C5852" stroke-width="1.5" />
+    </g>
+  </g>
+
+  <g id="page-footer">
+    <text x="60" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.29" fill="#5C5852">Sources: Crunchbase · HKEX prospectuses · BigGo Finance · consolidated public disclosures</text>
+    <text x="1220" y="700" text-anchor="end" font-family="Cambria, serif" font-size="10" fill="#5C5852">11 / 20</text>
+  </g>
+</svg>

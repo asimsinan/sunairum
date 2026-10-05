@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="p10ImgL"><rect x="60" y="260" width="280" height="380" rx="6" /></clipPath>
+    <clipPath id="p10ImgR"><rect x="360" y="260" width="280" height="380" rx="6" /></clipPath>
+    <linearGradient id="p10TopL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5A6B7A" stop-opacity="0.55" />
+      <stop offset="35%" stop-color="#5A6B7A" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="p10TopR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B7A4F" stop-opacity="0.55" />
+      <stop offset="35%" stop-color="#6B7A4F" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="p10BottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F2EC" stop-opacity="0" />
+      <stop offset="100%" stop-color="#F5F2EC" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="header">
+    <rect x="60" y="60" width="3" height="32" fill="#6B7A4F" />
+    <text x="76" y="84" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#5A6B7A" letter-spacing="3">III · Tour · CASE 02</text>
+    <text x="1220" y="84" text-anchor="end" font-family="Georgia, serif" font-size="13" fill="#5A6B7A">SHANGHAI · 1988 → 2018 → 2023</text>
+  </g>
+
+  <g id="page-title">
+    <text x="60" y="148" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="25.20" font-weight="700" fill="#2B3A4A">The Nation's First in the Field of Urban Renewal</text>
+    <text x="60" y="194" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="25.20" font-weight="700" fill="#6B7A4F" textLength="180.0" lengthAdjust="spacingAndGlyphs">Carbon-neutral hotel</text>
+    <line x1="60" y1="220" x2="160" y2="220" stroke="#6B7A4F" stroke-width="2" />
+  </g>
+
+  <g id="img-before">
+    <image href="../images/640_11.png" x="60" y="260" width="280" height="380" preserveAspectRatio="xMidYMid slice" clip-path="url(#p10ImgL)" />
+    <rect x="60" y="260" width="280" height="120" fill="url(#p10TopL)" />
+    <rect x="60" y="560" width="280" height="80" fill="url(#p10BottomFade)" />
+    <g id="badge-bf-10">
+      <rect x="80" y="280" width="12" height="12" fill="#F5F2EC" />
+      <text x="100" y="291" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#F5F2EC" letter-spacing="3">BEFORE · 1988</text>
+    </g>
+    <text x="60" y="666" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5A6B7A">Former East China Electric Power Building · 126 m</text>
+    <text x="60" y="688" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8A8275">The first high-rise on Nanjing Road · Image source: Baidu Baike</text>
+  </g>
+
+  <g id="img-after">
+    <image href="../images/640_12.png" x="360" y="260" width="280" height="380" preserveAspectRatio="xMidYMid slice" clip-path="url(#p10ImgR)" />
+    <rect x="360" y="260" width="280" height="120" fill="url(#p10TopR)" />
+    <rect x="360" y="560" width="280" height="80" fill="url(#p10BottomFade)" />
+    <g id="badge-af-10">
+      <rect x="380" y="280" width="12" height="12" fill="#6B7A4F" />
+      <text x="400" y="291" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#F5F2EC" letter-spacing="3">AFTER · 2023</text>
+    </g>
+    <text x="360" y="666" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5A6B7A">The Edition Hotel · Energy-saving renovation completed</text>
+    <text x="360" y="688" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8A8275">Image source: Archdaily</text>
+  </g>
+
+  <g id="timeline">
+    <rect x="680" y="260" width="540" height="380" rx="6" fill="#EBE6DC" />
+    <text x="704" y="298" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#6B7A4F" letter-spacing="2" textLength="99.3" lengthAdjust="spacingAndGlyphs">35 years · three chapters of history</text>
+
+    <line x1="724" y1="340" x2="724" y2="600" stroke="#6B7A4F" stroke-width="2" stroke-opacity="0.5" />
+
+    <circle cx="724" cy="350" r="8" fill="#5A6B7A" />
+    <text x="752" y="346" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#2B3A4A">1988</text>
+    <text x="752" y="372" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A6B7A" textLength="112.0" lengthAdjust="spacingAndGlyphs">East China Electric Power Building completed</text>
+    <text x="752" y="392" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8A8275">No. 201 Nanjing East Road · 126 meters tall</text>
+
+    <circle cx="724" cy="450" r="8" fill="#8B7355" />
+    <text x="752" y="446" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#2B3A4A">2018</text>
+    <text x="752" y="472" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A6B7A" textLength="126.0" lengthAdjust="spacingAndGlyphs">Converted and expanded into The EDITION hotel</text>
+    <text x="752" y="492" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8A8275" textLength="134.0" lengthAdjust="spacingAndGlyphs">Merged with Building No. 181 for renovation</text>
+
+    <circle cx="724" cy="550" r="10" fill="#6B7A4F" />
+    <text x="752" y="548" font-family="Georgia, serif" font-size="22" font-weight="700" fill="#6B7A4F">2023</text>
+    <text x="752" y="574" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="700" fill="#2B3A4A">Complete energy-saving retrofits and achieve carbon neutrality</text>
+    <text x="752" y="596" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5A6B7A" textLength="145.7" lengthAdjust="spacingAndGlyphs">High-performance windows · air-source heat pump</text>
+    <text x="752" y="616" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5A6B7A" textLength="119.7" lengthAdjust="spacingAndGlyphs">Energy-saving elevators · Water-saving fixtures</text>
+  </g>
+
+  <g id="footer">
+    <text x="1220" y="710" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#8A8275">10 / 15</text>
+  </g>
+</svg>

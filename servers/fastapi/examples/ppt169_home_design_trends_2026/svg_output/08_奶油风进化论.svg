@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="imgOverlay08" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1A1714" stop-opacity="0.92" />
+      <stop offset="50%" stop-color="#1A1714" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1A1714" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="tagGrad08" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C4A882" />
+      <stop offset="100%" stop-color="#D4956A" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1714" />
+
+  
+  <image href="../images/cream_style.png" x="400" y="0" width="880" height="720" preserveAspectRatio="xMidYMid slice" />
+  <rect x="400" y="0" width="880" height="720" fill="url(#imgOverlay08)" />
+
+  
+  <g id="p08-tag">
+    <use data-icon="tabler-filled/star" x="60" y="100" width="24" height="24" fill="#D4956A" />
+    <text x="92" y="118" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14" fill="#8B7355" letter-spacing="3">
+      2026 Trends
+    </text>
+  </g>
+
+  
+  <g id="p08-title">
+    <text x="60" y="195" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="29.40" font-weight="bold" fill="#E8E0D4">
+      Cream Aesthetic 2.0
+    </text>
+    <text x="60" y="240" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" fill="#C4A882">
+      From formulaic to nuanced expression
+    </text>
+  </g>
+
+  
+  <rect x="60" y="265" width="60" height="3" fill="url(#tagGrad08)" rx="1.5" />
+
+  
+  <g id="p08-content">
+    <text x="60" y="310" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.30" fill="#E8E0D4">
+      No longer just the formula of "off-white walls + natural wood furniture".
+    </text>
+
+    <text x="60" y="365" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#C4A882" font-weight="bold">
+      Color foundation
+    </text>
+    <text x="60" y="392" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.90" fill="#B0A08E">
+      Cream · Oatmeal · Ivory — layering warm neutrals
+    </text>
+
+    <text x="60" y="435" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#D4956A" font-weight="bold" textLength="134.4" lengthAdjust="spacingAndGlyphs">
+      Material as the Finishing Touch
+    </text>
+    <text x="60" y="462" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.40" fill="#B0A08E">
+      Wool · Linen · Naturally knotted logs · Hand-thrown ceramics
+    </text>
+
+    <text x="60" y="505" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.35" fill="#8B7355" font-weight="bold">
+      Texture overlay
+    </text>
+    <text x="60" y="532" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B0A08E">
+      Layering detail upon detail, free from a “cheap influencer aesthetic”
+    </text>
+  </g>
+
+  
+  <rect x="60" y="575" width="4" height="50" fill="#D4956A" rx="2" />
+  <text x="78" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.15" fill="#E8E0D4" font-style="italic">
+    A truly healing space
+  </text>
+  <text x="78" y="622" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.73" fill="#8B7355" font-style="italic">
+    Tangible · perceptible
+  </text>
+
+  
+  <text x="1210" y="690" text-anchor="end" font-family="Georgia, Georgia, serif" font-size="12" fill="#7A6E60">
+    08 / 12
+  </text>
+</svg>

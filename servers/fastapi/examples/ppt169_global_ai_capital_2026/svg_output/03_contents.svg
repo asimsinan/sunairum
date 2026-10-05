@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#0E1116" />
+  </g>
+
+  <g id="page-header">
+    <text x="60" y="56" font-family="Cambria, serif" font-size="11" fill="#8A857E" letter-spacing="3">CONTENTS · 03</text>
+    <line x1="60" y1="72" x2="200" y2="72" stroke="#E63946" stroke-width="1" />
+    <text x="60" y="130" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="35.12" font-weight="bold" fill="#E8E6E1">Contents / Contents</text>
+    <text x="60" y="162" font-family="Cambria, serif" font-size="11.95" font-style="italic" fill="#8A857E">Six parts · Eighteen data charts · 2026 Global AI Capital Landscape</text>
+  </g>
+
+  <g id="toc-left">
+    <g id="part-1">
+      <text x="60" y="240" font-family="Cambria, serif" font-size="48" font-weight="bold" fill="#E63946">I</text>
+      <text x="120" y="232" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17.85" font-weight="bold" fill="#E8E6E1">Panorama · Landscape</text>
+      <text x="120" y="258" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.05" fill="#8A857E">Q1 Venture Capital · Hyperscaler $725B Capex</text>
+      <text x="560" y="240" text-anchor="end" font-family="Cambria, serif" font-size="13" fill="#C9C5BE" letter-spacing="1">P04 — P05</text>
+      <line x1="60" y1="280" x2="560" y2="280" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="part-2">
+      <text x="60" y="340" font-family="Cambria, serif" font-size="48" font-weight="bold" fill="#E63946">II</text>
+      <text x="120" y="332" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="bold" fill="#E8E6E1">The Big Three</text>
+      <text x="120" y="358" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="13" fill="#8A857E">OpenAI · Anthropic · xAI</text>
+      <text x="560" y="340" text-anchor="end" font-family="Cambria, serif" font-size="13" fill="#C9C5BE" letter-spacing="1">P06 — P09</text>
+      <line x1="60" y1="380" x2="560" y2="380" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="part-3">
+      <text x="60" y="440" font-family="Cambria, serif" font-size="48" font-weight="bold" fill="#E63946">III</text>
+      <text x="120" y="432" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="bold" fill="#E8E6E1">China Camp · China Camp</text>
+      <text x="120" y="458" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8A857E">DeepSeek $50B Leads · China–U.S. Dual Track</text>
+      <text x="560" y="440" text-anchor="end" font-family="Cambria, serif" font-size="13" fill="#C9C5BE" letter-spacing="1">P10 — P11</text>
+      <line x1="60" y1="480" x2="560" y2="480" stroke="#2A2F36" stroke-width="1" />
+    </g>
+  </g>
+
+  <g id="toc-right">
+    <g id="part-4">
+      <text x="660" y="240" font-family="Cambria, serif" font-size="48" font-weight="bold" fill="#F4A261">IV</text>
+      <text x="730" y="232" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17.87" font-weight="bold" fill="#E8E6E1">The Second Tier · The Second Tier</text>
+      <text x="730" y="258" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="13" fill="#8A857E">SSI · Perplexity · Mistral · Cohere</text>
+      <text x="1160" y="240" text-anchor="end" font-family="Cambria, serif" font-size="13" fill="#C9C5BE" letter-spacing="1">P12</text>
+      <line x1="660" y1="280" x2="1160" y2="280" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="part-5">
+      <text x="660" y="340" font-family="Cambria, serif" font-size="48" font-weight="bold" fill="#F4A261">V</text>
+      <text x="730" y="332" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="bold" fill="#E8E6E1" textLength="306.0" lengthAdjust="spacingAndGlyphs">Infrastructure and closed loop · Infrastructure</text>
+      <text x="730" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.77" fill="#8A857E">Nvidia Closed Loop · Stargate $500B</text>
+      <text x="1160" y="340" text-anchor="end" font-family="Cambria, serif" font-size="13" fill="#C9C5BE" letter-spacing="1">P13 — P16</text>
+      <line x1="660" y1="380" x2="1160" y2="380" stroke="#2A2F36" stroke-width="1" />
+    </g>
+
+    <g id="part-6">
+      <text x="660" y="440" font-family="Cambria, serif" font-size="48" font-weight="bold" fill="#F4A261">VI</text>
+      <text x="730" y="432" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.57" font-weight="bold" fill="#E8E6E1">Bubbles and Judgment · The Bubble</text>
+      <text x="730" y="458" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.42" fill="#8A857E">Capex/Revenue Gap · Six Key Judgments</text>
+      <text x="1160" y="440" text-anchor="end" font-family="Cambria, serif" font-size="13" fill="#C9C5BE" letter-spacing="1">P17 — P20</text>
+      <line x1="660" y1="480" x2="1160" y2="480" stroke="#2A2F36" stroke-width="1" />
+    </g>
+  </g>
+
+  <g id="bottom-meta">
+    <line x1="60" y1="600" x2="1220" y2="600" stroke="#2A2F36" stroke-width="1" />
+    <text x="60" y="635" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.32" fill="#8A857E">Reading note / Reading note</text>
+    <text x="60" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#C9C5BE">About 3–5 minutes per chapter · Recommended to read in sequence · All data includes sources listed in §VIII</text>
+  </g>
+
+  <g id="page-footer">
+    <text x="60" y="700" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="10" fill="#5C5852">Capital, Compute, and the Closed Loop · 2026 Industry Briefing</text>
+    <text x="1220" y="700" text-anchor="end" font-family="Cambria, serif" font-size="10" fill="#5C5852">03 / 20</text>
+  </g>
+</svg>

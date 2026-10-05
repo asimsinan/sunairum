@@ -1,0 +1,1 @@
+So here is the question: for an old high-rise, is demolition really the only option? That is exactly what Part Two will address. Let us turn our attention to the skyscraper in Sydney. Its answer is called “active regeneration.”

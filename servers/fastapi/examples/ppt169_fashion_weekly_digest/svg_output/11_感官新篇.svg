@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="leftImg"><rect x="50" y="120" width="270" height="380" rx="10" /></clipPath>
+    <clipPath id="rightImg"><rect x="670" y="120" width="560" height="290" rx="10" /></clipPath>
+  </defs>
+
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.7" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="1180" height="1" fill="#2A2520" />
+
+  <text x="640" y="85" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" fill="#F5F0EB" font-weight="bold" text-anchor="middle" textLength="120.0" lengthAdjust="spacingAndGlyphs">A new sensory chapter</text>
+  <text x="640" y="105" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" text-anchor="middle" letter-spacing="2">BOSS × FRESH</text>
+
+  <rect x="635" y="120" width="1" height="530" fill="#2A2520" />
+
+  
+  <rect x="50" y="120" width="270" height="380" rx="10" fill="#1A1A1A" />
+  <image href="../images/boss_fragrance.jpg" x="50" y="120" width="270" height="380" preserveAspectRatio="xMidYMid slice" clip-path="url(#leftImg)" />
+
+  <use data-icon="phosphor-duotone/flower" x="340" y="130" width="26" height="26" fill="#C9A96E" />
+  <text x="340" y="185" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">BOSS</text>
+  <text x="340" y="210" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690" textLength="84.0" lengthAdjust="spacingAndGlyphs">Heart of a King fragrance</text>
+  <rect x="340" y="222" width="270" height="1" fill="#2A2520" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="15" fill="#F5F0EB">
+    <tspan x="340" y="252">The brand's first fresh woody leather fragrance</tspan>
+    <tspan x="340" dy="24">Dual-pole fragrance released simultaneously</tspan>
+    <tspan x="340" dy="24">Wooden vitality and leather elegance</tspan>
+    <tspan x="340" dy="30">Gradient bottle + double-B logo</tspan>
+    <tspan x="340" dy="24">Now available at Sephora</tspan>
+  </text>
+
+  <text x="340" y="420" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">Wang Tianchen · Jiao Maiqi · Li Sirong in attendance</text>
+
+  
+  <rect x="670" y="120" width="560" height="290" rx="10" fill="#1A1A1A" />
+  <image href="../images/fresh_event.jpg" x="670" y="120" width="560" height="290" preserveAspectRatio="xMidYMid slice" clip-path="url(#rightImg)" />
+
+  <use data-icon="phosphor-duotone/sparkle" x="670" y="430" width="26" height="26" fill="#C9A96E" />
+  <text x="704" y="450" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="20" fill="#E8D5B5" font-weight="bold">fresh Fresh</text>
+  <text x="860" y="450" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690">“Yeast, go wild”</text>
+
+  <rect x="670" y="465" width="560" height="1" fill="#2A2520" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="15" fill="#F5F0EB">
+    <tspan x="670" y="495">New product launch at Shanghai West Bund Dream Center</tspan>
+    <tspan x="670" dy="24">New Brand Ambassadors CORTIS Appear Together</tspan>
+    <tspan x="670" dy="24">Inspired by tea-drinking culture · Cross-disciplinary connections bringing new life to emerging-generation trends</tspan>
+  </text>
+
+  <rect x="670" y="580" width="560" height="36" rx="6" fill="#1A1A1A" />
+  <rect x="670" y="580" width="3" height="36" fill="#C9A96E" />
+  <text x="690" y="603" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#E8D5B5" font-style="italic">Blending Eastern philosophy with youthful vitality to carry forward the aesthetics of natural skincare</text>
+
+  <rect x="50" y="670" width="1180" height="1" fill="#2A2520" />
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">11 / 16</text>
+</svg>

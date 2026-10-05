@@ -1,0 +1,187 @@
+# Production stack (OCI / cloud VM): baked images, no hot reload, Caddy TLS.
+# Local development uses docker-compose.yml + Dockerfile.dev instead.
+name: sunairum-cloud
+
+services:
+  db:
+    image: postgres:15-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in deploy/cloud.env}
+      POSTGRES_DB: ${POSTGRES_DB:-sunairumdb}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+
+  fastapi:
+    image: ${IMAGE_PREFIX:-sunairum}/api:${IMAGE_TAG:-latest}
+    build:
+      context: ./servers/fastapi
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    # Reached through the caddy proxy. Publish a port only to debug the API
+    # directly, since exposing it bypasses the proxy's TLS.
+    expose:
+      - "8000"
+    env_file:
+      - ${FASTAPI_ENV_FILE:-./deploy/fastapi.env}
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-sunairumdb}
+      STORAGE_MODE: ${STORAGE_MODE:-local}
+      SOURCE_PARSER: ${SOURCE_PARSER:-docling}
+      DOCLING_DEVICE: ${DOCLING_DEVICE:-cpu}
+      # Docling's weights are baked into the image at /opt/docling-models, so a
+      # fresh host needs no seeding and offline turns a missing model into an
+      # immediate error rather than a silent refetch that stalls the parse.
+      HF_HUB_OFFLINE: ${HF_HUB_OFFLINE:-1}
+      TRANSFORMERS_OFFLINE: ${HF_HUB_OFFLINE:-1}
+    volumes:
+      - app_storage:/app/storage
+      - ./servers/fastapi/examples:/app/examples:ro
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+  # Dedicated workers so PDF import and slide generation do not share slots.
+  celery_generation:
+    # API and workers run the same code/runtime. Reusing one immutable backend
+    # image prevents BuildKit/containerd from unpacking the ~GB-scale Python,
+    # Chromium and Docling layers three times under different image names.
+    image: ${IMAGE_PREFIX:-sunairum}/api:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+    command: celery -A worker.celery_app worker --loglevel=info -Q generation
+    env_file:
+      - ${FASTAPI_ENV_FILE:-./deploy/fastapi.env}
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-sunairumdb}
+      STORAGE_MODE: ${STORAGE_MODE:-local}
+      SOURCE_PARSER: ${SOURCE_PARSER:-docling}
+      SOURCE_PARSER_TIMEOUT_SECONDS: ${SOURCE_PARSER_TIMEOUT_SECONDS:-900}
+      DOCLING_DEVICE: ${DOCLING_DEVICE:-cpu}
+      DOCLING_FORMULA_ENRICHMENT: ${DOCLING_FORMULA_ENRICHMENT:-0}
+      # Legacy CELERY_CONCURRENCY = generation concurrency (backward compatible).
+      CELERY_CONCURRENCY: ${CELERY_CONCURRENCY:-2}
+      # torch.compile on the layout model: ~9s once per worker process, then
+      # ~1.9s per page against ~2.2s uncompiled. Set to 0 to favour cold starts.
+      DOCLING_INFERENCE_COMPILE_TORCH_MODELS: ${DOCLING_COMPILE_MODELS:-1}
+      # Docling's weights are baked into the image at /opt/docling-models, so a
+      # fresh host needs no seeding and offline turns a missing model into an
+      # immediate error rather than a silent refetch that stalls the parse.
+      HF_HUB_OFFLINE: ${HF_HUB_OFFLINE:-1}
+      TRANSFORMERS_OFFLINE: ${HF_HUB_OFFLINE:-1}
+    volumes:
+      - app_storage:/app/storage
+      - ./servers/fastapi/examples:/app/examples:ro
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  celery_source_import:
+    image: ${IMAGE_PREFIX:-sunairum}/api:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+    command: celery -A worker.celery_app worker --loglevel=info -Q source_import
+    env_file:
+      - ${FASTAPI_ENV_FILE:-./deploy/fastapi.env}
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-sunairumdb}
+      STORAGE_MODE: ${STORAGE_MODE:-local}
+      SOURCE_PARSER: ${SOURCE_PARSER:-docling}
+      SOURCE_PARSER_TIMEOUT_SECONDS: ${SOURCE_PARSER_TIMEOUT_SECONDS:-900}
+      DOCLING_DEVICE: ${DOCLING_DEVICE:-cpu}
+      DOCLING_FORMULA_ENRICHMENT: ${DOCLING_FORMULA_ENRICHMENT:-0}
+      # Docling peaks ~2.3GB; keep import slots small so RAM does not double.
+      CELERY_CONCURRENCY: ${CELERY_SOURCE_IMPORT_CONCURRENCY:-1}
+      DOCLING_INFERENCE_COMPILE_TORCH_MODELS: ${DOCLING_COMPILE_MODELS:-1}
+      HF_HUB_OFFLINE: ${HF_HUB_OFFLINE:-1}
+      TRANSFORMERS_OFFLINE: ${HF_HUB_OFFLINE:-1}
+    volumes:
+      - app_storage:/app/storage
+      - ./servers/fastapi/examples:/app/examples:ro
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+  nextjs:
+    image: ${IMAGE_PREFIX:-sunairum}/web:${IMAGE_TAG:-latest}
+    build:
+      context: ./servers/nextjs
+      dockerfile: Dockerfile.prod
+      # Left empty on purpose: the bundle calls its own origin through caddy, so
+      # the same image works on any domain. Set NEXT_PUBLIC_API_URL only to point
+      # the frontend at an API on a different host.
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-}
+        # Unused when Caddy proxies /api; kept explicit for non-Caddy deploys.
+        API_PROXY_TARGET: ${API_PROXY_TARGET:-http://fastapi:8000}
+    restart: unless-stopped
+    command: ["node", "server.js"]
+    expose:
+      - "3000"
+    environment:
+      - NODE_ENV=production
+      - HOSTNAME=0.0.0.0
+      - PORT=3000
+    volumes:
+      - ./servers/fastapi/examples:/app/public/examples:ro
+    depends_on:
+      fastapi:
+        condition: service_healthy
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+    environment:
+      # A bare domain here makes Caddy obtain and renew certificates on its own.
+      # Falling back to `:80` rather than an empty value matters: an empty site
+      # address makes the Caddyfile parse as a global options block.
+      SITE_ADDRESS: ${DOMAIN:-:80}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - nextjs
+      - fastapi
+
+volumes:
+  postgres_data:
+  redis_data:
+  app_storage:
+  caddy_data:
+  caddy_config:

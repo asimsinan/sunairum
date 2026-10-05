@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="leftBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6FF7" />
+      <stop offset="100%" stop-color="#4ECDC4" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6FF7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#7C6FF7" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0F1117" />
+
+  
+  <rect x="0" y="0" width="340" height="720" fill="#1A1D2E" />
+  <rect x="336" y="0" width="4" height="720" fill="url(#leftBarGrad)" />
+
+  
+  <rect x="40" y="60" width="260" height="4" rx="2" fill="url(#leftBarGrad)" />
+  <text x="40" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26.60" font-weight="bold" fill="#E8E8F0" textLength="76.0" lengthAdjust="spacingAndGlyphs">Contents</text>
+  <text x="40" y="148" font-family="Arial, 'Georgia', sans-serif" font-size="15" fill="#9090A0" letter-spacing="3">CONTENTS</text>
+
+  
+  <text x="40" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#9090A0" textLength="68.0" lengthAdjust="spacingAndGlyphs">This issue showcases</text>
+  <text x="40" y="224" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#9090A0">20 Text-and-Image Formats</text>
+  <text x="40" y="248" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#7C6FF7">18 rendering styles</text>
+  <text x="40" y="272" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#9090A0" textLength="86.7" lengthAdjust="spacingAndGlyphs">14 color palettes</text>
+
+  
+  <use data-icon="tabler-outline/photo" x="40" y="320" width="28" height="28" fill="#7C6FF7" stroke-width="2" />
+  <use data-icon="tabler-outline/layout-collage" x="80" y="320" width="28" height="28" fill="#4ECDC4" stroke-width="2" />
+  <use data-icon="tabler-outline/palette" x="120" y="320" width="28" height="28" fill="#F5A623" stroke-width="2" />
+  <use data-icon="tabler-outline/layers-intersect" x="160" y="320" width="28" height="28" fill="#E8E8F0" fill-opacity="0.5" stroke-width="2" />
+
+  
+  <rect x="40" y="620" width="80" height="36" rx="18" fill="#7C6FF7" fill-opacity="0.15" stroke="#7C6FF7" stroke-opacity="0.3" stroke-width="1" />
+  <text x="80" y="643" text-anchor="middle" font-family="Arial, sans-serif" font-size="10.50" fill="#7C6FF7" textLength="36.5" lengthAdjust="spacingAndGlyphs">20 pages</text>
+
+  
+  
+  <text x="390" y="80" font-family="Arial, 'Georgia', sans-serif" font-size="13" fill="#5A5A72" letter-spacing="2">01 — 10</text>
+
+  
+  <g>
+    
+    <text x="390" y="116" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7C6FF7">01</text>
+    <text x="418" y="116" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.98" fill="#E8E8F0">Cover</text>
+    <text x="600" y="116" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">glassmorphism × dark-cinematic</text>
+
+    
+    <text x="390" y="148" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">02</text>
+    <text x="418" y="148" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#9090A0" textLength="34.0" lengthAdjust="spacingAndGlyphs">Contents</text>
+    <text x="600" y="148" font-family="Arial, sans-serif" font-size="9.10" fill="#5A5A72" textLength="52.0" lengthAdjust="spacingAndGlyphs">Structural Navigation</text>
+
+    
+    <text x="390" y="180" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">03</text>
+    <text x="418" y="180" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Image Left, Text Right</text>
+    <text x="600" y="180" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">corporate-photo × cool-corporate</text>
+
+    
+    <text x="390" y="212" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">04</text>
+    <text x="418" y="212" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Bleed on the right side of the image</text>
+    <text x="600" y="212" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">vector-illustration × frost-ice</text>
+
+    
+    <text x="390" y="244" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">05</text>
+    <text x="418" y="244" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="85.0" lengthAdjust="spacingAndGlyphs">Three-column hero image text</text>
+    <text x="600" y="244" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">watercolor × warm-earth</text>
+
+    
+    <text x="390" y="276" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">06</text>
+    <text x="418" y="276" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Floating text over a base image</text>
+    <text x="600" y="276" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">sketch-notes × macaron</text>
+
+    
+    <text x="390" y="308" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">07</text>
+    <text x="418" y="308" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="94.3" lengthAdjust="spacingAndGlyphs">Z-shaped serpentine narrative</text>
+    <text x="600" y="308" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">3d-isometric × tech-neon</text>
+
+    
+    <text x="390" y="340" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">08</text>
+    <text x="418" y="340" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="85.0" lengthAdjust="spacingAndGlyphs">Nine-grid mixed layout</text>
+    <text x="600" y="340" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">blueprint × editorial-classic</text>
+
+    
+    <text x="390" y="372" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">09</text>
+    <text x="418" y="372" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Circular radial layout</text>
+    <text x="600" y="372" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">digital-dashboard × mono-ink</text>
+
+    
+    <text x="390" y="404" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">10</text>
+    <text x="418" y="404" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Dense all-over background pattern</text>
+    <text x="600" y="404" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">pixel-art × vivid-launch</text>
+  </g>
+
+  
+  <line x1="390" y1="425" x2="1220" y2="425" stroke="#2A2D3E" stroke-width="1" />
+
+  
+  <text x="390" y="455" font-family="Arial, 'Georgia', sans-serif" font-size="13" fill="#5A5A72" letter-spacing="2">11 — 20</text>
+
+  <g>
+    
+    <text x="390" y="490" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">11</text>
+    <text x="418" y="490" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Layered paper cutting</text>
+    <text x="600" y="490" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">paper-cut × nature-organic</text>
+
+    
+    <text x="390" y="516" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">12</text>
+    <text x="418" y="516" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="102.0" lengthAdjust="spacingAndGlyphs">Narrow Images from Vertical Magazines</text>
+    <text x="600" y="516" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">vintage-poster × duotone</text>
+
+    
+    <text x="390" y="542" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">13</text>
+    <text x="418" y="542" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="85.0" lengthAdjust="spacingAndGlyphs">Diagonal Division</text>
+    <text x="600" y="542" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">fantasy-animation × sunset-gradient</text>
+
+    
+    <text x="390" y="568" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">14</text>
+    <text x="418" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="102.0" lengthAdjust="spacingAndGlyphs">Large text over a faded background image</text>
+    <text x="600" y="568" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">ink-notes × earthy-dusty</text>
+
+    
+    <text x="390" y="594" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">15</text>
+    <text x="418" y="594" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="102.0" lengthAdjust="spacingAndGlyphs">Symmetrical text-above, image-below layout</text>
+    <text x="600" y="594" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">flat × jewel-tone</text>
+
+    
+    <text x="390" y="620" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">16</text>
+    <text x="418" y="620" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="102.0" lengthAdjust="spacingAndGlyphs">Center-radiating labels</text>
+    <text x="600" y="620" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">minimalist-swiss × editorial-classic</text>
+
+    
+    <text x="390" y="646" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">17</text>
+    <text x="418" y="646" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Horizontal bars spanning across</text>
+    <text x="600" y="646" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">screen-print × vivid-launch</text>
+
+    <text x="780" y="646" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">18</text>
+    <text x="808" y="646" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="85.0" lengthAdjust="spacingAndGlyphs">Polygon gap filling</text>
+    <text x="960" y="646" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">nature × sunset-gradient</text>
+
+    <text x="390" y="672" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">19</text>
+    <text x="418" y="672" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0">Montage Collage</text>
+    <text x="600" y="672" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">editorial × dark-cinematic</text>
+
+    <text x="780" y="672" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A72">20</text>
+    <text x="808" y="672" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" textLength="68.0" lengthAdjust="spacingAndGlyphs">Blackboard finale</text>
+    <text x="960" y="672" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">chalkboard × mono-ink</text>
+  </g>
+
+  
+  <text x="1240" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">02</text>
+</svg>

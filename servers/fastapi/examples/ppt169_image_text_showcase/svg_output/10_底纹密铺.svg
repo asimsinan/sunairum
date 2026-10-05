@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="darkOverlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1117" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0.75" />
+    </linearGradient>
+    <linearGradient id="card1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C6FF7" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#5A4FCC" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="card2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#CC7A0A" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="card3Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#2AA89E" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="card4Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1D2E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  
+  <image href="../images/p10_bg_texture.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect width="1280" height="720" fill="url(#darkOverlay)" />
+
+  
+  <text x="640" y="36" text-anchor="middle" font-family="Consolas, monospace" font-size="9.78" fill="#E8E8F0" fill-opacity="0.6" letter-spacing="3">P10  ·  pixel-art × vivid-launch  ·  Tiled background pattern</text>
+
+  
+  
+  <rect x="60" y="60" width="540" height="280" rx="4" fill="url(#card1Bg)" />
+  
+  <rect x="60" y="60" width="540" height="4" fill="#E8E8F0" fill-opacity="0.3" />
+  <text x="80" y="100" font-family="Consolas, monospace" font-size="13" fill="#E8E8F0" fill-opacity="0.7">[RENDERING]</text>
+  <text x="80" y="140" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="24.49" font-weight="bold" fill="#FFFFFF">Pixel Retro</text>
+  <text x="80" y="170" font-family="Arial, 'Georgia', sans-serif" font-size="17" fill="#E8E8F0" fill-opacity="0.9">pixel-art</text>
+  <text x="80" y="206" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" fill-opacity="0.8">8-bit pixel grid, strictly aligned,</text>
+  <text x="80" y="228" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#E8E8F0" fill-opacity="0.8" textLength="188.7" lengthAdjust="spacingAndGlyphs">No anti-aliasing; vivid, saturated colors.</text>
+  <text x="80" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#E8E8F0" fill-opacity="0.7">Gaming / Retro Tech / Nostalgic Scenarios</text>
+  
+  <rect x="480" y="70" width="12" height="12" fill="#FFFFFF" fill-opacity="0.4" />
+  <rect x="494" y="70" width="12" height="12" fill="#FFFFFF" fill-opacity="0.2" />
+  <rect x="508" y="70" width="12" height="12" fill="#FFFFFF" fill-opacity="0.1" />
+
+  
+  <rect x="620" y="60" width="600" height="280" rx="4" fill="url(#card2Bg)" />
+  <rect x="620" y="60" width="600" height="4" fill="#E8E8F0" fill-opacity="0.3" />
+  <text x="640" y="100" font-family="Consolas, monospace" font-size="13" fill="#3A2010" fill-opacity="0.9">[PALETTE]</text>
+  <text x="640" y="140" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" font-weight="bold" fill="#3A1A00" textLength="136.0" lengthAdjust="spacingAndGlyphs">Vitality Launch</text>
+  <text x="640" y="170" font-family="Arial, 'Georgia', sans-serif" font-size="17" fill="#3A2010">vivid-launch</text>
+  <text x="640" y="206" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#3A2010" textLength="188.7" lengthAdjust="spacingAndGlyphs">Highly saturated colors that catch the eye,</text>
+  <text x="640" y="228" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#3A2010">The first choice for product launches and marketing campaigns.</text>
+  <text x="640" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#3A2010" fill-opacity="0.8" textLength="156.3" lengthAdjust="spacingAndGlyphs">Bold / saturated / attention-grabbing</text>
+
+  
+  <rect x="60" y="360" width="540" height="300" rx="4" fill="url(#card3Bg)" />
+  <rect x="60" y="360" width="540" height="4" fill="#E8E8F0" fill-opacity="0.3" />
+  <text x="80" y="400" font-family="Consolas, monospace" font-size="13" fill="#0A3A38" fill-opacity="0.9">[LAYOUT]</text>
+  <text x="80" y="440" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" font-weight="bold" fill="#0A2A28" textLength="136.0" lengthAdjust="spacingAndGlyphs">Dense all-over background pattern</text>
+  <text x="80" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#0A3A38" textLength="102.0" lengthAdjust="spacingAndGlyphs">Image as a full-page background texture</text>
+  <text x="80" y="506" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#0A3A38" textLength="145.4" lengthAdjust="spacingAndGlyphs">Information cards overlay it,</text>
+  <text x="80" y="528" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#0A3A38" textLength="162.4" lengthAdjust="spacingAndGlyphs">Images and information become one.</text>
+  <text x="80" y="570" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#0A3A38" fill-opacity="0.8">Images → Atmosphere carriers · Text → Information centerpiece</text>
+  <text x="80" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#0A3A38" fill-opacity="0.7">The overlay controls opacity to ensure legibility</text>
+
+  
+  <rect x="620" y="360" width="600" height="300" rx="4" fill="url(#card4Bg)" stroke="#7C6FF7" stroke-opacity="0.4" stroke-width="1" />
+  <rect x="620" y="360" width="600" height="4" fill="#7C6FF7" fill-opacity="0.5" />
+  <text x="640" y="400" font-family="Consolas, monospace" font-size="13" fill="#7C6FF7">[TECHNIQUE]</text>
+  <text x="640" y="440" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" font-weight="bold" fill="#E8E8F0" textLength="136.0" lengthAdjust="spacingAndGlyphs">Technical highlights</text>
+  <text x="640" y="480" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.82" fill="#9090A0">· Full-bleed image (hero_page)</text>
+  <text x="640" y="506" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17" fill="#9090A0">· Dark overlay</text>
+  <text x="640" y="532" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#9090A0" textLength="151.0" lengthAdjust="spacingAndGlyphs">· High-contrast information cards</text>
+  <text x="640" y="558" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#9090A0" textLength="202.0" lengthAdjust="spacingAndGlyphs">· Accent-color headings ensure visual hierarchy</text>
+  
+  <rect x="840" y="620" width="160" height="28" rx="2" fill="#7C6FF7" fill-opacity="0.2" stroke="#7C6FF7" stroke-opacity="0.4" stroke-width="1" />
+  <text x="920" y="639" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#7C6FF7">8-BIT MODE</text>
+
+  
+  <text x="1240" y="700" text-anchor="end" font-family="Consolas, monospace" font-size="13" fill="#E8E8F0" fill-opacity="0.5">10</text>
+</svg>

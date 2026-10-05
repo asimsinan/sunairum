@@ -1,0 +1,15 @@
+# home-design-trends-2026
+
+- Canvas format: ppt169
+- Created: 20260422
+
+## Directories
+
+- `preview/`: PNG gallery source of truth
+- `html_output/`: Constrained HTML slides (authoring SoT)
+- `svg_final/`: optional bake/style input (not freehand authoring)
+- `images/`: presentation assets
+- `notes/`: speaker notes
+- `templates/`: project templates
+- `sources/`: source materials and normalized markdown
+- `exports/`: generated PPTX files (timestamped history)

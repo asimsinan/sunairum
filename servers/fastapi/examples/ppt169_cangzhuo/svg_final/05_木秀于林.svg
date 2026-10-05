@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F1E8" />
+
+  
+  <g transform="translate(960, 80)" fill="#1A1A1A" fill-opacity="0.07">
+    
+    <rect x="80" y="60" width="14" height="520" />
+    
+    <ellipse cx="87" cy="80" rx="60" ry="22" />
+    <ellipse cx="60" cy="140" rx="80" ry="26" />
+    <ellipse cx="110" cy="200" rx="76" ry="22" />
+    <ellipse cx="55" cy="260" rx="90" ry="28" />
+    <ellipse cx="120" cy="320" rx="70" ry="24" />
+    <ellipse cx="65" cy="380" rx="85" ry="26" />
+    <ellipse cx="115" cy="440" rx="65" ry="22" />
+  </g>
+
+  
+  <g stroke="#8B8680" stroke-width="1" fill="none" stroke-opacity="0.4">
+    <path d="M 920 200 Q 850 210 780 230" />
+    <path d="M 920 280 Q 840 290 760 320" />
+    <path d="M 920 360 Q 830 370 740 400" />
+    <path d="M 920 440 Q 850 450 770 470" />
+  </g>
+
+  
+  <text x="120" y="100" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#8B8680" letter-spacing="12" textLength="73.6" lengthAdjust="spacingAndGlyphs">— Ancient Maxims —</text>
+
+  
+  <text x="120" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="3" textLength="91.8" lengthAdjust="spacingAndGlyphs">《The Expanded Collection of Adages》</text>
+
+  
+  <text x="120" y="330" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="67.20" font-weight="700" fill="#1A1A1A" letter-spacing="12" textLength="384.0" lengthAdjust="spacingAndGlyphs">The tree that stands out in the forest</text>
+  <text x="120" y="460" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="67.20" font-weight="700" fill="#1A1A1A" letter-spacing="12" textLength="384.0" lengthAdjust="spacingAndGlyphs">The wind will surely break it</text>
+
+  
+  <g transform="translate(780, 330)">
+    <rect x="0" y="0" width="60" height="60" fill="#A52A2A" />
+    <text x="30" y="46" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#F5F1E8" textLength="32.0" lengthAdjust="spacingAndGlyphs">Crush</text>
+  </g>
+
+  
+  <line x1="120" y1="540" x2="180" y2="540" stroke="#A52A2A" stroke-width="2" />
+  <text x="120" y="580" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.20" fill="#1A1A1A" letter-spacing="3" textLength="234.0" lengthAdjust="spacingAndGlyphs">When he is not strong enough to protect himself</text>
+  <text x="120" y="618" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.20" fill="#1A1A1A" letter-spacing="3" textLength="156.0" lengthAdjust="spacingAndGlyphs">The cutting edge is risk</text>
+
+  
+  <text x="60" y="690" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="58.9" lengthAdjust="spacingAndGlyphs">Concealing One’s Brilliance · Three</text>
+  <text x="1220" y="690" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">05</text>
+</svg>

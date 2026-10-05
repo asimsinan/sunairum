@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.25" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="80%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="imgFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A1A2E" stop-opacity="0" />
+      <stop offset="90%" stop-color="#1A1A2E" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <text x="60" y="42" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#C9A96E" letter-spacing="3">
+    <tspan>PART 01 · Architect Lin Huiyin</tspan>
+  </text>
+
+  
+  <rect x="60" y="55" width="4" height="32" fill="#C9A96E" />
+  <text x="80" y="82" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>Architectural Imprints on Major National Projects</tspan>
+  </text>
+
+  
+  
+  <rect x="60" y="120" width="640" height="130" rx="10" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="60" y="120" width="4" height="130" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/building" x="84" y="138" width="28" height="28" fill="#C9A96E" />
+  <text x="124" y="147" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E">
+    <tspan>1950</tspan>
+  </text>
+  <text x="124" y="172" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Babaoshan Revolutionary Cemetery</tspan>
+  </text>
+  <text x="84" y="202" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>The main building’s layout was designed by Lin Huiyin and rebuilt on the foundation of the Ming Dynasty’s Huguo Temple</tspan>
+  </text>
+  <text x="84" y="224" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>A park-like cemetery integrating temple gardens with courtyard landscaping</tspan>
+  </text>
+
+  
+  <rect x="60" y="270" width="640" height="190" rx="10" fill="#16213E" stroke="#C9A96E" stroke-width="1.5" filter="url(#cardShadow)" />
+  <rect x="60" y="270" width="4" height="190" rx="2" fill="#E8D5B7" />
+  <use data-icon="chunk/compass-drafting" x="84" y="290" width="28" height="28" fill="#E8D5B7" />
+  <text x="124" y="299" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8D5B7">
+    <tspan>1952 · Core contributions</tspan>
+  </text>
+  <text x="124" y="326" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Monument to the People’s Heroes</tspan>
+  </text>
+  <text x="84" y="358" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>Propose a creative modification: changing the stepped seating around the perimeter from one tier to two</tspan>
+  </text>
+  <text x="84" y="380" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>Enlarge the pedestal to better match the scale of Tiananmen Square</tspan>
+  </text>
+  <text x="84" y="406" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Using the Tang Dynasty style as a blueprint, personally designing the complete set of decorative motifs for the stele base</tspan>
+  </text>
+  <text x="84" y="428" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Especially the garland reliefs on the bases of the Little Sumeru steles</tspan>
+  </text>
+  <text x="84" y="450" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#C9A96E">
+    <tspan>An Important Work from the Final Years of His Life, a Monumental Achievement in His Architectural Career</tspan>
+  </text>
+
+  
+  <rect x="60" y="480" width="640" height="100" rx="10" fill="#16213E" stroke="#8B6F47" stroke-width="1" />
+  <rect x="60" y="480" width="4" height="100" rx="2" fill="#8B6F47" />
+  <use data-icon="chunk/crown" x="84" y="498" width="28" height="28" fill="#8B6F47" />
+  <text x="124" y="507" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#8B6F47">
+    <tspan>1955 · Eternal</tspan>
+  </text>
+  <text x="124" y="534" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Architect Lin Huiyin's Tomb</tspan>
+  </text>
+  <text x="84" y="564" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Buried at Babaoshan Revolutionary Cemetery, with only seven characters on the gravestone</tspan>
+  </text>
+
+  
+  <rect x="730" y="120" width="490" height="540" rx="12" fill="#16213E" />
+  <image href="../images/monument.png" x="730" y="120" width="490" height="500" preserveAspectRatio="xMidYMid slice" />
+  <rect x="730" y="120" width="490" height="500" fill="url(#imgFade)" />
+  <text x="975" y="640" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="middle">
+    <tspan>Monument to the People’s Heroes  Image source: pixabay</tspan>
+  </text>
+
+  
+  <rect x="60" y="598" width="640" height="1" fill="#2A2A4A" />
+
+  
+  <text x="60" y="630" font-family="'Georgia', Georgia, serif" font-size="16" fill="#C9A96E" fill-opacity="0.7">
+    <tspan>"She devoted her final efforts to the national emblem and the Monument to the People's Heroes"</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>05 / 10</tspan>
+  </text>
+</svg>

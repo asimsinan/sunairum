@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F1E8" />
+
+  
+  <defs>
+    <clipPath id="zeng_round">
+      <rect x="60" y="160" width="500" height="500" rx="12" ry="12" />
+    </clipPath>
+  </defs>
+  <image href="../images/zengguofan_lamp.png" x="60" y="160" width="500" height="500" preserveAspectRatio="xMidYMid slice" clip-path="url(#zeng_round)" />
+  <rect x="60" y="160" width="500" height="500" rx="12" ry="12" fill="none" stroke="#C8C0AE" stroke-width="1" />
+
+  
+  <text x="60" y="80" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="317.2" lengthAdjust="spacingAndGlyphs">Zeng Guofan · The Power of Plodding</text>
+  <line x1="60" y1="100" x2="160" y2="100" stroke="#A52A2A" stroke-width="3" />
+  <text x="60" y="135" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="2">Not by being clever · By leaning into "clumsiness" until it turns the situation in your favor</text>
+
+  
+  <g transform="translate(620, 200)">
+    
+    <text x="0" y="0" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#8B8680" letter-spacing="3" textLength="198.0" lengthAdjust="spacingAndGlyphs">He was not known for his intelligence early on</text>
+    <text x="0" y="36" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#8B8680" letter-spacing="3">Often Even Considered Dull</text>
+
+    <line x1="0" y1="70" x2="80" y2="70" stroke="#A52A2A" stroke-width="2" />
+
+    
+    <text x="0" y="125" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.38" font-weight="700" fill="#1A1A1A" letter-spacing="6">Dumb  Work</text>
+    <text x="0" y="160" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" textLength="189.9" lengthAdjust="spacingAndGlyphs">Read a book word by word; don’t skip lines</text>
+
+    <text x="0" y="220" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="29.11" font-weight="700" fill="#1A1A1A" letter-spacing="6">Slow Craft</text>
+    <text x="0" y="255" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852">Write in a diary every day, without interruption for thirty years</text>
+
+    <text x="0" y="315" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="28.00" font-weight="700" fill="#1A1A1A" letter-spacing="6" textLength="146.4" lengthAdjust="spacingAndGlyphs">Deep expertise</text>
+    <text x="0" y="350" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852">Don't chase a momentary advantage or grasp for an inch of cleverness.</text>
+
+    
+    <rect x="0" y="390" width="600" height="80" fill="#1A1A1A" />
+    <rect x="0" y="390" width="6" height="80" fill="#A52A2A" />
+    <text x="24" y="424" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F1E8" letter-spacing="3" textLength="195.1" lengthAdjust="spacingAndGlyphs">Awkward to the core · is discipline</text>
+    <text x="24" y="456" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#C8C0AE" letter-spacing="2">Only when his composure is strong enough will circumstances gradually turn in his favor</text>
+  </g>
+
+  
+  <text x="60" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="58.9" lengthAdjust="spacingAndGlyphs">Concealing One’s Brilliance · Ten</text>
+  <text x="1220" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">12</text>
+</svg>

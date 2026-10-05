@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F6F1E8" />
+  <rect x="48" y="48" width="1184" height="624" fill="none" stroke="#D8CBB8" stroke-width="1.5" />
+
+  <g id="image-block">
+    <rect x="124" y="106" width="380" height="508" fill="#EFE7DA" stroke="#D8CBB8" stroke-width="1.5" />
+    <image href="../images/lin_tomb.png" x="124" y="106" width="380" height="508" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  <g id="closing-text">
+    <text x="586" y="164" font-family="Arial, Helvetica, sans-serif" font-size="23.80" fill="#1F1B16" font-weight="700">The seven characters on the tombstone are accurate enough</text>
+    <text x="586" y="218" font-family="Arial, Helvetica, sans-serif" font-size="33.60" fill="#A44A3F" font-weight="700" textLength="336.0" lengthAdjust="spacingAndGlyphs">Architect Lin Huiyin's Tomb</text>
+    <line x1="586" y1="242" x2="910" y2="242" stroke="#B6915E" stroke-width="3" />
+
+    <text x="586" y="316" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1F1B16">To understand her anew is not to move from legend back to gossip,</text>
+    <text x="586" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1F1B16">But rather, returning from gossip to the profession.</text>
+
+    <text x="586" y="412" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1F1B16">She was a key builder among China’s first generation of architectural scholars,</text>
+    <text x="586" y="444" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1F1B16">What she left behind was not only works, but also a language for understanding Chinese architecture.</text>
+
+    <use data-icon="tabler-outline/building-monument" x="586" y="516" width="24" height="24" fill="#A44A3F" />
+    <text x="622" y="535" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">When a title is corrected, its historical position is corrected as well.</text>
+
+    <text x="586" y="640" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#978C7E">09</text>
+  </g>
+</svg>

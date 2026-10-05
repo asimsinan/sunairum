@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="insightClip"><rect x="656" y="194" width="560" height="315" rx="16" /></clipPath>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  <g id="header">
+    <rect x="64" y="60" width="6" height="56" rx="3" fill="#E8743B" />
+    <text x="86" y="92" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="800" fill="#1B3A5C" textLength="291.2" lengthAdjust="spacingAndGlyphs">The weight update is actually "low-rank"</text>
+    <text x="88" y="122" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#8A94A1" letter-spacing="1">THE LOW INTRINSIC-RANK HYPOTHESIS</text>
+  </g>
+
+  <g id="figure">
+    <rect x="656" y="194" width="560" height="315" rx="16" fill="#F4F7FA" />
+    <image href="../images/lowrank_insight.png" x="656" y="194" width="560" height="315" preserveAspectRatio="xMidYMid meet" clip-path="url(#insightClip)" id="_edit_7" />
+    <rect x="656" y="194" width="560" height="315" rx="16" fill="none" stroke="#D8DEE6" stroke-width="1.5" />
+    <text x="656" y="535" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8A94A1">High-dimensional weight updates collapsing into a low-dimensional subspace (schematic)</text>
+  </g>
+
+  <g id="statements">
+    <text x="64" y="248" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1B3A5C" textLength="97.6" lengthAdjust="spacingAndGlyphs">① Existing Evidence</text>
+    <text x="64" y="284" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1D2733">The overparameterized model is actually located at<tspan font-weight="800" fill="#1B3A5C">Low Intrinsic Dimensionality</tspan>Up</text>
+    <text x="64" y="310" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#8A94A1">Li et al. 2018;Aghajanyan et al. 2020</text>
+
+    <text x="64" y="372" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1B3A5C" textLength="97.6" lengthAdjust="spacingAndGlyphs">② Assumption in This Paper</text>
+    <text x="64" y="408" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1D2733" textLength="149.9" lengthAdjust="spacingAndGlyphs">Weight changes during adaptation <tspan font-style="italic">ΔW</tspan> Also has low<tspan font-weight="800" fill="#1B3A5C">"Inner order"</tspan></text>
+
+    <text x="64" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1B3A5C" textLength="57.6" lengthAdjust="spacingAndGlyphs">③ Deduction</text>
+    <text x="64" y="506" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1D2733">Even if <tspan font-style="italic">d</tspan> Gundam <tspan font-weight="800">12,288</tspan>,Extremely low rank <tspan font-style="italic" font-weight="800" fill="#E8743B">r(1~2)</tspan>Also sufficient</text>
+  </g>
+
+  <g id="footer">
+    <text x="64" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11" fill="#8A94A1">Source: LoRA §1, §4.1 · Hu et al. 2021</text>
+    <text x="1216" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#8A94A1">05 / 15</text>
+  </g>
+</svg>

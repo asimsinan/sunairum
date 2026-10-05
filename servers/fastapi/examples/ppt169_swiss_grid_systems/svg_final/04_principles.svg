@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFFFFF" />
+  </g>
+
+  <g id="header">
+    <text x="64" y="60" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" letter-spacing="2">P · 04</text>
+    <text x="64" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="900" fill="#1A1A1A" textLength="192.0" lengthAdjust="spacingAndGlyphs">Eight core principles</text>
+    <text x="64" y="148" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="14" fill="#666666" letter-spacing="2">EIGHT PRINCIPLES OF SWISS DESIGN</text>
+    <line x1="64" y1="172" x2="120" y2="172" stroke="#D9251D" stroke-width="3" />
+  </g>
+
+  
+  
+
+  <g id="principle-1">
+    <text x="64" y="244" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">01</text>
+    <line x1="64" y1="276" x2="280" y2="276" stroke="#1A1A1A" stroke-width="1" />
+    <text x="64" y="302" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A" textLength="108.0" lengthAdjust="spacingAndGlyphs">Objectivity before expression</text>
+    <text x="64" y="324" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">OBJECTIVITY OVER EXPRESSION</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="64" y="354" textLength="78.0" lengthAdjust="spacingAndGlyphs">Information communication takes precedence over</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="64" y="372" textLength="98.1" lengthAdjust="spacingAndGlyphs">The designer’s personal emotions.</text></g>
+
+  <g id="principle-2">
+    <text x="368" y="244" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">02</text>
+    <line x1="368" y1="276" x2="584" y2="276" stroke="#1A1A1A" stroke-width="1" />
+    <text x="368" y="302" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A" textLength="126.0" lengthAdjust="spacingAndGlyphs">A mathematical grid as the framework</text>
+    <text x="368" y="324" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">MATHEMATICAL GRID</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="368" y="354" textLength="99.4" lengthAdjust="spacingAndGlyphs">Columns, rows, spacing, modules</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="368" y="372" textLength="111.2" lengthAdjust="spacingAndGlyphs">All are derived from basic units.</text></g>
+
+  <g id="principle-3">
+    <text x="672" y="244" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">03</text>
+    <line x1="672" y1="276" x2="888" y2="276" stroke="#1A1A1A" stroke-width="1" />
+    <text x="672" y="302" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A" textLength="90.0" lengthAdjust="spacingAndGlyphs">Asymmetrical composition</text>
+    <text x="672" y="324" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">ASYMMETRIC LAYOUT</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="672" y="354" textLength="78.0" lengthAdjust="spacingAndGlyphs">Reject classical symmetry</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="672" y="372" textLength="98.1" lengthAdjust="spacingAndGlyphs">The central authority it brought.</text></g>
+
+  <g id="principle-4">
+    <text x="976" y="244" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">04</text>
+    <line x1="976" y1="276" x2="1192" y2="276" stroke="#1A1A1A" stroke-width="1" />
+    <text x="976" y="302" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A">Sans-serif font</text>
+    <text x="976" y="324" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">SANS-SERIF TYPOGRAPHY</text>
+    <text font-size="13" font-family="Arial, &quot;Georgia&quot;, sans-serif" fill="#666666" x="976" y="354">Akzidenz · Helvetica</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="976" y="372" textLength="113.5" lengthAdjust="spacingAndGlyphs">Univers forms a three-way balance.</text></g>
+
+  <g id="principle-5">
+    <text x="64" y="484" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">05</text>
+    <line x1="64" y1="516" x2="280" y2="516" stroke="#1A1A1A" stroke-width="1" />
+    <text x="64" y="542" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A" textLength="90.0" lengthAdjust="spacingAndGlyphs">Aligned left, uneven right</text>
+    <text x="64" y="564" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">FLUSH-LEFT RAGGED-RIGHT</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="64" y="594" textLength="52.0" lengthAdjust="spacingAndGlyphs">Even Letterspacing</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="64" y="612" textLength="85.1" lengthAdjust="spacingAndGlyphs">The reading pace is steady.</text></g>
+
+  <g id="principle-6">
+    <text x="368" y="484" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">06</text>
+    <line x1="368" y1="516" x2="584" y2="516" stroke="#1A1A1A" stroke-width="1" />
+    <text x="368" y="542" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A" textLength="72.0" lengthAdjust="spacingAndGlyphs">Objective photography</text>
+    <text x="368" y="564" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">OBJECTIVE PHOTOGRAPHY</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="368" y="594" textLength="91.0" lengthAdjust="spacingAndGlyphs">Replacing decorative illustrations</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="368" y="612" textLength="85.1" lengthAdjust="spacingAndGlyphs">Modern photography makes its debut.</text></g>
+
+  <g id="principle-7">
+    <text x="672" y="484" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">07</text>
+    <line x1="672" y1="516" x2="888" y2="516" stroke="#D9251D" stroke-width="2" />
+    <text x="672" y="542" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#D9251D" textLength="90.0" lengthAdjust="spacingAndGlyphs">Whitespace is structure</text>
+    <text x="672" y="564" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">NEGATIVE SPACE AS STRUCTURE</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="672" y="594" textLength="104.0" lengthAdjust="spacingAndGlyphs">Blank Space Is the Carrier of Information</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="672" y="612" textLength="59.1" lengthAdjust="spacingAndGlyphs">Rather than what was left over.</text></g>
+
+  <g id="principle-8">
+    <text x="976" y="484" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="48" font-weight="900" fill="#E8E8E8">08</text>
+    <line x1="976" y1="516" x2="1192" y2="516" stroke="#1A1A1A" stroke-width="1" />
+    <text x="976" y="542" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#1A1A1A" textLength="126.0" lengthAdjust="spacingAndGlyphs">Repeatable and scalable</text>
+    <text x="976" y="564" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="1">REPRODUCIBLE AT SCALE</text>
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="976" y="594" textLength="85.1" lengthAdjust="spacingAndGlyphs">Cross-language, cross-media</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" x="976" y="612" textLength="72.1" lengthAdjust="spacingAndGlyphs">Reuse across scales.</text></g>
+
+  <g id="page-footer">
+    <text x="1216" y="688" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" text-anchor="end" letter-spacing="1">04 / 14</text>
+  </g>
+</svg>

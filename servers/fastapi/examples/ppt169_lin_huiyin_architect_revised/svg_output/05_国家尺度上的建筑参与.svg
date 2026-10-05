@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F6F1E8" />
+  <rect x="48" y="48" width="1184" height="624" fill="none" stroke="#D8CBB8" stroke-width="1.5" />
+
+  <g id="monument-panel">
+    <rect x="660" y="48" width="572" height="624" fill="#EFE7DA" />
+    <image href="../images/monument.png" x="742" y="90" width="390" height="492" preserveAspectRatio="xMidYMid slice" />
+    <rect x="660" y="560" width="572" height="112" fill="#F6F1E8" />
+    <text x="690" y="604" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A6258">The Monument to the People’s Heroes and Babaoshan Revolutionary Cemetery show that her architectural practice had entered the realm of national memory.</text>
+  </g>
+
+  <g id="left-text">
+    <text x="86" y="96" font-family="Arial, Helvetica, sans-serif" font-size="23.80" fill="#1F1B16" font-weight="700" textLength="340.0" lengthAdjust="spacingAndGlyphs">Architectural Engagement at the National Scale</text>
+    <text x="86" y="124" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#6A6258">Not peripheral participation, but critical spatial judgment and stylistic treatment.</text>
+    <line x1="86" y1="140" x2="612" y2="140" stroke="#D8CBB8" stroke-width="1.5" />
+
+    <use data-icon="tabler-outline/building-monument" x="86" y="190" width="22" height="22" fill="#A44A3F" />
+    <text x="122" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="154.0" lengthAdjust="spacingAndGlyphs">Babaoshan Revolutionary Cemetery</text>
+    <text x="122" y="242" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">She oversaw the layout of the principal buildings, integrating temples, gardens, and commemorative spaces into a new national memorial site.</text>
+
+    <use data-icon="tabler-outline/building-monument" x="86" y="312" width="22" height="22" fill="#A44A3F" />
+    <text x="122" y="330" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="154.0" lengthAdjust="spacingAndGlyphs">Monument to the People’s Heroes</text>
+    <text x="122" y="364" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">She proposed widening the monument’s base and adjusting the tiers of its steps to better coordinate the monument with the scale of the square, and personally designed its decorative patterns.</text>
+
+    <rect x="86" y="438" width="490" height="116" rx="14" fill="#EFE7DA" stroke="#D8CBB8" stroke-width="1.5" />
+    <text x="112" y="476" font-family="Arial, Helvetica, sans-serif" font-size="19.60" fill="#A44A3F" font-weight="700" textLength="254.8" lengthAdjust="spacingAndGlyphs">She is not an “auxiliary designer.”</text>
+    <text x="112" y="512" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16">But rather, in the scale, order, and decorative vocabulary of national memorial architecture</text>
+    <text x="112" y="540" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#1F1B16" textLength="207.9" lengthAdjust="spacingAndGlyphs">Left a clear and recognizable judgment.</text>
+
+    <text x="86" y="640" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#978C7E">05</text>
+  </g>
+</svg>

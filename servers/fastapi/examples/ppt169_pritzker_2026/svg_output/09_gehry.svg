@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect x="0" y="0" width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="p09-header">
+    <text x="60" y="60" font-family="Georgia, serif" font-size="14" fill="#B8935A" letter-spacing="3">07 · FINAL MAGNUM OPUS</text>
+    <text x="60" y="124" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="32.20" font-weight="bold" fill="#1C1C1C">The swan song of deconstructionism in the desert</text>
+    <line x1="60" y1="156" x2="180" y2="156" stroke="#B8935A" stroke-width="3" />
+    <text x="60" y="194" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17.95" fill="#5C5852" font-style="italic">Frank Gehry · Abu Dhabi Guggenheim Museum · Opening in 2026</text>
+    <text x="60" y="222" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.39" fill="#8B8680">1989 Pritzker Prize winner · Frank Gehry (1929 — 2025) masterwork</text>
+  </g>
+
+  <g id="frame-1">
+    <rect x="60" y="270" width="540" height="320" fill="none" stroke="#D4CFC4" stroke-width="1" />
+    <image href="../images/gehry_abu_dhabi_render1.png" x="72" y="282" width="516" height="296" preserveAspectRatio="xMidYMid slice" />
+    <text x="60" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852">Rendering · Main view</text>
+    <text x="60" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680">Irregular surfaces · Dynamic folds · Highly impactful geometric forms</text>
+  </g>
+
+  <g id="frame-2">
+    <rect x="630" y="270" width="280" height="200" fill="none" stroke="#D4CFC4" stroke-width="1" />
+    <image href="../images/gehry_abu_dhabi_render2.png" x="642" y="282" width="256" height="176" preserveAspectRatio="xMidYMid slice" />
+    <text x="630" y="492" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680">Second angle</text>
+  </g>
+
+  <g id="frame-3">
+    <rect x="940" y="270" width="280" height="200" fill="none" stroke="#D4CFC4" stroke-width="1" />
+    <image href="../images/gehry_abu_dhabi_render3.png" x="952" y="282" width="256" height="176" preserveAspectRatio="xMidYMid slice" />
+    <text x="940" y="492" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680" textLength="44.0" lengthAdjust="spacingAndGlyphs">Bird’s-eye view</text>
+  </g>
+
+  <g id="manifesto">
+    <line x1="630" y1="530" x2="630" y2="630" stroke="#B8935A" stroke-width="2" />
+    <text x="650" y="558" font-family="Georgia, serif" font-size="14" fill="#B8935A" letter-spacing="2">FINAL STATEMENT</text>
+    <text x="650" y="592" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="bold" fill="#1C1C1C">Nearly 20 years of dedication · Experiments in form at the end of a life</text>
+    <text x="650" y="618" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852">Metal façade textures shift with the changing sunlight · Custom shading system for the desert’s extreme climate</text>
+    <text x="650" y="640" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B8935A" font-style="italic">Architecture Without Boundaries · Creativity Without Limits</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="688" x2="1220" y2="688" stroke="#D4CFC4" stroke-width="1" />
+    <text x="60" y="710" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680">Image source · Gehry Partners — the deconstructivist master’s final chapter</text>
+    <text x="1220" y="710" text-anchor="end" font-family="Georgia, serif" font-size="11" fill="#8B8680">09 / 11</text>
+  </g>
+</svg>

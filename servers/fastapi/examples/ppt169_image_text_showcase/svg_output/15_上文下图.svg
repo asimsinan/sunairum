@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="jewelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1A2E" />
+      <stop offset="100%" stop-color="#1A0A2E" />
+    </linearGradient>
+    <linearGradient id="emeraldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A6B4A" />
+      <stop offset="100%" stop-color="#0A8A6A" />
+    </linearGradient>
+    <linearGradient id="sapphireAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A3A6B" />
+      <stop offset="100%" stop-color="#0A4A8A" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4A016" />
+      <stop offset="100%" stop-color="#F5C040" />
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A6B4A" />
+      <stop offset="33%" stop-color="#1A3A6B" />
+      <stop offset="66%" stop-color="#D4A016" />
+      <stop offset="100%" stop-color="#7C3A7A" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#jewelBg)" />
+
+  
+  
+  <text x="640" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="9.50" fill="#9090A0" letter-spacing="3">P15  ·  flat × jewel-tone  ·  text above, image below</text>
+
+  
+  <text x="640" y="100" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="36.40" font-weight="bold" fill="#E8E8F0" textLength="208.0" lengthAdjust="spacingAndGlyphs">Text above, image below</text>
+  <text x="640" y="138" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="17.43" fill="#9090A0">Top Text · Bottom Image · equal dialogue</text>
+
+  
+  <rect x="240" y="154" width="200" height="3" rx="1.5" fill="url(#emeraldAccent)" />
+  <rect x="448" y="154" width="200" height="3" rx="1.5" fill="url(#sapphireAccent)" />
+  <rect x="656" y="154" width="200" height="3" rx="1.5" fill="url(#goldAccent)" />
+
+  
+  <text x="640" y="200" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#E8E8F0">An image in a flat design style is placed in the lower half,</text>
+  <text x="640" y="228" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#E8E8F0">The text breathes independently at the top, with image and text each occupying half,</text>
+  <text x="640" y="256" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.51" fill="#9090A0">Create an equal visual dialogue.</text>
+
+  
+  <rect x="324" y="292" width="40" height="24" rx="3" fill="#1A6B4A" />
+  <text x="374" y="309" font-family="Arial, sans-serif" font-size="9.80" fill="#6A9A7A" textLength="42.0" lengthAdjust="spacingAndGlyphs">Emerald green</text>
+  <rect x="484" y="292" width="40" height="24" rx="3" fill="#1A3A6B" />
+  <text x="534" y="309" font-family="Arial, sans-serif" font-size="10.02" fill="#6A8AAA">Sapphire</text>
+  <rect x="644" y="292" width="40" height="24" rx="3" fill="#D4A016" />
+  <text x="694" y="309" font-family="Arial, sans-serif" font-size="14" fill="#AAAA6A">Gold</text>
+  <rect x="804" y="292" width="40" height="24" rx="3" fill="#7C3A7A" />
+  <text x="854" y="309" font-family="Arial, sans-serif" font-size="9.80" fill="#AA7AAA" textLength="28.0" lengthAdjust="spacingAndGlyphs">Amethyst</text>
+
+  
+  <rect x="0" y="340" width="1280" height="4" fill="url(#dividerGrad)" />
+
+  
+  <image href="../images/p15_bottom_img.png" x="0" y="344" width="1280" height="376" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="344" width="1280" height="40" fill="url(#jewelBg)" fill-opacity="0.4" />
+
+  
+  <rect x="0" y="688" width="1280" height="32" fill="#0A1A2E" fill-opacity="0.7" />
+  <text x="640" y="708" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#9090A0" letter-spacing="2">flat design · bird's-eye workspace · jewel-tone palette</text>
+  <text x="1240" y="708" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72">15</text>
+</svg>

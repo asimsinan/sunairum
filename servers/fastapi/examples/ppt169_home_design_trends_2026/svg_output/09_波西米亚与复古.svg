@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow09" x="-15%" y="-15%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+      <feOffset dx="0" dy="5" result="offsetBlur" />
+      <feFlood flood-color="#000000" flood-opacity="0.18" result="shadowColor" />
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow" />
+      <feMerge>
+        <feMergeNode in="shadow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="leftImgClip09">
+      <rect x="60" y="130" width="380" height="450" rx="12" />
+    </clipPath>
+    <clipPath id="rightImgClip09">
+      <rect x="710" y="130" width="510" height="290" rx="12" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1714" />
+
+  
+  <g id="p09-header">
+    <use data-icon="tabler-filled/star" x="60" y="25" width="24" height="24" fill="#D4956A" />
+    <text x="92" y="44" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14" fill="#8B7355" letter-spacing="3">
+      2026 Trends
+    </text>
+    <text x="60" y="95" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="bold" fill="#E8E0D4">
+      A free spirit and memories of time
+    </text>
+  </g>
+
+  
+  <g id="p09-bohemian" filter="url(#cardShadow09)">
+    <image href="../images/bohemian_style.png" x="60" y="130" width="380" height="450" preserveAspectRatio="xMidYMid slice" clip-path="url(#leftImgClip09)" />
+    <rect x="60" y="510" width="380" height="70" fill="#1A1714" fill-opacity="0.75" />
+    <text x="80" y="543" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.62" font-weight="bold" fill="#D4956A">
+      Bohemian style
+    </text>
+    <text x="80" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#B0A08E" textLength="148.2" lengthAdjust="spacingAndGlyphs">
+      A layered sense of nonconformity
+    </text>
+  </g>
+
+  
+  <g id="p09-bohemian-desc">
+    <rect x="470" y="130" width="210" height="450" rx="10" fill="#2A2520" />
+    <rect x="470" y="130" width="210" height="4" rx="2" fill="#D4956A" />
+    <text x="490" y="170" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15" fill="#D4956A" font-weight="bold">
+      Bohemia
+    </text>
+    <text x="490" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.07" fill="#B0A08E">
+      Bold colors
+    </text>
+    <text x="490" y="225" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#B0A08E" textLength="145.6" lengthAdjust="spacingAndGlyphs">
+      Free-form fabric combinations
+    </text>
+    <text x="490" y="250" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.86" fill="#B0A08E">
+      Handwoven tapestry
+    </text>
+    <text x="490" y="275" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#B0A08E">
+      Ethnic-style cushions
+    </text>
+    <text x="490" y="300" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#B0A08E" textLength="145.6" lengthAdjust="spacingAndGlyphs">
+      Tasseled curtains and lampshades
+    </text>
+    <rect x="490" y="325" width="170" height="1" fill="#3D362E" />
+    <text x="490" y="355" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.64" fill="#C4A882" font-weight="bold">
+      Nostalgic Retro
+    </text>
+    <text x="490" y="385" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.39" fill="#B0A08E">
+      Weathered wood
+    </text>
+    <text x="490" y="410" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#B0A08E">
+      Slightly rusted wrought iron
+    </text>
+    <text x="490" y="435" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#B0A08E" textLength="159.6" lengthAdjust="spacingAndGlyphs">
+      Willow weaving refined by time
+    </text>
+    <text x="490" y="460" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.89" fill="#B0A08E">
+      Cotton fabrics · Soft tones
+    </text>
+    <text x="490" y="495" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.24" fill="#7A6E60">
+      Material itself is
+    </text>
+    <text x="490" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#7A6E60" textLength="122.2" lengthAdjust="spacingAndGlyphs">
+      The vehicle for the story
+    </text>
+  </g>
+
+  
+  <g id="p09-retro" filter="url(#cardShadow09)">
+    <image href="../images/retro_style.png" x="710" y="130" width="510" height="290" preserveAspectRatio="xMidYMid slice" clip-path="url(#rightImgClip09)" />
+    <rect x="710" y="355" width="510" height="65" fill="#1A1714" fill-opacity="0.75" />
+    <text x="730" y="388" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="bold" fill="#C4A882">
+      Nostalgic Retro Style
+    </text>
+    <text x="730" y="410" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#B0A08E">
+      Reinterpretation incorporating personal memories
+    </text>
+  </g>
+
+  
+  <g id="p09-insight">
+    <rect x="710" y="450" width="510" height="130" rx="10" fill="#2A2520" />
+    <rect x="710" y="450" width="510" height="3" fill="#8B7355" />
+    <text x="730" y="485" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.06" font-weight="bold" fill="#E8E0D4">
+      Common features
+    </text>
+    <text x="730" y="515" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#B0A08E">
+      A Deep Longing for Authenticity and Emotion
+    </text>
+    <text x="730" y="545" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.92" fill="#B0A08E">
+      Make home a vessel for memories
+    </text>
+    <text x="730" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.97" fill="#8B7355" font-style="italic">
+      "Free, yet never chaotic"
+    </text>
+  </g>
+
+  
+  <text x="1210" y="690" text-anchor="end" font-family="Georgia, Georgia, serif" font-size="12" fill="#7A6E60">
+    09 / 12
+  </text>
+
+  
+  <rect x="60" y="660" width="1160" height="1" fill="#3D362E" />
+  <text x="60" y="690" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#7A6E60">
+    Image source: “The Sophistication of Space” · unsplash
+  </text>
+</svg>

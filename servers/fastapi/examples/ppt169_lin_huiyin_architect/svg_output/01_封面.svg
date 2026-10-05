@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A96E" />
+      <stop offset="100%" stop-color="#E8D5B7" />
+    </linearGradient>
+    
+    <linearGradient id="overlayGrad" x1="0%" y1="0%" x2="1%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A2E" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#1A1A2E" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0.85" />
+    </linearGradient>
+    
+    <linearGradient id="leftMask" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1A1A2E" stop-opacity="0.92" />
+      <stop offset="60%" stop-color="#1A1A2E" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#1A1A2E" stop-opacity="0.15" />
+    </linearGradient>
+    
+    <linearGradient id="bottomDecor" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0" />
+      <stop offset="50%" stop-color="#C9A96E" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </linearGradient>
+    
+    <filter id="shadow1">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" />
+      <feOffset dx="0" dy="3" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.3" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+
+  
+  <image href="../images/cover_bg.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect width="1280" height="720" fill="url(#overlayGrad)" />
+  
+  <rect width="1280" height="720" fill="url(#leftMask)" />
+
+  
+  <rect x="60" y="160" width="4" height="120" fill="#C9A96E" fill-opacity="0.8" />
+  <rect x="60" y="160" width="4" height="40" fill="#E8D5B7" />
+
+  
+  <text x="80" y="190" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#A0A0B0" letter-spacing="6">
+    <tspan>70th Anniversary of Her Death · Commemorative Feature</tspan>
+  </text>
+
+  
+  <text x="80" y="260" font-family="'Georgia', Georgia, serif" font-size="54" font-weight="bold" fill="url(#titleGrad)">
+    <tspan>Lin Huiyin</tspan>
+  </text>
+
+  
+  <text x="80" y="320" font-family="'Georgia', Georgia, serif" font-size="36" fill="#E8E8E8">
+    <tspan>Obscured by the aura of literature</tspan>
+  </text>
+  <text x="80" y="370" font-family="'Georgia', Georgia, serif" font-size="36" fill="#E8E8E8">
+    <tspan>Master Architect</tspan>
+  </text>
+
+  
+  <text x="80" y="430" font-family="'Georgia', Arial, sans-serif" font-size="20" fill="#C9A96E" fill-opacity="0.9">
+    <tspan>Witness the power of women in Chinese architectural history</tspan>
+  </text>
+
+  
+  <rect x="80" y="460" width="200" height="1" fill="#C9A96E" fill-opacity="0.4" />
+
+  
+  <text x="80" y="500" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#6B6B80">
+    <tspan>She was unquestionably an architect and China’s first female architectural scholar</tspan>
+  </text>
+
+  
+  <image href="../images/lin_portrait.png" x="780" y="80" width="420" height="560" preserveAspectRatio="xMidYMid slice" opacity="0.6" />
+
+  
+  <rect x="0" y="680" width="1280" height="2" fill="url(#bottomDecor)" />
+
+  
+  <text x="80" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80">
+    <tspan>Phoenix Space · 2025</tspan>
+  </text>
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>01 / 10</tspan>
+  </text>
+</svg>

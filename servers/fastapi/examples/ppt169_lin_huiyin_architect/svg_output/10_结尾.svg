@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C9A96E" />
+      <stop offset="100%" stop-color="#E8D5B7" />
+    </linearGradient>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0" />
+      <stop offset="30%" stop-color="#C9A96E" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#E8D5B7" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#E8D5B7" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="bottomLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0" />
+      <stop offset="50%" stop-color="#C9A96E" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <rect x="638" y="100" width="3" height="440" fill="url(#lineGrad)" />
+
+  
+  <text x="640" y="230" font-family="'Georgia', Georgia, serif" font-size="54" font-weight="bold" fill="url(#titleGrad)" text-anchor="middle">
+    <tspan>Architect Lin Huiyin's Tomb</tspan>
+  </text>
+
+  
+  <rect x="560" y="260" width="160" height="1" fill="#C9A96E" fill-opacity="0.4" />
+
+  
+  <text x="640" y="310" font-family="'Georgia', Georgia, serif" font-size="28" fill="#E8E8E8" text-anchor="middle">
+    <tspan>She proved through a lifetime</tspan>
+  </text>
+  <text x="640" y="350" font-family="'Georgia', Georgia, serif" font-size="28" fill="#E8D5B7" text-anchor="middle">
+    <tspan>She was unquestionably an architect</tspan>
+  </text>
+
+  
+  <rect x="600" y="380" width="80" height="1" fill="#8B6F47" fill-opacity="0.5" />
+
+  
+  <text x="640" y="420" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#A0A0B0" text-anchor="middle">
+    <tspan>1904 — 1955</tspan>
+  </text>
+
+  
+  <text x="640" y="470" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#6B6B80" text-anchor="middle">
+    <tspan>China’s first female architect · Core member of the Society for Research in Chinese Architecture</tspan>
+  </text>
+  <text x="640" y="495" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#6B6B80" text-anchor="middle">
+    <tspan>Designer of the Monument to the People's Heroes · Founder of Chinese architectural theory</tspan>
+  </text>
+
+  
+  <rect x="200" y="560" width="880" height="1" fill="url(#bottomLine)" />
+
+  
+  <text x="640" y="600" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#6B6B80" text-anchor="middle">
+    <tspan>Content source · Phoenix Space, 《Lin Huiyin on Chinese Architecture》</tspan>
+  </text>
+  <text x="640" y="625" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="middle" fill-opacity="0.6">
+    <tspan>Sources: “Lin Huiyin on Chinese Architecture” and “Lin Huiyin Posthumously Awarded a Degree in Architecture”</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>10 / 10</tspan>
+  </text>
+</svg>

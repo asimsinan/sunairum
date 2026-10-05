@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="lvOverlay" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0" />
+      <stop offset="40%" stop-color="#0A0A0A" stop-opacity="0.5" />
+      <stop offset="70%" stop-color="#0A0A0A" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.96" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <image href="../images/lv_objets.jpg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect width="1280" height="720" fill="url(#lvOverlay)" />
+
+  
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.8" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="500" height="1" fill="#C9A96E" fill-opacity="0.25" />
+
+  
+  <text x="70" y="140" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" letter-spacing="4">LOUIS VUITTON</text>
+
+  
+  <use data-icon="phosphor-duotone/house" x="70" y="160" width="32" height="32" fill="#C9A96E" />
+
+  
+  <text x="70" y="240" font-family="Georgia, Georgia, serif" font-size="36" fill="#F5F0EB" font-weight="bold">Objets Nomades</text>
+  <text x="70" y="275" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#E8D5B5" textLength="132.0" lengthAdjust="spacingAndGlyphs">Travel Home Collection</text>
+
+  
+  <rect x="70" y="295" width="100" height="2" fill="#C9A96E" />
+
+  
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="17" fill="#F5F0EB">
+    <tspan x="70" y="335">Milan Design Week launches a brand-new travel home collection,</tspan>
+    <tspan x="70" dy="28">Paying tribute to Art Deco and contemporary design in exhibition form.</tspan>
+  </text>
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="17" fill="#F5F0EB">
+    <tspan x="70" y="415">Focusing on the Pierre Legrain Hommage series,</tspan>
+    <tspan x="70" dy="28">Recreating the classic furniture and accessories of an Art Deco master.</tspan>
+  </text>
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="17" fill="#F5F0EB">
+    <tspan x="70" y="495">Campana Studio, Raw Edges, and Franck</tspan>
+    <tspan x="70" dy="28">Genser and Other Contemporary Designers Present New Works Together.</tspan>
+  </text>
+
+  
+  <rect x="70" y="575" width="440" height="2" fill="#2A2520" />
+  <text x="70" y="608" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.43" fill="#E8D5B5" font-style="italic">Collar Lounge Chair · Aqua Dining Table · Flower Puzzle</text>
+  <text x="70" y="632" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">A lifestyle art experience where exquisite craftsmanship meets creativity</text>
+
+  
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">05 / 16</text>
+</svg>

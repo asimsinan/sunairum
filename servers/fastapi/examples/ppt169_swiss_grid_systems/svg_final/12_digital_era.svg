@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFFFFF" />
+  </g>
+
+  <g id="header">
+    <text x="64" y="60" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" letter-spacing="2">P · 12</text>
+    <text x="64" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="900" fill="#1A1A1A" textLength="224.0" lengthAdjust="spacingAndGlyphs">The continuation of the digital age</text>
+    <text x="64" y="148" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="14" fill="#666666" letter-spacing="2">THE GRID ON SCREEN · 2008 — TODAY</text>
+    <line x1="64" y1="172" x2="120" y2="172" stroke="#D9251D" stroke-width="3" />
+  </g>
+
+  
+  <g id="track">
+    
+    <line x1="130" y1="340" x2="1216" y2="340" stroke="#1A1A1A" stroke-width="2" />
+  </g>
+
+  
+
+  <g id="stage-1">
+    <text x="172" y="232" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="64" font-weight="900" fill="#E8E8E8">01</text>
+    <text x="200" y="276" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" text-anchor="middle" letter-spacing="2">2008</text>
+    <text x="200" y="312" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="18" font-weight="900" fill="#1A1A1A" text-anchor="middle">960 Grid System</text>
+    <circle cx="200" cy="340" r="8" fill="#1A1A1A" />
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="200" y="394">12 columns · 960px wide</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="200" y="414" textLength="104.0" lengthAdjust="spacingAndGlyphs">The First Time Applying Grid Grammar</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="200" y="434" textLength="77.7" lengthAdjust="spacingAndGlyphs">Bringing the system to the Web</text><text font-size="9.48" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="200" y="454">Produced by Nathan Smith</text></g>
+
+  <g id="stage-2">
+    <text x="452" y="232" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="64" font-weight="900" fill="#E8E8E8">02</text>
+    <text x="480" y="276" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" text-anchor="middle" letter-spacing="2">2011</text>
+    <text x="480" y="312" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.24" font-weight="900" fill="#1A1A1A" text-anchor="middle">Bootstrap 12-Column</text>
+    <circle cx="480" cy="340" r="8" fill="#1A1A1A" />
+    <text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="480" y="394" textLength="80.3" lengthAdjust="spacingAndGlyphs">Twitter open-sourced</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="480" y="414">The modular grid</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="480" y="434" textLength="78.0" lengthAdjust="spacingAndGlyphs">Democratized worldwide</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="480" y="454" textLength="78.0" lengthAdjust="spacingAndGlyphs">Front-end development essential</text></g>
+
+  <g id="stage-3">
+    <text x="732" y="232" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="64" font-weight="900" fill="#E8E8E8">03</text>
+    <text x="760" y="276" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" text-anchor="middle" letter-spacing="2">2017</text>
+    <text x="760" y="312" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="18" font-weight="900" fill="#1A1A1A" text-anchor="middle">CSS Grid</text>
+    <circle cx="760" cy="340" r="8" fill="#1A1A1A" />
+    <text font-size="9.55" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="760" y="394">Native browser grid</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="760" y="414" textLength="117.0" lengthAdjust="spacingAndGlyphs">Supported by all mainstream browsers</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="760" y="434" textLength="104.0" lengthAdjust="spacingAndGlyphs">The modular grid first became</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="760" y="454" textLength="103.7" lengthAdjust="spacingAndGlyphs">Web platform infrastructure</text></g>
+
+  <g id="stage-4">
+    <text x="1012" y="232" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="64" font-weight="900" fill="#D9251D">04</text>
+    <text x="1040" y="276" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" text-anchor="middle" letter-spacing="2">2020s</text>
+    <text x="1040" y="312" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="18" font-weight="900" fill="#D9251D" text-anchor="middle">Design Systems</text>
+    <circle cx="1040" cy="340" r="14" fill="#D9251D" />
+    <text font-size="13" font-family="Arial, &quot;Georgia&quot;, sans-serif" fill="#666666" text-anchor="middle" x="1040" y="394">Material · HIG · FAST</text><text font-size="9.48" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="1040" y="414">Corporate VI</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="1040" y="434" textLength="91.0" lengthAdjust="spacingAndGlyphs">A continuation on the screen</text><text font-size="9.10" font-family="Georgia, &quot;Times New Roman&quot;, serif" fill="#666666" text-anchor="middle" x="1040" y="454" textLength="91.0" lengthAdjust="spacingAndGlyphs">From Rules to a Component Library</text></g>
+
+  <g id="conclusion">
+    <line x1="64" y1="580" x2="64" y2="640" stroke="#D9251D" stroke-width="3" />
+    <text x="92" y="606" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22" font-weight="900" fill="#1A1A1A">Same syntax · 1981 → 2026</text>
+    <text x="92" y="636" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#666666">From printed posters to CSS Grid · the medium changes, but<tspan font-weight="700" fill="#1A1A1A">Module · columns · whitespace · mathematical proportions</tspan>The four-piece set has never changed.</text>
+  </g>
+
+  <g id="page-footer">
+    <text x="1216" y="688" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" text-anchor="end" letter-spacing="1">12 / 14</text>
+  </g>
+</svg>

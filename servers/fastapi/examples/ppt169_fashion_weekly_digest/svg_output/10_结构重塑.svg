@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="leftImg"><rect x="50" y="120" width="270" height="380" rx="10" /></clipPath>
+    <clipPath id="rightImg"><rect x="670" y="120" width="270" height="380" rx="10" /></clipPath>
+  </defs>
+
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.7" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="1180" height="1" fill="#2A2520" />
+
+  <text x="640" y="85" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" fill="#F5F0EB" font-weight="bold" text-anchor="middle" textLength="120.0" lengthAdjust="spacingAndGlyphs">Structural Reshaping</text>
+  <text x="640" y="105" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" text-anchor="middle" letter-spacing="2">TAD FAB × APEDE MOD</text>
+
+  <rect x="635" y="120" width="1" height="530" fill="#2A2520" />
+
+  
+  <rect x="50" y="120" width="270" height="380" rx="10" fill="#1A1A1A" />
+  <image href="../images/tadfab_bag.jpg" x="50" y="120" width="270" height="380" preserveAspectRatio="xMidYMid slice" clip-path="url(#leftImg)" />
+
+  <use data-icon="phosphor-duotone/handbag" x="340" y="130" width="26" height="26" fill="#C9A96E" />
+  <text x="340" y="185" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">TAD FAB</text>
+  <text x="340" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690" textLength="84.0" lengthAdjust="spacingAndGlyphs">Aesthetic of extreme minimalism and restraint</text>
+  <rect x="340" y="220" width="270" height="1" fill="#2A2520" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="15" fill="#F5F0EB">
+    <tspan x="340" y="250">Structural Connections and Scene Transitions</tspan>
+    <tspan x="340" dy="24">Classic clasp + zipper design language</tspan>
+    <tspan x="340" dy="30">Wraparound-zipper hobo bag</tspan>
+    <tspan x="340" dy="24">Multifunctional backpack · Curved-zipper bag</tspan>
+    <tspan x="340" dy="30">Footwear: Rain boots · Loafers</tspan>
+    <tspan x="340" dy="24">Scarves · Small storage items</tspan>
+  </text>
+
+  <rect x="340" y="460" width="270" height="36" rx="6" fill="#1A1A1A" />
+  <rect x="340" y="460" width="3" height="36" fill="#C9A96E" />
+  <text x="358" y="483" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#E8D5B5" font-style="italic" textLength="143.0" lengthAdjust="spacingAndGlyphs">Relaxed yet refined urban everyday style</text>
+
+  
+  <rect x="670" y="120" width="270" height="380" rx="10" fill="#1A1A1A" />
+  <image href="../images/apedemod_fold.jpg" x="670" y="120" width="270" height="380" preserveAspectRatio="xMidYMid slice" clip-path="url(#rightImg)" />
+
+  <use data-icon="phosphor-duotone/sparkle" x="960" y="130" width="26" height="26" fill="#C9A96E" />
+  <text x="960" y="185" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">Apede Mod</text>
+  <text x="960" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#9E9690">10th Anniversary · PF 2026</text>
+  <rect x="960" y="220" width="270" height="1" fill="#2A2520" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="15" fill="#F5F0EB">
+    <tspan x="960" y="250">Origami series</tspan>
+    <tspan x="960" dy="24">Reconstructing the design core through a folding structure</tspan>
+    <tspan x="960" dy="30">Intentionally preserve natural creases</tspan>
+    <tspan x="960" dy="24">Crisp angular lines + minimalist geometry</tspan>
+    <tspan x="960" dy="30">Launch edition Fold I</tspan>
+    <tspan x="960" dy="24">Establishing the tone of the series</tspan>
+  </text>
+
+  <rect x="960" y="460" width="270" height="36" rx="6" fill="#1A1A1A" />
+  <rect x="960" y="460" width="3" height="36" fill="#C9A96E" />
+  <text x="978" y="483" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#E8D5B5" font-style="italic">Folding as a metaphor for women’s power to shape themselves</text>
+
+  
+  <rect x="50" y="670" width="1180" height="1" fill="#2A2520" />
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">10 / 16</text>
+</svg>

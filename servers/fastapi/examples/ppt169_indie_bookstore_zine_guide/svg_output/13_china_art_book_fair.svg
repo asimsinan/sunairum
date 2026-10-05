@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP13" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="grain" width="1280" height="720" fill="url(#dotP13)" />
+
+  <g id="header">
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <rect x="63" y="59" width="14" height="68" fill="#FF5C8A" opacity="0.7" />
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <text x="92" y="98" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="32.20" fill="#1A1A1A" letter-spacing="-1" textLength="414.0" lengthAdjust="spacingAndGlyphs">The twin stars of China’s art book fairs</text>
+    <text x="92" y="128" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A5A" letter-spacing="3">SHANGHAI HOSTS THE MOST · NEW SHOPS PUBLISH HERE FIRST</text>
+  </g>
+
+  <line x1="60" y1="152" x2="1220" y2="152" stroke="#1A1A1A" stroke-width="3" />
+
+  
+  <g id="left-hero">
+    <rect x="62" y="172" width="380" height="496" fill="#FF5C8A" />
+    <image href="../images/zine_fair_scene.png" x="60" y="170" width="380" height="496" preserveAspectRatio="xMidYMid slice" />
+    
+    <rect x="60" y="666" width="380" height="32" fill="#1E4DBC" />
+    <text x="80" y="687" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#F5EFE0" letter-spacing="2">BOOTH AISLE · SHANGHAI · 2026</text>
+  </g>
+
+  
+  
+  <g id="card-abc">
+    
+    <rect x="460" y="170" width="760" height="234" fill="#1A1A1A" />
+    <rect x="463" y="173" width="760" height="234" fill="#FF5C8A" opacity="0.55" />
+    <rect x="460" y="170" width="760" height="234" fill="#1A1A1A" />
+    
+    <rect x="460" y="170" width="320" height="50" fill="#1E4DBC" />
+    <text x="480" y="204" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="28" fill="#F5EFE0" letter-spacing="2">abC ART BOOK FAIR</text>
+    <text x="1200" y="204" font-family="Consolas, 'Courier New', monospace" font-size="8.50" fill="#FF5C8A" text-anchor="end" letter-spacing="2">EST. 2015 · Beijing–Shanghai</text>
+    
+    <text x="480" y="252" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.16" font-weight="900" fill="#F5EFE0">art book in China · China's most influential art book fair</text>
+    <text x="480" y="280" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">Promote local artists’ books and independent publishing + introduce outstanding international publishers</text>
+    
+    <rect x="480" y="304" width="156" height="78" fill="#FF5C8A" />
+    <text x="558" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="36" fill="#F5EFE0" text-anchor="middle">145</text>
+    <text x="558" y="362" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle">Chinese art publisher</text>
+    <text x="558" y="378" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" textLength="64.7" lengthAdjust="spacingAndGlyphs">+ individual creators</text>
+
+    <rect x="652" y="304" width="156" height="78" fill="#1E4DBC" />
+    <text x="730" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="36" fill="#F5EFE0" text-anchor="middle">41</text>
+    <text x="730" y="362" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" textLength="55.0" lengthAdjust="spacingAndGlyphs">International publishers</text>
+    <text x="730" y="378" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" textLength="57.3" lengthAdjust="spacingAndGlyphs">Exhibited · Shanghai</text>
+
+    <rect x="824" y="304" width="156" height="78" fill="#E8A02E" />
+    <text x="902" y="338" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="32" fill="#1A1A1A" text-anchor="middle">10,000+</text>
+    <text x="902" y="362" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#1A1A1A" text-anchor="middle" textLength="44.0" lengthAdjust="spacingAndGlyphs">Visitor numbers</text>
+    <text x="902" y="378" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#1A1A1A" text-anchor="middle">The 6th Shanghai</text>
+
+    <text x="1000" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="900" fill="#F5EFE0" textLength="76.4" lengthAdjust="spacingAndGlyphs">→ First-order impact</text>
+    <text x="1000" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" textLength="55.0" lengthAdjust="spacingAndGlyphs">Independent publishing circle</text>
+    <text x="1000" y="372" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" textLength="55.0" lengthAdjust="spacingAndGlyphs">Annual trend indicator</text>
+  </g>
+
+  
+  <g id="card-unfold">
+    <rect x="460" y="424" width="760" height="234" fill="#1A1A1A" />
+    <rect x="463" y="427" width="760" height="234" fill="#1E4DBC" opacity="0.55" />
+    <rect x="460" y="424" width="760" height="234" fill="#1A1A1A" />
+    <rect x="460" y="424" width="320" height="50" fill="#FF5C8A" />
+    <text x="480" y="458" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="28" fill="#F5EFE0" letter-spacing="2">UNFOLD SHANGHAI</text>
+    <text x="1200" y="458" font-family="Consolas, 'Courier New', monospace" font-size="8.40" fill="#1E4DBC" text-anchor="end" letter-spacing="2" textLength="122.3" lengthAdjust="spacingAndGlyphs">Following abC · Opening in one week</text>
+    <text x="480" y="506" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.33" font-weight="900" fill="#F5EFE0">UNFOLD Shanghai Art Book Fair · second most influential</text>
+    <text x="480" y="534" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">Higher booth fees · larger crowds · more affordable tickets · international exhibitors such as Nieves</text>
+
+    <rect x="480" y="558" width="234" height="78" fill="#1E4DBC" />
+    <text x="597" y="592" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="34" fill="#F5EFE0" text-anchor="middle">+ 1 WEEK</text>
+    <text x="597" y="616" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle">After the abC Shanghai stop</text>
+    <text x="597" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" textLength="77.0" lengthAdjust="spacingAndGlyphs">Unfolding continuously over one week</text>
+
+    <rect x="730" y="558" width="234" height="78" fill="#FF5C8A" />
+    <text x="847" y="592" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="34" fill="#F5EFE0" text-anchor="middle">SHANGHAI</text>
+    <text x="847" y="616" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle">Host more book fairs than anywhere else in China</text>
+    <text x="847" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" textLength="55.0" lengthAdjust="spacingAndGlyphs">Cities of each year</text>
+
+    <text x="984" y="592" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="900" fill="#FF5C8A" textLength="63.4" lengthAdjust="spacingAndGlyphs">→ Practical advice</text>
+    <text x="984" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" textLength="53.7" lengthAdjust="spacingAndGlyphs">Two weeks of back-to-back openings =</text>
+    <text x="984" y="626" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" textLength="66.0" lengthAdjust="spacingAndGlyphs">Shanghai biennial pilgrimage</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="690" x2="1220" y2="690" stroke="#1A1A1A" stroke-width="1" />
+    <text x="60" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P13 · CHINA ART BOOK FAIR TWINS</text>
+    <text x="1220" y="708" font-family="Consolas, 'Courier New', monospace" font-size="8.94" fill="#5A5A5A" text-anchor="end" letter-spacing="2">abC FIRST · UNFOLD AFTER · Shanghai Biweekly</text>
+  </g>
+</svg>

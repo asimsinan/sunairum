@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#F5F1E8" />
+
+  
+  <text x="60" y="80" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" font-weight="700" fill="#1A1A1A" letter-spacing="3">Keep Four Things Hidden · Cultivate Four Strengths</text>
+  <line x1="60" y1="100" x2="160" y2="100" stroke="#A52A2A" stroke-width="3" />
+  <text x="60" y="135" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="2">Core output · Translate “hiding” into four actionable principles</text>
+
+  
+  <line x1="120" y1="180" x2="120" y2="640" stroke="#1A1A1A" stroke-width="2" />
+
+  
+  <g transform="translate(0, 180)">
+    <circle cx="120" cy="30" r="28" fill="#1A1A1A" />
+    <text x="120" y="38" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="700" fill="#F5F1E8">One</text>
+    <line x1="148" y1="30" x2="200" y2="30" stroke="#1A1A1A" stroke-width="1.5" stroke-dasharray="4 3" />
+    <use data-icon="tabler-outline/heart" x="210" y="8" width="44" height="44" fill="#A52A2A" stroke-width="1.5" />
+    <text x="270" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="112.0" lengthAdjust="spacingAndGlyphs">Keep Your Emotions Hidden</text>
+    <text x="270" y="50" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852">If you don't wear it on your face, they have nothing to use against you</text>
+    
+    <text x="700" y="36" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="28" fill="#A52A2A" letter-spacing="3">⟶</text>
+    <text x="770" y="42" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="4" textLength="224.0" lengthAdjust="spacingAndGlyphs">Don't be provoked by a few words</text>
+  </g>
+
+  
+  <g transform="translate(0, 290)">
+    <circle cx="120" cy="30" r="28" fill="#1A1A1A" />
+    <text x="120" y="38" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="700" fill="#F5F1E8">Two</text>
+    <line x1="148" y1="30" x2="200" y2="30" stroke="#1A1A1A" stroke-width="1.5" stroke-dasharray="4 3" />
+    <use data-icon="tabler-outline/sword" x="210" y="8" width="44" height="44" fill="#A52A2A" stroke-width="1.5" />
+    <text x="270" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="112.0" lengthAdjust="spacingAndGlyphs">Keep Your Ambition Hidden</text>
+    <text x="270" y="50" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852">If people can't see what you want, they can't use it against you</text>
+    <text x="700" y="36" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="28" fill="#A52A2A" letter-spacing="3">⟶</text>
+    <text x="770" y="42" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="4" textLength="224.0" lengthAdjust="spacingAndGlyphs">Don't let people guard against you in advance</text>
+  </g>
+
+  
+  <g transform="translate(0, 400)">
+    <circle cx="120" cy="30" r="28" fill="#1A1A1A" />
+    <text x="120" y="38" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="700" fill="#F5F1E8" textLength="20.0" lengthAdjust="spacingAndGlyphs">Three</text>
+    <line x1="148" y1="30" x2="200" y2="30" stroke="#1A1A1A" stroke-width="1.5" stroke-dasharray="4 3" />
+    <use data-icon="tabler-outline/shield" x="210" y="8" width="44" height="44" fill="#A52A2A" stroke-width="1.5" />
+    <text x="270" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="112.0" lengthAdjust="spacingAndGlyphs">Keep Your Strengths Hidden</text>
+    <text x="270" y="50" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852">Once your cards are revealed, the price is immediately pushed down</text>
+    <text x="700" y="36" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="28" fill="#A52A2A" letter-spacing="3">⟶</text>
+    <text x="770" y="42" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="4" textLength="224.0" lengthAdjust="spacingAndGlyphs">Don't let others wear you down too early</text>
+  </g>
+
+  
+  <g transform="translate(0, 510)">
+    <circle cx="120" cy="30" r="28" fill="#A52A2A" />
+    <text x="120" y="38" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="700" fill="#F5F1E8" textLength="20.0" lengthAdjust="spacingAndGlyphs">Four</text>
+    <line x1="148" y1="30" x2="200" y2="30" stroke="#A52A2A" stroke-width="1.5" stroke-dasharray="4 3" />
+    <use data-icon="tabler-outline/eye-off" x="210" y="8" width="44" height="44" fill="#A52A2A" stroke-width="1.5" />
+    <text x="270" y="22" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="112.0" lengthAdjust="spacingAndGlyphs">Keep Your Judgment to Yourself</text>
+    <text x="270" y="50" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852">If you don't take a position before the situation is clear, you can't be held hostage by it.</text>
+    <text x="700" y="36" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="28" fill="#A52A2A" letter-spacing="3">⟶</text>
+    <text x="770" y="42" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" letter-spacing="4" textLength="160.0" lengthAdjust="spacingAndGlyphs">Don't be forced to take sides</text>
+  </g>
+
+  
+  <text x="60" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="72.9" lengthAdjust="spacingAndGlyphs">Concealing One’s Brilliance · Eleven</text>
+  <text x="1220" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">13</text>
+</svg>

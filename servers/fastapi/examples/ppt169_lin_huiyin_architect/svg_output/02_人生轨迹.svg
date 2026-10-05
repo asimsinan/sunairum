@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="timelineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B6F47" />
+      <stop offset="100%" stop-color="#C9A96E" />
+    </linearGradient>
+    <linearGradient id="nodeGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C9A96E" />
+      <stop offset="100%" stop-color="#8B6F47" />
+    </linearGradient>
+    <filter id="nodeShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.35" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <rect x="60" y="40" width="4" height="36" fill="#C9A96E" />
+  <text x="80" y="70" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>The Life of a Master Architect</tspan>
+  </text>
+  <text x="80" y="98" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#A0A0B0">
+    <tspan>1904 — 1955 · An architectural legend spanning half a century</tspan>
+  </text>
+
+  
+  <line x1="80" y1="360" x2="1200" y2="360" stroke="#2A2A4A" stroke-width="3" stroke-linecap="round" />
+  
+  <line x1="80" y1="360" x2="1200" y2="360" stroke="url(#timelineGrad)" stroke-width="3" stroke-linecap="round" stroke-opacity="0.5" />
+
+  
+  <circle cx="120" cy="360" r="10" fill="url(#nodeGlow)" stroke="#1A1A2E" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="120" y1="348" x2="120" y2="280" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="60" y="200" width="120" height="78" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="120" y="225" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1904</tspan>
+  </text>
+  <text x="120" y="248" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Born in Hangzhou</tspan>
+  </text>
+  <text x="120" y="268" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>A family steeped in literature</tspan>
+  </text>
+
+  
+  <circle cx="260" cy="360" r="10" fill="url(#nodeGlow)" stroke="#1A1A2E" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="260" y1="372" x2="260" y2="430" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="195" y="432" width="130" height="78" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="260" y="457" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1924</tspan>
+  </text>
+  <text x="260" y="480" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Study in the United States</tspan>
+  </text>
+  <text x="260" y="500" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>University of Pennsylvania</tspan>
+  </text>
+
+  
+  <circle cx="400" cy="360" r="10" fill="url(#nodeGlow)" stroke="#1A1A2E" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="400" y1="348" x2="400" y2="280" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="335" y="200" width="130" height="78" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="400" y="225" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1928</tspan>
+  </text>
+  <text x="400" y="248" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Returned to China after marriage</tspan>
+  </text>
+  <text x="400" y="268" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>Teamed up with Liang Sicheng</tspan>
+  </text>
+
+  
+  <circle cx="540" cy="360" r="10" fill="url(#nodeGlow)" stroke="#1A1A2E" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="540" y1="372" x2="540" y2="430" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="475" y="432" width="130" height="78" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="540" y="457" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1930</tspan>
+  </text>
+  <text x="540" y="480" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Add the Society for Research in Chinese Architecture</tspan>
+  </text>
+  <text x="540" y="500" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>Researching traditional Chinese architecture</tspan>
+  </text>
+
+  
+  <circle cx="680" cy="360" r="13" fill="url(#nodeGlow)" stroke="#E8D5B7" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="680" y1="345" x2="680" y2="280" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="4,3" />
+  <rect x="610" y="190" width="140" height="88" rx="8" fill="#16213E" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="680" y="217" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8D5B7" text-anchor="middle">
+    <tspan>1932</tspan>
+  </text>
+  <text x="680" y="240" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>The first architectural paper</tspan>
+  </text>
+  <text x="680" y="260" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>《On Several Characteristics of Chinese Architecture</tspan>
+  </text>
+  <text x="680" y="274" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>Several features》</tspan>
+  </text>
+
+  
+  <circle cx="820" cy="360" r="10" fill="url(#nodeGlow)" stroke="#1A1A2E" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="820" y1="372" x2="820" y2="430" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="750" y="432" width="140" height="78" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="820" y="457" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1937-1946</tspan>
+  </text>
+  <text x="820" y="480" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Wartime exile</tspan>
+  </text>
+  <text x="820" y="500" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>Staying committed to architectural research</tspan>
+  </text>
+
+  
+  <circle cx="960" cy="360" r="10" fill="url(#nodeGlow)" stroke="#1A1A2E" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="960" y1="348" x2="960" y2="280" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3" />
+  <rect x="895" y="200" width="130" height="78" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="960" y="225" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1949</tspan>
+  </text>
+  <text x="960" y="248" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Participated in the design of the national emblem</tspan>
+  </text>
+  <text x="960" y="268" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>Continued working while ill</tspan>
+  </text>
+
+  
+  <circle cx="1060" cy="360" r="13" fill="url(#nodeGlow)" stroke="#E8D5B7" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="1060" y1="372" x2="1060" y2="430" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="4,3" />
+  <rect x="990" y="432" width="140" height="78" rx="8" fill="#16213E" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="1060" y="457" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8D5B7" text-anchor="middle">
+    <tspan>1952</tspan>
+  </text>
+  <text x="1060" y="480" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Monument design</tspan>
+  </text>
+  <text x="1060" y="500" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>A Monument from His Final Years</tspan>
+  </text>
+
+  
+  <circle cx="1180" cy="360" r="12" fill="#8B6F47" stroke="#E8D5B7" stroke-width="2" filter="url(#nodeShadow)" />
+  <line x1="1180" y1="346" x2="1180" y2="280" stroke="#C9A96E" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="4,3" />
+  <rect x="1110" y="195" width="140" height="84" rx="8" fill="#16213E" stroke="#8B6F47" stroke-width="1.5" />
+  <text x="1180" y="220" font-family="'Georgia', Arial, sans-serif" font-size="14" font-weight="bold" fill="#E8D5B7" text-anchor="middle">
+    <tspan>1955</tspan>
+  </text>
+  <text x="1180" y="243" font-family="'Georgia', Arial, sans-serif" font-size="13" fill="#E8E8E8" text-anchor="middle">
+    <tspan>Death</tspan>
+  </text>
+  <text x="1180" y="263" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#A0A0B0" text-anchor="middle">
+    <tspan>Inscribed on the tombstone:</tspan>
+  </text>
+  <text x="1180" y="276" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#C9A96E" text-anchor="middle">
+    <tspan>Architect Lin Huiyin's Tomb</tspan>
+  </text>
+
+  
+  <rect x="320" y="580" width="640" height="60" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="640" y="600" font-family="'Georgia', Georgia, serif" font-size="16" fill="#C9A96E" text-anchor="middle" fill-opacity="0.8">
+    <tspan>"She has never truly receded into history; her architectural spirit has endured for a century"</tspan>
+  </text>
+  <text x="640" y="626" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="middle">
+    <tspan>Using 51 Years of Life to Write One of the Most Moving Chapters in Chinese Architectural History</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>02 / 10</tspan>
+  </text>
+</svg>

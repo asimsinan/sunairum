@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFF8EE" />
+  </g>
+
+  
+  <g id="header">
+    <rect x="60" y="55" width="14" height="60" fill="#00C896" />
+    <text x="90" y="95" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="48" font-weight="900" fill="#1A1A2E" letter-spacing="1">FOUR FLAVORS, ONE FESTIVAL</text>
+    <text x="90" y="125" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.74" font-weight="700" fill="#5C5C7A" letter-spacing="3">Four Major Style Camps · TASTE YOUR OWN</text>
+    
+    <g transform="translate(1140, 60)">
+      <rect x="0" y="0" width="26" height="26" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="2" />
+      <rect x="28" y="0" width="26" height="26" fill="#00B8D9" stroke="#1A1A2E" stroke-width="2" />
+      <rect x="0" y="28" width="26" height="26" fill="#00C896" stroke="#1A1A2E" stroke-width="2" />
+      <rect x="28" y="28" width="26" height="26" fill="#FFD93D" stroke="#1A1A2E" stroke-width="2" />
+    </g>
+  </g>
+
+  
+  <g id="q-rock">
+    <rect x="60" y="170" width="585" height="240" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    
+    <path d="M 64 170 h 577 a 10 10 0 0 1 4 4 v 56 h -585 v -56 a 10 10 0 0 1 4 -4 Z" fill="#FF3DA5" />
+    <use data-icon="chunk-filled/bolt" x="76" y="180" width="36" height="36" fill="#1A1A2E" />
+    <text x="122" y="208" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="28" font-weight="900" fill="#1A1A2E" letter-spacing="2">ROCK · Rock</text>
+    
+    <rect x="490" y="184" width="140" height="28" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="2" />
+    <text x="560" y="203" text-anchor="middle" font-family="Impact, sans-serif" font-size="11.45" font-weight="900" fill="#FF3DA5" letter-spacing="2">25 Artists</text>
+    
+    <circle cx="86" cy="270" r="6" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="276" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.35" font-weight="700" fill="#1A1A2E">Keywords: <tspan fill="#FF3DA5" font-weight="900">Noise · Heat · Release</tspan></text>
+    <circle cx="86" cy="306" r="6" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="312" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.88" font-weight="700" fill="#1A1A2E">Stage: CHERRY STAGE · Capacity 5000</text>
+    <circle cx="86" cy="342" r="6" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#1A1A2E" textLength="62.1" lengthAdjust="spacingAndGlyphs">Home Game Day: <tspan fill="#FF3DA5" font-weight="900">Day 2 · 7.19</tspan> All night long</text>
+    <circle cx="86" cy="378" r="6" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="384" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.72" font-weight="700" fill="#1A1A2E">Headliner: CHERRY BOMB + 24 independent bands</text>
+  </g>
+
+  
+  <g id="q-electro">
+    <rect x="660" y="170" width="560" height="240" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <path d="M 664 170 h 552 a 10 10 0 0 1 4 4 v 56 h -560 v -56 a 10 10 0 0 1 4 -4 Z" fill="#00B8D9" />
+    <use data-icon="chunk-filled/headphones" x="676" y="180" width="36" height="36" fill="#1A1A2E" />
+    <text x="722" y="208" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="19.66" font-weight="900" fill="#1A1A2E" letter-spacing="2">ELECTRO · Electronic</text>
+    <rect x="1065" y="184" width="140" height="28" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="2" />
+    <text x="1135" y="203" text-anchor="middle" font-family="Impact, sans-serif" font-size="9.10" font-weight="900" fill="#00B8D9" letter-spacing="2" textLength="57.6" lengthAdjust="spacingAndGlyphs">30 artist groups</text>
+    <circle cx="686" cy="270" r="6" fill="#00B8D9" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="276" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.35" font-weight="700" fill="#1A1A2E">Keywords: <tspan fill="#00B8D9" font-weight="900">Rhythm · Late Night · Psychedelia</tspan></text>
+    <circle cx="686" cy="306" r="6" fill="#00B8D9" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="312" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.59" font-weight="700" fill="#1A1A2E">Stage: NEON GRID · Capacity 5000</text>
+    <circle cx="686" cy="342" r="6" fill="#00B8D9" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="348" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#1A1A2E" textLength="62.1" lengthAdjust="spacingAndGlyphs">Home Game Day: <tspan fill="#00B8D9" font-weight="900">Day 3 · 7.20</tspan> Overnight · 12h</text>
+    <circle cx="686" cy="378" r="6" fill="#00B8D9" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="384" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#1A1A2E">Headliner: NEON CLOUD + 29 international DJs</text>
+  </g>
+
+  
+  <g id="q-folk">
+    <rect x="60" y="430" width="585" height="240" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <path d="M 64 430 h 577 a 10 10 0 0 1 4 4 v 56 h -585 v -56 a 10 10 0 0 1 4 -4 Z" fill="#00C896" />
+    <use data-icon="chunk-filled/heart" x="76" y="440" width="36" height="36" fill="#1A1A2E" />
+    <text x="122" y="468" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="28" font-weight="900" fill="#1A1A2E" letter-spacing="2">FOLK · Folk</text>
+    <rect x="490" y="444" width="140" height="28" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="2" />
+    <text x="560" y="463" text-anchor="middle" font-family="Impact, sans-serif" font-size="9.10" font-weight="900" fill="#00C896" letter-spacing="2" textLength="57.6" lengthAdjust="spacingAndGlyphs">15 artist groups</text>
+    <circle cx="86" cy="530" r="6" fill="#00C896" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="536" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.35" font-weight="700" fill="#1A1A2E">Keywords: <tspan fill="#00C896" font-weight="900">Story · Slowness · Warmth</tspan></text>
+    <circle cx="86" cy="566" r="6" fill="#00C896" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="572" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.70" font-weight="700" fill="#1A1A2E">Stage: MINT GROVE · Capacity 3000</text>
+    <circle cx="86" cy="602" r="6" fill="#00C896" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="608" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#1A1A2E" textLength="62.1" lengthAdjust="spacingAndGlyphs">Home Game Day: <tspan fill="#00C896" font-weight="900">Day 4 · 7.21</tspan> Dusk special</text>
+    <circle cx="86" cy="638" r="6" fill="#00C896" stroke="#1A1A2E" stroke-width="2" />
+    <text x="106" y="644" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#1A1A2E">Headliner: MINT FOLK + 14 independent artists</text>
+  </g>
+
+  
+  <g id="q-hiphop">
+    <rect x="660" y="430" width="560" height="240" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <path d="M 664 430 h 552 a 10 10 0 0 1 4 4 v 56 h -560 v -56 a 10 10 0 0 1 4 -4 Z" fill="#FFD93D" />
+    <use data-icon="chunk-filled/music" x="676" y="440" width="36" height="36" fill="#1A1A2E" />
+    <text x="722" y="468" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="22.89" font-weight="900" fill="#1A1A2E" letter-spacing="2">HIPHOP · Hip-Hop</text>
+    <rect x="1065" y="444" width="140" height="28" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="2" />
+    <text x="1135" y="463" text-anchor="middle" font-family="Impact, sans-serif" font-size="9.10" font-weight="900" fill="#FF6B4A" letter-spacing="2" textLength="57.6" lengthAdjust="spacingAndGlyphs">10 artist groups</text>
+    <circle cx="686" cy="530" r="6" fill="#FFD93D" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="536" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.35" font-weight="700" fill="#1A1A2E">Keywords: <tspan fill="#FF6B4A" font-weight="900">Street · Rhythm · Attitude</tspan></text>
+    <circle cx="686" cy="566" r="6" fill="#FFD93D" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="572" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.88" font-weight="700" fill="#1A1A2E">Stage: YELLOW BLOCK · Capacity 7000</text>
+    <circle cx="686" cy="602" r="6" fill="#FFD93D" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="608" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#1A1A2E" textLength="62.1" lengthAdjust="spacingAndGlyphs">Home Game Day: <tspan fill="#FF6B4A" font-weight="900">Day 5 · 7.22</tspan> A midnight showstopper</text>
+    <circle cx="686" cy="638" r="6" fill="#FFD93D" stroke="#1A1A2E" stroke-width="2" />
+    <text x="706" y="644" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16" font-weight="700" fill="#1A1A2E">Headliner: YELLOW HUSTLE + 9 rappers</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="700" font-family="Arial, sans-serif" font-size="8.43" font-weight="600" fill="#5C5C7A">Fifth camp CROSSOVER · See Day 6 · 7.23 Cross-Disciplinary Night</text>
+    <text x="1220" y="700" text-anchor="end" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1A1A2E" letter-spacing="3">07 / 14</text>
+  </g>
+</svg>

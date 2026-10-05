@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  <g id="header">
+    <rect x="64" y="56" width="6" height="56" rx="3" fill="#E8743B" />
+    <text x="86" y="90" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="800" fill="#1B3A5C">One constant α, one deployment merge</text>
+    <text x="88" y="120" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#8A94A1" letter-spacing="1">INITIALIZATION, SCALING &amp; DEPLOYMENT</text>
+  </g>
+
+  <g id="card-scaling">
+    <rect x="64" y="160" width="560" height="480" rx="16" fill="#F4F7FA" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="64" y="160" width="6" height="480" rx="3" fill="#E8743B" />
+    <use data-icon="tabler-outline/math-function" x="100" y="196" width="36" height="36" fill="#1B3A5C" stroke-width="2" />
+    <text x="150" y="222" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.57" font-weight="800" fill="#1D2733">Zoom: a constant α</text>
+    <rect x="170" y="286" width="348" height="150" rx="12" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <image href="../images/formula_003.png" x="270" y="306" width="148" height="110" preserveAspectRatio="xMidYMid meet" />
+    <text x="104" y="494" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733">ΔWx Press <tspan font-style="italic" font-weight="800" fill="#E8743B">α/r</tspan> Zoom</text>
+    <text x="104" y="528" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.99" fill="#1D2733">α set to the first r to try,<tspan font-weight="800" fill="#1B3A5C">No more tuning parameters separately.</tspan></text>
+    <text x="104" y="562" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733">Reducing the need for hyperparameter retuning when changing r</text>
+    <text x="104" y="600" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A94A1">With Adam, adjusting α is roughly equivalent to adjusting the learning rate</text>
+  </g>
+
+  <g id="card-merge">
+    <rect x="656" y="160" width="560" height="228" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="656" y="160" width="6" height="228" rx="3" fill="#1B3A5C" />
+    <use data-icon="tabler-outline/transform" x="692" y="196" width="36" height="36" fill="#1B3A5C" stroke-width="2" />
+    <text x="742" y="222" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="800" fill="#1D2733">Deployment: merge weights, zero additional structure</text>
+    <text x="696" y="278" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733" textLength="124.6" lengthAdjust="spacingAndGlyphs">Compute and store explicitly <tspan font-weight="800" fill="#1B3A5C">W = W₀ + BA</tspan></text>
+    <text x="696" y="312" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733">Exactly the same architecture as the original model during inference</text>
+    <text x="696" y="346" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="17" fill="#1D2733">→ <tspan font-weight="800" fill="#2E7D32">Introduces no additional reasoning latency.</tspan></text>
+  </g>
+
+  <g id="card-switch">
+    <rect x="656" y="412" width="560" height="228" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="656" y="412" width="6" height="228" rx="3" fill="#3E7CB1" />
+    <use data-icon="tabler-outline/git-branch" x="692" y="448" width="36" height="36" fill="#3E7CB1" stroke-width="2" />
+    <text x="742" y="474" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="800" fill="#1D2733">Switch tasks: hot-swappable</text>
+    <text x="696" y="530" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733" textLength="97.9" lengthAdjust="spacingAndGlyphs">Restoring W₀ requires only<tspan font-weight="800" fill="#1B3A5C">Subtract BA</tspan></text>
+    <text x="696" y="564" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733">plus that of another task <tspan font-weight="800" fill="#E8743B">B′A′</tspan> That is enough</text>
+    <text x="696" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733">Minimal memory overhead, suitable for seamless multitasking</text>
+  </g>
+
+  <g id="footer">
+    <text x="64" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11" fill="#8A94A1">Source: LoRA §4.1–4.2 · Hu et al. 2021</text>
+    <text x="1216" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#8A94A1">07 / 15</text>
+  </g>
+</svg>

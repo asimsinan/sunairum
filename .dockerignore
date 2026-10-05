@@ -1,0 +1,9 @@
+.git
+.runtime
+storage
+presenton
+servers/nextjs/node_modules
+servers/nextjs/.next
+**/__pycache__
+**/*.pyc
+.DS_Store

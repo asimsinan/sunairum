@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=1280, initial-scale=1.0"><title>Bir müşterinin eklenmesi</title><style>
+ :root{
+ --bg:#FFFFFF;
+ --secondary-bg:#F5F7FA;
+ --primary:#1A365D;
+ --accent:#3182CE;
+ --secondary-accent:#63B3ED;
+ --body:#1A202C;
+ --muted:#4A5568;
+ --tertiary:#A0AEC0;
+ --border:#E2E8F0;
+ --tint:#EBF4FB;
+ --success:#2F855A;
+ --warning:#C53030;
+ --heading:Georgia,"Microsoft YaHei",serif;
+ --body-font:Arial,"Microsoft YaHei","PingFang SC",sans-serif;
+ --code:Consolas,"Courier New",monospace;
+ }
+
+ *{box-sizing:border-box}
+ html,body{
+ margin:0;
+ width:1280px;
+ height:720px;
+ background:var(--bg);
+ }
+ body{
+ font-family:var(--body-font);
+ color:var(--body);
+ }
+ .slide{
+ position:relative;
+ width:1280px;
+ height:720px;
+ overflow:visible;
+ background:
+ linear-gradient(90deg,transparent 59px,rgba(49,130,206,.07) 60px,transparent 61px),
+ var(--bg);
+ }
+ .region{
+ position:absolute;
+ overflow:visible;
+ }
+
+ .title-region{
+ display:flex;
+ align-items:center;
+ padding-left:26px;
+ }
+ .title-region .accent-bar{
+ position:absolute;
+ left:0;
+ top:8px;
+ width:6px;
+ height:40px;
+ background:var(--accent);
+ border-radius:1px;
+ }
+ h1{
+ margin:0;
+ font-family:var(--heading);
+ font-size:36px;
+ line-height:1.1;
+ font-weight:700;
+ letter-spacing:-.5px;
+ color:var(--primary);
+ }
+
+ .lede-region{
+ display:flex;
+ align-items:flex-start;
+ border-bottom:1px solid var(--border);
+ padding-bottom:11px;
+ }
+ .lede-region p{
+ margin:0;
+ max-width:1080px;
+ font-size:20px;
+ line-height:1.25;
+ color:var(--muted);
+ }
+ .lede-region strong{
+ color:var(--primary);
+ font-weight:700;
+ }
+
+ .primary-region{
+ position:absolute;
+ padding:27px 30px 24px 34px;
+ color:#fff;
+ background:var(--primary);
+ border-radius:12px;
+ overflow:visible;
+ }
+ .primary-region:after{
+ content:"";
+ position:absolute;
+ right:0;
+ top:0;
+ width:118px;
+ height:100%;
+ opacity:.16;
+ background:
+ linear-gradient(90deg,transparent 49%,var(--secondary-accent) 50%,transparent 51%),
+ linear-gradient(0deg,transparent 49%,var(--secondary-accent) 50%,transparent 51%);
+ background-size:24px 24px;
+ pointer-events:none;
+ border-radius:0 12px 12px 0;
+ }
+ .eyebrow{
+ position:relative;
+ z-index:1;
+ margin:0 0 18px;
+ color:var(--secondary-accent);
+ font-family:var(--code);
+ font-size:14px;
+ letter-spacing:1.5px;
+ text-transform:uppercase;
+ }
+ .flow{
+ position:relative;
+ z-index:1;
+ margin:0;
+ padding:0;
+ list-style:none;
+ }
+ .flow:before{
+ content:"";
+ position:absolute;
+ left:17px;
+ top:19px;
+ bottom:20px;
+ width:2px;
+ background:linear-gradient(var(--accent),rgba(99,179,237,.32));
+ }
+ .step{
+ position:relative;
+ display:grid;
+ grid-template-columns:36px minmax(0,1fr);
+ column-gap:15px;
+ min-height:78px;
+ }
+ .step:last-child{min-height:65px}
+ .node{
+ position:relative;
+ z-index:2;
+ width:36px;
+ height:36px;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ border:2px solid var(--secondary-accent);
+ border-radius:50%;
+ background:var(--primary);
+ color:#fff;
+ font-family:var(--code);
+ font-size:15px;
+ font-weight:700;
+ }
+ .step:nth-child(3) .node{
+ background:var(--accent);
+ border-color:#fff;
+ }
+ .step:nth-child(4) .node{
+ background:var(--success);
+ border-color:#B7E2C8;
+ }
+ .step-copy{padding-top:1px}
+ .step-title{
+ margin:0 0 5px;
+ font-size:19px;
+ line-height:1.15;
+ font-weight:700;
+ color:#fff;
+ }
+ .step-body{
+ margin:0;
+ max-width:410px;
+ font-size:16px;
+ line-height:1.28;
+ color:#DCEAF7;
+ }
+ code{
+ font-family:var(--code);
+ color:var(--secondary-accent);
+ font-size:.94em;
+ white-space:nowrap;
+ }
+ .step:nth-child(3) code,
+ .step:nth-child(4) code{color:#B7E2C8}
+
+ .figure-region{
+ position:absolute;
+ padding:18px;
+ background:var(--secondary-bg);
+ border:1px solid var(--border);
+ border-radius:12px;
+ overflow:visible;
+ }
+ .figure-region:before{
+ content:"";
+ position:absolute;
+ left:18px;
+ top:18px;
+ bottom:18px;
+ width:5px;
+ background:var(--accent);
+ border-radius:3px;
+ z-index:2;
+ pointer-events:none;
+ }
+ .figure-region:after{
+ content:"";
+ position:absolute;
+ right:18px;
+ top:18px;
+ width:90px;
+ height:90px;
+ border-top:1px solid rgba(49,130,206,.25);
+ border-right:1px solid rgba(49,130,206,.25);
+ pointer-events:none;
+ }
+ .figure-host{
+ position:relative;
+ width:100%;
+ height:100%;
+ min-height:457px;
+ border:1px solid rgba(49,130,206,.25);
+ border-radius:7px;
+ background:
+ linear-gradient(rgba(49,130,206,.08) 1px,transparent 1px),
+ linear-gradient(90deg,rgba(49,130,206,.08) 1px,transparent 1px),
+ #fff;
+ background-size:24px 24px;
+ }
+
+/* data-sunairum-semantic-host-ownership=1 */[data-pptx]:not(:empty):not([data-pptx-keep-pseudo])::before,[data-pptx]:not(:empty):not([data-pptx-keep-pseudo])::after{content:none!important;display:none!important;}
+
+/* deterministic Scene v2 local fit v4 pass 1 */
+[data-layout-id="scene-primary"] *{min-width:0;box-sizing:border-box;}[data-layout-id="scene-primary"] :is(p,li,h1,h2,h3,h4,h5,h6,span){overflow-wrap:normal;word-break:normal;}
+[data-layout-id="scene-primary"] ol.flow > li.step:nth-child(1){column-gap:14.31px!important;min-height:74.41px!important;}
+[data-layout-id="scene-primary"] ol.flow::before{content:none!important;display:none!important;}
+/* end deterministic Scene v2 local fit v4 pass 1 */
+</style>
+</head><body><main class="slide" role="presentation"><header class="region title-region" data-layout-id="scene-title" data-layout-role="title" style="position:absolute;left:60px;top:60px;width:1160px;height:56px;"><span class="accent-bar" aria-hidden="true" data-pptx-kind="decoration"></span><h1>Bir müşterinin eklenmesi</h1></header><section class="region lede-region" data-layout-id="scene-lede" data-layout-role="lede" style="position:absolute;left:60px;top:130px;width:1160px;height:27px;"><p><strong>HERO</strong>, HNSW erişimini coğrafi yakın rotalar, uygulanabilirlik filtreleri ve kesin puanlama ile tamamlar.</p></section><section class="region primary-region" data-layout-id="scene-primary" data-layout-role="primary" style="position:absolute;left:60px;top:185px;width:548px;height:493px;"><p class="eyebrow">TEK MÜŞTERİ · ONARIM AKIŞI</p><ol class="flow"><li class="step"><span class="node">01</span><div class="step-copy"><h2 class="step-title">Sorgu oluştur</h2><p class="step-body">Müşteri için özellik vektörü<code>ϕ(i)</code>üretilir.</p></div></li><li class="step"><span class="node">02</span><div class="step-copy"><h2 class="step-title">Aday getir</h2><p class="step-body">HNSW en yakın<code>k</code>konumu; ek olarak en yakın centroid rotalarını döndürür.</p></div></li><li class="step"><span class="node">03</span><div class="step-copy"><h2 class="step-title">Uygulanabilirliği filtrele</h2><p class="step-body">Kapasite ve zaman penceresi koşullarını geçmeyen konumlar elenir.</p></div></li><li class="step"><span class="node">04</span><div class="step-copy"><h2 class="step-title">Kesin değerlendir</h2><p class="step-body">Kalan adaylar arasında amaç fonksiyonu değişimi en düşük konum seçilir.</p></div></li><li class="step"><span class="node">05</span><div class="step-copy"><h2 class="step-title">İndeksi güncelle</h2><p class="step-body">Kabul edilen ekleme sonrasında etkilenen konumlar güncellenir.</p></div></li></ol></section><div class="region figure-region" data-layout-id="scene-figure" data-layout-role="figure" style="position:absolute;left:640px;top:185px;width:580px;height:493px;"><div class="figure-host" data-pptx="figure" data-figure-id="pdf-page-5-picture-2" aria-label="Bir müşterinin eklenmesi için HNSW erişim ve filtreleme şekli" style="overflow:hidden;border-radius:16px;background:#FFFFFF;border:1px solid #D0DCEA;box-shadow:0 10px 28px rgba(26,54,93,.10),0 1px 0 rgba(26,54,93,.06);padding:18px;box-sizing:border-box;"></div></div></main><div data-sunairum-page-number="1" aria-hidden="true" style="position:absolute;right:60px;bottom:22px;z-index:40;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:600;letter-spacing:0.04em;line-height:18px;height:18px;color:#94A3B8;pointer-events:none;user-select:none;">7/14</div></body></html>

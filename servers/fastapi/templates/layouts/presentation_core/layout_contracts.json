@@ -1,0 +1,826 @@
+{
+  "schema_version": "sunairum.layout-contracts/v1",
+  "certified": true,
+  "pack": "presentation_core",
+  "layouts": {
+    "01_title_slide": {
+      "archetypes": [
+        "title"
+      ],
+      "slots": [
+        {
+          "slot_id": "TITLE",
+          "role": "headline",
+          "x": 112.0,
+          "y": 216.0,
+          "width": 1056.0,
+          "height": 116.0,
+          "required": false
+        },
+        {
+          "slot_id": "SUBTITLE",
+          "role": "subtitle",
+          "x": 112.0,
+          "y": 350.0,
+          "width": 880.0,
+          "height": 64.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "02_title_content": {
+      "archetypes": [
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "CONTENT_AREA",
+          "role": "body",
+          "x": 104.0,
+          "y": 252.0,
+          "width": 1072.0,
+          "height": 168.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "03_section_header": {
+      "archetypes": [
+        "section"
+      ],
+      "slots": [
+        {
+          "slot_id": "CHAPTER_TITLE",
+          "role": "headline",
+          "x": 160.0,
+          "y": 224.0,
+          "width": 896.0,
+          "height": 112.0,
+          "required": false
+        },
+        {
+          "slot_id": "CHAPTER_DESC",
+          "role": "subtitle",
+          "x": 160.0,
+          "y": 356.0,
+          "width": 800.0,
+          "height": 92.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "04_two_content": {
+      "archetypes": [
+        "comparison"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "LEFT_CONTENT",
+          "role": "body",
+          "x": 88.0,
+          "y": 244.0,
+          "width": 504.0,
+          "height": 252.0,
+          "required": false
+        },
+        {
+          "slot_id": "RIGHT_CONTENT",
+          "role": "body",
+          "x": 688.0,
+          "y": 244.0,
+          "width": 504.0,
+          "height": 252.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "05_comparison": {
+      "archetypes": [
+        "comparison"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "LEFT_TITLE",
+          "role": "headline",
+          "x": 88.0,
+          "y": 208.0,
+          "width": 504.0,
+          "height": 56.0,
+          "required": false
+        },
+        {
+          "slot_id": "LEFT_CONTENT",
+          "role": "body",
+          "x": 88.0,
+          "y": 280.0,
+          "width": 504.0,
+          "height": 232.0,
+          "required": false
+        },
+        {
+          "slot_id": "RIGHT_TITLE",
+          "role": "headline",
+          "x": 688.0,
+          "y": 208.0,
+          "width": 504.0,
+          "height": 56.0,
+          "required": false
+        },
+        {
+          "slot_id": "RIGHT_CONTENT",
+          "role": "body",
+          "x": 688.0,
+          "y": 280.0,
+          "width": 504.0,
+          "height": 232.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "06_title_only": {
+      "archetypes": [
+        "title"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "07_blank": {
+      "archetypes": [
+        "flow-diagram"
+      ],
+      "slots": [],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "08_content_caption": {
+      "archetypes": [
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 112.0,
+          "width": 300.0,
+          "height": 220.0,
+          "required": false
+        },
+        {
+          "slot_id": "CAPTION",
+          "role": "caption",
+          "x": 64.0,
+          "y": 360.0,
+          "width": 300.0,
+          "height": 184.0,
+          "required": false
+        },
+        {
+          "slot_id": "CONTENT_AREA",
+          "role": "body",
+          "x": 424.0,
+          "y": 88.0,
+          "width": 768.0,
+          "height": 544.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "09_picture_caption": {
+      "archetypes": [
+        "single-figure",
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 888.0,
+          "y": 112.0,
+          "width": 296.0,
+          "height": 104.0,
+          "required": false
+        },
+        {
+          "slot_id": "CAPTION",
+          "role": "caption",
+          "x": 888.0,
+          "y": 248.0,
+          "width": 296.0,
+          "height": 296.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 1,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "10_hero_statement": {
+      "archetypes": [
+        "hero",
+        "closing"
+      ],
+      "slots": [
+        {
+          "slot_id": "KEY_MESSAGE",
+          "role": "callout",
+          "x": 96.0,
+          "y": 184.0,
+          "width": 1088.0,
+          "height": 208.0,
+          "required": false
+        },
+        {
+          "slot_id": "SUBTITLE",
+          "role": "subtitle",
+          "x": 96.0,
+          "y": 424.0,
+          "width": 760.0,
+          "height": 72.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "11_editorial_split": {
+      "archetypes": [
+        "single-figure",
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 64.0,
+          "width": 448.0,
+          "height": 104.0,
+          "required": false
+        },
+        {
+          "slot_id": "BODY_TEXT",
+          "role": "body",
+          "x": 64.0,
+          "y": 208.0,
+          "width": 448.0,
+          "height": 352.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 1,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "12_three_card": {
+      "archetypes": [
+        "card-grid"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 48.0,
+          "width": 1152.0,
+          "height": 80.0,
+          "required": false
+        },
+        {
+          "slot_id": "CARD_1",
+          "role": "card",
+          "x": 88.0,
+          "y": 192.0,
+          "width": 320.0,
+          "height": 424.0,
+          "required": false
+        },
+        {
+          "slot_id": "CARD_2",
+          "role": "card",
+          "x": 480.0,
+          "y": 192.0,
+          "width": 320.0,
+          "height": 424.0,
+          "required": false
+        },
+        {
+          "slot_id": "CARD_3",
+          "role": "card",
+          "x": 872.0,
+          "y": 192.0,
+          "width": 320.0,
+          "height": 424.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 3,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "13_kpi_dashboard": {
+      "archetypes": [
+        "metric-cards"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "KPI_1",
+          "role": "metric",
+          "x": 80.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 96.0,
+          "required": false
+        },
+        {
+          "slot_id": "KPI_2",
+          "role": "metric",
+          "x": 376.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 96.0,
+          "required": false
+        },
+        {
+          "slot_id": "KPI_3",
+          "role": "metric",
+          "x": 672.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 96.0,
+          "required": false
+        },
+        {
+          "slot_id": "KPI_4",
+          "role": "metric",
+          "x": 968.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 96.0,
+          "required": false
+        },
+        {
+          "slot_id": "CONTENT_AREA",
+          "role": "body",
+          "x": 88.0,
+          "y": 344.0,
+          "width": 1104.0,
+          "height": 272.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 4,
+        "steps": 0
+      }
+    },
+    "14_process_timeline": {
+      "archetypes": [
+        "process",
+        "timeline"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "STEP_1",
+          "role": "process-step",
+          "x": 80.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 344.0,
+          "required": false
+        },
+        {
+          "slot_id": "STEP_2",
+          "role": "process-step",
+          "x": 376.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 344.0,
+          "required": false
+        },
+        {
+          "slot_id": "STEP_3",
+          "role": "process-step",
+          "x": 672.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 344.0,
+          "required": false
+        },
+        {
+          "slot_id": "STEP_4",
+          "role": "process-step",
+          "x": 968.0,
+          "y": 168.0,
+          "width": 232.0,
+          "height": 344.0,
+          "required": false
+        },
+        {
+          "slot_id": "KEY_MESSAGE",
+          "role": "callout",
+          "x": 88.0,
+          "y": 584.0,
+          "width": 1104.0,
+          "height": 40.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": true,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 4
+      }
+    },
+    "15_data_story": {
+      "archetypes": [
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "CONTENT_AREA",
+          "role": "body",
+          "x": 88.0,
+          "y": 176.0,
+          "width": 712.0,
+          "height": 408.0,
+          "required": false
+        },
+        {
+          "slot_id": "KEY_MESSAGE",
+          "role": "callout",
+          "x": 888.0,
+          "y": 184.0,
+          "width": 296.0,
+          "height": 360.0,
+          "required": false
+        },
+        {
+          "slot_id": "SOURCE",
+          "role": "caption",
+          "x": 64.0,
+          "y": 648.0,
+          "width": 1152.0,
+          "height": 32.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "16_title_picture": {
+      "archetypes": [
+        "single-figure",
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 1,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "17_two_picture_caption": {
+      "archetypes": [
+        "single-figure",
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "LEFT_CAPTION",
+          "role": "caption",
+          "x": 88.0,
+          "y": 520.0,
+          "width": 504.0,
+          "height": 96.0,
+          "required": false
+        },
+        {
+          "slot_id": "RIGHT_CAPTION",
+          "role": "caption",
+          "x": 688.0,
+          "y": 520.0,
+          "width": 504.0,
+          "height": 96.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 2,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "18_screenshot_focus": {
+      "archetypes": [
+        "single-figure",
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "ANNOTATION",
+          "role": "callout",
+          "x": 968.0,
+          "y": 184.0,
+          "width": 216.0,
+          "height": 304.0,
+          "required": false
+        },
+        {
+          "slot_id": "SOURCE",
+          "role": "caption",
+          "x": 952.0,
+          "y": 536.0,
+          "width": 232.0,
+          "height": 40.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 1,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "19_chart_insight": {
+      "archetypes": [
+        "narrative"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "KEY_MESSAGE",
+          "role": "callout",
+          "x": 888.0,
+          "y": 184.0,
+          "width": 296.0,
+          "height": 360.0,
+          "required": false
+        },
+        {
+          "slot_id": "SOURCE",
+          "role": "caption",
+          "x": 888.0,
+          "y": 552.0,
+          "width": 296.0,
+          "height": 32.0,
+          "required": false
+        }
+      ],
+      "supports_tables": false,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    },
+    "20_table_summary": {
+      "archetypes": [
+        "table"
+      ],
+      "slots": [
+        {
+          "slot_id": "PAGE_TITLE",
+          "role": "headline",
+          "x": 64.0,
+          "y": 40.0,
+          "width": 1152.0,
+          "height": 72.0,
+          "required": false
+        },
+        {
+          "slot_id": "KEY_MESSAGE",
+          "role": "callout",
+          "x": 952.0,
+          "y": 184.0,
+          "width": 232.0,
+          "height": 344.0,
+          "required": false
+        },
+        {
+          "slot_id": "SOURCE",
+          "role": "caption",
+          "x": 952.0,
+          "y": 552.0,
+          "width": 232.0,
+          "height": 32.0,
+          "required": false
+        }
+      ],
+      "supports_tables": true,
+      "supports_flow": false,
+      "max_non_background_images": 0,
+      "component_limits": {
+        "cards": 0,
+        "metrics": 0,
+        "steps": 0
+      }
+    }
+  }
+}

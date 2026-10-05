@@ -1,0 +1,4126 @@
+{
+  "assets": [
+    {
+      "categories": [],
+      "checksum_sha256": "761b1cec403441e3659a3f8edc16286f93cb114f7ae965b698e94a2f7ee2467e",
+      "embeddable": true,
+      "family": "Barlow Condensed",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-barlowcondensed-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Barlow Condensed 400",
+      "path": "fonts/barlow-condensed-400.ttf",
+      "role": "display",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 1.408",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "364a9e2612bf60e041d02740612df77a0b7f73caf03de290fa85d31adb108176",
+      "embeddable": true,
+      "family": "Barlow Condensed",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-barlowcondensed-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Barlow Condensed 400 Italic",
+      "path": "fonts/barlow-condensed-400-italic.ttf",
+      "role": "display",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Italic.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 1.408",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "35e779672cbf799622bdb8085b29857c5e14a3aae839eaca80ab51fd12d8d2a3",
+      "embeddable": true,
+      "family": "Barlow Condensed",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-barlowcondensed-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Barlow Condensed 700",
+      "path": "fonts/barlow-condensed-700.ttf",
+      "role": "display",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-Bold.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 1.408",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "a9aaf5cbf6a7b9bc0412bc664f035484b90f79c0ff8bd9d7893caa79fe21694f",
+      "embeddable": true,
+      "family": "Barlow Condensed",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-barlowcondensed-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Barlow Condensed 700 Italic",
+      "path": "fonts/barlow-condensed-700-italic.ttf",
+      "role": "display",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-BoldItalic.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 1.408",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "e2dcfa769850b8d79facb364538a19ae2776f6c6b1d3fb07b0e4fde2217a9303",
+      "embeddable": true,
+      "family": "Inter",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-inter-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Inter 400",
+      "path": "fonts/inter-400.ttf",
+      "role": "geometric",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.001;git-66647c0bb",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "2366215b9ec97ef18ceab758423c6e8c316b9c0cf0450ce8b633881d5cf55870",
+      "embeddable": true,
+      "family": "Inter",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-inter-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Inter 400 Italic",
+      "path": "fonts/inter-400-italic.ttf",
+      "role": "geometric",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.001;git-66647c0bb",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "376754f010675959ce7e2b613c550e1d0fa61c1cd96af29ef0cbf45464c733d9",
+      "embeddable": true,
+      "family": "Inter",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-inter-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Inter 700",
+      "path": "fonts/inter-700.ttf",
+      "role": "geometric",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.001;git-66647c0bb",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "1bcdfa8415a849f0ed9ee0f3e5b2943e365d2622cd0298276db1043ff2c640e4",
+      "embeddable": true,
+      "family": "Inter",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-inter-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Inter 700 Italic",
+      "path": "fonts/inter-700-italic.ttf",
+      "role": "geometric",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter-Italic%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.001;git-66647c0bb",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "0264015ef36000e26af55f6682b6ccaaf1bfb65af7214811a7b38c2c162e91e1",
+      "embeddable": true,
+      "family": "Source Sans 3",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourcesans3-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Sans 3 400",
+      "path": "fonts/source-sans-3-400.ttf",
+      "role": "humanist",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "380196b2a7bdccecb2809a25d73d2e10752c43acbe5c89bfa00214cca1c6c186",
+      "embeddable": true,
+      "family": "Source Sans 3",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourcesans3-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Sans 3 400 Italic",
+      "path": "fonts/source-sans-3-400-italic.ttf",
+      "role": "humanist",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3-Italic%5Bwght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "2ec7869bce7b2bf25119d21bd58ef53dcf4540eef5ce25ea79d1c19eca885cc6",
+      "embeddable": true,
+      "family": "Source Sans 3",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourcesans3-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Sans 3 700",
+      "path": "fonts/source-sans-3-700.ttf",
+      "role": "humanist",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "4133731c05d068072458881feebe5ed603c25d69402840005803b8817da1dec1",
+      "embeddable": true,
+      "family": "Source Sans 3",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourcesans3-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Sans 3 700 Italic",
+      "path": "fonts/source-sans-3-700-italic.ttf",
+      "role": "humanist",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3-Italic%5Bwght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "6572547bf0a6df4032ccf9f7c042bbcad2319a0221be061e651c9f4ac622df34",
+      "embeddable": true,
+      "family": "Source Serif 4",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourceserif4-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Serif 4 400",
+      "path": "fonts/source-serif-4-400.ttf",
+      "role": "serif",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "7064e6661c90e498b93982f027229dbd727cd5c144d29500554347275803bfe2",
+      "embeddable": true,
+      "family": "Source Serif 4",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourceserif4-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Serif 4 400 Italic",
+      "path": "fonts/source-serif-4-400-italic.ttf",
+      "role": "serif",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+      "weight": 400
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "c1ff600b27cd0df2eafbc4fb8cb9cb783c7cc51fd7586707b1c3ec68e342a16d",
+      "embeddable": true,
+      "family": "Source Serif 4",
+      "italic": false,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourceserif4-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Serif 4 700",
+      "path": "fonts/source-serif-4-700.ttf",
+      "role": "serif",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+      "weight": 700
+    },
+    {
+      "categories": [],
+      "checksum_sha256": "e93b0a1f27d2027108f9968a81167464f45497b7d7f17c474f5ecdd6520c6099",
+      "embeddable": true,
+      "family": "Source Serif 4",
+      "italic": true,
+      "keywords": [],
+      "kind": "font",
+      "license_file": "licenses/google-fonts-ofl-sourceserif4-ofl-1-1.txt",
+      "license_name": "SIL Open Font License 1.1",
+      "license_spdx": "OFL-1.1",
+      "name": "Source Serif 4 700 Italic",
+      "path": "fonts/source-serif-4-700-italic.ttf",
+      "role": "serif",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz,wght%5D.ttf",
+      "unicode_ranges": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A"
+      ],
+      "upstream_version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+      "weight": 700
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "288616401f6b43af9381d89baf04e03a7301e134c14d605c8f8b8b5005fb49fb",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "archive",
+        "backup",
+        "cold",
+        "history",
+        "retain",
+        "store"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "archive",
+      "path": "icons/archive.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/archive-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "7c93186c452feeb92f5060c7b286a0a88e48bc71c45ac043b5c8b1a84cf6d9ab",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "arrow",
+        "direction",
+        "forward",
+        "next",
+        "right",
+        "then"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "arrow-right",
+      "path": "icons/arrow-right.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/arrow-right-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "893b2e8a4575077c05af963db2f2f4ff3a64a310fc35f4432d82b6ebb3dc8db6",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "arrows",
+        "clockwise",
+        "cycle",
+        "iterate",
+        "loop",
+        "refresh",
+        "retry"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "arrows-clockwise",
+      "path": "icons/arrows-clockwise.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/arrows-clockwise-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "145591dad751c4fe47aa74c48907eead65cecddea1e26dd51ba65ae9e7ec5625",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "arrows",
+        "between",
+        "exchange",
+        "left",
+        "off",
+        "right",
+        "swap",
+        "trade",
+        "versus"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "arrows-left-right",
+      "path": "icons/arrows-left-right.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/arrows-left-right-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "7de263d2c5319b12a20fc92a2f09a3660486a3ccdf2d6b1b8ee1a164f39aa210",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "atom",
+        "fundamental",
+        "particle",
+        "physics",
+        "research"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "atom",
+      "path": "icons/atom.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/atom-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "9ecda577d8599c58924e7ad6d11b616268f764a5e9aa6eba012cce93f5391f22",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "bank",
+        "finance",
+        "institution",
+        "regulation",
+        "treasury"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "bank",
+      "path": "icons/bank.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/bank-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "communication"
+      ],
+      "checksum_sha256": "e06aae7ba844f104006b8701c983d4c2bee685f9c0533a1d03a238f304882e07",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "alert",
+        "bell",
+        "notification",
+        "reminder",
+        "subscribe"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "bell",
+      "path": "icons/bell.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/bell-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "9854c8c3934591c4f4bf342a6ab27495f9eb652bc672213fcf568f180c9eea87",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "bookmark",
+        "keep",
+        "mark",
+        "reference",
+        "saved"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "bookmark",
+      "path": "icons/bookmark.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/bookmark-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "f82e307d2937a9904be31c9c26166ee2a217104f2ef0793c32d35a96736fbc7e",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "books",
+        "corpus",
+        "knowledge",
+        "literature",
+        "references",
+        "study"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "books",
+      "path": "icons/books.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/books-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "science"
+      ],
+      "checksum_sha256": "16d7b0038b2d76f65b0e9276b5f9442de13c3793cc4329e011bf9223993545d1",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "ai",
+        "brain",
+        "intelligence",
+        "learning",
+        "model",
+        "neural"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "brain",
+      "path": "icons/brain.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/brain-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "5f9be22ac9d665a15d9d85d8b5504a49d5e8d79f96fa9d0f736f0205ddfe6b3b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "briefcase",
+        "company",
+        "enterprise",
+        "portfolio",
+        "professional",
+        "work"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "briefcase",
+      "path": "icons/briefcase.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/briefcase-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "checksum_sha256": "eec5ad907a9f40270a5bf6851a5c4adfcf50db79629c64d96f90129f35777545",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "browser",
+        "client",
+        "frontend",
+        "page",
+        "web"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "browser",
+      "path": "icons/browser.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/browser-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "8c58bf607759b20aaff42f705e3543f035fcaa8a8ea70afedad7a1b4a5df3568",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "buildings",
+        "company",
+        "corporate",
+        "enterprise",
+        "office",
+        "organisation"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "buildings",
+      "path": "icons/buildings.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/buildings-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "timeline"
+      ],
+      "checksum_sha256": "66f5c92f25a8cf4f2f12435da488142a2e86375f993f9deb83b758997ac9d3d1",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "calendar",
+        "date",
+        "month",
+        "plan",
+        "schedule"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "calendar",
+      "path": "icons/calendar.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/calendar-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "timeline"
+      ],
+      "checksum_sha256": "636371fb87d228375de4cc124c08b15c46abcee0dcfa70093c604a2b694f99de",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "calendar",
+        "check",
+        "committed",
+        "deadline",
+        "delivered",
+        "milestone"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "calendar-check",
+      "path": "icons/calendar-check.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/calendar-check-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "security"
+      ],
+      "checksum_sha256": "1e48c26187e6955b485893daedeec97a9defd2172e2c75a50e20f81361c969e4",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "accreditation",
+        "award",
+        "certificate",
+        "credential",
+        "licence"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "certificate",
+      "path": "icons/certificate.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/certificate-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people"
+      ],
+      "checksum_sha256": "46ed7b6cd6f6c757583bbc192ea1c9fe631b57d20d020af1216be5443ff0d0ed",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "chalkboard",
+        "explain",
+        "onboarding",
+        "teacher",
+        "teaching",
+        "training",
+        "workshop"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "chalkboard-teacher",
+      "path": "icons/chalkboard-teacher.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/chalkboard-teacher-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "853bb8c4b210fe2dc612ee6ceaca8dac737b6940f99db5b88789060b1abd3256",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "bar",
+        "bars",
+        "chart",
+        "comparison",
+        "distribution",
+        "volume"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "chart-bar",
+      "path": "icons/chart-bar.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/chart-bar-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "cae31bbb903d5eb5600b195a126cd87d99448c38741de30703536636a2517cfb",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "chart",
+        "growth",
+        "improvement",
+        "increase",
+        "line",
+        "trend",
+        "up"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "chart-line-up",
+      "path": "icons/chart-line-up.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/chart-line-up-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "82444eebbd21f6747cc2a0bfdf3cecdb264d9f6cd0662227789210cba23c55d4",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "breakdown",
+        "chart",
+        "percentage",
+        "pie",
+        "proportion",
+        "share",
+        "split"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "chart-pie",
+      "path": "icons/chart-pie.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/chart-pie-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "communication"
+      ],
+      "checksum_sha256": "41c8030a48f4607911a6f90b5b76db7787d97ed7be034413e8d93a768e2bd1eb",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "chat",
+        "circle",
+        "conversation",
+        "dialogue",
+        "feedback",
+        "message",
+        "support"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "chat-circle",
+      "path": "icons/chat-circle.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/chat-circle-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "communication"
+      ],
+      "checksum_sha256": "f8e505cf2c7fbd0f8821f5725fa4d406c4a8ec4b40065229bb4b99f50116b68e",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "chats",
+        "collaboration",
+        "comments",
+        "discussion",
+        "threads"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "chats",
+      "path": "icons/chats.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/chats-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison",
+        "metric"
+      ],
+      "checksum_sha256": "cde4725f843bebce38fcde324f90c4cc6152b4d173ba2185643dce106cad2345",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "check",
+        "circle",
+        "done",
+        "pass",
+        "success",
+        "supported",
+        "yes"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "check-circle",
+      "path": "icons/check-circle.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/check-circle-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "382c8a5c90511785954614dbf720b3966716a76596b95ba10691995f038af6ab",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "circles",
+        "intersection",
+        "overlap",
+        "shared",
+        "three",
+        "venn"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "circles-three",
+      "path": "icons/circles-three.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/circles-three-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "timeline"
+      ],
+      "checksum_sha256": "4f876770d1cfd41152731157c4ef810c254cc0724d7127b1eceae6ae6b25c6e4",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "clock",
+        "duration",
+        "hours",
+        "latency",
+        "time",
+        "when"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "clock",
+      "path": "icons/clock.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/clock-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "158976998a735bb6a28f5f8e1a394723d4b189cf3d9688863b2b91644f737080",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "cloud",
+        "hosted",
+        "infrastructure",
+        "remote",
+        "saas"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "cloud",
+      "path": "icons/cloud.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/cloud-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "data"
+      ],
+      "checksum_sha256": "67f0a31465f90e09d8889175efa3d638572673167f39e38e3dcba4c21a77d3d5",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "arrow",
+        "cloud",
+        "down",
+        "download",
+        "fetch",
+        "pull",
+        "restore"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "cloud-arrow-down",
+      "path": "icons/cloud-arrow-down.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/cloud-arrow-down-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "data"
+      ],
+      "checksum_sha256": "ee199bdbaaa9599d7ba70b236d64eefe48a003614e5e3d0261bf551009a6c155",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "arrow",
+        "backup",
+        "cloud",
+        "publish",
+        "push",
+        "sync",
+        "up",
+        "upload"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "cloud-arrow-up",
+      "path": "icons/cloud-arrow-up.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/cloud-arrow-up-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "969f0111c6823dba8d517dcb441c3650de4ec861935e510a3c61652ecd525b76",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "code",
+        "implementation",
+        "programming",
+        "software",
+        "source"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "code",
+      "path": "icons/code.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/code-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "44854f27fc8fc6bd492978ea1660ee195511711296f50cadc8ecc2e5f1c3d98d",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "compass",
+        "direction",
+        "explore",
+        "navigate",
+        "orientation",
+        "strategy"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "compass",
+      "path": "icons/compass.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/compass-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "fa50d1f7fc2e5c3734d44ad2efe21efe16f2df4aa05a450dfb0e4cdbd34f25b5",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "chip",
+        "compute",
+        "cpu",
+        "hardware",
+        "inference",
+        "processor"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "cpu",
+      "path": "icons/cpu.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/cpu-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "d890bc75d9f133a5c270936ea183c922a18eb8812e4aa10f6eac3119f70bc9e7",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "billing",
+        "card",
+        "credit",
+        "payment",
+        "subscription",
+        "transaction"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "credit-card",
+      "path": "icons/credit-card.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/credit-card-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "6998027b89f0e4d2f2eeb1f48c937c6b57bc1117943c031cf69f03a9973b7204",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "accuracy",
+        "crosshair",
+        "focus",
+        "precision",
+        "targeting"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "crosshair",
+      "path": "icons/crosshair.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/crosshair-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "metric"
+      ],
+      "checksum_sha256": "b2293c24d468c6be08cc2967dec32ce129cc5bf550333bf128b454acbdc7e38c",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "budget",
+        "cost",
+        "currency",
+        "dollar",
+        "money",
+        "price",
+        "revenue"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "currency-dollar",
+      "path": "icons/currency-dollar.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/currency-dollar-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "data"
+      ],
+      "checksum_sha256": "5d469f33a923ec0509a58941fa7060a33139dd6234d8c72e3a010969fe4dcfd6",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "database",
+        "persistence",
+        "sql",
+        "storage",
+        "store",
+        "warehouse"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "database",
+      "path": "icons/database.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/database-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "checksum_sha256": "2898596dbdc341e3bac2285f6b6cc65438d682763b369a6f5c7b263a620e7d03",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "app",
+        "client",
+        "desktop",
+        "device",
+        "on",
+        "workstation"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "desktop",
+      "path": "icons/desktop.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/desktop-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "product"
+      ],
+      "checksum_sha256": "4ff5c407a17c30803643718aa0c15f0294fca7017970c9f1792b908eeb00534e",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "app",
+        "device",
+        "handheld",
+        "mobile",
+        "phone"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "device-mobile",
+      "path": "icons/device-mobile.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/device-mobile-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "f95faeb24c806c7cb88d3e2a65b5258d1024d3563a6848049af0a1a5144eca1d",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "biology",
+        "dna",
+        "genetics",
+        "molecular",
+        "sequence"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "dna",
+      "path": "icons/dna.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/dna-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data",
+        "general"
+      ],
+      "checksum_sha256": "dd21c48ac0461786886479a1cb344189f312dbec3f25f9fa546558a2e0ea5572",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "download",
+        "export",
+        "get",
+        "retrieve",
+        "save"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "download",
+      "path": "icons/download.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/download-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "01acd089121aedc3fdf1306405054a12a1c48f7684f5a514bba0450d54fe8ebf",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "dose",
+        "drop",
+        "fluid",
+        "liquid",
+        "water"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "drop",
+      "path": "icons/drop.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/drop-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "communication"
+      ],
+      "checksum_sha256": "5abbdb5ae55c7c8db4a3f6d38cde7ef3e8acae51d90c63f41cfd497a7c044906",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "contact",
+        "email",
+        "envelope",
+        "inbox",
+        "message",
+        "notify"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "envelope",
+      "path": "icons/envelope.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/envelope-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "3e25344a87e34e4a5b5473219db84b12a1bda503ce2eaa015e94bc37afb8f429",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "equals",
+        "equivalent",
+        "parity",
+        "same",
+        "tie"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "equals",
+      "path": "icons/equals.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/equals-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "ddf22937d983207ba4c0fcafeba5defb83bf4df125e1864d9be2d38e1dbb635e",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "eye",
+        "monitor",
+        "observe",
+        "transparency",
+        "visibility",
+        "watch"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "eye",
+      "path": "icons/eye.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/eye-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "3f42b03bb0b58733ce05c2177529c184728cb6bb3e7fb5526b7e02ec99da9550",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "factory",
+        "industrial",
+        "manufacturing",
+        "plant",
+        "production"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "factory",
+      "path": "icons/factory.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/factory-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "555c6544130ce74230c3ba71ff520888802b96305d3c3be02102d26930f6231e",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "document",
+        "file",
+        "page",
+        "paper",
+        "report",
+        "text"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "file-text",
+      "path": "icons/file-text.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/file-text-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "f75f4272014a3b3f19276e3c4f4069d6383eea73b13f3167e60a8138701bea3a",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "batch",
+        "corpus",
+        "dataset",
+        "documents",
+        "files"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "files",
+      "path": "icons/files.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/files-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "e6fccb1353c7bbce489ba00634b22a0a81fac858878abbd9e7ff997b7b069f93",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "authentication",
+        "biometric",
+        "fingerprint",
+        "identity",
+        "unique"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "fingerprint",
+      "path": "icons/fingerprint.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/fingerprint-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "43945e19246d7a4b3c5c406fcddeff6b33d20964da9737e369f18ce82e6bca98",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "burn",
+        "critical",
+        "energy",
+        "fire",
+        "heat",
+        "urgent"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "fire",
+      "path": "icons/fire.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/fire-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "timeline"
+      ],
+      "checksum_sha256": "dc5463f4e47a6305b0287fda59f9f4d2040f7ef526d6cc76421da2071f42005d",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "checkpoint",
+        "flag",
+        "goal",
+        "milestone",
+        "release"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "flag",
+      "path": "icons/flag.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/flag-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "abef1e62e770529f86e7fd0600682494b96937ecdc3322c65cef48b7102a636c",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "experiment",
+        "flask",
+        "lab",
+        "research",
+        "test",
+        "trial"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "flask",
+      "path": "icons/flask.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/flask-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "37a5b179e76012e0862e8cf6f9f41d3e27a16473cb82589d9e394394ebf08ba8",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "checkpoint",
+        "disk",
+        "floppy",
+        "persist",
+        "save",
+        "write"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "floppy-disk",
+      "path": "icons/floppy-disk.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/floppy-disk-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "56d36b85f92a2bd17875333a5d95f0decf3d4156534b61c1e9a7f4a19336266c",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "arrow",
+        "flow",
+        "pipeline",
+        "sequence",
+        "step"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "flow-arrow",
+      "path": "icons/flow-arrow.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/flow-arrow-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "40b5b0d598dec0f058308b5e10eea0b42386cc0ce217ef74b24cc393d3968a7b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "collection",
+        "directory",
+        "folder",
+        "group",
+        "organise"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "folder",
+      "path": "icons/folder.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/folder-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric",
+        "process"
+      ],
+      "checksum_sha256": "d41797b792f116ee696ba64a034560a43d038dfb909ab922783d7ee2b7da8dab",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "conversion",
+        "filter",
+        "funnel",
+        "narrow",
+        "stage"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "funnel",
+      "path": "icons/funnel.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/funnel-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "3fa564c908b3d79ea6ace0285e6ad0875a97afeff818c3f15aab77546839d2fd",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "filter",
+        "funnel",
+        "query",
+        "simple",
+        "subset"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "funnel-simple",
+      "path": "icons/funnel-simple.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/funnel-simple-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "9f529f246cb8e0a9bbeb8e1f680c18713e5a7c95893c04392ef9fa6117e9def9",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "capacity",
+        "gauge",
+        "level",
+        "measure",
+        "performance",
+        "utilisation"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "gauge",
+      "path": "icons/gauge.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/gauge-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "d006121a73975da8289b240788bdb29d6121b129ef1c4e57cb9986d12fa15c7b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "compliance",
+        "gavel",
+        "legal",
+        "policy",
+        "regulation",
+        "ruling"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "gavel",
+      "path": "icons/gavel.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/gavel-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "a33e0c6d44750662bf209b4031a45dea4e0005ee6678936fe110463e2885968b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "configuration",
+        "engine",
+        "gear",
+        "mechanism",
+        "operations",
+        "settings"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "gear",
+      "path": "icons/gear.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/gear-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture",
+        "process"
+      ],
+      "checksum_sha256": "d0712e4a2ecf0aab247601237e406bdeccef557d9576e07441f62db33a91262d",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "branch",
+        "fork",
+        "git",
+        "variant",
+        "version"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "git-branch",
+      "path": "icons/git-branch.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/git-branch-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "communication"
+      ],
+      "checksum_sha256": "000f8169ec7c08a221aa1ae4e6087f7bf3c268dadfc4f8c9700a59f0f6b16cff",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "global",
+        "globe",
+        "international",
+        "reach",
+        "web",
+        "worldwide"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "globe",
+      "path": "icons/globe.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/globe-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people",
+        "science"
+      ],
+      "checksum_sha256": "7d9e9b7afeed3a12942716571c1d2f827faf09a155b5d72d451414ea92691b19",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "academic",
+        "cap",
+        "education",
+        "graduation",
+        "learning",
+        "skill",
+        "training"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "graduation-cap",
+      "path": "icons/graduation-cap.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/graduation-cap-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "people"
+      ],
+      "checksum_sha256": "12c01ce59d11a8f64caa514b64ef3365e1bd388e9c8503280a56e922b18dd6aa",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "agreement",
+        "alliance",
+        "deal",
+        "handshake",
+        "partnership",
+        "trust"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "handshake",
+      "path": "icons/handshake.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/handshake-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "6517cb2797bebe5ffd8f9c4ca4e7174a3ad52e5dd32ad9de681a2915d71e2aba",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "cluster",
+        "disks",
+        "drives",
+        "hard",
+        "on",
+        "premise",
+        "servers",
+        "storage"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "hard-drives",
+      "path": "icons/hard-drives.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/hard-drives-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "9377042a3a096cf247afc8f963cd396674cb2c17ca5f6a8d8dd0aa4ac86dd9f4",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "care",
+        "favourite",
+        "health",
+        "heart",
+        "like",
+        "loyalty"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "heart",
+      "path": "icons/heart.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/heart-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "timeline"
+      ],
+      "checksum_sha256": "54acf0a3bea6fa0a8355dc47ae85d7dfa5084e6c6beeb491ed8c36f109bc7ea1",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "delay",
+        "elapsed",
+        "hourglass",
+        "pending",
+        "waiting"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "hourglass",
+      "path": "icons/hourglass.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/hourglass-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "9fbd0780a4b08a0a74295b096e7c9eb20c9db592c29fa3c3d69e7d6fc0239d88",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "base",
+        "home",
+        "house",
+        "local",
+        "start"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "house",
+      "path": "icons/house.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/house-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people"
+      ],
+      "checksum_sha256": "5c61384717641df2a74e373eedb6ee7e678fd7fca0a7140cba2946515311e2b3",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "badge",
+        "card",
+        "credential",
+        "identification",
+        "identity",
+        "profile"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "identification-card",
+      "path": "icons/identification-card.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/identification-card-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "e3a1d2855c236940f787e0f71ed5cc4246b9fa4b0e77abd517d40324283c88ef",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "about",
+        "detail",
+        "info",
+        "information",
+        "note"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "info",
+      "path": "icons/info.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/info-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "e307d12ec11cc6aafe22b459c415cf1498f77325f6dc6ecca166fe91327e6ef7",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "backlog",
+        "board",
+        "kanban",
+        "status",
+        "workflow"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "kanban",
+      "path": "icons/kanban.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/kanban-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "b8fc5667f3f17ae766d156c962b7bad49d11d80b983fa797c4766634e14bbbcc",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "access",
+        "credential",
+        "key",
+        "permission",
+        "secret",
+        "token"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "key",
+      "path": "icons/key.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/key-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "science"
+      ],
+      "checksum_sha256": "837680cae7eecb0a45e3eb51ae9cde00bc2f3200f87f334c28ebca531fe035fc",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "environment",
+        "green",
+        "growth",
+        "leaf",
+        "organic",
+        "sustainability"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "leaf",
+      "path": "icons/leaf.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/leaf-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "3db257647137aa7770cbc1402f8fb06a6cfcba8dcd98b40bf36e9e2519ca27e9",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "concept",
+        "hypothesis",
+        "idea",
+        "innovation",
+        "insight",
+        "lightbulb"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "lightbulb",
+      "path": "icons/lightbulb.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/lightbulb-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "a4cdd27488a9c6c4ca6a038b67621bb6ad99e54c39fc2d80dc3ec59ea4e3828b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "fast",
+        "instant",
+        "lightning",
+        "power",
+        "speed",
+        "throughput"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "lightning",
+      "path": "icons/lightning.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/lightning-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "edf3880becbe91e6f12745196ffbb24c04ac82004ad989b1fa5a992f113ea0cf",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "connection",
+        "coupling",
+        "link",
+        "reference",
+        "url"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "link",
+      "path": "icons/link.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/link-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "51fc1a0db2463a76643dee19d662373eeb2f151e8cda63ae71b516342b4d0141",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "checklist",
+        "checks",
+        "list",
+        "requirements",
+        "steps",
+        "tasks",
+        "todo"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "list-checks",
+      "path": "icons/list-checks.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/list-checks-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "3f7dca6f06f043fadfde482be5279dfa761ac29a5c3fffec5a99db740df52c5b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "closed",
+        "encrypted",
+        "lock",
+        "private",
+        "protected",
+        "secure"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "lock",
+      "path": "icons/lock.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/lock-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "b650759915f36639e8c9f40ce681fd19bae069346472c90fb3cea13d975fddc5",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "discovery",
+        "find",
+        "glass",
+        "inspect",
+        "magnifying",
+        "retrieval",
+        "search"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "magnifying-glass",
+      "path": "icons/magnifying-glass.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/magnifying-glass-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "communication"
+      ],
+      "checksum_sha256": "77814971bec9370c4cd728b585fcea6b90b9cd5f18d799b6bc2ae2e9f76df641",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "location",
+        "map",
+        "pin",
+        "place",
+        "region",
+        "site",
+        "where"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "map-pin",
+      "path": "icons/map-pin.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/map-pin-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "8757d8dcf2af05c81cdb12b5faa8ef48f68bccd42ba7506720f79707479d07d3",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "achievement",
+        "award",
+        "best",
+        "medal",
+        "rank"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "medal",
+      "path": "icons/medal.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/medal-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "communication"
+      ],
+      "checksum_sha256": "e5ea132374f294f779cd55a338c2b14d72ae504b506b9415f2d2f2415877b3d0",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "announce",
+        "broadcast",
+        "launch",
+        "marketing",
+        "megaphone",
+        "promotion"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "megaphone",
+      "path": "icons/megaphone.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/megaphone-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "b8c6c41d61a70aa2805163587f9b1e5f4a22bd37c20cb98c97675363c7486667",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "con",
+        "drawback",
+        "less",
+        "loss",
+        "minus",
+        "remove"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "minus",
+      "path": "icons/minus.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/minus-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "2d765f682a4796836346f3a1a92a6bc365fb4bc0ff72c26e4679141b3654b54d",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "ambition",
+        "challenge",
+        "mountains",
+        "peak",
+        "summit",
+        "terrain"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "mountains",
+      "path": "icons/mountains.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/mountains-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "4d4cb6a4f15a03dc30a8ee9fa26f92c47b9da93bff5d4f41f889ac69a95b96c3",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "distributed",
+        "graph",
+        "mesh",
+        "network",
+        "nodes",
+        "topology"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "network",
+      "path": "icons/network.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/network-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "2148cc836e8dbb0a2aa3280efe5b4cdc96bcf7d53bd0759ff26f82ede4d8d2cb",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "annotate",
+        "author",
+        "draft",
+        "edit",
+        "note",
+        "pencil",
+        "write"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "note-pencil",
+      "path": "icons/note-pencil.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/note-pencil-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "product"
+      ],
+      "checksum_sha256": "8f54cbe64f60da90358c550fd90c523fb6c32bc6a02508feacbda8ef1d25bf0d",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "artifact",
+        "bundle",
+        "delivery",
+        "package",
+        "release",
+        "shipment"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "package",
+      "path": "icons/package.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/package-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "a01a614d7d9d6ebf4a3f6aba0e4013a4c0a8f2b7d8534cacb279f69db092c7ef",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "appendix",
+        "attach",
+        "attachment",
+        "enclosure",
+        "paperclip"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "paperclip",
+      "path": "icons/paperclip.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/paperclip-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "535d88e997dc4d68a7b66e64834fd60ad26d7d8692ea4ca8242aa5b5d4748920",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "course",
+        "journey",
+        "path",
+        "route",
+        "trajectory"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "path",
+      "path": "icons/path.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/path-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "ac7a882d44efc8d2b0ac5bb0e1760138e548f55052b38f96b6aede70d918a614",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "accuracy",
+        "percent",
+        "proportion",
+        "rate",
+        "share"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "percent",
+      "path": "icons/percent.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/percent-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "communication"
+      ],
+      "checksum_sha256": "96d483e65cbbd187dd57d62a2b549b0c7e2e95c0cc5bc6e14ff9e0f5878fe752",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "call",
+        "contact",
+        "phone",
+        "support",
+        "voice"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "phone",
+      "path": "icons/phone.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/phone-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "58f0d679a4a8634b468af8045abeb0f443b7d9954fd0beca08fd02fa62d173a3",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "begin",
+        "execute",
+        "play",
+        "run",
+        "start"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "play",
+      "path": "icons/play.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/play-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "affd5d8e3dfa1b6d0c84022b21f8d96da276623f9993c1414f1be3d8fa69517b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "adapter",
+        "api",
+        "connect",
+        "integration",
+        "plug",
+        "plugin"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "plug",
+      "path": "icons/plug.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/plug-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "d38cd99762e9738210b0915d65c9672f77249e98cea27e763b9b9c0c91ceef3f",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "add",
+        "benefit",
+        "gain",
+        "more",
+        "plus",
+        "pro"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "plus",
+      "path": "icons/plus.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/plus-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "318329bfb62f8cfbf1a845c0bc4c70a723ae349cc350a31eb1b8d69f0e7bd333",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "briefing",
+        "chart",
+        "deck",
+        "pitch",
+        "presentation",
+        "report",
+        "review"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "presentation-chart",
+      "path": "icons/presentation-chart.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/presentation-chart-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "0518b36749389f107204d9a8342b21c61fa2947a49afea31f180b5ee93ba80eb",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "component",
+        "fit",
+        "integration",
+        "module",
+        "piece",
+        "puzzle"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "puzzle-piece",
+      "path": "icons/puzzle-piece.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/puzzle-piece-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "16c1d8851edef40eca94532cfc3bf26c9785989610894168fbdc18087050a3a4",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "ask",
+        "open",
+        "query",
+        "question",
+        "uncertainty",
+        "unknown"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "question",
+      "path": "icons/question.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/question-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "science"
+      ],
+      "checksum_sha256": "3643cccd34069849f834204a67655464c2f6da7f1471e1ab6bf32ec462550670",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "circular",
+        "recovery",
+        "recycle",
+        "reuse",
+        "sustainability"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "recycle",
+      "path": "icons/recycle.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/recycle-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "33235f0ff731b08381f710333297fd968225ecf2e0cf1afa310a4ccdc03d5458",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "again",
+        "iteration",
+        "recurring",
+        "repeat"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "repeat",
+      "path": "icons/repeat.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/repeat-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "timeline"
+      ],
+      "checksum_sha256": "d9045941e6b158d0b272a82a72b0f952c1590ddebe41c9bcb4431cd0eb156284",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "ahead",
+        "future",
+        "horizon",
+        "long",
+        "road",
+        "roadmap",
+        "term"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "road-horizon",
+      "path": "icons/road-horizon.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/road-horizon-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "760328af3dfb84d7a0cbbf28630eecca2f8f9839b43b18318c439778a15c9c59",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "agent",
+        "ai",
+        "automation",
+        "autonomous",
+        "bot",
+        "robot"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "robot",
+      "path": "icons/robot.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/robot-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business",
+        "science"
+      ],
+      "checksum_sha256": "211ba840ed967946a52fec68c0c6a23a7973f590d43fa3f4f1b58bb1e95d7440",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "accelerate",
+        "launch",
+        "liftoff",
+        "rocket",
+        "ship",
+        "startup"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "rocket-launch",
+      "path": "icons/rocket-launch.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/rocket-launch-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "9863eb6d68336da84ebd94182266a4b1a331eb44aeb348c0a726908ff561bebc",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "balance",
+        "compare",
+        "fairness",
+        "off",
+        "scales",
+        "trade",
+        "weigh"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "scales",
+      "path": "icons/scales.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/scales-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "7e058de5bc2d792c1156d9a9c5bb1218606bd2f6b0e0569e6e0badd2cf965214",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "approved",
+        "certified",
+        "check",
+        "official",
+        "seal",
+        "trusted",
+        "verified"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "seal-check",
+      "path": "icons/seal-check.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/seal-check-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "924cf0ce0474d8ea6c6f2928d0669f3918b36a4be870b69f2d3a78fe3f6d31c3",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "broadcast",
+        "distribute",
+        "fan",
+        "network",
+        "out",
+        "share",
+        "topology"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "share-network",
+      "path": "icons/share-network.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/share-network-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "58fcb94b72c0dc1c9e751b1a55437807b3f2680b8d143947a7b0b1ec685d0593",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "check",
+        "compliance",
+        "guarantee",
+        "protected",
+        "safe",
+        "shield",
+        "verified"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "shield-check",
+      "path": "icons/shield-check.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/shield-check-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "d660f61418b0ba5004b624158131a059d12632eaf4230759d3a63d3fae029a02",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "basket",
+        "cart",
+        "checkout",
+        "commerce",
+        "order",
+        "purchase",
+        "shopping"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "shopping-cart",
+      "path": "icons/shopping-cart.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/shopping-cart-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "13de4e8d9633eb83528247356265f444cc2013f953c6df6a668441905f62599e",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "branch",
+        "choice",
+        "decision",
+        "direction",
+        "signpost"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "signpost",
+      "path": "icons/signpost.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/signpost-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "36874470dc7525e135238fd75c0687401ad1329b3f0a1c7a20aac920b03a6b17",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "configuration",
+        "controls",
+        "parameters",
+        "settings",
+        "sliders",
+        "tuning"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "sliders",
+      "path": "icons/sliders.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/sliders-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison"
+      ],
+      "checksum_sha256": "cd51a1f4c7dec20179be67a10cd3ceac8e9f1ac863fbc505d3ec067584818465",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "four",
+        "grid",
+        "matrix",
+        "quadrant",
+        "segments",
+        "squares"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "squares-four",
+      "path": "icons/squares-four.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/squares-four-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "4957ae816676d697adfe0729334b4bcddee79af1199ad8e6e4a61b09a5c5676b",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "layers",
+        "levels",
+        "stack",
+        "tiers"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "stack",
+      "path": "icons/stack.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/stack-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "ab23397508ce6b0ed125d7511d637ad2fcdad6b29273a4b950515fa7fd592d7f",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "favourite",
+        "highlight",
+        "quality",
+        "rating",
+        "star"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "star",
+      "path": "icons/star.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/star-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "process"
+      ],
+      "checksum_sha256": "f8ecb3a1b8ba0501b81b4421248626a5a014e9fa29a973f81f155cba0f986fec",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "phases",
+        "progression",
+        "ramp",
+        "stages",
+        "steps"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "steps",
+      "path": "icons/steps.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/steps-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "117cb30d4445912da2443ab3ea052aafc4b6adbd6bb0064629e4f12044f623f6",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "channel",
+        "commerce",
+        "market",
+        "retail",
+        "shop",
+        "storefront"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "storefront",
+      "path": "icons/storefront.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/storefront-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "science"
+      ],
+      "checksum_sha256": "1ac305b5be95100515557e9428e5aa99ce0f974d89ca7f92461087543cb07807",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "bright",
+        "day",
+        "energy",
+        "light",
+        "solar",
+        "sun"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "sun",
+      "path": "icons/sun.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/sun-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "7ddf1cfc215235043aa02fcfabce6123ab6855ff78cde9f0e76148a323273c22",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "columns",
+        "grid",
+        "rows",
+        "spreadsheet",
+        "table",
+        "tabular"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "table",
+      "path": "icons/table.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/table-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data"
+      ],
+      "checksum_sha256": "90275af69c287eb2b48dfd83cfb20ef825ce88eae8e0b8b1c75a2d2de63a4917",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "annotate",
+        "category",
+        "classify",
+        "label",
+        "metadata",
+        "tag"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "tag",
+      "path": "icons/tag.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/tag-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "11c90a46f9c4bafda0c55206917e4d646eff647379bc9db0dc6edda9cec1239f",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "accuracy",
+        "aim",
+        "goal",
+        "objective",
+        "precision",
+        "target"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "target",
+      "path": "icons/target.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/target-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "33728bdf6d456f748dd875df4e3cb6c87a714b8a943f8e0a2cbd9df041a8b9f2",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "cli",
+        "command",
+        "console",
+        "script",
+        "shell",
+        "terminal"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "terminal",
+      "path": "icons/terminal.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/terminal-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric",
+        "timeline"
+      ],
+      "checksum_sha256": "4ed9d49192967347019800414947d4543537df2f6939586bb71dbe9dfef54473",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "countdown",
+        "deadline",
+        "speed",
+        "stopwatch",
+        "timer"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "timer",
+      "path": "icons/timer.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/timer-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "77545a17bf0342b0ff106bd498fca833f69ab7df72086f1c0f8df27975edba57",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "kit",
+        "platform",
+        "toolbox",
+        "tooling",
+        "utilities"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "toolbox",
+      "path": "icons/toolbox.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/toolbox-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "general"
+      ],
+      "checksum_sha256": "3b24ba538a1790c9d2ff0a4d70f89187f2ef146752516b13499c75fc38320aaa",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "cleanup",
+        "delete",
+        "discard",
+        "remove",
+        "trash"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "trash",
+      "path": "icons/trash.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/trash-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "ccad41863f4bba16f452b2abb157a6d19ee082c15a0266e66d23492043f230b7",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "decomposition",
+        "hierarchy",
+        "org",
+        "structure",
+        "taxonomy",
+        "tree"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "tree-structure",
+      "path": "icons/tree-structure.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/tree-structure-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "833eb71cdfa259c4453d53a3b3a9683c83c30e01ed467db96732f28bc9554cc8",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "cost",
+        "decline",
+        "down",
+        "falling",
+        "loss",
+        "reduction",
+        "trend"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "trend-down",
+      "path": "icons/trend-down.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/trend-down-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "f35a37afc9d4e9dfb2537fb8099736d0e311f5daa89a95928623192bfcbbad39",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "gain",
+        "growth",
+        "improvement",
+        "rising",
+        "trend",
+        "up"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "trend-up",
+      "path": "icons/trend-up.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/trend-up-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "metric"
+      ],
+      "checksum_sha256": "16322d18c9a81f7f4f3941c822b851a780226a44617943c13aae281c8d55e888",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "award",
+        "benchmark",
+        "first",
+        "success",
+        "trophy",
+        "win"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "trophy",
+      "path": "icons/trophy.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/trophy-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "91f5be64dbec1398d8af7880300a698a03834bd8011bff336ea117265a2d9ae8",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "delivery",
+        "distribution",
+        "fleet",
+        "logistics",
+        "supply",
+        "truck"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "truck",
+      "path": "icons/truck.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/truck-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "data",
+        "general"
+      ],
+      "checksum_sha256": "5b9d0b35dcc538a1cfea15f2904d61a00648b128b5f1aae7bb2555ead2d43b14",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "import",
+        "ingest",
+        "send",
+        "submit",
+        "upload"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "upload",
+      "path": "icons/upload.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/upload-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people"
+      ],
+      "checksum_sha256": "ba5c2a3f632ccb3cdf47f3be901dcd9532b63bd571b617baa873a65c2b964141",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "account",
+        "individual",
+        "person",
+        "profile",
+        "user"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "user",
+      "path": "icons/user.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/user-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people"
+      ],
+      "checksum_sha256": "9d0e2469144487c5cc525c7fa4f590dcbae9c95f5fcd48ca921a43ff32508d71",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "acquisition",
+        "growth",
+        "hire",
+        "invite",
+        "onboard",
+        "plus",
+        "user"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "user-plus",
+      "path": "icons/user-plus.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/user-plus-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people"
+      ],
+      "checksum_sha256": "46b92d49afb8ba03ed2d918ad0a15c22a33047c680ebc2be98283193735d6956",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "collaboration",
+        "group",
+        "pair",
+        "team",
+        "users"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "users",
+      "path": "icons/users.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/users-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "people"
+      ],
+      "checksum_sha256": "9a618f7de8ba6267a81806e2b3174d7a7d90cf3848400f248ec69b530ee7d9c8",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "audience",
+        "cohort",
+        "community",
+        "stakeholders",
+        "team",
+        "three",
+        "users"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "users-three",
+      "path": "icons/users-three.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/users-three-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "business"
+      ],
+      "checksum_sha256": "4a88fdd753244c7f2d7b26a8c5c88f57d4039c676bc0b969560556c75479f11a",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "depot",
+        "fulfilment",
+        "inventory",
+        "storage",
+        "warehouse"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "warehouse",
+      "path": "icons/warehouse.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/warehouse-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "security"
+      ],
+      "checksum_sha256": "d3aaf7fd2d692ebd0166a473c4b12cb55d815c388c440a9cfdffe5ef23d90714",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "alert",
+        "attention",
+        "caution",
+        "danger",
+        "risk",
+        "warning"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "warning",
+      "path": "icons/warning.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/warning-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "architecture"
+      ],
+      "checksum_sha256": "0ce5e4ee0c8ba008900f58b1cf19fa44408a003a593cb30d8ba4b9e0fa68afdb",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "fix",
+        "maintenance",
+        "repair",
+        "tooling",
+        "wrench"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "wrench",
+      "path": "icons/wrench.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/wrench-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    },
+    {
+      "categories": [
+        "comparison",
+        "metric"
+      ],
+      "checksum_sha256": "8bb73e021d407782cef5d21bece723120f885a61022f857ef8b0fe518bdf97ad",
+      "embeddable": true,
+      "family": "",
+      "italic": false,
+      "keywords": [
+        "circle",
+        "fail",
+        "no",
+        "rejected",
+        "unsupported"
+      ],
+      "kind": "icon",
+      "license_file": "licenses/phosphor-icons-core-main-mit.txt",
+      "license_name": "MIT License",
+      "license_spdx": "MIT",
+      "name": "x-circle",
+      "path": "icons/x-circle.svg",
+      "role": "",
+      "source_url": "https://raw.githubusercontent.com/phosphor-icons/core/main/assets/fill/x-circle-fill.svg",
+      "unicode_ranges": [],
+      "upstream_version": "unknown",
+      "weight": 400
+    }
+  ],
+  "schema_version": "sunairum.asset-manifest/v1"
+}

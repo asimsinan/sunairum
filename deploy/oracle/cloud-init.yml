@@ -1,0 +1,111 @@
+#cloud-config
+#
+# Oracle Cloud Infrastructure — first-boot provisioning for sunairum.
+#
+# Create Compute → Instance, paste this under "Advanced options → Management →
+# Initialization script (cloud-init)", after replacing every CHANGE_ME.
+#
+# Recommended shapes:
+#   Always Free Ampere: VM.Standard.A1.Flex — 2 OCPU, 12 GB, Ubuntu aarch64
+#   Trial credits (x86):  VM.Standard.E4.Flex / E5.Flex — ≥4 OCPU, ≥8 GB
+#
+# Also required in the OCI console (not done by this script):
+#   VCN Security List ingress: TCP 22, 80, 443 from 0.0.0.0/0 (or tighten 22)
+#   Assign a public IP
+#
+# Private GitHub repos: cloud-init cannot clone without a token. Either make the
+# repo public for the beta, use
+#   https://<PAT>@github.com/asimsinan/sunairum.git
+# as SUNAIRUM_REPO, or skip this file and run deploy/oracle/setup.sh over SSH.
+
+package_update: true
+package_upgrade: true
+
+packages:
+  - ca-certificates
+  - curl
+  - git
+  - iptables-persistent
+
+write_files:
+  - path: /opt/sunairum/env/cloud.env
+    permissions: "0600"
+    content: |
+      # Leave DOMAIN empty for plain HTTP on the public IP.
+      DOMAIN=
+      POSTGRES_USER=postgres
+      POSTGRES_PASSWORD=CHANGE_ME_STRONG_DB_PASSWORD
+      POSTGRES_DB=sunairumdb
+      # Leave CHANGE_ME_REGISTRY to build on the instance (slow, works without a registry).
+      IMAGE_PREFIX=CHANGE_ME_REGISTRY/sunairum
+      IMAGE_TAG=latest
+      STORAGE_MODE=local
+      SOURCE_PARSER=docling
+      DOCLING_DEVICE=cpu
+      SOURCE_PARSER_TIMEOUT_SECONDS=900
+      HF_HUB_OFFLINE=1
+      DOCLING_FORMULA_ENRICHMENT=0
+      DOCLING_COMPILE_MODELS=1
+      # Always Free Ampere: prefer 1 concurrent Docling parse.
+      CELERY_CONCURRENCY=1
+
+  - path: /opt/sunairum/env/fastapi.env
+    permissions: "0600"
+    content: |
+      SETTINGS_SECRET_KEY=CHANGE_ME_LONG_RANDOM_STRING
+
+  - path: /opt/sunairum/bootstrap.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+
+      REPO="${SUNAIRUM_REPO:-https://github.com/asimsinan/sunairum.git}"
+      APP_DIR=/opt/sunairum/app
+
+      # Host firewall (OCI Ubuntu rejects non-SSH until opened).
+      iptables -C INPUT -p tcp -m state --state NEW --dport 80 -j ACCEPT 2>/dev/null \
+        || iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+      iptables -C INPUT -p tcp -m state --state NEW --dport 443 -j ACCEPT 2>/dev/null \
+        || iptables -I INPUT 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
+      if command -v netfilter-persistent >/dev/null 2>&1; then
+        netfilter-persistent save || true
+      elif [[ -d /etc/iptables ]]; then
+        iptables-save >/etc/iptables/rules.v4 || true
+      fi
+
+      curl -fsSL https://get.docker.com | sh
+
+      if [[ ! -d "$APP_DIR/.git" ]]; then
+        git clone --filter=blob:none --depth 1 "$REPO" "$APP_DIR"
+      fi
+      cd "$APP_DIR"
+      if [[ -x ./deploy/oracle/sparse-checkout-cloud.sh ]]; then
+        ./deploy/oracle/sparse-checkout-cloud.sh
+      fi
+
+      mkdir -p deploy
+      ln -sf /opt/sunairum/env/cloud.env deploy/cloud.env
+      ln -sf /opt/sunairum/env/fastapi.env deploy/fastapi.env
+
+      if [[ ! -f /swapfile ]]; then
+        fallocate -l 4G /swapfile
+        chmod 600 /swapfile
+        mkswap /swapfile
+        swapon /swapfile
+        echo '/swapfile none swap sw 0 0' >> /etc/fstab
+      fi
+
+      if grep -q 'CHANGE_ME_REGISTRY' /opt/sunairum/env/cloud.env; then
+        ./deploy/up.sh --build
+      else
+        ./deploy/up.sh
+      fi
+
+runcmd:
+  - [ bash, /opt/sunairum/bootstrap.sh ]
+
+final_message: |
+  sunairum bootstrap finished (or is still building images).
+  Open http://<public-ip> after docker compose is up.
+  Confirm VCN security list allows TCP 80 and 443.

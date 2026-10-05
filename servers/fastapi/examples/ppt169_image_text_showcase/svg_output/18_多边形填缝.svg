@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="natureBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EDE0" />
+      <stop offset="100%" stop-color="#F0E4D0" />
+    </linearGradient>
+    <linearGradient id="sunsetGradText" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623" />
+      <stop offset="100%" stop-color="#CC4A2A" />
+    </linearGradient>
+    <clipPath id="hexClip">
+      <polygon points="220,100 580,100 760,360 580,620 220,620 40,360" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#natureBg)" />
+
+  
+  
+  <polygon points="224,104 584,104 764,364 584,624 224,624 44,364" fill="#8B5A2A" fill-opacity="0.08" />
+  
+  <image href="../images/p18_polygon_img.png" x="40" y="100" width="720" height="520" clip-path="url(#hexClip)" preserveAspectRatio="xMidYMid slice" />
+  
+  <polygon points="220,100 580,100 760,360 580,620 220,620 40,360" fill="none" stroke="#8B5A2A" stroke-opacity="0.3" stroke-width="2" />
+
+  
+  <text x="920" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8B5A2A" fill-opacity="0.6" letter-spacing="2">P18  ·  nature × sunset-gradient</text>
+
+  
+  <text x="820" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="31.09" font-weight="bold" fill="#3A2010">Polygon</text>
+  <text x="820" y="164" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26.60" font-weight="bold" fill="#3A2010" textLength="152.0" lengthAdjust="spacingAndGlyphs">Cutting and filling gaps</text>
+
+  <rect x="820" y="178" width="120" height="3" rx="1.5" fill="url(#sunsetGradText)" />
+
+  <text x="820" y="216" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.21" fill="#5A3A20">Hexagonal clipPath image cropping,</text>
+  <text x="820" y="242" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5A3A20">The text freely fills the space outside the graphic</text>
+  <text x="820" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5A3A20" textLength="153.9" lengthAdjust="spacingAndGlyphs">Negative space and corner areas.</text>
+
+  <text x="820" y="314" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8B5A2A">Non-rectangular containers break traditional composition,</text>
+  <text x="820" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8B5A2A" textLength="113.2" lengthAdjust="spacingAndGlyphs">Create an organic sense of movement.</text>
+
+  
+  <rect x="820" y="370" width="160" height="30" rx="4" fill="#8B5A2A" fill-opacity="0.1" />
+  <text x="900" y="390" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A3A20" textLength="84.0" lengthAdjust="spacingAndGlyphs">Natural illustration style</text>
+
+  <rect x="820" y="410" width="160" height="30" rx="4" fill="#F5A623" fill-opacity="0.15" />
+  <text x="900" y="430" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B5A20" textLength="84.0" lengthAdjust="spacingAndGlyphs">Sunset Gradient Color Grading</text>
+
+  <rect x="820" y="450" width="160" height="30" rx="4" fill="#2A5A30" fill-opacity="0.1" />
+  <text x="900" y="470" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#2A5A30" textLength="84.0" lengthAdjust="spacingAndGlyphs">Tropical plant theme</text>
+
+  
+  <text x="820" y="540" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8B5A2A" textLength="38.2" lengthAdjust="spacingAndGlyphs">Technology:</text>
+  <text x="820" y="564" font-family="Consolas, monospace" font-size="13" fill="#5A3A20">&lt;clipPath&gt; + &lt;polygon&gt;</text>
+  <text x="820" y="588" font-family="Consolas, monospace" font-size="9.10" fill="#5A3A20">Six-vertex hexagonal path</text>
+  <text x="820" y="612" font-family="Consolas, monospace" font-size="13" fill="#5A3A20">preserveAspectRatio=slice</text>
+
+  
+  
+  <text x="1160" y="120" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#8B5A2A" fill-opacity="0.5">nature</text>
+
+  
+  <text x="640" y="688" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8B5A2A" fill-opacity="0.7">Non-rectangular graphics · Text as filler · Organic sense of flow</text>
+
+  <text x="1240" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#8B5A2A" fill-opacity="0.5">18</text>
+</svg>

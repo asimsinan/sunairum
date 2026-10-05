@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="blueprintBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628" />
+      <stop offset="100%" stop-color="#0D1E36" />
+    </linearGradient>
+    <linearGradient id="editAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A7FC4" />
+      <stop offset="100%" stop-color="#2A5A9A" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#blueprintBg)" />
+
+  
+  <line x1="0" y1="60" x2="1280" y2="60" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="120" x2="1280" y2="120" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="180" x2="1280" y2="180" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="240" x2="1280" y2="240" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="300" x2="1280" y2="300" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="360" x2="1280" y2="360" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="420" x2="1280" y2="420" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="480" x2="1280" y2="480" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="540" x2="1280" y2="540" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="600" x2="1280" y2="600" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="0" y1="660" x2="1280" y2="660" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="60" y1="0" x2="60" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="120" y1="0" x2="120" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="240" y1="0" x2="240" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="380" y1="0" x2="380" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="440" y1="0" x2="440" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="640" y1="0" x2="640" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="840" y1="0" x2="840" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="900" y1="0" x2="900" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="1160" y1="0" x2="1160" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+  <line x1="1220" y1="0" x2="1220" y2="720" stroke="#4A7FC4" stroke-opacity="0.04" stroke-width="1" />
+
+  
+  <rect x="0" y="0" width="1280" height="52" fill="#0D1E36" />
+  <rect x="0" y="50" width="1280" height="2" fill="#4A7FC4" fill-opacity="0.4" />
+  <text x="60" y="33" font-family="Consolas, monospace" font-size="13" fill="#4A7FC4">P08</text>
+  <text x="100" y="33" font-family="Consolas, monospace" font-size="13" fill="#6A9AC4">blueprint × editorial-classic</text>
+  <text x="640" y="33" text-anchor="middle" font-family="Consolas, monospace" font-size="10.50" fill="#E8E8F0" letter-spacing="4" textLength="105.0" lengthAdjust="spacingAndGlyphs">Nine-grid image-and-text layout</text>
+  <text x="1220" y="33" text-anchor="end" font-family="Consolas, monospace" font-size="13" fill="#4A7FC4">08</text>
+
+  
+  
+  
+  
+
+  
+  
+  <rect x="0" y="54" width="420" height="218" fill="#0A1628" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="20" y="88" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[01] RENDERING</text>
+  <text x="20" y="118" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="bold" fill="#B8D4F0" textLength="48.0" lengthAdjust="spacingAndGlyphs">Blueprint</text>
+  <text x="20" y="142" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="bold" fill="#B8D4F0" textLength="96.0" lengthAdjust="spacingAndGlyphs">Technical style</text>
+  <text x="20" y="170" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="128.2" lengthAdjust="spacingAndGlyphs">Precise lines, an engineering-drawing aesthetic</text>
+  <text x="20" y="192" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="135.0" lengthAdjust="spacingAndGlyphs">Analysis and system design scenarios</text>
+  
+  <line x1="0" y1="60" x2="12" y2="60" stroke="#4A7FC4" stroke-opacity="0.5" stroke-width="1" />
+  <line x1="6" y1="54" x2="6" y2="66" stroke="#4A7FC4" stroke-opacity="0.5" stroke-width="1" />
+  <line x1="408" y1="60" x2="420" y2="60" stroke="#4A7FC4" stroke-opacity="0.5" stroke-width="1" />
+  <line x1="414" y1="54" x2="414" y2="66" stroke="#4A7FC4" stroke-opacity="0.5" stroke-width="1" />
+
+  
+  <rect x="424" y="54" width="420" height="218" fill="#0A1628" stroke="#4A7FC4" stroke-opacity="0.4" stroke-width="2" />
+  <image href="../images/p08_grid_center.png" x="424" y="54" width="420" height="218" preserveAspectRatio="xMidYMid slice" />
+  
+  <rect x="424" y="230" width="420" height="42" fill="#0A1628" fill-opacity="0.85" />
+  <text x="634" y="256" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" letter-spacing="2">CENTER · IMAGE</text>
+
+  
+  <rect x="848" y="54" width="432" height="218" fill="#0A1628" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="868" y="88" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[03] PALETTE</text>
+  <text x="868" y="118" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="bold" fill="#B8D4F0">Editor</text>
+  <text x="868" y="142" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="bold" fill="#B8D4F0" textLength="96.0" lengthAdjust="spacingAndGlyphs">Classic color palette</text>
+  <text x="868" y="170" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="128.2" lengthAdjust="spacingAndGlyphs">Restrained Colors, Editorial Character</text>
+  <text x="868" y="192" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4">Finance / News / Analysis</text>
+  
+  <circle cx="1248" cy="66" r="4" fill="#F5A623" fill-opacity="0.5" />
+
+  
+  
+  <rect x="0" y="276" width="420" height="218" fill="#0D1E36" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="20" y="310" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[04] LAYOUT</text>
+  <text x="20" y="342" font-family="Arial, 'Georgia', sans-serif" font-size="18" fill="#E8E8F0">3×3</text>
+  <text x="20" y="366" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.63" fill="#E8E8F0">Nine-grid grid</text>
+  <text x="20" y="400" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="83.2" lengthAdjust="spacingAndGlyphs">Images arranged in the center grid,</text>
+  <text x="20" y="420" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="98.2" lengthAdjust="spacingAndGlyphs">Place text in the 8 surrounding cells</text>
+  <text x="20" y="452" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="83.2" lengthAdjust="spacingAndGlyphs">Or color-block information.</text>
+
+  
+  <rect x="424" y="276" width="420" height="218" fill="#132040" stroke="#7C6FF7" stroke-opacity="0.3" stroke-width="1" />
+  <text x="634" y="355" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#B8D4F0" textLength="40.0" lengthAdjust="spacingAndGlyphs">Image and text</text>
+  <text x="634" y="383" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#B8D4F0" textLength="80.0" lengthAdjust="spacingAndGlyphs">Juxtaposed dialogue</text>
+  
+  <rect x="514" y="410" width="30" height="30" fill="none" stroke="#4A7FC4" stroke-opacity="0.4" stroke-width="1" />
+  <rect x="546" y="410" width="30" height="30" fill="#4A7FC4" fill-opacity="0.3" stroke="#4A7FC4" stroke-opacity="0.4" stroke-width="1" />
+  <rect x="578" y="410" width="30" height="30" fill="none" stroke="#4A7FC4" stroke-opacity="0.4" stroke-width="1" />
+  <rect x="514" y="442" width="30" height="30" fill="none" stroke="#4A7FC4" stroke-opacity="0.4" stroke-width="1" />
+  <rect x="546" y="442" width="30" height="30" fill="#7C6FF7" fill-opacity="0.3" stroke="#7C6FF7" stroke-opacity="0.5" stroke-width="1" />
+  <rect x="578" y="442" width="30" height="30" fill="none" stroke="#4A7FC4" stroke-opacity="0.4" stroke-width="1" />
+  <text x="634" y="490" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">middle = image</text>
+
+  
+  <rect x="848" y="276" width="432" height="218" fill="#0D1E36" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="868" y="310" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[06] ANNOTATION</text>
+  <text x="868" y="342" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8E8F0" textLength="72.0" lengthAdjust="spacingAndGlyphs">Technical annotations</text>
+  <text x="868" y="366" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8E8F0" textLength="72.0" lengthAdjust="spacingAndGlyphs">Style language</text>
+  <text x="868" y="400" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.78" fill="#6A9AC4">Monospaced font Consolas</text>
+  <text x="868" y="420" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="123.2" lengthAdjust="spacingAndGlyphs">Guide lines + crosshair marks</text>
+  <text x="868" y="452" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="98.2" lengthAdjust="spacingAndGlyphs">The Aesthetics of Engineering Drawings.</text>
+
+  
+  
+  <rect x="0" y="498" width="420" height="222" fill="#0A1628" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="20" y="534" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[07] USE CASE</text>
+  <text x="20" y="566" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.98" fill="#E8E8F0">Use cases</text>
+  <text x="20" y="600" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="108.2" lengthAdjust="spacingAndGlyphs">· System architecture overview</text>
+  <text x="20" y="622" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="108.2" lengthAdjust="spacingAndGlyphs">· Engineering and technical report</text>
+  <text x="20" y="644" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="108.2" lengthAdjust="spacingAndGlyphs">· Design standards document</text>
+  <text x="20" y="666" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A9AC4" textLength="108.2" lengthAdjust="spacingAndGlyphs">·  Information-dense page</text>
+
+  
+  <rect x="424" y="498" width="420" height="222" fill="#0A1628" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="444" y="534" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[08] COLOR SPEC</text>
+  <rect x="444" y="548" width="60" height="20" rx="2" fill="#0A4A8A" />
+  <text x="514" y="563" font-family="Consolas, monospace" font-size="12" fill="#6A9AC4">#0A4A8A  bg</text>
+  <rect x="444" y="578" width="60" height="20" rx="2" fill="#4A7FC4" />
+  <text x="514" y="593" font-family="Consolas, monospace" font-size="12" fill="#6A9AC4">#4A7FC4  line</text>
+  <rect x="444" y="608" width="60" height="20" rx="2" fill="#B8D4F0" />
+  <text x="514" y="623" font-family="Consolas, monospace" font-size="12" fill="#6A9AC4">#B8D4F0  text</text>
+  <rect x="444" y="638" width="60" height="20" rx="2" fill="#F5A623" />
+  <text x="514" y="653" font-family="Consolas, monospace" font-size="12" fill="#6A9AC4">#F5A623  accent</text>
+  <rect x="444" y="668" width="60" height="20" rx="2" fill="#7C6FF7" />
+  <text x="514" y="683" font-family="Consolas, monospace" font-size="12" fill="#6A9AC4">#7C6FF7  primary</text>
+
+  
+  <rect x="848" y="498" width="432" height="222" fill="#0D1E36" stroke="#4A7FC4" stroke-opacity="0.25" stroke-width="1" />
+  <text x="868" y="534" font-family="Consolas, monospace" font-size="11" fill="#4A7FC4" fill-opacity="0.6">[09] GRID SPEC</text>
+  <text x="868" y="566" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8E8F0" textLength="72.0" lengthAdjust="spacingAndGlyphs">Grid specifications</text>
+  <text x="868" y="598" font-family="Consolas, monospace" font-size="13" fill="#6A9AC4">cols:  3 × 420px</text>
+  <text x="868" y="620" font-family="Consolas, monospace" font-size="13" fill="#6A9AC4">rows:  3 × 218px</text>
+  <text x="868" y="642" font-family="Consolas, monospace" font-size="13" fill="#6A9AC4">gap:   4px</text>
+  <text x="868" y="664" font-family="Consolas, monospace" font-size="13" fill="#6A9AC4">center: image</text>
+  <text x="868" y="686" font-family="Consolas, monospace" font-size="13" fill="#6A9AC4">8 cells: text</text>
+  
+  <line x1="1268" y1="712" x2="1280" y2="712" stroke="#4A7FC4" stroke-opacity="0.5" stroke-width="1" />
+  <line x1="1274" y1="706" x2="1274" y2="720" stroke="#4A7FC4" stroke-opacity="0.5" stroke-width="1" />
+</svg>

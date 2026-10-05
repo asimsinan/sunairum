@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect x="0" y="0" width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="p08-top">
+    <text x="60" y="60" font-family="Georgia, serif" font-size="14" fill="#B8935A" letter-spacing="3">06 · TWENTY YEARS</text>
+    <text x="60" y="118" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" font-weight="bold" fill="#1C1C1C" textLength="502.9" lengthAdjust="spacingAndGlyphs">A poetic ark of art, 20 years in the making</text>
+    <line x1="60" y1="148" x2="180" y2="148" stroke="#B8935A" stroke-width="3" />
+    <text x="60" y="184" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.57" fill="#5C5852">Peter Zumthor · LACMA David Geffen Galleries · Opens 2026.5.4</text>
+    <text x="60" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.06" fill="#8B8680">2009 Pritzker Prize · Spanning Wilshire Boulevard in Los Angeles</text>
+  </g>
+
+  <g id="banner">
+    <image href="../images/zumthor_lacma_exterior.png" x="0" y="240" width="1280" height="260" preserveAspectRatio="xMidYMid slice" />
+    <rect x="60" y="464" width="160" height="32" fill="#1C1C1C" />
+    <text x="76" y="486" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#E8C788" letter-spacing="2">SUSPENDED ARK</text>
+  </g>
+
+  <g id="bottom-stats">
+    <line x1="60" y1="540" x2="60" y2="640" stroke="#B8935A" stroke-width="2" />
+    <text x="80" y="568" font-family="Georgia, serif" font-size="13" fill="#B8935A" letter-spacing="2">SCALE</text>
+    <text x="80" y="608" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#1C1C1C">$724M</text>
+    <text x="80" y="636" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.02" fill="#5C5852">$724 million investment · 32,293 ㎡</text>
+
+    <line x1="360" y1="540" x2="360" y2="640" stroke="#B8935A" stroke-width="2" />
+    <text x="380" y="568" font-family="Georgia, serif" font-size="13" fill="#B8935A" letter-spacing="2">STRUCTURE</text>
+    <text x="380" y="608" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="18.20" font-weight="bold" fill="#1C1C1C" textLength="208.0" lengthAdjust="spacingAndGlyphs">Seven minimalist concrete pavilions</text>
+    <text x="380" y="636" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852">Staggered arrangement · Spanning above a busy boulevard</text>
+
+    <line x1="700" y1="540" x2="700" y2="640" stroke="#B8935A" stroke-width="2" />
+    <text x="720" y="568" font-family="Georgia, serif" font-size="13" fill="#B8935A" letter-spacing="2">CRAFT TIME</text>
+    <text x="720" y="608" font-family="Georgia, serif" font-size="22.40" font-weight="bold" fill="#1C1C1C" textLength="77.8" lengthAdjust="spacingAndGlyphs">20 years</text>
+    <text x="720" y="636" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852">Repeated refinement · Extreme patience in an impatient age</text>
+  </g>
+
+  <g id="quote-block">
+    <rect x="960" y="540" width="260" height="120" fill="#1C1C1C" />
+    <line x1="960" y1="540" x2="960" y2="600" stroke="#B8935A" stroke-width="3" />
+    <text x="980" y="572" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8C788" font-style="italic" textLength="108.0" lengthAdjust="spacingAndGlyphs">Architecture is about place</text>
+    <text x="980" y="600" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8C788" font-style="italic" textLength="72.0" lengthAdjust="spacingAndGlyphs">A Poetic Container</text>
+    <text x="980" y="640" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.37" fill="#D4CFC4">— Peter Zumthor</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="708" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680">Rejecting hierarchies among artworks · classical and contemporary coexisting as equals · Image source: ArchDaily / Photography: Iwan Baan</text>
+    <text x="1220" y="708" text-anchor="end" font-family="Georgia, serif" font-size="11" fill="#8B8680">08 / 11</text>
+  </g>
+</svg>

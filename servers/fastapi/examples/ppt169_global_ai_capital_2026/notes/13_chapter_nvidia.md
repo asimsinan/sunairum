@@ -1,0 +1,1 @@
+Now we enter Part Five. This chapter examines a core structural problem: when a chipmaker is also a major shareholder. Nvidia's equity investments have exceeded $40 billion since 2026, with $30 billion going to OpenAI and investments in xAI, Anthropic, and Mistral all in place. At the same time, 85% of its revenue comes from just six customers. This is a closed loop.

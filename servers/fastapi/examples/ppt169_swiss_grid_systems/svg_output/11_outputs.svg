@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFFFFF" />
+  </g>
+
+  <g id="header">
+    <text x="64" y="60" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" letter-spacing="2">P · 11</text>
+    <text x="64" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="900" fill="#1A1A1A" textLength="224.0" lengthAdjust="spacingAndGlyphs">Bring into the modern world</text>
+    <text x="64" y="148" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="14" fill="#666666" letter-spacing="2">1960s → · FROM SWITZERLAND TO THE GLOBAL DESIGN SYSTEM</text>
+    <line x1="64" y1="172" x2="120" y2="172" stroke="#D9251D" stroke-width="3" />
+  </g>
+
+  
+
+  <g id="domain-corporate">
+    <text x="64" y="240" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" letter-spacing="2">01</text>
+    <line x1="64" y1="260" x2="280" y2="260" stroke="#1A1A1A" stroke-width="2" />
+    <text x="64" y="296" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="75.5" lengthAdjust="spacingAndGlyphs">Corporate VI</text>
+    <text x="64" y="318" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="2">CORPORATE IDENTITY</text>
+    <text x="64" y="358" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#1A1A1A">
+      <tspan x="64" dy="0">Turning Swiss rationality into an “identity system”</tspan>
+      <tspan x="64" dy="22">The beginning of the industry</tspan>
+    </text>
+    <line x1="64" y1="430" x2="120" y2="430" stroke="#E8E8E8" stroke-width="1" />
+    <text x="64" y="460" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#666666">
+      <tspan x="64" dy="0">IBM (Paul Rand)</tspan>
+      <tspan x="64" dy="22">Knoll · Lufthansa</tspan>
+      <tspan x="64" dy="22">Olivetti · Braun</tspan>
+    </text>
+    <text x="64" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.71" fill="#999999" letter-spacing="1">JMB · IBM consultant since 1967</text>
+  </g>
+
+  <g id="domain-signage">
+    <text x="368" y="240" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" letter-spacing="2">02</text>
+    <line x1="368" y1="260" x2="584" y2="260" stroke="#1A1A1A" stroke-width="2" />
+    <text x="368" y="296" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="158.6" lengthAdjust="spacingAndGlyphs">Airport / subway signage</text>
+    <text x="368" y="318" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="2">SIGNAGE SYSTEMS</text>
+    <text x="368" y="358" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#1A1A1A">
+      <tspan x="368" dy="0">The legibility of public spaces</tspan>
+      <tspan x="368" dy="22">An extension of Swiss rationality</tspan>
+    </text>
+    <line x1="368" y1="430" x2="424" y2="430" stroke="#E8E8E8" stroke-width="1" />
+    <text x="368" y="460" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#666666">
+      <tspan x="368" dy="0">New York Subway Unimark</tspan>
+      <tspan x="368" dy="22">Frutiger typeface at Paris Airport</tspan>
+      <tspan x="368" dy="22">Munich · Otl Aicher</tspan>
+    </text>
+    <text x="368" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.19" fill="#999999" letter-spacing="1">Vignelli 1966 New York Subway Manual</text>
+  </g>
+
+  <g id="domain-publishing">
+    <text x="672" y="240" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" letter-spacing="2">03</text>
+    <line x1="672" y1="260" x2="888" y2="260" stroke="#1A1A1A" stroke-width="2" />
+    <text x="672" y="296" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="66.0" lengthAdjust="spacingAndGlyphs">Publishing industry</text>
+    <text x="672" y="318" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="2">EDITORIAL DESIGN</text>
+    <text x="672" y="358" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#1A1A1A">
+      <tspan x="672" dy="0">Journals · magazines · cultural publishing</tspan>
+      <tspan x="672" dy="22">the layout grammar of</tspan>
+    </text>
+    <line x1="672" y1="430" x2="728" y2="430" stroke="#E8E8E8" stroke-width="1" />
+    <text x="672" y="460" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#666666">
+      <tspan x="672" dy="0">Du Magazine (Switzerland)</tspan>
+      <tspan x="672" dy="22">Eye Magazine</tspan>
+      <tspan x="672" dy="22">Domus · Wallpaper*</tspan>
+    </text>
+    <text x="672" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#999999" letter-spacing="1">It remains a model of cultural publishing to this day</text>
+  </g>
+
+  <g id="domain-education">
+    <text x="976" y="240" font-family="&quot;Arial Black&quot;, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#D9251D" letter-spacing="2">04</text>
+    <line x1="976" y1="260" x2="1192" y2="260" stroke="#1A1A1A" stroke-width="2" />
+    <text x="976" y="296" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="88.0" lengthAdjust="spacingAndGlyphs">Design Education</text>
+    <text x="976" y="318" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#666666" letter-spacing="2">DESIGN EDUCATION</text>
+    <text x="976" y="358" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#1A1A1A">
+      <tspan x="976" dy="0">Basel + Zurich</tspan>
+      <tspan x="976" dy="22">Globalization of two teaching pathways</tspan>
+    </text>
+    <line x1="976" y1="430" x2="1032" y2="430" stroke="#E8E8E8" stroke-width="1" />
+    <text x="976" y="460" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="13" fill="#666666">
+      <tspan x="976" dy="0">Yale (Hofmann)</tspan>
+      <tspan x="976" dy="22">RISD · Cooper Union</tspan>
+      <tspan x="976" dy="22">Tokyo GS School</tspan>
+    </text>
+    <text x="976" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#999999" letter-spacing="1">Student Work Continued Uninterrupted for Half a Century</text>
+  </g>
+
+  <g id="page-footer">
+    <text x="1216" y="688" font-family="Arial, &quot;Georgia&quot;, sans-serif" font-size="11" fill="#999999" text-anchor="end" letter-spacing="1">11 / 14</text>
+  </g>
+</svg>

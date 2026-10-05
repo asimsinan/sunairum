@@ -1,0 +1,1 @@
+Now, let’s talk about where and when. Coconut Island Prairie—a city built for summer, with 120 hectares of open space and five major stages surrounding a central lawn. It’s 30 kilometers by car from the nearest airport, and the high-speed rail station shuttle takes just 15 minutes. From July 18 to 24, seven full days, sweet right down to the final minute.

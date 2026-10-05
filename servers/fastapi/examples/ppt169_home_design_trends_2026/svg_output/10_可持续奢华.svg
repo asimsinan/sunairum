@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="imgOverlay10" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#1A1714" stop-opacity="0.05" />
+      <stop offset="35%" stop-color="#1A1714" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#1A1714" stop-opacity="0.95" />
+    </linearGradient>
+    <radialGradient id="bgAccent10" cx="85%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#7BA37B" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#7BA37B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1714" />
+  <rect width="1280" height="720" fill="url(#bgAccent10)" />
+
+  
+  <image href="../images/sustainable_luxury.png" x="680" y="0" width="600" height="720" preserveAspectRatio="xMidYMid slice" />
+  <rect x="680" y="0" width="600" height="720" fill="url(#imgOverlay10)" />
+
+  
+  <g id="p10-tag">
+    <use data-icon="tabler-filled/leaf" x="80" y="120" width="28" height="28" fill="#7BA37B" />
+    <text x="116" y="140" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14" fill="#7BA37B" letter-spacing="3">
+      2026 Trends
+    </text>
+  </g>
+
+  
+  <g id="p10-title">
+    <text x="80" y="210" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="29.44" font-weight="bold" fill="#E8E0D4">
+      Sustainable luxury
+    </text>
+    <text x="80" y="250" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#7BA37B">
+      Responsible aesthetics
+    </text>
+  </g>
+
+  
+  <rect x="80" y="275" width="50" height="3" fill="#7BA37B" rx="1.5" />
+
+  
+  <g id="p10-content">
+    <text x="80" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.30" fill="#E8E0D4">
+      Luxury is no longer about piling on expensive materials
+    </text>
+
+    <text x="80" y="370" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B0A08E" textLength="180.5" lengthAdjust="spacingAndGlyphs">
+      ● Eco-Friendly Finishing Materials
+    </text>
+    <text x="80" y="398" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B0A08E">
+      ● Maximize the Use of Natural Light
+    </text>
+    <text x="80" y="426" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.45" fill="#B0A08E">
+      ● Recycled Wood · Cork · Jute Fiber
+    </text>
+    <text x="80" y="454" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B0A08E">
+      ● Locally Sourced Sustainable Wood · Revival of Plant-Based Dyes
+    </text>
+  </g>
+
+  
+  <rect x="80" y="500" width="4" height="70" fill="#7BA37B" rx="2" />
+  <text x="100" y="530" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#E8E0D4" font-style="italic" textLength="203.6" lengthAdjust="spacingAndGlyphs">
+    From "conspicuous consumption"
+  </text>
+  <text x="100" y="558" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#7BA37B" font-style="italic" textLength="243.6" lengthAdjust="spacingAndGlyphs">
+    Shift toward "responsible aesthetics"
+  </text>
+
+  
+  <text x="80" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#7A6E60">
+    A philosophy of living in harmony with the world
+  </text>
+
+  
+  <text x="1210" y="690" text-anchor="end" font-family="Georgia, Georgia, serif" font-size="12" fill="#7A6E60">
+    10 / 12
+  </text>
+</svg>

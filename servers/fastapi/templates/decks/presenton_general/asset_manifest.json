@@ -1,0 +1,159 @@
+{
+  "source_static": "presenton/templates/general/static",
+  "shared_static": "presenton/servers/fastapi/static",
+  "assets": [
+    {
+      "source": "template_static/image11-6ce50168d7ec.png",
+      "target": "images/image11-6ce50168d7ec.png",
+      "kind": "png",
+      "sha256": "ee2886d82f8b6280285fbe7e1da14114f69d04e89e6d0733956fdf341babf0dd",
+      "bytes": 4342,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image12-2ed5eba60707.png",
+      "target": "images/image12-2ed5eba60707.png",
+      "kind": "png",
+      "sha256": "e938c50d1e49bd852cf525babf82f7c68f5459d7c1b5ef40de93e2032687238a",
+      "bytes": 391,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image17-3bad1e1bf9ec.png",
+      "target": "images/image17-3bad1e1bf9ec.png",
+      "kind": "png",
+      "sha256": "642a8ea93898a6f95a92f935c50bc436670190a778b02b116c393fbbd23dc5de",
+      "bytes": 365,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image18-7076e2044973.png",
+      "target": "images/image18-7076e2044973.png",
+      "kind": "png",
+      "sha256": "c24cad88ddf6b2f185171ef9cdacdc0e129df76568bb0b56219caf01f42499c6",
+      "bytes": 361,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image19-8efba41be759.png",
+      "target": "images/image19-8efba41be759.png",
+      "kind": "png",
+      "sha256": "8b80b7b6fa47db4e1c84adaea536dee337f6aa515ca57ada2d8e250233a83c89",
+      "bytes": 362,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image2-ec1c92dee7a3.png",
+      "target": "images/image2-ec1c92dee7a3.png",
+      "kind": "png",
+      "sha256": "dd586cc51623585ed692e48d95e7886edcce0837d40b3aa6e0565f18bfe7f84f",
+      "bytes": 2991,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image20-6875b30b26c2.png",
+      "target": "images/image20-6875b30b26c2.png",
+      "kind": "png",
+      "sha256": "dc1e0efd4a30939f3d319b0d83e9804a9ebd97892304a106e27989de0f03d32a",
+      "bytes": 4235,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image21-f2b82e740bc2.png",
+      "target": "images/image21-f2b82e740bc2.png",
+      "kind": "png",
+      "sha256": "e46f69944d73b80247436cd1e936365c4afbb13ebc335746a341d3465c1b14ee",
+      "bytes": 4390,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image22-6dd2f52e896c.png",
+      "target": "images/image22-6dd2f52e896c.png",
+      "kind": "png",
+      "sha256": "41648333dc334142fba341b4acef543f7d436f4b6640a614d02e738b592fc7d4",
+      "bytes": 1938,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image23-f21b824d69c7.png",
+      "target": "images/image23-f21b824d69c7.png",
+      "kind": "png",
+      "sha256": "9c92a14da73b3d68faf5f705d12ad74901f87d3efbf6e97994fa9aba376194d7",
+      "bytes": 3021,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image26-6ba37bd671c7.png",
+      "target": "images/image26-6ba37bd671c7.png",
+      "kind": "png",
+      "sha256": "fbc5c7403ee2280cb4a9a52c3c1e2c8b56a6c6f4a2f9bd3f15958019dce3dec9",
+      "bytes": 2380,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image3-82be19a88965.png",
+      "target": "images/image3-82be19a88965.png",
+      "kind": "png",
+      "sha256": "618da8794c670a9491402300eaa3bd802f04cbe648d76aa5f7b863e04e91d0ae",
+      "bytes": 740,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image32-e024f0f6ca8c.png",
+      "target": "images/image32-e024f0f6ca8c.png",
+      "kind": "png",
+      "sha256": "f409f619ef8f75ddd98b47fea52a6d9c3c053739b0a2f885d291f60f884ed269",
+      "bytes": 829,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image33-ae1f10d83bac.png",
+      "target": "images/image33-ae1f10d83bac.png",
+      "kind": "png",
+      "sha256": "a1b4b0dc3b62c7bece6f828ea603f27a0ee330cd88a81a6b034066c6e7d6e6ee",
+      "bytes": 2130,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image8-09632504cf99.png",
+      "target": "images/image8-09632504cf99.png",
+      "kind": "png",
+      "sha256": "28f266dc9fe7e817fe603912fb543e671a7f940f5d2048aae05d58da1a42fbe9",
+      "bytes": 564,
+      "referenced": true
+    },
+    {
+      "source": "template_static/image9-68eb2d8ed47c.png",
+      "target": "images/image9-68eb2d8ed47c.png",
+      "kind": "png",
+      "sha256": "2177f894a24b5d316c26b8539c1bd70eed7c60e137177815e7faba328709a419",
+      "bytes": 831,
+      "referenced": true
+    },
+    {
+      "source": "template_static/thumbnail.png",
+      "target": "images/thumbnail.png",
+      "kind": "png",
+      "sha256": "fca8dcd2c0a33254f9d78453f8c0882cea220696c8d2e183645aff8595db9227",
+      "bytes": 242741,
+      "referenced": true
+    },
+    {
+      "source": "presenton_shared_static/replaceable_template_image.png",
+      "target": "images/replaceable_template_image.png",
+      "kind": "png",
+      "sha256": "27ca0c75f9e0b9e1875514c5aa5fe735ed6ec377b197a501f9b1f64841bd6c43",
+      "bytes": 18572,
+      "referenced": true
+    },
+    {
+      "source": "presenton_shared_static/placeholder.svg",
+      "target": "images/placeholder.svg",
+      "kind": "svg",
+      "sha256": "7f434cc2d0ea881b684258256bfff9b3554397447c57f32fc75ce9d40ec10f1a",
+      "bytes": 4068,
+      "referenced": true
+    }
+  ],
+  "missing_references": []
+}

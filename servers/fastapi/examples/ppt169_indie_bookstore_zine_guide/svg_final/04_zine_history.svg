@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP04" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="bg-grain" width="1280" height="720" fill="url(#dotP04)" />
+
+  <g id="header">
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <rect x="63" y="59" width="14" height="68" fill="#FF5C8A" opacity="0.7" />
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <text x="92" y="98" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="36.72" fill="#1A1A1A" letter-spacing="-1">Four waves of ZINEs in a century</text>
+    <text x="92" y="128" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A5A" letter-spacing="3">FOUR WAVES OF SELF-PUBLISHING · 1920s — 2026</text>
+  </g>
+
+  <line x1="60" y1="152" x2="1220" y2="152" stroke="#1A1A1A" stroke-width="3" />
+
+  
+  <g id="timeline-track">
+    
+    <rect x="100" y="404" width="1080" height="14" fill="#1E4DBC" />
+    
+    <rect x="103" y="407" width="1080" height="14" fill="#FF5C8A" opacity="0.7" />
+    <rect x="100" y="404" width="1080" height="14" fill="#1E4DBC" />
+    
+    <polygon points="1180,396 1210,411 1180,426" fill="#1E4DBC" />
+  </g>
+
+  
+  <g id="year-ticks">
+    <line x1="156" y1="384" x2="156" y2="438" stroke="#1A1A1A" stroke-width="3" />
+    <line x1="384" y1="384" x2="384" y2="438" stroke="#1A1A1A" stroke-width="3" />
+    <line x1="612" y1="384" x2="612" y2="438" stroke="#1A1A1A" stroke-width="3" />
+    <line x1="840" y1="384" x2="840" y2="438" stroke="#1A1A1A" stroke-width="3" />
+    <line x1="1068" y1="384" x2="1068" y2="438" stroke="#1A1A1A" stroke-width="3" />
+  </g>
+
+  
+  <g id="wave-01">
+    <text x="156" y="200" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#FF5C8A" text-anchor="middle">1920s</text>
+    <text x="154" y="198" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#1A1A1A" text-anchor="middle">1920s</text>
+    <rect x="68" y="220" width="180" height="156" fill="#1A1A1A" />
+    <rect x="71" y="223" width="180" height="156" fill="#1E4DBC" opacity="0.5" />
+    <rect x="68" y="220" width="180" height="156" fill="#1A1A1A" />
+    <rect x="68" y="220" width="180" height="34" fill="#FF5C8A" />
+    <text x="158" y="244" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#F5EFE0" text-anchor="middle" textLength="84.0" lengthAdjust="spacingAndGlyphs">The spark of amateur publishing</text>
+    <text x="158" y="282" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.87" fill="#F5EFE0" text-anchor="middle">Harlem Renaissance</text>
+    <text x="158" y="302" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#F5EFE0" text-anchor="middle" textLength="113.5" lengthAdjust="spacingAndGlyphs">Black creator’s work *FIRE!!*</text>
+    <text x="158" y="324" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" opacity="0.85" textLength="77.0" lengthAdjust="spacingAndGlyphs">Express freely and independently</text>
+    <text x="158" y="358" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" text-anchor="middle" letter-spacing="2">EMBER</text>
+    <line x1="156" y1="378" x2="156" y2="404" stroke="#FF5C8A" stroke-width="3" stroke-dasharray="3,3" />
+  </g>
+
+  
+  <g id="wave-02">
+    <line x1="384" y1="418" x2="384" y2="446" stroke="#FF5C8A" stroke-width="3" stroke-dasharray="3,3" />
+    <text x="384" y="476" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#FF5C8A" text-anchor="middle">1930s</text>
+    <text x="382" y="474" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#1A1A1A" text-anchor="middle">1930s</text>
+    <rect x="296" y="494" width="180" height="156" fill="#1A1A1A" />
+    <rect x="299" y="497" width="180" height="156" fill="#FF5C8A" opacity="0.5" />
+    <rect x="296" y="494" width="180" height="156" fill="#1A1A1A" />
+    <rect x="296" y="494" width="180" height="34" fill="#1E4DBC" />
+    <text x="386" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#F5EFE0" text-anchor="middle" textLength="70.0" lengthAdjust="spacingAndGlyphs">Science Fiction Fanzine</text>
+    <text x="386" y="556" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#F5EFE0" text-anchor="middle">*THE COMET*（1930）</text>
+    <text x="386" y="576" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#F5EFE0" text-anchor="middle" textLength="104.0" lengthAdjust="spacingAndGlyphs">The First Science Fiction Fanzine</text>
+    <text x="386" y="598" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#F5EFE0" text-anchor="middle" opacity="0.85">1940 RUSS CHAUVENET</text>
+    <text x="386" y="616" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.90" fill="#F5EFE0" text-anchor="middle" opacity="0.85">Coined the term "FANZINE"</text>
+    <text x="386" y="640" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1E4DBC" text-anchor="middle" letter-spacing="2">CRYSTALLIZE</text>
+  </g>
+
+  
+  <g id="wave-03">
+    <text x="612" y="200" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#FF5C8A" text-anchor="middle">1976</text>
+    <text x="610" y="198" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#1A1A1A" text-anchor="middle">1976</text>
+    <rect x="524" y="220" width="180" height="156" fill="#1A1A1A" />
+    <rect x="527" y="223" width="180" height="156" fill="#1E4DBC" opacity="0.5" />
+    <rect x="524" y="220" width="180" height="156" fill="#1A1A1A" />
+    <rect x="524" y="220" width="180" height="34" fill="#E8A02E" />
+    <text x="614" y="244" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.91" font-weight="900" fill="#1A1A1A" text-anchor="middle">The punk ZINE wave</text>
+    <text x="614" y="282" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#F5EFE0" text-anchor="middle">*SNIFFIN' GLUE*</text>
+    <text x="614" y="302" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.54" fill="#F5EFE0" text-anchor="middle">Founded by MARK PERRY</text>
+    <text x="614" y="324" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" opacity="0.85" textLength="112.3" lengthAdjust="spacingAndGlyphs">Widespread photocopiers + the working class</text>
+    <text x="614" y="358" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#E8A02E" text-anchor="middle" letter-spacing="2">DIY EXPLOSION</text>
+    <line x1="612" y1="378" x2="612" y2="404" stroke="#E8A02E" stroke-width="3" stroke-dasharray="3,3" />
+  </g>
+
+  
+  <g id="wave-04">
+    <line x1="840" y1="418" x2="840" y2="446" stroke="#FF5C8A" stroke-width="3" stroke-dasharray="3,3" />
+    <text x="840" y="476" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#FF5C8A" text-anchor="middle">1991</text>
+    <text x="838" y="474" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#1A1A1A" text-anchor="middle">1991</text>
+    <rect x="752" y="494" width="180" height="156" fill="#FF5C8A" />
+    <rect x="755" y="497" width="180" height="156" fill="#1E4DBC" opacity="0.5" />
+    <rect x="752" y="494" width="180" height="156" fill="#FF5C8A" />
+    <rect x="752" y="494" width="180" height="34" fill="#1A1A1A" />
+    <text x="842" y="518" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" font-weight="900" fill="#F5EFE0" text-anchor="middle">RIOT GRRRL</text>
+    <text x="842" y="556" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A" text-anchor="middle">*BIKINI KILL* zine of the same name</text>
+    <text x="842" y="576" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A" text-anchor="middle">KATHLEEN HANNA, EDITOR-IN-CHIEF</text>
+    <text x="842" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.01" fill="#1A1A1A" text-anchor="middle" opacity="0.85">Third-wave feminism + DIY punk</text>
+    <text x="842" y="616" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#1A1A1A" text-anchor="middle" opacity="0.85">RIOT GRRRL PRESS Distribution Network</text>
+    <text x="842" y="640" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1A1A1A" text-anchor="middle" letter-spacing="2">FEMINIST WAVE</text>
+  </g>
+
+  
+  <g id="wave-05">
+    <text x="1068" y="200" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="38" fill="#FF5C8A" text-anchor="middle">2010s+</text>
+    <text x="1066" y="198" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="38" fill="#1A1A1A" text-anchor="middle">2010s+</text>
+    <rect x="980" y="220" width="180" height="156" fill="#1E4DBC" />
+    <rect x="983" y="223" width="180" height="156" fill="#FF5C8A" opacity="0.5" />
+    <rect x="980" y="220" width="180" height="156" fill="#1E4DBC" />
+    <rect x="980" y="220" width="180" height="34" fill="#F5EFE0" />
+    <text x="1070" y="244" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" text-anchor="middle" textLength="128.9" lengthAdjust="spacingAndGlyphs">Contemporary Revival + Book Fair Breakout</text>
+    <text x="1070" y="282" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#F5EFE0" text-anchor="middle">SF Zine Fest (2001)</text>
+    <text x="1070" y="302" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#F5EFE0" text-anchor="middle">LA Zine Fest (2012)</text>
+    <text x="1070" y="324" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#F5EFE0" text-anchor="middle" opacity="0.85">British Library / TATE collections</text>
+    <text x="1070" y="358" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#F5EFE0" text-anchor="middle" letter-spacing="2">RENAISSANCE</text>
+    <line x1="1068" y1="378" x2="1068" y2="404" stroke="#F5EFE0" stroke-width="3" stroke-dasharray="3,3" />
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="690" x2="1220" y2="690" stroke="#1A1A1A" stroke-width="1" />
+    <text x="60" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P04 · FOUR WAVES OF ZINE</text>
+    <text x="1220" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" text-anchor="end" letter-spacing="2">EMBER → CRYSTALLIZE → EXPLOSION → FEMINIST → RENAISSANCE</text>
+  </g>
+</svg>

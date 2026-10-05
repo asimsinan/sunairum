@@ -1,0 +1,571 @@
+{
+ "schema_version": "sunairum.layout-contracts/v1",
+ "certified": true,
+ "pack": "presenton_modern",
+ "layouts": {
+  "01_title_slide": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_3",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_4",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "02_title_description_bullet_points_grid_with_icon": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_2",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_3",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_3",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 2,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "03_title_description_bullet_points_list_with_icon": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_2",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_3",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_3",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_4",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_4",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_5",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_5",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 4,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "04_title_description_chart": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 0,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "05_title_description_chart_table": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 0,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "06_title_description_image": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "07_title_list_of_cards_with_alternating_image": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_2",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_3",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_4",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_3",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_5",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_4",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 4,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "08_title_list_of_cards_with_image": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_2",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_3",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 2,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "09_title_image_description_list_with_highlighted_text_heading_description": {
+   "archetypes": [
+    "title",
+    "hero"
+   ],
+   "slots": [
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_3",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_4",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_5",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_6",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_7",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 1,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  },
+  "10_table_of_contents": {
+   "archetypes": [
+    "narrative"
+   ],
+   "slots": [
+    {
+     "slot_id": "BODY",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_2",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE",
+     "role": "title",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_3",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_4",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_2",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_5",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_6",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_3",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_7",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_8",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_4",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_9",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_10",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_5",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_11",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_12",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_6",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_13",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_14",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_7",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_15",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_16",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_8",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_17",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_18",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_9",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_19",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_20",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "TITLE_10",
+     "role": "body",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_21",
+     "role": "body-line",
+     "required": false
+    },
+    {
+     "slot_id": "BODY_22",
+     "role": "body-line",
+     "required": false
+    }
+   ],
+   "supports_tables": false,
+   "supports_flow": false,
+   "max_non_background_images": 0,
+   "component_limits": {
+    "cards": 0,
+    "metrics": 0,
+    "steps": 0
+   }
+  }
+ }
+}

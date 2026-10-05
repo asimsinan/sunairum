@@ -1,0 +1,178 @@
+# Local development only (hot reload, bind mounts, higher RAM).
+# Production / OCI uses docker-compose.cloud.yml + Dockerfile.prod.
+name: sunairum
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: sunairum-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ${POSTGRES_DB:-pptmaster}
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    container_name: sunairum-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  fastapi:
+    build: 
+      context: ./servers/fastapi
+      dockerfile: Dockerfile
+    image: sunairum-api:latest
+    container_name: sunairum-api
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./servers/fastapi/.env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/${POSTGRES_DB:-pptmaster}
+      - STORAGE_MODE=local
+      - SOURCE_PARSER=${SOURCE_PARSER:-docling}
+      - DOCLING_DEVICE=${DOCLING_DEVICE:-cpu}
+      # Local-only sample accounts for the admin panel (maya@… etc.).
+      - SEED_DEMO_USERS=${SEED_DEMO_USERS:-1}
+      # Docling's weights are baked into the image at /opt/docling-models, so
+      # offline turns a missing model into an immediate error rather than a
+      # silent refetch that stalls the parse.
+      - HF_HUB_OFFLINE=${HF_HUB_OFFLINE:-1}
+      - TRANSFORMERS_OFFLINE=${HF_HUB_OFFLINE:-1}
+      # Same Chromium install as the worker (preview refresh on HTML save).
+      - PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+      - SUNAIRUM_RENDERER_AVAILABLE=1
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # Full fastapi tree (includes examples/ design-reference packs). Do not
+      # also bind-mount examples onto /app/examples — a stale/missing nested
+      # mount masks the directory and the gallery returns zero templates.
+      - ./servers/fastapi:/app
+      - ./storage:/app/storage
+    depends_on:
+      db:
+        condition: service_started
+      redis:
+        condition: service_started
+
+  # Dedicated workers so PDF import and slide generation do not share slots.
+  celery_generation:
+    build:
+      context: ./servers/fastapi
+      dockerfile: Dockerfile
+      args:
+        # Chromium for HTML measure + preview PNGs.
+        # Required for product path; set WITH_RENDERER=0 only for slim builds.
+        WITH_RENDERER: ${WITH_RENDERER:-1}
+    image: sunairum-celery-generation:latest
+    container_name: sunairum-celery-generation
+    command: celery -A worker.celery_app worker --loglevel=info -Q generation
+    env_file:
+      - ./servers/fastapi/.env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/${POSTGRES_DB:-pptmaster}
+      - STORAGE_MODE=local
+      - SOURCE_PARSER=${SOURCE_PARSER:-docling}
+      - SOURCE_PARSER_TIMEOUT_SECONDS=${SOURCE_PARSER_TIMEOUT_SECONDS:-900}
+      - DOCLING_DEVICE=${DOCLING_DEVICE:-cpu}
+      - DOCLING_FORMULA_ENRICHMENT=${DOCLING_FORMULA_ENRICHMENT:-0}
+      # Legacy CELERY_CONCURRENCY = generation concurrency (backward compatible).
+      - CELERY_CONCURRENCY=${CELERY_CONCURRENCY:-2}
+      - CELERY_WORKER=1
+      # OpenRouter cache_control has been returning HTTP 200 + choices:null on
+      # Executor calls; disable until the provider stops that glitch.
+      - SUNAIRUM_PROMPT_CACHE=${SUNAIRUM_PROMPT_CACHE:-0}
+      - PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+      - SUNAIRUM_RENDERER_AVAILABLE=1
+      # torch.compile on the layout model: ~9s once per worker process, then
+      # ~1.9s per page against ~2.2s uncompiled. Set to 0 to favour cold starts.
+      - DOCLING_INFERENCE_COMPILE_TORCH_MODELS=${DOCLING_COMPILE_MODELS:-1}
+      # Docling's weights are baked into the image at /opt/docling-models, so
+      # offline turns a missing model into an immediate error rather than a
+      # silent refetch that stalls the parse.
+      - HF_HUB_OFFLINE=${HF_HUB_OFFLINE:-1}
+      - TRANSFORMERS_OFFLINE=${HF_HUB_OFFLINE:-1}
+    volumes:
+      - ./servers/fastapi:/app
+      - ./storage:/app/storage
+    depends_on:
+      redis:
+        condition: service_started
+      db:
+        condition: service_started
+
+  celery_source_import:
+    build:
+      context: ./servers/fastapi
+      dockerfile: Dockerfile
+      args:
+        WITH_RENDERER: ${WITH_RENDERER:-1}
+    image: sunairum-celery-source-import:latest
+    container_name: sunairum-celery-source-import
+    command: celery -A worker.celery_app worker --loglevel=info -Q source_import
+    env_file:
+      - ./servers/fastapi/.env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/${POSTGRES_DB:-pptmaster}
+      - STORAGE_MODE=local
+      - SOURCE_PARSER=${SOURCE_PARSER:-docling}
+      - SOURCE_PARSER_TIMEOUT_SECONDS=${SOURCE_PARSER_TIMEOUT_SECONDS:-900}
+      - DOCLING_DEVICE=${DOCLING_DEVICE:-cpu}
+      - DOCLING_FORMULA_ENRICHMENT=${DOCLING_FORMULA_ENRICHMENT:-0}
+      # Docling peaks ~2.3GB; keep import slots small so RAM does not double.
+      - CELERY_CONCURRENCY=${CELERY_SOURCE_IMPORT_CONCURRENCY:-1}
+      - CELERY_WORKER=1
+      - SUNAIRUM_PROMPT_CACHE=${SUNAIRUM_PROMPT_CACHE:-0}
+      - PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+      - SUNAIRUM_RENDERER_AVAILABLE=1
+      - DOCLING_INFERENCE_COMPILE_TORCH_MODELS=${DOCLING_COMPILE_MODELS:-1}
+      - HF_HUB_OFFLINE=${HF_HUB_OFFLINE:-1}
+      - TRANSFORMERS_OFFLINE=${HF_HUB_OFFLINE:-1}
+    volumes:
+      - ./servers/fastapi:/app
+      - ./storage:/app/storage
+    depends_on:
+      redis:
+        condition: service_started
+      db:
+        condition: service_started
+
+  nextjs:
+    # Dev server on purpose — do not point OCI/cloud at this file.
+    build:
+      context: ./servers/nextjs
+      dockerfile: Dockerfile.dev
+    image: sunairum:latest
+    container_name: sunairum
+    # Keep .next between restarts — wiping it every boot races page CSS chunks.
+    command: npm run dev
+    working_dir: /workspace
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./servers/nextjs:/workspace
+      - /workspace/node_modules
+      - /workspace/.next
+      - ./servers/fastapi/examples:/workspace/public/examples:ro
+    environment:
+      - NODE_ENV=development
+      # Same-origin API via Next rewrites (first-party session cookies).
+      - NEXT_PUBLIC_API_URL=
+      - API_PROXY_TARGET=http://fastapi:8000
+    depends_on:
+      - fastapi
+
+volumes:
+  postgres_data:
+  redis_data:

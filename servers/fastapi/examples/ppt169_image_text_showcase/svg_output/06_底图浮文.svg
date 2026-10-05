@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="creamBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF8F2" />
+      <stop offset="100%" stop-color="#F5EDE0" />
+    </linearGradient>
+    <linearGradient id="imgTopFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF8F2" stop-opacity="1" />
+      <stop offset="25%" stop-color="#FDF8F2" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="macaronAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B8A9E0" />
+      <stop offset="50%" stop-color="#A8D8C0" />
+      <stop offset="100%" stop-color="#F5C5A3" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#creamBg)" />
+
+  
+  <image href="../images/p06_bottom_img.png" x="0" y="360" width="1280" height="360" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="360" width="1280" height="120" fill="url(#imgTopFade)" />
+
+  
+  
+  <rect x="0" y="0" width="1280" height="6" fill="url(#macaronAccent)" />
+
+  
+  <text x="640" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#9090A0" letter-spacing="3">P06  ·  sketch-notes × macaron</text>
+
+  
+  <text x="640" y="100" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="bold" fill="#3A2A4A" textLength="192.0" lengthAdjust="spacingAndGlyphs">Floating text over a base image</text>
+  <text x="640" y="130" text-anchor="middle" font-family="Arial, 'Georgia', sans-serif" font-size="18" fill="#8A7A9A">Bottom Image · Floating Text</text>
+
+  
+  <circle cx="500" cy="118" r="4" fill="#B8A9E0" />
+  <circle cx="780" cy="118" r="4" fill="#A8D8C0" />
+
+  
+  <text x="640" y="188" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#4A3A5A">Hand-drawn sketch style, with the image at the bottom like a stage set,</text>
+  <text x="640" y="216" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#4A3A5A">The text floats warmly above.</text>
+
+  
+  <rect x="346" y="246" width="130" height="34" rx="17" fill="#B8A9E0" fill-opacity="0.3" stroke="#B8A9E0" stroke-width="1" />
+  <text x="411" y="268" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A5A8A" textLength="60.0" lengthAdjust="spacingAndGlyphs">Hand-drawn texture</text>
+
+  <rect x="496" y="246" width="130" height="34" rx="17" fill="#A8D8C0" fill-opacity="0.3" stroke="#A8D8C0" stroke-width="1" />
+  <text x="561" y="268" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#3A7A6A">Pastel tones</text>
+
+  <rect x="646" y="246" width="130" height="34" rx="17" fill="#F5C5A3" fill-opacity="0.3" stroke="#F5C5A3" stroke-width="1" />
+  <text x="711" y="268" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A5A3A" textLength="75.0" lengthAdjust="spacingAndGlyphs">A warm, classroom-like feel</text>
+
+  
+  <text x="640" y="650" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#6A5A4A" fill-opacity="0.8">Images ↓ as the page foundation · Text ↑ growing upward</text>
+
+  
+  <text x="240" y="200" font-family="Arial, sans-serif" font-size="16" fill="#B8A9E0" fill-opacity="0.7">✦</text>
+  <text x="990" y="170" font-family="Arial, sans-serif" font-size="12" fill="#A8D8C0" fill-opacity="0.7">✦</text>
+  <text x="180" y="300" font-family="Arial, sans-serif" font-size="10" fill="#F5C5A3" fill-opacity="0.7">◆</text>
+  <text x="1060" y="290" font-family="Arial, sans-serif" font-size="10" fill="#B8A9E0" fill-opacity="0.7">◆</text>
+
+  
+  <text x="1240" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#9090A0">06</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#0E1116" />
+  </g>
+
+  <g id="page-header">
+    <text x="60" y="56" font-family="Cambria, serif" font-size="11" fill="#8A857E" letter-spacing="3">PROLOGUE · 02</text>
+    <line x1="60" y1="72" x2="200" y2="72" stroke="#E63946" stroke-width="1" />
+    <text x="60" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="28" font-weight="bold" fill="#E8E6E1">Editor's Note</text>
+  </g>
+
+  <g id="big-quote">
+    <text x="60" y="220" font-family="Cambria, serif" font-size="120" fill="#E63946" opacity="0.45">"</text>
+  </g>
+
+  <g id="lede">
+    <text x="160" y="240" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" font-weight="bold" fill="#E8E6E1">Three sets of numbers are enough to define the AI capital landscape in 2026.</text>
+  </g>
+
+  <g id="point-1">
+    <text x="60" y="340" font-family="Cambria, serif" font-size="64" font-weight="bold" fill="#E63946">$297B</text>
+    <text x="60" y="380" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E" textLength="164.2" lengthAdjust="spacingAndGlyphs">Global VC total in a single quarter · AI share <tspan fill="#E8E6E1" font-weight="bold">81%</tspan></text>
+    <line x1="60" y1="405" x2="380" y2="405" stroke="#2A2F36" stroke-width="1" />
+  </g>
+
+  <g id="point-2">
+    <text x="450" y="340" font-family="Cambria, serif" font-size="64" font-weight="bold" fill="#E63946">$188B</text>
+    <text x="450" y="380" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E" textLength="167.6" lengthAdjust="spacingAndGlyphs">Four Deals Combined · Share of Quarterly VC <tspan fill="#E8E6E1" font-weight="bold">65%</tspan></text>
+    <line x1="450" y1="405" x2="770" y2="405" stroke="#2A2F36" stroke-width="1" />
+  </g>
+
+  <g id="point-3">
+    <text x="840" y="340" font-family="Cambria, serif" font-size="64" font-weight="bold" fill="#E63946">+46pt</text>
+    <text x="840" y="380" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A857E">Gap Between Capex and AI Revenue Growth · Has Already Exceeded <tspan fill="#E8E6E1" font-weight="bold">2001 Telecom Bubble</tspan></text>
+    <line x1="840" y1="405" x2="1160" y2="405" stroke="#2A2F36" stroke-width="1" />
+  </g>
+
+  <g id="body-text">
+    <text x="60" y="470" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="16" fill="#C9C5BE">
+      <tspan x="60" dy="0">In this issue, we use 18 data visualizations to answer one question:</tspan>
+      <tspan x="60" dy="28">As global venture capital poured into AI with unprecedented concentration,<tspan fill="#E8E6E1" font-weight="bold">Is this the beginning of an infrastructure cycle, or the middle of a bubble's expansion?</tspan></tspan>
+      <tspan x="60" dy="28">Don't rush to conclusions. Let's first lay out the numbers across all six dimensions.</tspan>
+    </text>
+  </g>
+
+  <g id="signature">
+    <line x1="60" y1="618" x2="200" y2="618" stroke="#E63946" stroke-width="1" />
+    <text x="60" y="644" font-family="Cambria, serif" font-size="14" font-style="italic" fill="#8A857E">— Editorial Desk, 2026-05-16</text>
+  </g>
+
+  <g id="page-footer">
+    <line x1="60" y1="680" x2="1220" y2="680" stroke="#2A2F36" stroke-width="1" />
+    <text x="60" y="700" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="10" fill="#5C5852">Capital, Compute, and the Closed Loop · 2026 Industry Briefing</text>
+    <text x="1220" y="700" text-anchor="end" font-family="Cambria, serif" font-size="10" fill="#5C5852">02 / 20</text>
+  </g>
+</svg>

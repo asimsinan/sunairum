@@ -1,0 +1,307 @@
+/* Shared auth shell — Sora/Figtree + mesh, matches Settings atmosphere. */
+.page {
+  --auth-display: "Sora", "Avenir Next", "Segoe UI", sans-serif;
+  --auth-body: "Figtree", "Avenir Next", "Segoe UI", sans-serif;
+  --auth-radius: 18px;
+  --auth-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+  font-family: var(--auth-body);
+  animation: pageIn 420ms var(--auth-ease);
+}
+
+.page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 480px at 8% -8%, color-mix(in srgb, var(--accent-primary) 18%, transparent), transparent 58%),
+    radial-gradient(720px 420px at 92% 6%, color-mix(in srgb, var(--accent-secondary) 14%, transparent), transparent 55%),
+    radial-gradient(640px 360px at 70% 100%, color-mix(in srgb, #0ea5e9 8%, transparent), transparent 50%),
+    var(--page-bg);
+}
+
+.page::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.35;
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--text-primary) 4%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--text-primary) 4%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(180deg, #000 0%, transparent 72%);
+}
+
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  position: relative;
+  width: min(100%, 420px);
+  padding: 36px 32px 32px;
+  border: 1px solid color-mix(in srgb, var(--card-border) 90%, transparent);
+  border-radius: var(--auth-radius);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, #fff 4%, transparent), transparent 40%),
+    color-mix(in srgb, var(--card-bg) 92%, transparent);
+  box-shadow:
+    0 1px 0 color-mix(in srgb, #fff 40%, transparent) inset,
+    0 18px 48px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  overflow: visible;
+}
+
+.cardYeti {
+  width: min(100%, 440px);
+  padding-top: 28px;
+  text-align: center;
+}
+
+.cardYeti .brand {
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+.cardYeti .form,
+.cardYeti .field {
+  text-align: left;
+}
+
+.yeti {
+  margin: 4px auto 22px;
+}
+
+.passwordRow {
+  position: relative;
+  display: grid;
+}
+
+.passwordRow .input {
+  padding-right: 88px;
+}
+
+.passwordToggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  height: 30px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--accent-primary) 10%, transparent);
+  color: var(--accent-primary);
+  font-family: var(--auth-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 160ms ease;
+}
+
+.passwordToggle:hover {
+  background: color-mix(in srgb, var(--accent-primary) 18%, transparent);
+}
+
+.passwordToggle[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--accent-secondary) 18%, transparent);
+  color: color-mix(in srgb, var(--accent-secondary) 70%, var(--text-primary));
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.brandMark {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  border: 1px solid color-mix(in srgb, var(--accent-primary) 22%, var(--card-border));
+  border-radius: 12px;
+  object-fit: contain;
+  background:
+    linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--accent-primary) 16%, var(--nav-bg)),
+      color-mix(in srgb, var(--accent-secondary) 12%, var(--nav-bg))
+    );
+}
+
+.brandName {
+  color: var(--text-primary);
+  font-family: var(--auth-display);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+.title {
+  margin: 0;
+  color: var(--text-primary);
+  font-family: var(--auth-display);
+  font-size: clamp(28px, 4vw, 34px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+
+.subtitle {
+  margin: 10px 0 0;
+  color: var(--text-muted);
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+
+.form {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+.label {
+  color: var(--text-primary);
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.input {
+  width: 100%;
+  height: 46px;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border: 1px solid var(--input-border);
+  border-radius: 12px;
+  outline: none;
+  background: var(--input-bg, var(--card-bg));
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 14px;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.input:focus {
+  border-color: color-mix(in srgb, var(--accent-primary) 55%, var(--input-border));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-primary) 18%, transparent);
+}
+
+.submit {
+  height: 48px;
+  margin-top: 4px;
+  border: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: #fff;
+  font-family: var(--auth-display);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: opacity 160ms ease, transform 160ms var(--auth-ease);
+}
+
+.submit:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.footer {
+  margin-top: 22px;
+  color: var(--text-muted);
+  font-size: 13.5px;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--accent-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  margin-top: 18px;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--accent-primary) 28%, var(--card-border));
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent-primary) 10%, transparent);
+  color: var(--text-primary);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.alertError {
+  border-color: color-mix(in srgb, #ef4444 35%, var(--card-border));
+  background: color-mix(in srgb, #ef4444 10%, transparent);
+}
+
+.alertWarn {
+  border-color: color-mix(in srgb, #f59e0b 35%, var(--card-border));
+  background: color-mix(in srgb, #f59e0b 10%, transparent);
+}
+
+.ghostBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  margin-top: 24px;
+  padding: 0 18px;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  background: var(--surface-soft);
+  color: var(--text-primary);
+  font-family: var(--auth-display);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.ghostBtn:hover {
+  border-color: color-mix(in srgb, var(--accent-primary) 35%, var(--card-border));
+  background: color-mix(in srgb, var(--accent-primary) 8%, transparent);
+}
+
+.gateIcon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  background: linear-gradient(
+    145deg,
+    color-mix(in srgb, var(--accent-primary) 16%, transparent),
+    color-mix(in srgb, var(--accent-secondary) 10%, transparent)
+  );
+  color: var(--accent-primary);
+}

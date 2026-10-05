@@ -1,0 +1,375 @@
+{
+  "source": "presenton/templates/momentum/template.json",
+  "source_sha256": "07d15e7283ab4f9ae5b0ff70cef306bdc5cfaea801e1b92e04ea41747b6c5e53",
+  "template_id": "momentum",
+  "layouts": 28,
+  "asset_manifest": "asset_manifest.json",
+  "font_declarations": {
+    "Lato Bold": "static/Lato Bold.ttf",
+    "Lato Heavy": "static/Lato Black.ttf",
+    "Lato": "static/Lato Regular.ttf",
+    "Anton": "static/Anton Regular.ttf"
+  },
+  "geometry_adjustments": [
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -231.33,
+        -51.75,
+        1602.83,
+        901.59
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -1677.08,
+        -77.91,
+        2787.47,
+        1567.97
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        217.49,
+        -428.44,
+        1130.55,
+        635.95
+      ],
+      "adjusted": [
+        217.49,
+        0.0,
+        1062.51,
+        635.95
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -981.04,
+        235.16,
+        1432.42,
+        805.72
+      ],
+      "adjusted": [
+        0.0,
+        235.16,
+        1280.0,
+        484.84
+      ]
+    },
+    {
+      "label": "static/freeform_3-78cd16e1bfe2.svg",
+      "original": [
+        -307.52,
+        -84.03,
+        1.0,
+        1.0
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        217.49,
+        -428.44,
+        1130.55,
+        635.95
+      ],
+      "adjusted": [
+        217.49,
+        0.0,
+        1062.51,
+        635.95
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -1068.16,
+        212.59,
+        1432.42,
+        805.73
+      ],
+      "adjusted": [
+        0.0,
+        212.59,
+        1280.0,
+        507.41
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        104.83,
+        -353.99,
+        1324.05,
+        744.79
+      ],
+      "adjusted": [
+        104.83,
+        0.0,
+        1175.17,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        532.56,
+        -199.08,
+        781.23,
+        439.45
+      ],
+      "adjusted": [
+        532.56,
+        0.0,
+        747.44,
+        439.45
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -780.5,
+        307.37,
+        1140.06,
+        641.28
+      ],
+      "adjusted": [
+        0.0,
+        307.37,
+        1140.06,
+        412.63
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        142.33,
+        -334.81,
+        1341.0,
+        754.33
+      ],
+      "adjusted": [
+        142.33,
+        0.0,
+        1137.67,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        48.5,
+        -572.56,
+        1457.99,
+        820.14
+      ],
+      "adjusted": [
+        48.5,
+        0.0,
+        1231.5,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -1068.16,
+        212.59,
+        1432.42,
+        805.73
+      ],
+      "adjusted": [
+        0.0,
+        212.59,
+        1280.0,
+        507.41
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        48.5,
+        -572.56,
+        1457.99,
+        820.14
+      ],
+      "adjusted": [
+        48.5,
+        0.0,
+        1231.5,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        48.5,
+        -572.56,
+        1457.99,
+        820.14
+      ],
+      "adjusted": [
+        48.5,
+        0.0,
+        1231.5,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        91.17,
+        -480.94,
+        1457.99,
+        820.14
+      ],
+      "adjusted": [
+        91.17,
+        0.0,
+        1188.83,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -157.57,
+        -245.69,
+        1463.94,
+        823.47
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -819.11,
+        354.62,
+        1140.06,
+        641.28
+      ],
+      "adjusted": [
+        0.0,
+        354.62,
+        1140.06,
+        365.38
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -1107.38,
+        428.25,
+        1501.37,
+        844.51
+      ],
+      "adjusted": [
+        0.0,
+        428.25,
+        1280.0,
+        291.75
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -879.36,
+        480.97,
+        1185.3,
+        666.75
+      ],
+      "adjusted": [
+        0.0,
+        480.97,
+        1185.3,
+        239.03
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        163.96,
+        -206.9,
+        1388.12,
+        780.82
+      ],
+      "adjusted": [
+        163.96,
+        0.0,
+        1116.04,
+        720.0
+      ]
+    },
+    {
+      "label": "static/freeform_3-78cd16e1bfe2.svg",
+      "original": [
+        -318.0,
+        -101.0,
+        933.0,
+        933.0
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        933.0,
+        720.0
+      ]
+    },
+    {
+      "label": "/static/images/replaceable_template_image.png",
+      "original": [
+        412.48,
+        221.22,
+        336.67,
+        504.99
+      ],
+      "adjusted": [
+        412.48,
+        221.22,
+        336.67,
+        498.78
+      ]
+    },
+    {
+      "label": "static/image3-28baa466293d.png",
+      "original": [
+        -1677.08,
+        -77.91,
+        2787.47,
+        1567.97
+      ],
+      "adjusted": [
+        0.0,
+        0.0,
+        1280.0,
+        720.0
+      ]
+    }
+  ]
+}

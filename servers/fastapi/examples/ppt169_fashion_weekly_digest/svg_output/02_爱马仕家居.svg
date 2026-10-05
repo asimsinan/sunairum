@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0" />
+      <stop offset="20%" stop-color="#C9A96E" />
+      <stop offset="80%" stop-color="#E8D5B5" />
+      <stop offset="100%" stop-color="#E8D5B5" stop-opacity="0" />
+    </linearGradient>
+    <clipPath id="imgClip">
+      <rect x="540" y="50" width="700" height="620" rx="12" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <rect x="540" y="50" width="700" height="620" rx="12" fill="#1A1A1A" />
+
+  
+  <image href="../images/hermes_home.jpg" x="540" y="50" width="700" height="620" preserveAspectRatio="xMidYMid slice" clip-path="url(#imgClip)" />
+
+  
+  <rect x="540" y="50" width="700" height="620" rx="12" fill="#0A0A0A" fill-opacity="0.15" />
+
+  
+  
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.7" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="460" height="1" fill="#2A2520" />
+
+  
+  <rect x="50" y="80" width="60" height="22" rx="3" fill="#C9A96E" fill-opacity="0.15" />
+  <text x="80" y="96" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11" fill="#C9A96E" text-anchor="middle">Home</text>
+
+  
+  <use data-icon="phosphor-duotone/house" x="50" y="120" width="36" height="36" fill="#C9A96E" />
+
+  
+  <text x="50" y="200" font-family="Georgia, Georgia, serif" font-size="36" fill="#F5F0EB" font-weight="bold">HERMÈS</text>
+  <text x="50" y="235" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" fill="#E8D5B5" textLength="96.0" lengthAdjust="spacingAndGlyphs">The World of Home</text>
+
+  
+  <rect x="50" y="255" width="120" height="2" fill="#C9A96E" />
+
+  
+  <text x="50" y="295" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="18" fill="#F5F0EB">
+    <tspan x="50" dy="0">During Milan Design Week, Hermès launches a brand-new</tspan>
+    <tspan x="50" dy="30">Home collection. Thirty pieces adorned with geometric wood patterns</tspan>
+    <tspan x="50" dy="30">Its rectangular columns create an immersive set.</tspan>
+  </text>
+
+  <text x="50" y="405" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="18" fill="#F5F0EB">
+    <tspan x="50" dy="0">Metal reveals its resilience through forging; leather, through inlay</tspan>
+    <tspan x="50" dy="30">Rhythm revealed, with fabric and marble shaped by craftsmanship</tspan>
+    <tspan x="50" dy="30">Bursting with brilliance.</tspan>
+  </text>
+
+  
+  <rect x="50" y="520" width="460" height="48" rx="8" fill="#1A1A1A" />
+  <rect x="50" y="520" width="3" height="48" fill="#C9A96E" />
+  <text x="70" y="550" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#E8D5B5" font-style="italic">An enduring pursuit of artisanal craftsmanship and timeless aesthetics</text>
+
+  
+  <rect x="50" y="670" width="1180" height="1" fill="#2A2520" />
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">02 / 16</text>
+</svg>

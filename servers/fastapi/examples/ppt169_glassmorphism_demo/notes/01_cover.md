@@ -1,0 +1,1 @@
+Hello everyone, and welcome to this technical presentation. Today’s topic is the engineering and deployment of AI Agents—in other words, we won’t discuss new models or new papers. We’ll focus on one thing: how to move Agents that can run in demos into real production environments.

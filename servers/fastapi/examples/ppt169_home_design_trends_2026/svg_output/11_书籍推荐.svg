@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow11" x="-15%" y="-15%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" />
+      <feOffset dx="0" dy="5" result="offsetBlur" />
+      <feFlood flood-color="#000000" flood-opacity="0.18" result="shadowColor" />
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow" />
+      <feMerge>
+        <feMergeNode in="shadow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="bookClip1">
+      <rect x="60" y="160" width="360" height="260" rx="10" />
+    </clipPath>
+    <clipPath id="bookClip2">
+      <rect x="60" y="440" width="360" height="200" rx="10" />
+    </clipPath>
+    <clipPath id="bookClip3">
+      <rect x="440" y="440" width="380" height="200" rx="10" />
+    </clipPath>
+    <clipPath id="bookClip4">
+      <rect x="840" y="440" width="380" height="200" rx="10" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1714" />
+
+  
+  <g id="p11-header">
+    <use data-icon="tabler-filled/book" x="60" y="25" width="28" height="28" fill="#D4956A" />
+    <text x="98" y="47" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B7355" letter-spacing="3" textLength="117.6" lengthAdjust="spacingAndGlyphs">
+      Recommended reading
+    </text>
+  </g>
+
+  
+  <text x="60" y="110" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="bold" fill="#E8E0D4" textLength="285.0" lengthAdjust="spacingAndGlyphs">
+    《The Sophistication of Space》
+  </text>
+  <text x="60" y="140" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#B0A08E">
+    A decomposable, replicable, and verifiable system of spatial aesthetics
+  </text>
+
+  
+  <g id="p11-book-cover" filter="url(#cardShadow11)">
+    <image href="../images/book_cover1.png" x="60" y="160" width="360" height="260" preserveAspectRatio="xMidYMid slice" clip-path="url(#bookClip1)" />
+  </g>
+
+  
+  <g id="p11-author-card" filter="url(#cardShadow11)">
+    <rect x="440" y="160" width="380" height="260" rx="12" fill="#2A2520" />
+    <rect x="440" y="160" width="380" height="4" rx="2" fill="#C4A882" />
+
+    <text x="465" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.96" font-weight="bold" fill="#C4A882">
+      Author
+    </text>
+    <text x="465" y="228" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.39" fill="#E8E0D4">
+      Song Wenwen
+    </text>
+    <text x="465" y="253" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#B0A08E">
+      Center for Arts and Sciences, Tsinghua University
+    </text>
+    <text x="465" y="273" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#B0A08E">
+      Executive Deputy Director, Color Research Institute
+    </text>
+    <text x="465" y="293" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#B0A08E">
+      Master’s Degree in Color Studies from the University of Leeds
+    </text>
+
+    <rect x="465" y="310" width="330" height="1" fill="#3D362E" />
+
+    <text x="465" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.35" font-weight="bold" fill="#D4956A">
+      Core innovation
+    </text>
+    <text x="465" y="365" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#B0A08E">
+      Introducing Industrial Design CMF into Interior Design
+    </text>
+    <text x="465" y="390" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.84" fill="#B0A08E">
+      Propose the CMT methodology
+    </text>
+  </g>
+
+  
+  <g id="p11-chapters-card" filter="url(#cardShadow11)">
+    <rect x="840" y="160" width="380" height="260" rx="12" fill="#2A2520" />
+    <rect x="840" y="160" width="380" height="4" rx="2" fill="#8B7355" />
+
+    <text x="865" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="bold" fill="#E8E0D4">
+      Full Book Contents
+    </text>
+
+    <circle cx="880" cy="235" r="12" fill="#C4A882" />
+    <text x="880" y="240" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="12" font-weight="bold" fill="#1A1714">1</text>
+    <text x="902" y="241" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15" fill="#E8E0D4">Color</text>
+    <text x="975" y="241" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#7A6E60" textLength="118.3" lengthAdjust="spacingAndGlyphs">The essence of color · Emotion · Coordination</text>
+
+    <circle cx="880" cy="275" r="12" fill="#D4956A" />
+    <text x="880" y="280" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="12" font-weight="bold" fill="#1A1714">2</text>
+    <text x="902" y="281" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#E8E0D4">Materials</text>
+    <text x="975" y="281" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#7A6E60">Wood · metal · fabric · plastic</text>
+
+    <circle cx="880" cy="315" r="12" fill="#8B7355" />
+    <text x="880" y="320" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="12" font-weight="bold" fill="#1A1714">3</text>
+    <text x="902" y="321" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.27" fill="#E8E0D4">Texture</text>
+    <text x="975" y="321" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#7A6E60" textLength="111.2" lengthAdjust="spacingAndGlyphs">The Language of Texture · Pattern Expression</text>
+
+    <circle cx="880" cy="355" r="12" fill="#7BA37B" />
+    <text x="880" y="360" text-anchor="middle" font-family="Georgia, Georgia, serif" font-size="12" font-weight="bold" fill="#1A1714">4</text>
+    <text x="902" y="361" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#E8E0D4" textLength="45.0" lengthAdjust="spacingAndGlyphs">Comprehensive Overview</text>
+    <text x="975" y="361" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#7A6E60" textLength="106.6" lengthAdjust="spacingAndGlyphs">CMT Styling · Style Analysis</text>
+
+    <rect x="865" y="385" width="330" height="1" fill="#3D362E" />
+    <text x="865" y="408" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#7A6E60">
+      Suitable for: designer upskilling / self-learning for renovation homeowners
+    </text>
+  </g>
+
+  
+  <g id="p11-book-images">
+    <image href="../images/book_cover2.png" x="60" y="440" width="360" height="200" preserveAspectRatio="xMidYMid slice" clip-path="url(#bookClip2)" />
+    <image href="../images/book_inside1.png" x="440" y="440" width="380" height="200" preserveAspectRatio="xMidYMid slice" clip-path="url(#bookClip3)" />
+    <image href="../images/book_inside2.png" x="840" y="440" width="380" height="200" preserveAspectRatio="xMidYMid slice" clip-path="url(#bookClip4)" />
+  </g>
+
+  
+  <text x="60" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#7A6E60">
+    Publisher: Jiangsu Phoenix Science and Technology Press
+  </text>
+
+  
+  <text x="1210" y="690" text-anchor="end" font-family="Georgia, Georgia, serif" font-size="12" fill="#7A6E60">
+    11 / 12
+  </text>
+</svg>

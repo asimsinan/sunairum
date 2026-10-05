@@ -1,0 +1,64 @@
+[
+  {
+    "case_id": "proj_tngga_slide_05_stacked_retrieval",
+    "title": "Repair Positions Are Retrieved, Then Checked Exactly",
+    "core_message": "The candidate engine narrows the search without weakening capacity or time-window feasibility.",
+    "figure_id": "fixture-hero-framework",
+    "cards": [
+      {"title": "Feature encoding", "body": "Each candidate position carries spatial, temporal, capacity, and workload context."},
+      {"title": "Approximate retrieval", "body": "HNSW returns a short list of positions that are likely to be useful."},
+      {"title": "Exact filtering", "body": "Capacity and time-window feasibility checks stay in the repair path."},
+      {"title": "Objective selection", "body": "Surviving candidates are scored by distance alone or by distance plus equity."}
+    ]
+  },
+  {
+    "case_id": "proj_tngga_slide_06_pdf_figure_lede",
+    "title": "The Figure Lane Starts Below the Measured Lede",
+    "core_message": "A PDF-derived architecture figure must share the same header reservation as the explanation lane, even when the lede wraps to several lines.",
+    "figure_id": "fixture-pdf-figure",
+    "cards": [
+      {"title": "Single header owner", "body": "Title and lede heights are measured before either content lane is positioned."},
+      {"title": "Independent content", "body": "The figure and explanation can resize only inside their assigned sibling regions."}
+    ]
+  },
+  {
+    "case_id": "proj_tngga_slide_09_bottom_plate",
+    "title": "Equity Improves Without Occupying the Footer Reserve",
+    "core_message": "Dense results remain inside the content plate and preserve a dedicated final band for the page number.",
+    "cards": [
+      {"title": "Distance", "body": "The cost delta remains bounded across the measured repair configurations."},
+      {"title": "Balance", "body": "Route workloads become more even as the equity term receives more weight."},
+      {"title": "Result", "body": "The selected operating point improves workload balance while accepting a controlled increase in total distance."}
+    ]
+  },
+  {
+    "case_id": "proj_tngga_slide_10_result_collision",
+    "title": "The Result Callout Is a Peer Region, Not an Overlay",
+    "core_message": "Every painted panel owns non-overlapping geometry; no bottom callout may collide with the canvases above it.",
+    "cards": [
+      {"title": "Observed", "body": "The measured result is presented in the primary evidence lane."},
+      {"title": "Compared", "body": "The baseline and equitable alternatives occupy a separate sibling lane."},
+      {"title": "Result", "body": "The conclusion remains fully visible without crossing another panel or the footer."}
+    ]
+  },
+  {
+    "case_id": "formula_all_parameters",
+    "title": "One Objective Connects Cost and Workload Equity",
+    "core_message": "The scalarized repair objective makes the cost-equity trade-off explicit.",
+    "formula": "J(R)=C(R)/C_0+beta(1-Jain(R))+gamma CV(R)",
+    "formula_terms": "J(R)=repair objective; R=set of vehicle routes; C(R)=candidate solution cost; C_0=initial solution cost; beta=equity weight; Jain(R)=workload fairness index; gamma=variation weight; CV(R)=coefficient of variation of route distances",
+    "formula_gloss": "Increasing equity weights favors more balanced route workloads while accepting a potentially higher total distance."
+  },
+  {
+    "case_id": "process_dense_copy",
+    "title": "A Deterministic Recovery Ladder Reflows Before It Rejects",
+    "core_message": "Every attempt is measured against the same plate and readability contract.",
+    "visualization": "process_steps",
+    "cards": [
+      {"title": "Compose", "body": "Choose a supported semantic composition with explicit regions."},
+      {"title": "Measure", "body": "Inspect browser-resolved text, overflow, paint bounds, and collisions."},
+      {"title": "Recover", "body": "Try the compact component variant and bounded copy shortening."},
+      {"title": "Gate", "body": "Reject the draft if any hard geometry violation remains."}
+    ]
+  }
+]

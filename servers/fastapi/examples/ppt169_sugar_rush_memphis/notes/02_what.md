@@ -1,0 +1,1 @@
+So what exactly is SUGAR RUSH? As the whole world gets hotter, we decided to make it sweeter. It's a seven-day musical celebration, and more than that, an attitude—distilling the best part of summer into a cup of steaming syrup.

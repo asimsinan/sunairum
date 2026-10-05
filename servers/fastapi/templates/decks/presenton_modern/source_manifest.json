@@ -1,0 +1,10 @@
+{
+  "source": "presenton/templates/modern/template.json",
+  "source_sha256": "be6722f9cc2ca452e4850ffa8fecc31129655899460689b73a3d3b004378f217",
+  "template_id": "modern",
+  "layouts": 10,
+  "asset_manifest": "asset_manifest.json",
+  "font_declarations": {
+    "Montserrat": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+  }
+}

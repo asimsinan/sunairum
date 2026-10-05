@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP12" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="grain" width="1280" height="720" fill="url(#dotP12)" />
+
+  <g id="header">
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <rect x="63" y="59" width="14" height="68" fill="#FF5C8A" opacity="0.7" />
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <text x="92" y="98" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="29.40" fill="#1A1A1A" letter-spacing="-1">Map of Independent Bookstores in Mainland China (ZINE-oriented)</text>
+    <text x="92" y="124" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#5A5A5A" letter-spacing="3">15 STORES · ★ ZINE INTENSITY · MAINLAND CHINA · CURATED 2026</text>
+  </g>
+
+  
+  <rect x="60" y="148" width="1160" height="496" fill="none" stroke="#1A1A1A" stroke-width="3" />
+
+  <g id="table">
+    
+    <rect x="60" y="148" width="1160" height="40" fill="#1A1A1A" />
+    <rect x="63" y="151" width="1160" height="40" fill="#FF5C8A" opacity="0.55" />
+    <rect x="60" y="148" width="1160" height="40" fill="#1A1A1A" />
+    <text x="80" y="174" font-family="Consolas, 'Courier New', monospace" font-size="9.13" font-weight="bold" fill="#F5EFE0" letter-spacing="2">Bookstore · STORE</text>
+    <text x="380" y="174" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="bold" fill="#F5EFE0" letter-spacing="2">City · CITY</text>
+    <text x="560" y="174" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="bold" fill="#F5EFE0" letter-spacing="2">CHARACTER</text>
+    <text x="1100" y="174" font-family="Consolas, 'Courier New', monospace" font-size="9.10" font-weight="bold" fill="#F5EFE0" letter-spacing="2" text-anchor="middle">ZINE aesthetic</text>
+
+    
+    <line x1="360" y1="188" x2="360" y2="624" stroke="#1A1A1A" stroke-width="1.5" />
+    <line x1="540" y1="188" x2="540" y2="624" stroke="#1A1A1A" stroke-width="1.5" />
+    <line x1="1020" y1="188" x2="1020" y2="624" stroke="#1A1A1A" stroke-width="1.5" />
+
+    
+    <line x1="60" y1="218" x2="1220" y2="218" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="70.0" lengthAdjust="spacingAndGlyphs">Bananafish Books</text>
+    <text x="380" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Shanghai</text>
+    <text x="560" y="208" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">The first bookstore focused on independent publishing · zine promotion · in-house Riso studio</text>
+    <text x="1100" y="208" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#FF5C8A" text-anchor="middle">★★★</text>
+
+    
+    <line x1="60" y1="248" x2="1220" y2="248" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="238" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="42.0" lengthAdjust="spacingAndGlyphs">Fake Magazine</text>
+    <text x="380" y="238" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A">Ningbo</text>
+    <text x="560" y="238" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">One of China’s Earliest Independent Photography Publishers · A Sanctuary for Photography Zines</text>
+    <text x="1100" y="238" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#FF5C8A" text-anchor="middle">★★★</text>
+
+    
+    <line x1="60" y1="278" x2="1220" y2="278" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Wild dog</text>
+    <text x="380" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Zhengzhou</text>
+    <text x="560" y="268" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">A curated selection of 200+ independent magazines / art publications from China and abroad</text>
+    <text x="1100" y="268" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#FF5C8A" text-anchor="middle">★★★</text>
+
+    
+    <line x1="60" y1="308" x2="1220" y2="308" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="298" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.59" font-weight="900" fill="#1A1A1A">An old shop / BOOKMART</text>
+    <text x="380" y="298" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Zhoushan</text>
+    <text x="560" y="298" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Art books / photography books / zines / independent publications, across the board</text>
+    <text x="1100" y="298" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#FF5C8A" text-anchor="middle">★★★</text>
+
+    
+    <line x1="60" y1="338" x2="1220" y2="338" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="328" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" font-weight="900" fill="#1A1A1A">Combo</text>
+    <text x="380" y="328" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.69" fill="#5A5A5A">Wuhan</text>
+    <text x="560" y="328" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">A space showcasing the work of designers / illustrators / artists</text>
+    <text x="1100" y="328" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#FF5C8A" text-anchor="middle">★★</text>
+
+    
+    <line x1="60" y1="368" x2="1220" y2="368" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="358" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" font-weight="900" fill="#1A1A1A">Protopaper</text>
+    <text x="380" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.69" fill="#5A5A5A">Xi’an</text>
+    <text x="560" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Design studio becomes bookstore · Connecting community through art</text>
+    <text x="1100" y="358" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#FF5C8A" text-anchor="middle">★★</text>
+
+    
+    <line x1="60" y1="398" x2="1220" y2="398" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="388" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" font-weight="900" fill="#1A1A1A">Jetlag Books</text>
+    <text x="380" y="388" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A">Beijing · Sanlitun</text>
+    <text x="560" y="388" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">International journals + original-language books on creative brand fashion · Red Dot Brand Award</text>
+    <text x="1100" y="388" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#1E4DBC" text-anchor="middle">★</text>
+
+    
+    <line x1="60" y1="428" x2="1220" y2="428" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="418" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14" font-weight="900" fill="#1A1A1A">YAN-BOOKS</text>
+    <text x="380" y="418" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Beijing</text>
+    <text x="560" y="418" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A" textLength="161.5" lengthAdjust="spacingAndGlyphs">Design / Lifestyle / International Magazine</text>
+    <text x="1100" y="418" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#1E4DBC" text-anchor="middle">★</text>
+
+    
+    <line x1="60" y1="458" x2="1220" y2="458" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="448" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="71.1" lengthAdjust="spacingAndGlyphs">Archipelago BOOKS</text>
+    <text x="380" y="448" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Shanghai</text>
+    <text x="560" y="448" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Architecture / Urbanism / Broad design focus · Desk-style display</text>
+    <text x="1100" y="448" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#1E4DBC" text-anchor="middle">★</text>
+
+    
+    <line x1="60" y1="488" x2="1220" y2="488" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="56.0" lengthAdjust="spacingAndGlyphs">One-Way Space</text>
+    <text x="380" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Beijing</text>
+    <text x="560" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Founded in 2006 · Named after Walter Benjamin’s One-Way Street</text>
+    <text x="1100" y="478" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#5A5A5A" text-anchor="middle">—</text>
+
+    
+    <line x1="60" y1="518" x2="1220" y2="518" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="508" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A">Sanwei Study</text>
+    <text x="380" y="508" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="86.9" lengthAdjust="spacingAndGlyphs">Beijing · Chang’an Avenue</text>
+    <text x="560" y="508" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Beijing’s first privately owned bookstore · Every book carefully selected</text>
+    <text x="1100" y="508" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#5A5A5A" text-anchor="middle">—</text>
+
+    
+    <line x1="60" y1="548" x2="1220" y2="548" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="538" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14" font-weight="900" fill="#1A1A1A">Borges</text>
+    <text x="380" y="538" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Guangzhou</text>
+    <text x="560" y="538" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Literature-focused · Also covering history / philosophy / art</text>
+    <text x="1100" y="538" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#5A5A5A" text-anchor="middle">—</text>
+
+    
+    <line x1="60" y1="578" x2="1220" y2="578" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="56.0" lengthAdjust="spacingAndGlyphs">Mutian Bookstore</text>
+    <text x="380" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Changsha</text>
+    <text x="560" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Community cultural space · curated selection of good books</text>
+    <text x="1100" y="568" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#5A5A5A" text-anchor="middle">—</text>
+
+    
+    <line x1="60" y1="608" x2="1220" y2="608" stroke="#1A1A1A" stroke-width="1" stroke-opacity="0.3" />
+    <text x="80" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A">Oyster</text>
+    <text x="380" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Hangzhou</text>
+    <text x="560" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Community bookstore · literature / philosophy / poetry · also secondhand</text>
+    <text x="1100" y="598" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#5A5A5A" text-anchor="middle">—</text>
+
+    
+    <text x="80" y="628" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1A1A1A" textLength="56.0" lengthAdjust="spacingAndGlyphs">Wheatfield Bookstore</text>
+    <text x="380" y="628" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5A5A5A" textLength="28.0" lengthAdjust="spacingAndGlyphs">Kunming</text>
+    <text x="560" y="628" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#1A1A1A">Art and literature · Yunnan local themes · Vinyl records</text>
+    <text x="1100" y="628" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="16" fill="#5A5A5A" text-anchor="middle">—</text>
+  </g>
+
+  
+  <g id="legend">
+    <text x="60" y="668" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#5A5A5A" letter-spacing="2">LEGEND:</text>
+    <text x="140" y="668" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="14" fill="#FF5C8A">★★★</text>
+    <text x="180" y="668" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12" fill="#5A5A5A">Core zine hub</text>
+    <text x="300" y="668" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="14" fill="#FF5C8A">★★</text>
+    <text x="332" y="668" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#5A5A5A" textLength="72.0" lengthAdjust="spacingAndGlyphs">Independent publishing and retail</text>
+    <text x="450" y="668" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="14" fill="#1E4DBC">★</text>
+    <text x="464" y="668" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#5A5A5A" textLength="72.0" lengthAdjust="spacingAndGlyphs">Primarily international magazines</text>
+    <text x="582" y="668" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="14" fill="#5A5A5A">—</text>
+    <text x="596" y="668" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#5A5A5A" textLength="86.5" lengthAdjust="spacingAndGlyphs">Literature / General Bookstore</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="690" x2="1220" y2="690" stroke="#1A1A1A" stroke-width="1" />
+    <text x="60" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P12 · MAINLAND CHINA INDIE BOOKSTORE MAP</text>
+    <text x="1220" y="708" font-family="Consolas, 'Courier New', monospace" font-size="9.66" fill="#5A5A5A" text-anchor="end" letter-spacing="2">CURATED 2026 · SOURCED FROM Digitaling / Sohu / Zhihu</text>
+  </g>
+</svg>

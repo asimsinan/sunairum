@@ -1,0 +1,6 @@
+[Transition] Now that we've understood the individual power of color, material, and texture, a key question arises: how can we organically bring the three together?
+
+This leads to today's core methodology—the CMT system, the integrated application of Colour, Material, and Texture. It is not a simple addition of the three, but a systematic interweaving. [Pause] On a physical level, it conveys tactile differences between smooth and rough, transparent and opaque, glossy and matte. On a psychological level, it evokes rich emotional associations: handmade or industrial, modest or luxurious, comforting or stimulating. It's like a musician conducting a symphony orchestra, allowing color, material, and texture to resonate harmoniously in space. The two examples on the right demonstrate the practical effects of the CMT system.
+
+Key points: ① CMT: a system of color + material + texture ② Dual perception on physical and psychological levels ③ Systematic weaving rather than simple layering
+Duration: 2 minutes

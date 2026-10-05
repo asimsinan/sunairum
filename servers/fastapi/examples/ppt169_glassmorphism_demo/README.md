@@ -1,0 +1,16 @@
+# glassmorphism_demo
+
+- Canvas format: ppt169
+- Created: 20260517
+
+## Directories
+
+- `preview/`: PNG gallery source of truth
+- `html_output/`: Constrained HTML slides (authoring SoT)
+- `svg_final/`: optional bake/style input (not freehand authoring)
+- `images/`: presentation assets
+- `notes/`: speaker notes
+- `templates/`: project templates
+- `sources/`: source materials and normalized markdown
+- `exports/`: native editable PPTX exports (timestamped)
+- `backup/<timestamp>/`: html_output/preview archive (safe to delete old timestamps)

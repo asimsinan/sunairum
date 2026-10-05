@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F1E8" />
+
+  
+  <text x="60" y="80" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" font-weight="700" fill="#1A1A1A" letter-spacing="3" textLength="352.0" lengthAdjust="spacingAndGlyphs">Two types of people at a barbecue stall</text>
+  <line x1="60" y1="100" x2="160" y2="100" stroke="#A52A2A" stroke-width="3" />
+  <text x="60" y="135" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="2">Same table, same wine; by the end, the winners and losers are clear</text>
+
+  
+  <line x1="640" y1="180" x2="640" y2="560" stroke="#C8C0AE" stroke-width="1" stroke-dasharray="6 6" />
+  <circle cx="640" cy="370" r="28" fill="#F5F1E8" stroke="#A52A2A" stroke-width="2" />
+  <text x="640" y="378" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="700" fill="#A52A2A" textLength="20.0" lengthAdjust="spacingAndGlyphs">View</text>
+
+  
+  <g transform="translate(80, 180)">
+    
+    <rect x="0" y="0" width="120" height="34" fill="none" stroke="#1A1A1A" stroke-width="1.5" />
+    <text x="60" y="23" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.01" fill="#1A1A1A" letter-spacing="3">First</text>
+
+    <text x="0" y="80" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" textLength="192.0" lengthAdjust="spacingAndGlyphs">People eager to show their cards</text>
+    <line x1="0" y1="100" x2="80" y2="100" stroke="#1A1A1A" stroke-width="1.5" />
+
+    
+    <use data-icon="tabler-outline/point" x="0" y="138" width="20" height="20" fill="#A52A2A" stroke-width="1.5" />
+    <text x="32" y="154" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1A1A1A">Speak up about who you know and what projects you have</text>
+
+    <use data-icon="tabler-outline/point" x="0" y="188" width="20" height="20" fill="#A52A2A" stroke-width="1.5" />
+    <text x="32" y="204" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1A1A1A">How many resources can be mobilized in the future</text>
+
+    <use data-icon="tabler-outline/point" x="0" y="238" width="20" height="20" fill="#A52A2A" stroke-width="1.5" />
+    <text x="32" y="254" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1A1A1A">Caught up in the revelry, wishing the whole room could see</text>
+
+    
+    <rect x="0" y="290" width="500" height="76" fill="#EFEAD9" />
+    <text x="20" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852" letter-spacing="2" textLength="64.0" lengthAdjust="spacingAndGlyphs">Others’ reactions</text>
+    <text x="20" y="350" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1A1A1A">Compliments on the lips, calculations in the eyes — who can be borrowed from, and who can be pressured</text>
+  </g>
+
+  
+  <g transform="translate(680, 180)">
+    <rect x="0" y="0" width="120" height="34" fill="#1A1A1A" />
+    <text x="60" y="23" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.34" fill="#F5F1E8" letter-spacing="3">Second</text>
+
+    <text x="0" y="80" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="700" fill="#1A1A1A" textLength="192.0" lengthAdjust="spacingAndGlyphs">A person who keeps their cards close.</text>
+    <line x1="0" y1="100" x2="80" y2="100" stroke="#A52A2A" stroke-width="2" />
+
+    <use data-icon="tabler-outline/point" x="0" y="138" width="20" height="20" fill="#1A1A1A" stroke-width="1.5" />
+    <text x="32" y="154" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1A1A1A">It doesn’t say much; it asks only a few key questions</text>
+
+    <use data-icon="tabler-outline/point" x="0" y="188" width="20" height="20" fill="#1A1A1A" stroke-width="1.5" />
+    <text x="32" y="204" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1A1A1A">Laugh it off after hearing it, then raise the glass in silence</text>
+
+    <use data-icon="tabler-outline/point" x="0" y="238" width="20" height="20" fill="#1A1A1A" stroke-width="1.5" />
+    <text x="32" y="254" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#1A1A1A" textLength="220.0" lengthAdjust="spacingAndGlyphs">See through 70–80% of someone else’s cards</text>
+
+    <rect x="0" y="290" width="500" height="76" fill="#1A1A1A" />
+    <text x="20" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#C8C0AE" letter-spacing="2" textLength="32.0" lengthAdjust="spacingAndGlyphs">The Truth</text>
+    <text x="20" y="350" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F1E8">When the gathering ends, the silent one is the winner</text>
+  </g>
+
+  
+  <line x1="60" y1="610" x2="1220" y2="610" stroke="#C8C0AE" stroke-width="1" />
+  <text x="640" y="655" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1A1A1A" letter-spacing="3">In this world, you don't lose because you lack ability—you lose because you let others know what you're capable of too soon</text>
+
+  <text x="60" y="690" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8B8680" textLength="58.9" lengthAdjust="spacingAndGlyphs">Keep a Low Profile · I</text>
+  <text x="1220" y="690" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#8B8680">03</text>
+</svg>

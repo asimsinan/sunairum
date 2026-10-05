@@ -1,0 +1,1 @@
+Seven days from now, the stage will be empty and confetti will be scattered by the wind, but summer will stay. We’ll be waiting for you at Yedao Prairie from July 18 to 24. Thank you to everyone who made summer sweeter. Same time next summer.

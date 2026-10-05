@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="imgOverlay" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0F1117" stop-opacity="0" />
+      <stop offset="70%" stop-color="#0F1117" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0F1117" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6FF7" />
+      <stop offset="100%" stop-color="#4ECDC4" />
+    </linearGradient>
+    <clipPath id="leftImgClip">
+      <rect x="0" y="0" width="427" height="720" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0B0E18" />
+
+  
+  <image href="../images/p03_left_img.png" x="0" y="0" width="427" height="720" clip-path="url(#leftImgClip)" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="0" width="427" height="720" fill="url(#imgOverlay)" />
+
+  
+  <line x1="427" y1="60" x2="427" y2="660" stroke="#7C6FF7" stroke-opacity="0.4" stroke-width="1" />
+
+  
+  <rect x="427" y="0" width="853" height="720" fill="#0F1117" />
+
+  
+  <rect x="460" y="48" width="200" height="28" rx="4" fill="#1A1D2E" />
+  <text x="470" y="67" font-family="Arial, sans-serif" font-size="13" fill="#7C6FF7" letter-spacing="1">corporate-photo</text>
+  <text x="660" y="67" font-family="Arial, sans-serif" font-size="13" fill="#5A5A72"> × cool-corporate</text>
+
+  
+  <text x="460" y="100" font-family="Consolas, monospace" font-size="13" fill="#5A5A72">P03</text>
+
+  
+  <text x="460" y="128" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="26.60" font-weight="bold" fill="#E8E8F0" textLength="152.0" lengthAdjust="spacingAndGlyphs">Image Left, Text Right</text>
+  <text x="460" y="158" font-family="Arial, 'Georgia', sans-serif" font-size="17" fill="#9090A0">Left Image · Right Text</text>
+
+  
+  <rect x="460" y="172" width="120" height="3" rx="1.5" fill="url(#accentBar)" />
+
+  
+  <text x="460" y="220" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#E8E8F0">The image occupies the left 1/3 of the frame in a vertical composition,</text>
+  <text x="460" y="248" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#E8E8F0">The main body of text expands across a large area on the right.</text>
+  <text x="460" y="296" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#9090A0">Image-to-text ratio of approximately 3 : 7, suited to content-driven storytelling</text>
+  <text x="460" y="324" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#9090A0">Pages centered on text, with images serving as supplementary context.</text>
+
+  
+  <rect x="460" y="370" width="4" height="4" rx="2" fill="#7C6FF7" />
+  <text x="476" y="380" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8E8F0">An editorial photography style with a sense of real-life scenes</text>
+
+  <rect x="460" y="410" width="4" height="4" rx="2" fill="#4ECDC4" />
+  <text x="476" y="420" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8E8F0">A cool-toned professional palette with a strong business feel</text>
+
+  <rect x="460" y="450" width="4" height="4" rx="2" fill="#F5A623" />
+  <text x="476" y="460" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#E8E8F0">The image fades out along its right edge, merging into the background</text>
+
+  
+  <rect x="460" y="530" width="380" height="100" rx="8" fill="#1A1D2E" stroke="#2A2D3E" stroke-width="1" />
+  <text x="480" y="560" font-family="Consolas, monospace" font-size="13" fill="#9090A0">Rendering</text>
+  <text x="600" y="560" font-family="Consolas, monospace" font-size="13" fill="#E8E8F0">corporate-photo</text>
+  <text x="480" y="583" font-family="Consolas, monospace" font-size="13" fill="#9090A0">Palette  </text>
+  <text x="600" y="583" font-family="Consolas, monospace" font-size="13" fill="#E8E8F0">cool-corporate</text>
+  <text x="480" y="606" font-family="Consolas, monospace" font-size="13" fill="#9090A0">Layout  </text>
+  <text x="600" y="606" font-family="Consolas, monospace" font-size="13" fill="#E8E8F0">left-1/3 image + right text</text>
+
+  
+  <use data-icon="tabler-outline/layout-columns" x="880" y="540" width="40" height="40" fill="#7C6FF7" fill-opacity="0.4" stroke-width="2" />
+</svg>

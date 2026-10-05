@@ -1,0 +1,37 @@
+FROM node:20-slim AS deps
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+
+FROM node:20-slim AS builder
+
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+# Empty by default so the bundle calls its own origin through the reverse proxy,
+# which is what lets one published image serve any domain. Pass an absolute
+# origin only when the API is on a different host than the frontend.
+ARG NEXT_PUBLIC_API_URL=
+ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL}
+# next.config rewrites are evaluated at build time. Local Docker needs the
+# Compose service hostname; cloud/Caddy can leave the default (unused).
+ARG API_PROXY_TARGET=http://127.0.0.1:8000
+ENV API_PROXY_TARGET=${API_PROXY_TARGET}
+RUN npm run build
+
+FROM node:20-slim AS runner
+
+WORKDIR /app
+ENV NODE_ENV=production
+# Bind all interfaces inside the container (Next standalone defaults to localhost).
+ENV HOSTNAME=0.0.0.0
+ENV PORT=3000
+
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
+
+EXPOSE 3000
+
+CMD ["node", "server.js"]

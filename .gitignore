@@ -1,0 +1,19 @@
+.env
+**/.env
+deploy/cloud.env
+deploy/fastapi.env
+.runtime/
+storage/
+**/node_modules/
+servers/fastapi/tasks/package-lock.json
+# Root analysis clones (runtime uses servers/fastapi/vendor/deckhtml)
+/deckhtml/
+/dom-to-pptx/
+__pycache__/
+
+*.py[cod]
+.DS_Store
+ssh-key-2026-08-08.key
+ssh-key-2026-08-08.key.pub
+/desktop/
+/desktop-offline/

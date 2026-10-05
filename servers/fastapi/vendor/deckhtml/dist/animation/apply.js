@@ -1,0 +1,89 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.applyAnimationsToElements = applyAnimationsToElements;
+const diagnostics_1 = require("../utils/diagnostics");
+const normalize_1 = require("./normalize");
+/**
+ * Normalize raw browser-side animation captures into ElementInfo.animations.
+ * Runs on the Node side after inspection; clears animationRaw afterwards.
+ * Returns DECKHTML_ANIMATION_UNMAPPED diagnostics for effects outside the
+ * native PPTX subset (those elements keep their frozen end-state).
+ *
+ * When several animation groups inherit the same intercepted anime.js call
+ * (one `animate([elA, elB], …)` targeting multiple roots), later groups get
+ * `withPrevious` so they play together — matching the HTML co-target timing.
+ */
+function applyAnimationsToElements(elements, ctx) {
+    if (ctx.animationsOption === false) {
+        for (const el of elements)
+            delete el.animationRaw;
+        return [];
+    }
+    const options = typeof ctx.animationsOption === 'object' && ctx.animationsOption !== null
+        ? ctx.animationsOption
+        : undefined;
+    const diagnostics = [];
+    /** anime call index → first owner key (group id or element id) that claimed it. */
+    const animeCallOwner = new Map();
+    for (let i = 0; i < elements.length; i++) {
+        const el = elements[i];
+        const raw = el.animationRaw;
+        if (!raw)
+            continue;
+        const css = raw.cssRaw ?? (raw.cssAnimationKey ? ctx.cssCapture?.get(raw.cssAnimationKey) : undefined);
+        const animeCalls = raw.animeRaws && raw.animeRaws.length > 0
+            ? raw.animeRaws
+            : (raw.animeCallIndices ?? [])
+                .map((idx) => ctx.animeCalls?.[idx])
+                .filter((c) => Boolean(c));
+        const built = (0, normalize_1.buildElementAnimations)({
+            declared: raw.declaredEffect
+                ? {
+                    effect: raw.declaredEffect,
+                    durationMs: raw.declaredDurationMs,
+                    delayMs: raw.declaredDelayMs,
+                    trigger: raw.declaredTrigger,
+                }
+                : undefined,
+            css,
+            animeCalls: animeCalls.length ? animeCalls : undefined,
+            options,
+        });
+        const ownerKey = el.animationGroupId ?? el.elementId ?? `anon-${i}`;
+        const indices = raw.animeCallIndices ?? [];
+        let shareWithPrevious = false;
+        for (const idx of indices) {
+            const owner = animeCallOwner.get(idx);
+            if (owner === undefined) {
+                animeCallOwner.set(idx, ownerKey);
+            }
+            else if (owner !== ownerKey) {
+                shareWithPrevious = true;
+            }
+        }
+        if (shareWithPrevious) {
+            for (const anim of built.animations) {
+                if (anim.source === 'animejs' && anim.trigger === 'afterPrevious') {
+                    anim.trigger = 'withPrevious';
+                }
+            }
+        }
+        if (built.animations.length > 0) {
+            el.animations = built.animations;
+        }
+        for (const u of built.unmapped) {
+            diagnostics.push({
+                rule_id: diagnostics_1.RULE_IDS.ANIMATION_UNMAPPED,
+                severity: 'warning',
+                element_id: el.elementId ?? null,
+                slide_id: ctx.slideId ?? null,
+                message: `Animation from ${u.source} is outside the native PPTX entrance subset: ` +
+                    `${u.reason} (raw: ${u.raw}). The element keeps its frozen end-state.`,
+                recovery: 'Declare the animation explicitly with data-animation using a supported ' +
+                    'entrance effect: appear, fade-in, fly-in-left/right/top/bottom, zoom-in, spin, wipe-left/right/top/bottom.',
+            });
+        }
+        delete el.animationRaw;
+    }
+    return diagnostics;
+}

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="scrimP09" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE0" stop-opacity="0.92" />
+      <stop offset="40%" stop-color="#F5EFE0" stop-opacity="0.0" />
+    </linearGradient>
+    <pattern id="dotP09" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+
+  
+  <g id="hero">
+    <image href="../images/jimbocho_hero.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  
+  <rect id="top-scrim" x="0" y="0" width="1280" height="280" fill="url(#scrimP09)" />
+
+  <rect id="grain" width="1280" height="720" fill="url(#dotP09)" />
+
+  
+  <g id="header">
+    <text x="60" y="80" font-family="Consolas, 'Courier New', monospace" font-size="9.10" fill="#1A1A1A" letter-spacing="4">PART 04 · Global Independent Bookstore No. 1 — Tokyo</text>
+    <line x1="60" y1="96" x2="320" y2="96" stroke="#FF5C8A" stroke-width="3" />
+  </g>
+
+  
+  <g id="big-title">
+    <text x="60" y="180" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="71.59" fill="#FF5C8A" letter-spacing="-1">Jimbocho</text>
+    <text x="58" y="178" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="71.59" fill="#1A1A1A" letter-spacing="-1">Jimbocho</text>
+
+    <text x="60" y="246" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="58" fill="#FF5C8A" letter-spacing="2">JIMBŌCHŌ</text>
+    <text x="58" y="244" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="58" fill="#1E4DBC" letter-spacing="2">JIMBŌCHŌ</text>
+  </g>
+
+  
+  <g id="award">
+    <rect x="980" y="68" width="240" height="120" fill="#1A1A1A" />
+    <rect x="983" y="71" width="240" height="120" fill="#FF5C8A" opacity="0.7" />
+    <rect x="980" y="68" width="240" height="120" fill="#1A1A1A" />
+    <text x="1100" y="110" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#FF5C8A" text-anchor="middle" letter-spacing="3">TIME OUT 2025</text>
+    <text x="1100" y="142" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="900" fill="#F5EFE0" text-anchor="middle" textLength="108.0" lengthAdjust="spacingAndGlyphs">The world's coolest neighborhood</text>
+    <text x="1100" y="172" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#F5EFE0" text-anchor="middle" letter-spacing="2">COOLEST NEIGHBORHOOD</text>
+  </g>
+
+  
+  <g id="info-bar">
+    <rect x="0" y="540" width="1280" height="180" fill="#1A1A1A" fill-opacity="0.86" />
+    <rect x="0" y="540" width="1280" height="6" fill="#FF5C8A" />
+
+    
+    <g id="stat-01">
+      <text x="80" y="600" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="68" fill="#FF5C8A">130-180</text>
+      <text x="80" y="632" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" font-weight="900" fill="#F5EFE0" textLength="119.0" lengthAdjust="spacingAndGlyphs">Bookstores densely distributed</text>
+      <text x="80" y="658" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#F5EFE0" opacity="0.7" letter-spacing="2">BOOKSTORES IN ONE DISTRICT</text>
+      <text x="80" y="686" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#F5EFE0" textLength="119.7" lengthAdjust="spacingAndGlyphs">Yasukuni-dori × Hakusan-dori intersection</text>
+    </g>
+
+    <line x1="448" y1="568" x2="448" y2="700" stroke="#F5EFE0" stroke-opacity="0.3" stroke-width="1" />
+
+    
+    <g id="stat-02">
+      <text x="488" y="586" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="42" fill="#FF5C8A">1875 · 1902 · 2015</text>
+      <text x="488" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" font-weight="900" fill="#F5EFE0" textLength="153.1" lengthAdjust="spacingAndGlyphs">Three representative old shops / unusual shops</text>
+      <text x="488" y="640" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#F5EFE0">·  Takayama Honten (1875)</text>
+      <text x="488" y="660" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#F5EFE0">·  Kitazawa English Books (1902)</text>
+      <text x="488" y="680" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.33" fill="#F5EFE0">·  Morioka Shoten (2015) — One Book a Week</text>
+    </g>
+
+    <line x1="960" y1="568" x2="960" y2="700" stroke="#F5EFE0" stroke-opacity="0.3" stroke-width="1" />
+
+    
+    <g id="stat-03">
+      <text x="1000" y="586" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="25.08" fill="#FF5C8A">UTRECHT × Harajuku</text>
+      <text x="1000" y="612" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#F5EFE0">One of Japan’s largest independent zine collections</text>
+      <text x="1000" y="640" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#F5EFE0" opacity="0.85" textLength="84.0" lengthAdjust="spacingAndGlyphs">Residential-Style Wooden Shelving</text>
+      <text x="1000" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#F5EFE0" opacity="0.85">Warm lighting · Quiet browsing</text>
+      <text x="1000" y="688" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" letter-spacing="2">→ ZINE PILGRIMAGE</text>
+    </g>
+  </g>
+
+  <g id="page-num">
+    <text x="60" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#F5EFE0" letter-spacing="2">P09 · TOKYO JIMBŌCHŌ</text>
+  </g>
+</svg>

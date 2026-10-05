@@ -1,0 +1,11 @@
+{
+  "source": "presenton/templates/general/template.json",
+  "source_sha256": "e3857fd52e8692e4a12bc2dd5b3069a5dad661196f9d62674c841e0bfd6c86f7",
+  "template_id": "general",
+  "layouts": 12,
+  "asset_manifest": "asset_manifest.json",
+  "font_declarations": {
+    "Poppins": "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+  },
+  "geometry_adjustments": []
+}

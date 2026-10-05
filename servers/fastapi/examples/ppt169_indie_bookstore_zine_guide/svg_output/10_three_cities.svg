@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP10" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="grain" width="1280" height="720" fill="url(#dotP10)" />
+
+  <g id="header">
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <rect x="63" y="59" width="14" height="68" fill="#FF5C8A" opacity="0.7" />
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <text x="92" y="98" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="32.20" fill="#1A1A1A" letter-spacing="-1">Three Cities · Three Attitudes</text>
+    <text x="92" y="128" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A5A" letter-spacing="3">THREE CITIES · THREE BOOKSTORE TEMPERAMENTS</text>
+  </g>
+
+  <line x1="60" y1="152" x2="1220" y2="152" stroke="#1A1A1A" stroke-width="3" />
+
+  
+  <g id="triptych">
+    <rect x="58" y="172" width="1164" height="160" fill="#FF5C8A" />
+    <image href="../images/three_cities_triptych.png" x="60" y="170" width="1160" height="160" preserveAspectRatio="xMidYMid slice" />
+    <line x1="60" y1="330" x2="1220" y2="330" stroke="#1A1A1A" stroke-width="3" />
+  </g>
+
+  
+  <g id="pillar-paris">
+    <rect x="60" y="350" width="380" height="320" fill="#1A1A1A" />
+    <rect x="63" y="353" width="380" height="320" fill="#FF5C8A" opacity="0.5" />
+    <rect x="60" y="350" width="380" height="320" fill="#1A1A1A" />
+    
+    <rect x="60" y="350" width="380" height="68" fill="#1E4DBC" />
+    <text x="76" y="394" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="36" fill="#F5EFE0">PARIS</text>
+    <text x="424" y="394" font-family="Consolas, 'Courier New', monospace" font-size="9.93" fill="#FF5C8A" text-anchor="end" letter-spacing="2">Paris</text>
+    
+    <text x="80" y="450" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="22" font-weight="900" fill="#F5EFE0">Shakespeare and Company</text>
+    <text x="80" y="476" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" letter-spacing="2">37 RUE DE LA BÛCHERIE · EST 1951</text>
+    <line x1="80" y1="488" x2="200" y2="488" stroke="#FF5C8A" stroke-width="2" />
+    <text x="80" y="514" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">·  Original address: 12 rue de l'Odéon</text>
+    <text x="80" y="536" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.53" fill="#F5EFE0">  Founded by Sylvia Beach in 1919</text>
+    <text x="80" y="566" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.97" fill="#F5EFE0">· Current site: 1951 George Whitman</text>
+    <text x="80" y="588" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">  Welcome thousands of "TUMBLEWEEDS"</text>
+    <text x="80" y="618" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="167.6" lengthAdjust="spacingAndGlyphs">·  Lodging condition: read for 1 hour every day</text>
+    <text x="80" y="640" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">  Write a page of autobiography + help with the work</text>
+    <text x="80" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="900" fill="#FF5C8A" textLength="131.2" lengthAdjust="spacingAndGlyphs">→ Bookstore = a refuge for writers</text>
+  </g>
+
+  <g id="pillar-london">
+    <rect x="450" y="350" width="380" height="320" fill="#1A1A1A" />
+    <rect x="453" y="353" width="380" height="320" fill="#1E4DBC" opacity="0.5" />
+    <rect x="450" y="350" width="380" height="320" fill="#1A1A1A" />
+    <rect x="450" y="350" width="380" height="68" fill="#FF5C8A" />
+    <text x="466" y="394" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="36" fill="#F5EFE0">LONDON</text>
+    <text x="814" y="394" font-family="Consolas, 'Courier New', monospace" font-size="9.10" fill="#1E4DBC" text-anchor="end" letter-spacing="2">London</text>
+    <text x="470" y="450" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="22" font-weight="900" fill="#F5EFE0">Daunt + Word on the Water</text>
+    <text x="470" y="476" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" letter-spacing="2">MARYLEBONE + REGENT'S CANAL</text>
+    <line x1="470" y1="488" x2="590" y2="488" stroke="#FF5C8A" stroke-width="2" />
+    <text x="470" y="514" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" fill="#F5EFE0">·  DAUNT (Marylebone)</text>
+    <text x="470" y="536" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="152.2" lengthAdjust="spacingAndGlyphs">  Edwardian architecture + oak balconies</text>
+    <text x="470" y="558" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="164.5" lengthAdjust="spacingAndGlyphs">  + stained glass + categorized by country</text>
+    <text x="470" y="588" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" fill="#F5EFE0">·  WORD ON THE WATER</text>
+    <text x="470" y="610" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.62" fill="#F5EFE0">  1920s Dutch canal boat</text>
+    <text x="470" y="632" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">  Leather chair / vintage typewriter / wood-burning stove</text>
+    <text x="470" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="900" fill="#FF5C8A" textLength="118.2" lengthAdjust="spacingAndGlyphs">→ Bookstore = the setting is the experience</text>
+  </g>
+
+  <g id="pillar-nyc">
+    <rect x="840" y="350" width="380" height="320" fill="#1A1A1A" />
+    <rect x="843" y="353" width="380" height="320" fill="#E8A02E" opacity="0.5" />
+    <rect x="840" y="350" width="380" height="320" fill="#1A1A1A" />
+    <rect x="840" y="350" width="380" height="68" fill="#1E4DBC" />
+    <text x="856" y="394" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="36" fill="#F5EFE0">NEW YORK</text>
+    <text x="1204" y="394" font-family="Consolas, 'Courier New', monospace" font-size="9.10" fill="#FF5C8A" text-anchor="end" letter-spacing="2" textLength="26.0" lengthAdjust="spacingAndGlyphs">New York</text>
+    <text x="860" y="450" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="22" font-weight="900" fill="#F5EFE0">Strand + Yu and Me Books</text>
+    <text x="860" y="476" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" letter-spacing="2">BROADWAY + CHINATOWN</text>
+    <line x1="860" y1="488" x2="980" y2="488" stroke="#FF5C8A" stroke-width="2" />
+    <text x="860" y="514" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" fill="#F5EFE0">·  STRAND (1927)</text>
+    <text x="860" y="536" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14" fill="#F5EFE0">  2,500,000 volumes</text>
+    <text x="860" y="558" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="133.3" lengthAdjust="spacingAndGlyphs">  Self-described as the "18-Mile Bookshelf"</text>
+    <text x="860" y="588" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="14" fill="#F5EFE0">·  YU AND ME BOOKS (2021)</text>
+    <text x="860" y="610" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="149.2" lengthAdjust="spacingAndGlyphs">  Chinatown’s first bookstore for Asian women</text>
+    <text x="860" y="632" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">  Community-funded rebuilding after the 2023 fire</text>
+    <text x="860" y="660" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="900" fill="#FF5C8A" textLength="131.2" lengthAdjust="spacingAndGlyphs">→ Bookstore = community infrastructure</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="690" x2="1220" y2="690" stroke="#1A1A1A" stroke-width="1" />
+    <text x="60" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P10 · PARIS × LONDON × NEW YORK</text>
+    <text x="1220" y="708" font-family="Consolas, 'Courier New', monospace" font-size="7.89" fill="#5A5A5A" text-anchor="end" letter-spacing="2">Shelter / Scene / Infrastructure</text>
+  </g>
+</svg>

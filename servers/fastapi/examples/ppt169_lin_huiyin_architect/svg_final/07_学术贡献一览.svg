@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.2" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <text x="60" y="42" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#C9A96E" letter-spacing="3">
+    <tspan>PART 02 · An underestimated academic pioneer</tspan>
+  </text>
+
+  
+  <rect x="60" y="55" width="4" height="32" fill="#C9A96E" />
+  <text x="80" y="82" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>Overview of Academic Contributions</tspan>
+  </text>
+  <text x="310" y="82" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#A0A0B0">
+    <tspan>—— Vision and Originality Far Ahead of Their Time</tspan>
+  </text>
+
+  
+  <path fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" d="M70,115 H1210 A10,10 0 0 1 1220,125 V205 A10,10 0 0 1 1210,215 H70 A10,10 0 0 1 60,205 V125 A10,10 0 0 1 70,115 Z" />
+  <circle cx="105" cy="165" r="22" fill="#C9A96E" fill-opacity="0.15" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="105" y="172" font-family="'Georgia', Arial, sans-serif" font-size="18" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1</tspan>
+  </text>
+  
+  <g transform="translate(145.0, 137.0) scale(1.75)" fill="#C9A96E">
+    <path d="M11 0L16 5L14 7V12L3 16L2.20711 15.2071L6.48196 10.9323C6.64718 10.9764 6.82084 11 7 11C8.10457 11 9 10.1046 9 9C9 7.89543 8.10457 7 7 7C5.89543 7 5 7.89543 5 9C5 9.17916 5.02356 9.35282 5.06774 9.51804L0.792893 13.7929L0 13L4 2H9L11 0Z" />
+  </g>
+  <text x="185" y="153" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>"Architectural meaning" concept</tspan>
+  </text>
+  <text x="145" y="182" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>An original Chinese architectural aesthetic concept — architecture is not only a combination of technology and beauty, but also a culmination of history and human connection</tspan>
+  </text>
+  <text x="145" y="202" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Beyond “poetic quality” and “pictorial quality,” she proposed “architectural spirit”—ancient buildings are living beings imbued with spirit</tspan>
+  </text>
+
+  
+  <path fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" d="M70,230 H1210 A10,10 0 0 1 1220,240 V320 A10,10 0 0 1 1210,330 H70 A10,10 0 0 1 60,320 V240 A10,10 0 0 1 70,230 Z" />
+  <circle cx="105" cy="280" r="22" fill="#C9A96E" fill-opacity="0.15" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="105" y="287" font-family="'Georgia', Arial, sans-serif" font-size="18" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>2</tspan>
+  </text>
+  
+  <g transform="translate(145.0, 252.0) scale(1.75)" fill="#C9A96E">
+    <path d="M0 2H3.58579C4.49129 2 5.35971 2.35971 6 3C6.64029 3.64029 7 4.50871 7 5.41421V11H9V5.41421C9 4.50871 9.35971 3.64029 10 3C10.6403 2.35971 11.5087 2 12.4142 2H16V13H11L9 15H7L5 13H0V2Z" />
+  </g>
+  <text x="185" y="268" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Introduction to 《Qing-Style Construction Regulations》</tspan>
+  </text>
+  <text x="145" y="297" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>An introduction to Liang Sicheng’s works that offers a relatively comprehensive summary of the framework of Chinese architectural theory</tspan>
+  </text>
+  <text x="145" y="317" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>From overarching systems to a unified balance of practicality and beauty, then to historical evolution and its connection to modern architecture</tspan>
+  </text>
+
+  
+  <path fill="#16213E" stroke="#C9A96E" stroke-width="1" filter="url(#cardShadow)" d="M70,345 H1210 A10,10 0 0 1 1220,355 V435 A10,10 0 0 1 1210,445 H70 A10,10 0 0 1 60,435 V355 A10,10 0 0 1 70,345 Z" />
+  <circle cx="105" cy="395" r="22" fill="#C9A96E" fill-opacity="0.15" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="105" y="402" font-family="'Georgia', Arial, sans-serif" font-size="18" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>3</tspan>
+  </text>
+  
+  <g transform="translate(145.0, 367.0) scale(1.75)" fill="#E8D5B7">
+    <path d="M1 1V16H3V10H7L9 12H15V3H9L7 1H1Z" />
+  </g>
+  <text x="185" y="383" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Pioneer of vernacular architecture research</tspan>
+  </text>
+  <text x="145" y="412" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>The first in China’s architectural community to advocate for the preservation of vernacular architecture, emphasizing the protection of homes and storefronts</tspan>
+  </text>
+  <text x="145" y="432" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>"Art has always had two systems: palace art and folk art"</tspan>
+  </text>
+
+  
+  <path fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" d="M70,460 H1210 A10,10 0 0 1 1220,470 V550 A10,10 0 0 1 1210,560 H70 A10,10 0 0 1 60,550 V470 A10,10 0 0 1 70,460 Z" />
+  <circle cx="105" cy="510" r="22" fill="#C9A96E" fill-opacity="0.15" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="105" y="517" font-family="'Georgia', Arial, sans-serif" font-size="18" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>4</tspan>
+  </text>
+  
+  <g transform="translate(145.0, 482.0) scale(1.75)" fill="#C9A96E">
+    <path d="M1.51967 3.30803C0.748393 4.37143 0.232465 5.63209 0.0618896 7L15.9381 7C15.7675 5.63208 15.2516 4.37142 14.4803 3.30801C14.4387 3.3313 14.3965 3.3546 14.3538 3.3779C12.8684 4.1881 10.7045 5 7.99997 5C5.29547 5 3.13149 4.1881 1.64611 3.3779C1.60342 3.35461 1.56127 3.33131 1.51967 3.30803Z" />
+    <path d="M13.0562 1.80011C11.8114 2.42548 10.0975 3 7.99997 3C5.90247 3 4.18861 2.42549 2.94376 1.80013C4.32185 0.674887 6.08211 0 8 0C9.91787 0 11.6781 0.674881 13.0562 1.80011Z" />
+    <path d="M0.0618896 9C0.232466 10.3679 0.748398 11.6286 1.51968 12.692C1.56128 12.6687 1.60344 12.6454 1.64614 12.6221C3.13152 11.8119 5.2955 11 8 11C10.7045 11 12.8685 11.8119 14.3538 12.6221C14.3966 12.6454 14.4387 12.6687 14.4803 12.692C15.2516 11.6286 15.7675 10.3679 15.9381 9L0.0618896 9Z" />
+    <path d="M8 16C6.08212 16 4.32186 15.3251 2.94377 14.1999C4.18862 13.5745 5.90249 13 8 13C10.0975 13 11.8114 13.5745 13.0562 14.1999C11.6781 15.3251 9.91788 16 8 16Z" />
+  </g>
+  <text x="185" y="498" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>《A Reference for Modern Residential Design》</tspan>
+  </text>
+  <text x="145" y="527" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>Published in 1945, it foresightedly proposed that postwar China should design buildings for ordinary people</tspan>
+  </text>
+  <text x="145" y="547" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>An introduction to postwar new residential developments in Western countries during the same period</tspan>
+  </text>
+
+  
+  <path fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" d="M70,575 H1210 A10,10 0 0 1 1220,585 V645 A10,10 0 0 1 1210,655 H70 A10,10 0 0 1 60,645 V585 A10,10 0 0 1 70,575 Z" />
+  <circle cx="105" cy="615" r="22" fill="#C9A96E" fill-opacity="0.15" stroke="#C9A96E" stroke-width="1.5" />
+  <text x="105" y="622" font-family="'Georgia', Arial, sans-serif" font-size="18" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>5</tspan>
+  </text>
+  
+  <g transform="translate(145.0, 597.0) scale(1.75)" fill="#C9A96E">
+    <path d="M9.00001 0H7.00001L5.51292 4.57681L0.700554 4.57682L0.0825195 6.47893L3.97581 9.30756L2.48873 13.8843L4.10677 15.0599L8.00002 12.2313L11.8933 15.0599L13.5113 13.8843L12.0242 9.30754L15.9175 6.47892L15.2994 4.57681L10.4871 4.57681L9.00001 0Z" />
+  </g>
+  <text x="185" y="613" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Launch the first "Introduction to Housing" course</tspan>
+  </text>
+  <text x="145" y="642" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Tsinghua University, 1949 · The first systematic teaching of modern residential architecture</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>07 / 10</tspan>
+  </text>
+</svg>

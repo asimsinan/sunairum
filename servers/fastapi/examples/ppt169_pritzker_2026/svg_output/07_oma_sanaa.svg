@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg">
+    <rect x="0" y="0" width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="p07-header">
+    <text x="60" y="58" font-family="Georgia, serif" font-size="14" fill="#B8935A" letter-spacing="3">05 · COLLABORATION</text>
+    <text x="60" y="110" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="25.20" font-weight="bold" fill="#1C1C1C">OMA × SANAA · New Museum Expansion in New York</text>
+    <text x="60" y="146" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#B8935A" font-style="italic">Two forces in synergy · Old and new art coexisting</text>
+    <text x="60" y="174" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.17" fill="#5C5852">Rem Koolhaas (OMA / 2000) × Kazuyo Sejima + Ryue Nishizawa (SANAA / 2010) · Opens 2026.3.21</text>
+  </g>
+
+  <g id="img-before">
+    <image href="../images/oma_new_museum_before.png" x="60" y="210" width="385" height="290" preserveAspectRatio="xMidYMid slice" />
+    <rect x="60" y="210" width="120" height="32" fill="#1C1C1C" />
+    <text x="76" y="232" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#E8C788" letter-spacing="2">BEFORE</text>
+    <text x="60" y="522" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" font-weight="bold" fill="#1C1C1C" textLength="138.2" lengthAdjust="spacingAndGlyphs">Before expansion · Iconic main building</text>
+    <text x="60" y="546" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#8B8680" textLength="149.9" lengthAdjust="spacingAndGlyphs">SANAA 2010 · Light and Transparent Aesthetics</text>
+  </g>
+
+  <g id="img-after">
+    <image href="../images/oma_new_museum_after.png" x="465" y="210" width="385" height="290" preserveAspectRatio="xMidYMid slice" />
+    <rect x="465" y="210" width="120" height="32" fill="#B8935A" />
+    <text x="481" y="232" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#1C1C1C" letter-spacing="2">AFTER</text>
+    <text x="465" y="522" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" font-weight="bold" fill="#1C1C1C">After expansion · New wing seamlessly integrated</text>
+    <text x="465" y="546" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#8B8680" textLength="136.7" lengthAdjust="spacingAndGlyphs">OMA 2026 · Pioneering Deconstructivist Thinking</text>
+  </g>
+
+  <g id="kpi-stack">
+    <rect x="870" y="210" width="350" height="93" fill="#1C1C1C" />
+    <text x="890" y="244" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#E8C788">$82M</text>
+    <text x="890" y="278" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#D4CFC4" textLength="115.2" lengthAdjust="spacingAndGlyphs">Total investment: $82 million</text>
+    <text x="890" y="298" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.72" fill="#8B8680">U.S. Dollar · opens in 2026</text>
+
+    <rect x="870" y="308" width="350" height="93" fill="#EDE8DE" />
+    <text x="890" y="342" font-family="Georgia, serif" font-size="34" font-weight="bold" fill="#1C1C1C">5,574 ㎡</text>
+    <text x="890" y="376" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#5C5852" textLength="78.0" lengthAdjust="spacingAndGlyphs">Additional floor area</text>
+    <text x="890" y="396" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B8680" textLength="137.4" lengthAdjust="spacingAndGlyphs">60,000 sq ft of brand-new exhibition space</text>
+
+    <rect x="870" y="406" width="350" height="94" fill="#B8935A" />
+    <text x="890" y="442" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-style="italic" fill="#1C1C1C" textLength="165.8" lengthAdjust="spacingAndGlyphs">Iterative renewal · Embracing diversity</text>
+    <text x="890" y="468" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#1C1C1C">OMA's Pioneering Deconstructivism × SANAA's Lightness and Transparency</text>
+    <text x="890" y="486" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" fill="#1C1C1C" textLength="108.0" lengthAdjust="spacingAndGlyphs">A century-old art museum gains new vitality</text>
+  </g>
+
+  <g id="img-massing">
+    <image href="../images/oma_new_museum_massing.png" x="60" y="580" width="790" height="110" preserveAspectRatio="xMidYMid slice" />
+    <line x1="60" y1="580" x2="60" y2="620" stroke="#B8935A" stroke-width="3" />
+    <text x="76" y="606" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="bold" fill="#F5F2EC">OMA Massing Model · Transparent Facade + Staggered Spaces + Open Layout</text>
+  </g>
+
+  <g id="manifesto-tail">
+    <text x="870" y="600" font-family="Georgia, serif" font-size="15" fill="#1C1C1C" font-style="italic">
+      <tspan x="870" dy="0">Make urban streetscapes</tspan>
+      <tspan x="870" dy="22">and art spaces</tspan>
+      <tspan x="870" dy="22">Mutual interpenetration</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="700" x2="1220" y2="700" stroke="#D4CFC4" stroke-width="1" />
+    <text x="60" y="715" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.02" fill="#8B8680">Image source · OMA / Photography by Dean Kaufman · Jason O'Rear</text>
+    <text x="1220" y="715" text-anchor="end" font-family="Georgia, serif" font-size="11" fill="#8B8680">07 / 11</text>
+  </g>
+</svg>

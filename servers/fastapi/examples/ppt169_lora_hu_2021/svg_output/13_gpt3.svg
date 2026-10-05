@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  <g id="header">
+    <rect x="64" y="56" width="6" height="56" rx="3" fill="#E8743B" />
+    <text x="86" y="90" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.41" font-weight="800" fill="#1B3A5C">It still holds at the 175B scale</text>
+    <text x="88" y="120" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="700" fill="#8A94A1" letter-spacing="1">GPT-3 175B · Key Metrics (Compared with Full Fine-Tuning)</text>
+  </g>
+
+  <g id="kpi-01">
+    <rect x="64" y="158" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="64" y="158" width="6" height="226" rx="3" fill="#E8743B" />
+    <rect x="100" y="186" width="52" height="52" rx="13" fill="#FBF0E9" />
+    <use data-icon="tabler-outline/database" x="113" y="199" width="26" height="26" fill="#E8743B" stroke-width="2" />
+    <text x="170" y="212" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#5B6776" textLength="112.0" lengthAdjust="spacingAndGlyphs">Reduction in trainable parameters</text>
+    <text x="100" y="312" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="64" font-weight="800" fill="#E8743B">10,000×</text>
+    <text x="100" y="354" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="16" fill="#5B6776">checkpoint 350GB → <tspan font-weight="800" fill="#1B3A5C">35MB</tspan></text>
+  </g>
+
+  <g id="kpi-02">
+    <rect x="656" y="158" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="656" y="158" width="6" height="226" rx="3" fill="#1B3A5C" />
+    <rect x="692" y="186" width="52" height="52" rx="13" fill="#EAF0F6" />
+    <use data-icon="tabler-outline/server-2" x="705" y="199" width="26" height="26" fill="#1B3A5C" stroke-width="2" />
+    <text x="762" y="212" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.39" font-weight="700" fill="#5B6776">Training VRAM (originally 1.2 TB)</text>
+    <text x="692" y="312" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="64" font-weight="800" fill="#1B3A5C">350GB</text>
+    <circle cx="708" cy="350" r="14" fill="#EAF6EE" />
+    <polygon points="708,357 714,345 702,345" fill="#2E7D32" />
+    <text x="732" y="356" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#2E7D32" textLength="79.7" lengthAdjust="spacingAndGlyphs">Reduced to approximately 1/3</text>
+  </g>
+
+  <g id="kpi-03">
+    <rect x="64" y="408" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="64" y="408" width="6" height="226" rx="3" fill="#2E7D32" />
+    <rect x="100" y="436" width="52" height="52" rx="13" fill="#EAF6EE" />
+    <use data-icon="tabler-outline/bolt" x="113" y="449" width="26" height="26" fill="#2E7D32" stroke-width="2" />
+    <text x="170" y="462" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" font-weight="700" fill="#5B6776" textLength="96.0" lengthAdjust="spacingAndGlyphs">Training throughput improvement</text>
+    <text x="100" y="562" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="64" font-weight="800" fill="#2E7D32">+25%</text>
+    <text x="100" y="604" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5B6776">No need to calculate gradients for the vast majority of parameters</text>
+  </g>
+
+  <g id="kpi-04">
+    <rect x="656" y="408" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <rect x="656" y="408" width="6" height="226" rx="3" fill="#3E7CB1" />
+    <rect x="692" y="436" width="52" height="52" rx="13" fill="#EAF0F6" />
+    <use data-icon="tabler-outline/circle-check" x="705" y="449" width="26" height="26" fill="#3E7CB1" stroke-width="2" />
+    <text x="762" y="462" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.45" font-weight="700" fill="#5B6776">Task accuracy: Flat / Better</text>
+    <text x="692" y="540" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="28.00" font-weight="800" fill="#1B3A5C" textLength="195.2" lengthAdjust="spacingAndGlyphs">≥ Full Fine-Tuning</text>
+    <text x="692" y="582" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="15" fill="#5B6776">WikiSQL <tspan font-weight="800" fill="#2E7D32">74.0</tspan> · MNLI-m <tspan font-weight="800" fill="#2E7D32">91.7</tspan> · SAMSum <tspan font-weight="800" fill="#2E7D32">53.8</tspan></text>
+    <text x="692" y="606" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A94A1" textLength="164.6" lengthAdjust="spacingAndGlyphs">All three meet or exceed the FT baseline</text>
+  </g>
+
+  <g id="footer">
+    <text x="64" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11" fill="#8A94A1">Source: LoRA §4.2, Table 4, §6 · Hu et al. 2021</text>
+    <text x="1216" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#8A94A1">13 / 15</text>
+  </g>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="p09ImgT"><rect x="60" y="240" width="540" height="280" rx="6" /></clipPath>
+    <clipPath id="p09ImgB"><rect x="60" y="540" width="540" height="148" rx="6" /></clipPath>
+    <linearGradient id="p09TopT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5A6B7A" stop-opacity="0.55" />
+      <stop offset="40%" stop-color="#5A6B7A" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="p09TopB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B7A4F" stop-opacity="0.55" />
+      <stop offset="55%" stop-color="#6B7A4F" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="p09BottomFadeT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F2EC" stop-opacity="0" />
+      <stop offset="100%" stop-color="#F5F2EC" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#F5F2EC" />
+  </g>
+
+  <g id="header">
+    <rect x="60" y="60" width="3" height="32" fill="#6B7A4F" />
+    <text x="76" y="84" font-family="Georgia, serif" font-size="13" font-weight="700" fill="#5A6B7A" letter-spacing="3">III · Tour · CASE 01</text>
+    <text x="1220" y="84" text-anchor="end" font-family="Georgia, serif" font-size="13" fill="#5A6B7A">SHENZHEN · MVRDV · 1994 → NOW</text>
+  </g>
+
+  <g id="page-title">
+    <text x="60" y="148" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="25.20" font-weight="700" fill="#2B3A4A" textLength="252.0" lengthAdjust="spacingAndGlyphs">Dress an Old Building in a<tspan fill="#6B7A4F">"Colorful grid exterior"</tspan></text>
+    <line x1="60" y1="172" x2="160" y2="172" stroke="#6B7A4F" stroke-width="2" />
+    <text x="60" y="200" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5A6B7A">Shenzhen Women and Children’s Building · A model project for the “adaptive reuse” approach to urban renewal</text>
+  </g>
+
+  <g id="img-before">
+    <image href="../images/640_9.png" x="60" y="240" width="540" height="280" preserveAspectRatio="xMidYMid slice" clip-path="url(#p09ImgT)" />
+    <rect x="60" y="240" width="540" height="100" fill="url(#p09TopT)" />
+    <rect x="60" y="450" width="540" height="70" fill="url(#p09BottomFadeT)" />
+    <g id="badge-bf-09">
+      <rect x="80" y="260" width="12" height="12" fill="#F5F2EC" />
+      <text x="100" y="271" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#F5F2EC" letter-spacing="3">BEFORE · 1994</text>
+    </g>
+  </g>
+
+  <g id="img-after">
+    <image href="../images/640_10.png" x="60" y="540" width="540" height="148" preserveAspectRatio="xMidYMid slice" clip-path="url(#p09ImgB)" />
+    <rect x="60" y="540" width="540" height="60" fill="url(#p09TopB)" />
+    <g id="badge-af-09">
+      <rect x="80" y="558" width="12" height="12" fill="#6B7A4F" />
+      <text x="100" y="569" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#F5F2EC" letter-spacing="3">AFTER</text>
+    </g>
+    <text x="600" y="710" text-anchor="end" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8A8275">Renovated façade · Photo: Xia Zhi</text>
+  </g>
+
+  <g id="features">
+    <rect x="660" y="240" width="560" height="190" rx="6" fill="#EBE6DC" />
+    <use data-icon="tabler-outline/grid-dots" x="684" y="262" width="28" height="28" fill="#6B7A4F" />
+    <text x="724" y="284" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="700" fill="#2B3A4A" textLength="108.0" lengthAdjust="spacingAndGlyphs">Colorful Grid Framework</text>
+    <text x="684" y="324" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A6B7A">Added Facade <tspan fill="#6B7A4F" font-weight="700">Nearly 1 meter</tspan> Depth provides shade</text>
+    <text x="684" y="350" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A6B7A" textLength="128.2" lengthAdjust="spacingAndGlyphs">An openable panel is provided on the inside,<tspan fill="#6B7A4F" font-weight="700">Promote natural ventilation</tspan></text>
+    <text x="684" y="376" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A6B7A">Significantly reduce reliance on air conditioning</text>
+    <line x1="684" y1="394" x2="744" y2="394" stroke="#6B7A4F" stroke-width="2" />
+    <text x="684" y="416" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.01" font-style="italic" fill="#8B7355">— A model of “adaptive reuse”</text>
+  </g>
+
+  <g id="programs">
+    <rect x="660" y="450" width="560" height="240" rx="6" fill="#FFFFFF" stroke="#D6CFC0" stroke-width="1" />
+    <text x="684" y="488" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#6B7A4F" letter-spacing="2">Business-format reengineering · Five core functions</text>
+    <g id="prog-grid" transform="translate(684, 510)">
+      <rect x="0" y="0" width="160" height="38" rx="6" fill="#F5F2EC" />
+      <text x="80" y="24" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.55" fill="#2B3A4A">Hotel · Dining</text>
+      <rect x="180" y="0" width="160" height="38" rx="6" fill="#F5F2EC" />
+      <text x="260" y="24" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#2B3A4A" textLength="70.0" lengthAdjust="spacingAndGlyphs">Children's Discovery Center</text>
+      <rect x="360" y="0" width="160" height="38" rx="6" fill="#F5F2EC" />
+      <text x="440" y="24" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#2B3A4A">Picture Book Museum</text>
+      <rect x="0" y="56" width="240" height="38" rx="6" fill="#F5F2EC" />
+      <text x="120" y="80" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#2B3A4A" textLength="84.0" lengthAdjust="spacingAndGlyphs">Infant and Toddler Childcare Center</text>
+      <rect x="260" y="56" width="260" height="38" rx="6" fill="#F5F2EC" />
+      <text x="390" y="80" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#2B3A4A" textLength="128.9" lengthAdjust="spacingAndGlyphs">Women’s and Children’s Theater · Public Events</text>
+    </g>
+    <text x="684" y="666" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-style="italic" fill="#5A6B7A">From a single office tower to a vibrant "vertical community"</text>
+  </g>
+</svg>

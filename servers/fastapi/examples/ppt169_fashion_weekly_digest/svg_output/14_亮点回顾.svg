@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.7" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="1180" height="1" fill="#2A2520" />
+
+  <text x="640" y="85" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="21.00" fill="#F5F0EB" font-weight="bold" text-anchor="middle" textLength="180.0" lengthAdjust="spacingAndGlyphs">This week's highlights at a glance</text>
+  <text x="640" y="105" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" text-anchor="middle" letter-spacing="2">WEEKLY HIGHLIGHTS</text>
+
+  
+  
+  <rect x="50" y="130" width="376" height="240" rx="12" fill="#1A1A1A" />
+  <use data-icon="phosphor-duotone/house" x="74" y="154" width="28" height="28" fill="#C9A96E" />
+  <text x="74" y="210" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">HERMÈS</text>
+  <text x="74" y="238" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#F5F0EB" textLength="153.2" lengthAdjust="spacingAndGlyphs">The World of Home · Milan Design Week</text>
+  <text x="74" y="262" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">Thirty rectangular columns create an immersive set</text>
+  <rect x="74" y="290" width="80" height="2" fill="#8B7355" />
+  <text x="74" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690" textLength="119.7" lengthAdjust="spacingAndGlyphs">Masterful Craftsmanship · Enduring Aesthetics</text>
+  <rect x="74" y="340" width="330" height="1" fill="#2A2520" />
+  <text x="74" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.11" fill="#8B7355">Home · Craft · Design</text>
+
+  
+  <rect x="452" y="130" width="376" height="240" rx="12" fill="#1A1A1A" />
+  <use data-icon="phosphor-duotone/dress" x="476" y="154" width="28" height="28" fill="#C9A96E" />
+  <text x="476" y="210" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">CHANEL</text>
+  <text x="476" y="238" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="15" fill="#F5F0EB">COCO BEACH 2026</text>
+  <text x="476" y="262" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">Shanghai limited-time boutique · Holiday villa concept</text>
+  <rect x="476" y="290" width="80" height="2" fill="#8B7355" />
+  <text x="476" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.22" fill="#9E9690">Matthieu Blazy's first collection</text>
+  <rect x="476" y="340" width="330" height="1" fill="#2A2520" />
+  <text x="476" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B7355" textLength="92.6" lengthAdjust="spacingAndGlyphs">Fashion · Retail · Experience</text>
+
+  
+  <rect x="854" y="130" width="376" height="240" rx="12" fill="#1A1A1A" />
+  <use data-icon="phosphor-duotone/watch" x="878" y="154" width="28" height="28" fill="#C9A96E" />
+  <text x="878" y="210" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">DIOR</text>
+  <text x="878" y="238" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#F5F0EB" textLength="153.2" lengthAdjust="spacingAndGlyphs">Double-sided appeal · Fashion and timepieces</text>
+  <text x="878" y="262" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13" fill="#9E9690">Coachella Debut · Chiffre Rouge</text>
+  <rect x="878" y="290" width="80" height="2" fill="#8B7355" />
+  <text x="878" y="320" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">Three Limited-Edition Watches · On Sale in Late April</text>
+  <rect x="878" y="340" width="330" height="1" fill="#2A2520" />
+  <text x="878" y="358" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B7355" textLength="92.6" lengthAdjust="spacingAndGlyphs">Fashion · Watches · Celebrities</text>
+
+  
+  
+  <rect x="50" y="395" width="376" height="240" rx="12" fill="#1A1A1A" />
+  <use data-icon="phosphor-duotone/house" x="74" y="419" width="28" height="28" fill="#C9A96E" />
+  <text x="74" y="475" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">LOUIS VUITTON</text>
+  <text x="74" y="503" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#F5F0EB">Objets Nomades · Travel-Inspired Home Furnishings</text>
+  <text x="74" y="527" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.72" fill="#9E9690">A tribute to Art Deco · Pierre Legrain</text>
+  <rect x="74" y="555" width="80" height="2" fill="#8B7355" />
+  <text x="74" y="585" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690" textLength="117.0" lengthAdjust="spacingAndGlyphs">A New Collaboration by Contemporary Designers</text>
+  <rect x="74" y="605" width="330" height="1" fill="#2A2520" />
+  <text x="74" y="623" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B7355">Home · Design · Exhibition</text>
+
+  
+  <rect x="452" y="395" width="376" height="240" rx="12" fill="#1A1A1A" />
+  <use data-icon="phosphor-duotone/palette" x="476" y="419" width="28" height="28" fill="#C9A96E" />
+  <text x="476" y="475" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">GUCCI</text>
+  <text x="476" y="503" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="13.20" fill="#F5F0EB">Gucci Memoria · 105 Years</text>
+  <text x="476" y="527" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690" textLength="131.0" lengthAdjust="spacingAndGlyphs">Demna Curates an Immersive Exhibition</text>
+  <rect x="476" y="555" width="80" height="2" fill="#8B7355" />
+  <text x="476" y="585" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690" textLength="172.8" lengthAdjust="spacingAndGlyphs">Twelve tapestries · Flora floral installation</text>
+  <rect x="476" y="605" width="330" height="1" fill="#2A2520" />
+  <text x="476" y="623" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B7355">Exhibition · Art · Heritage</text>
+
+  
+  <rect x="854" y="395" width="376" height="240" rx="12" fill="#1A1A1A" />
+  <use data-icon="phosphor-duotone/camera" x="878" y="419" width="28" height="28" fill="#C9A96E" />
+  <text x="878" y="475" font-family="Georgia, Georgia, serif" font-size="20" fill="#E8D5B5" font-weight="bold">McQUEEN</text>
+  <text x="878" y="503" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#F5F0EB" textLength="138.2" lengthAdjust="spacingAndGlyphs">Beneath the Surface · Shanghai Debut Exhibition</text>
+  <text x="878" y="527" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">The Manta bag revives the 2010 classic</text>
+  <rect x="878" y="555" width="80" height="2" fill="#8B7355" />
+  <text x="878" y="585" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690">Seán McGirr’s Creative Director Debut</text>
+  <rect x="878" y="605" width="330" height="1" fill="#2A2520" />
+  <text x="878" y="623" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#8B7355" textLength="92.6" lengthAdjust="spacingAndGlyphs">Exhibition · Art · Avant-Garde</text>
+
+  <rect x="50" y="670" width="1180" height="1" fill="#2A2520" />
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">14 / 16</text>
+</svg>

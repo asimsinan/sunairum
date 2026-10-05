@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="paperFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5F2EC" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#F5F2EC" stop-opacity="0.78" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg-image">
+    <rect width="1280" height="720" fill="#F5F2EC" />
+    <image href="../images/640_21.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+    <rect x="0" y="0" width="1280" height="720" fill="#F5F2EC" fill-opacity="0.65" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#paperFade)" />
+  </g>
+
+  <g id="header">
+    <rect x="60" y="60" width="3" height="32" fill="#C2410C" />
+    <text x="76" y="84" font-family="Georgia, serif" font-size="11.15" font-weight="700" fill="#5A6B7A" letter-spacing="3">IV · Predicament · THE REAL HARDNESS</text>
+  </g>
+
+  <g id="quote-mark">
+    <text x="100" y="280" font-family="Georgia, serif" font-size="200" font-weight="700" fill="#C2410C" fill-opacity="0.18">"</text>
+  </g>
+
+  <g id="big-quote">
+    <text x="180" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="700" fill="#2B3A4A">"Demolish and rebuild as is" in high-rise projects</text>
+    <text x="180" y="328" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="700" fill="#2B3A4A" textLength="96.0" lengthAdjust="spacingAndGlyphs">Destined<tspan fill="#C2410C">Extremely complex</tspan></text>
+    <line x1="180" y1="360" x2="280" y2="360" stroke="#C2410C" stroke-width="2" />
+    <text x="180" y="396" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-style="italic" fill="#5A6B7A">More units · Greater difficulty reaching consensus among all owners</text>
+  </g>
+
+  <g id="problem">
+    <rect x="180" y="440" width="500" height="180" rx="4" fill="#FFFFFF" stroke="#D6CFC0" stroke-width="1" />
+    <rect x="180" y="440" width="4" height="180" fill="#C2410C" />
+    <text x="208" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#C2410C" letter-spacing="2" textLength="52.0" lengthAdjust="spacingAndGlyphs">Real-world challenges</text>
+    <text x="208" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="700" fill="#2B3A4A" textLength="170.8" lengthAdjust="spacingAndGlyphs">"Make every household pay"</text>
+    <text x="208" y="556" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A6B7A">Where maintenance funding comes from and who pays — still being explored</text>
+    <text x="208" y="582" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5A6B7A" textLength="105.0" lengthAdjust="spacingAndGlyphs">Let many renovation projects<tspan fill="#C2410C" font-weight="700">At a standstill</tspan></text>
+    <text x="208" y="608" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8A8275">The cost-sharing mechanism among owners, developers, and the government is not yet mature</text>
+  </g>
+
+  <g id="solution">
+    <rect x="700" y="440" width="500" height="180" rx="4" fill="#2B3A4A" />
+    <rect x="700" y="440" width="4" height="180" fill="#6B7A4F" />
+    <text x="728" y="478" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#A8C575" letter-spacing="2" textLength="65.0" lengthAdjust="spacingAndGlyphs">A possible way out</text>
+    <text x="728" y="518" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="19.60" font-weight="700" fill="#F5F2EC">"Co-construction, co-governance, and shared benefits"</text>
+    <text x="728" y="556" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#D6CFC0" textLength="165.0" lengthAdjust="spacingAndGlyphs">The key to unlocking the impasse may lie in<tspan fill="#A8C575" font-weight="700">Innovation in governance models</tspan></text>
+    <text x="728" y="582" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#D6CFC0">Establish a senior “pension” · Borrow self-management from “neighborhood committees”</text>
+    <text x="728" y="608" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#A8B0B8">Let residents self-manage high-rise housing — starting with "micro-renewal"</text>
+  </g>
+
+  <g id="footer">
+    <text x="60" y="694" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-style="italic" fill="#5A6B7A">Technology solutions matter, but the key to unlocking the deadlock may lie in governance</text>
+    <text x="1220" y="694" text-anchor="end" font-family="Georgia, serif" font-size="12" fill="#5A6B7A">14 / 15</text>
+  </g>
+</svg>

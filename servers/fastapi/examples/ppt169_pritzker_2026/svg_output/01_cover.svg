@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="coverScrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0A0A" stop-opacity="0.55" />
+      <stop offset="45%" stop-color="#0A0A0A" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0.75" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg-image">
+    <image href="../images/ando_h_rooftop.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+    <rect x="0" y="0" width="1280" height="720" fill="url(#coverScrim)" />
+  </g>
+
+  <g id="cover-eyebrow">
+    <line x1="60" y1="100" x2="160" y2="100" stroke="#B8935A" stroke-width="2" />
+    <text x="180" y="106" font-family="Georgia, &quot;Georgia&quot;, serif" font-size="18" fill="#B8935A" letter-spacing="3">PRITZKER PRIZE · 2026</text>
+  </g>
+
+  <g id="cover-title">
+    <text x="60" y="340" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="50.40" font-weight="bold" fill="#F5F2EC">2026 Pritzker Prize Masters Season</text>
+    <text x="60" y="420" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" fill="#E8C788" font-style="italic" textLength="394.7" lengthAdjust="spacingAndGlyphs">8 new works · 8 areas of deep focus</text>
+  </g>
+
+  <g id="cover-subtitle">
+    <line x1="60" y1="490" x2="60" y2="600" stroke="#B8935A" stroke-width="2" />
+    <text x="80" y="510" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F2EC">From the banks of the Suzhou Creek to the heart of the desert</text>
+    <text x="80" y="546" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#F5F2EC">Understanding the ideas and convictions of a top architect</text>
+    <text x="80" y="592" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#D4CFC4">Unlike the fleetingness of influencer architecture · it is craftsmanship refined through the passage of time.</text>
+  </g>
+
+  <g id="cover-footer">
+    <line x1="60" y1="670" x2="1220" y2="670" stroke="#B8935A" stroke-width="1" stroke-opacity="0.4" />
+    <text x="60" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#D4CFC4" textLength="150.0" lengthAdjust="spacingAndGlyphs">Source · WeChat public account Sun Wantong</text>
+    <text x="1220" y="695" text-anchor="end" font-family="Georgia, &quot;Georgia&quot;, serif" font-size="13" fill="#D4CFC4">PPT MASTER · 2026.05</text>
+  </g>
+</svg>

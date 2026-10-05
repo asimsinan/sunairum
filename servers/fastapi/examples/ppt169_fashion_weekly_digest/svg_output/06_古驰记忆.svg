@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <clipPath id="mainImg">
+      <rect x="430" y="60" width="810" height="600" rx="12" />
+    </clipPath>
+    <clipPath id="smallImg">
+      <rect x="50" y="490" width="160" height="120" rx="8" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#0A0A0A" />
+
+  
+  <text x="50" y="35" font-family="Georgia, Georgia, serif" font-size="11" fill="#C9A96E" fill-opacity="0.7" letter-spacing="3">NEWS CAFÉ</text>
+  <rect x="50" y="45" width="1180" height="1" fill="#2A2520" />
+
+  
+  <rect x="430" y="60" width="810" height="600" rx="12" fill="#1A1A1A" />
+  <image href="../images/gucci_memoria1.jpg" x="430" y="60" width="810" height="600" preserveAspectRatio="xMidYMid slice" clip-path="url(#mainImg)" />
+  <rect x="430" y="60" width="810" height="600" rx="12" fill="#0A0A0A" fill-opacity="0.1" />
+
+  
+  <use data-icon="phosphor-duotone/palette" x="50" y="75" width="32" height="32" fill="#C9A96E" />
+
+  <text x="50" y="140" font-family="Georgia, Georgia, serif" font-size="14" fill="#C9A96E" letter-spacing="4">GUCCI</text>
+  <text x="50" y="180" font-family="Georgia, Georgia, serif" font-size="30" fill="#F5F0EB" font-weight="bold">Gucci Memoria</text>
+
+  <rect x="50" y="198" width="80" height="2" fill="#C9A96E" />
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="16" fill="#F5F0EB">
+    <tspan x="50" y="235">Milan San Simpliciano Cloister</tspan>
+    <tspan x="50" dy="26">Opens an immersive exhibition.</tspan>
+  </text>
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="16" fill="#F5F0EB">
+    <tspan x="50" y="310">Curated by Demna, Tracing the Brand</tspan>
+    <tspan x="50" dy="26">105 years of development.</tspan>
+  </text>
+
+  <text font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="16" fill="#F5F0EB">
+    <tspan x="50" y="385">Twelve tapestries distill the brand’s essence</tspan>
+    <tspan x="50" dy="26">Key milestones and successive creative directors</tspan>
+    <tspan x="50" dy="26">the design vision.</tspan>
+  </text>
+
+  
+  <rect x="50" y="490" width="160" height="120" rx="8" fill="#1A1A1A" />
+  <image href="../images/gucci_memoria2.jpg" x="50" y="490" width="160" height="120" preserveAspectRatio="xMidYMid slice" clip-path="url(#smallImg)" />
+
+  <text x="230" y="530" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="13" fill="#9E9690">
+    <tspan x="230" dy="0">Flora Flower Theme</tspan>
+    <tspan x="230" dy="20">Garden Installation</tspan>
+  </text>
+  <text x="230" y="588" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#9E9690" textLength="104.0" lengthAdjust="spacingAndGlyphs">Exclusive presale of handbags and accessories</text>
+
+  
+  <rect x="50" y="670" width="1180" height="1" fill="#2A2520" />
+  <text x="50" y="695" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="7.70" fill="#9E9690" textLength="109.3" lengthAdjust="spacingAndGlyphs">NEWS Café · Weekly aesthetic digest</text>
+  <text x="1230" y="695" font-family="'Georgia', 'Georgia SC', Arial, sans-serif" font-size="11" fill="#9E9690" text-anchor="end">06 / 16</text>
+</svg>

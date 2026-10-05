@@ -1,0 +1,1 @@
+Here are a few key figures. Seven consecutive days of celebration, five themed stages, 80 acts taking turns, and an expected audience of 50,000. Most importantly, music runs nonstop for 12 full hours every day, from 4 p.m. to 4 a.m. the next day. All five stages operate simultaneously, and even the longest walk between venues is only 600 meters.

@@ -1,0 +1,29 @@
+# Optional: run the local stack's Next UI as a prod build (lower RAM).
+# OCI / cloud already uses docker-compose.cloud.yml + Dockerfile.prod — not this file.
+#
+#   docker compose -f docker-compose.yml -f docker-compose.ui-prod.yml up -d --build nextjs
+#
+# Trade-off: no hot reload — rebuild after frontend changes.
+services:
+  nextjs:
+    build:
+      context: ./servers/nextjs
+      dockerfile: Dockerfile.prod
+      args:
+        NEXT_PUBLIC_API_URL: ""
+        API_PROXY_TARGET: http://fastapi:8000
+    image: sunairum-web:local-prod
+    container_name: sunairum
+    command: ["node", "server.js"]
+    ports:
+      - "3000:3000"
+    # No source bind-mount — run the baked standalone build only.
+    volumes:
+      - ./servers/fastapi/examples:/app/public/examples:ro
+    environment:
+      - NODE_ENV=production
+      - HOSTNAME=0.0.0.0
+      - PORT=3000
+      - NEXT_PUBLIC_API_URL=
+    depends_on:
+      - fastapi

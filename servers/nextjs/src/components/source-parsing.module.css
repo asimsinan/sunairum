@@ -1,0 +1,16 @@
+.panel { display: flex; align-items: flex-start; gap: 20px; padding: 28px; border: 1px solid var(--card-border); border-radius: 16px; background: color-mix(in srgb, var(--surface-soft) 92%, transparent); animation: source-rise 300ms ease-out both; }
+.iconWrap { display: grid; width: 48px; height: 48px; flex: 0 0 auto; place-items: center; border-radius: 12px; background: color-mix(in srgb, var(--accent-primary) 12%, transparent); color: var(--accent-primary); }
+.iconWrap[data-error="true"] { background: color-mix(in srgb, #df2d4b 12%, transparent); color: #df2d4b; }
+.content { display: grid; min-width: 0; flex: 1 1 auto; gap: 8px; }
+.eyebrow { color: var(--accent-primary); font-family: var(--font-sora, "Sora"), "Avenir Next", "Segoe UI", sans-serif; font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.content h1 { margin: 0; color: var(--text-primary); font-family: var(--font-sora, "Sora"), "Avenir Next", "Segoe UI", sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -.045em; line-height: 1.15; }
+.content p { margin: 0; color: var(--text-muted); font-size: 13px; line-height: 1.5; }
+.progressMeta { display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; color: var(--text-muted); font-size: 12px; font-weight: 700; }
+.progressMeta strong { color: var(--accent-primary); }
+.track { height: 10px; overflow: hidden; border: 1px solid var(--card-border); border-radius: 999px; background: var(--track-bg); }
+.value { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary)); transition: width 400ms ease; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 4px; color: var(--text-muted); font-size: 11px; }
+.stats strong { color: var(--text-primary); font-size: 14px; }
+@keyframes source-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 767px) { .panel { padding: 20px; }.iconWrap { width: 40px; height: 40px; }.content h1 { font-size: 22px; } }
+@media (prefers-reduced-motion: reduce) { .panel, .value { animation: none; transition: none; } }

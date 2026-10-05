@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#F6F1E8" />
+  <rect x="48" y="48" width="1184" height="624" fill="none" stroke="#D8CBB8" stroke-width="1.5" />
+
+  <g id="header">
+    <text x="72" y="92" font-family="Arial, Helvetica, sans-serif" font-size="23.80" fill="#1F1B16" font-weight="700" textLength="374.0" lengthAdjust="spacingAndGlyphs">Why should we rediscover Lin Huiyin today?</text>
+    <line x1="72" y1="108" x2="1208" y2="108" stroke="#D8CBB8" stroke-width="1.5" />
+    <text x="1196" y="92" text-anchor="end" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#978C7E">02</text>
+  </g>
+
+  <g id="center-claim">
+    
+  <g transform="translate(114.0, 186.0) scale(1.3333333333333333)" fill="none" stroke="#A44A3F">
+    <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+  </g>
+    <text x="162" y="212" font-family="Arial, Helvetica, sans-serif" font-size="16.80" fill="#A44A3F" font-weight="700">What is seen is often not the most important part of her</text>
+    <text x="162" y="270" font-family="Arial, Helvetica, sans-serif" font-size="33.60" fill="#1F1B16" font-weight="700" textLength="288.0" lengthAdjust="spacingAndGlyphs">She has been repeatedly recounted</text>
+    <text x="162" y="328" font-family="Arial, Helvetica, sans-serif" font-size="33.60" fill="#1F1B16" font-weight="700" textLength="432.0" lengthAdjust="spacingAndGlyphs">Yet it is not always accurately understood</text>
+    <line x1="162" y1="350" x2="520" y2="350" stroke="#B6915E" stroke-width="3" />
+    <text x="162" y="392" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#6A6258">This reappraisal is not about adding an anecdote; it is about restoring her to her rightful place at the center of architectural and academic history.</text>
+  </g>
+
+  <g id="three-observations">
+    <g id="obs-1">
+      <text x="162" y="494" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#978C7E">01</text>
+      <text x="194" y="494" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="88.0" lengthAdjust="spacingAndGlyphs">Public memory</text>
+      <text x="194" y="527" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">She often entered the public imagination through the labels “gifted woman” and “romantic narrative”</text>
+    </g>
+    <g id="obs-2">
+      <text x="528" y="494" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#978C7E">02</text>
+      <text x="560" y="494" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="88.0" lengthAdjust="spacingAndGlyphs">Professional positioning</text>
+      <text x="560" y="527" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">What truly determines its standing is architectural practice, theoretical development, and discipline building</text>
+    </g>
+    <g id="obs-3">
+      <text x="902" y="494" font-family="&quot;Georgia SC&quot;, &quot;Georgia&quot;, Arial, sans-serif" font-size="14" fill="#978C7E">03</text>
+      <text x="934" y="494" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" fill="#1F1B16" font-weight="600" textLength="88.0" lengthAdjust="spacingAndGlyphs">A fresh look today</text>
+      <text x="934" y="527" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#6A6258">Correcting cognitive biases and rewriting the coordinates of knowledge</text>
+    </g>
+  </g>
+
+  <g id="footer">
+    <text x="72" y="652" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#978C7E">From a concealed image back to the architect’s professional identity</text>
+  </g>
+</svg>

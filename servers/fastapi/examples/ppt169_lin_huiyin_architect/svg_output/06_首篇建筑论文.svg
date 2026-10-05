@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.25" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="20%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <text x="60" y="42" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#C9A96E" letter-spacing="3">
+    <tspan>PART 02 · An underestimated academic pioneer</tspan>
+  </text>
+
+  
+  <rect x="60" y="55" width="4" height="32" fill="#C9A96E" />
+  <text x="80" y="82" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>The first architectural paper: stunning the audience</tspan>
+  </text>
+
+  
+  <rect x="60" y="120" width="460" height="360" rx="12" fill="#16213E" />
+  <image href="../images/first_paper.png" x="60" y="120" width="460" height="360" preserveAspectRatio="xMidYMid slice" />
+  <text x="290" y="500" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#6B6B80" text-anchor="middle">
+    <tspan>《On Several Characteristics of Chinese Architecture》 · 1932</tspan>
+  </text>
+
+  
+  <rect x="60" y="520" width="200" height="150" rx="8" fill="#16213E" />
+  <image href="../images/liang_lin_together.png" x="60" y="520" width="200" height="150" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="280" y="520" width="240" height="150" rx="8" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <text x="300" y="555" font-family="'Georgia', Georgia, serif" font-size="14" fill="#C9A96E">
+    <tspan>"In the time shared with Father</tspan>
+  </text>
+  <text x="300" y="577" font-family="'Georgia', Georgia, serif" font-size="14" fill="#C9A96E">
+    <tspan>Working hard on my career…</tspan>
+  </text>
+  <text x="300" y="599" font-family="'Georgia', Georgia, serif" font-size="14" fill="#C9A96E">
+    <tspan>She was “the central figure”</tspan>
+  </text>
+  <rect x="300" y="616" width="30" height="1" fill="#C9A96E" fill-opacity="0.3" />
+  <text x="300" y="638" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80">
+    <tspan>—— Liang Zaibing (Daughter)</tspan>
+  </text>
+
+  
+  
+  <rect x="560" y="120" width="660" height="130" rx="10" fill="#16213E" stroke="#C9A96E" stroke-width="1" filter="url(#cardShadow)" />
+  <rect x="560" y="120" width="4" height="130" rx="2" fill="#E8D5B7" />
+  <use data-icon="chunk/book-open" x="584" y="140" width="28" height="28" fill="#E8D5B7" />
+  <text x="624" y="148" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8D5B7">
+    <tspan>1932 · A stunning debut</tspan>
+  </text>
+  <text x="584" y="178" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>《On Several Characteristics of Chinese Architecture》</tspan>
+  </text>
+  <text x="584" y="208" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#E8E8E8">
+    <tspan>The first architectural theory article published by a Chinese scholar</tspan>
+  </text>
+  <text x="584" y="230" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>In response to Western scholars’ misunderstandings, proposed value judgments aligned with Chinese nationalist sentiment</tspan>
+  </text>
+
+  
+  <rect x="560" y="270" width="660" height="110" rx="10" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="560" y="270" width="4" height="110" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/globe" x="584" y="288" width="28" height="28" fill="#C9A96E" />
+  <text x="624" y="296" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E">
+    <tspan>Theoretical Breakthrough</tspan>
+  </text>
+  <text x="584" y="326" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>The first theoretical definition of the fundamental characteristics of China's architectural timber-frame structural system</tspan>
+  </text>
+  <text x="584" y="352" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>A complete conceptual framework for the history of Chinese architecture</tspan>
+  </text>
+
+  
+  <rect x="560" y="400" width="660" height="110" rx="10" fill="#16213E" stroke="#2A2A4A" stroke-width="1" />
+  <rect x="560" y="400" width="4" height="110" rx="2" fill="#C9A96E" />
+  <use data-icon="chunk/compass-drafting" x="584" y="418" width="28" height="28" fill="#C9A96E" />
+  <text x="624" y="426" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E">
+    <tspan>Refuting Western prejudices</tspan>
+  </text>
+  <text x="584" y="456" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>Western scholars once believed that ancient Chinese architecture was merely a “tree of architecture”</tspan>
+  </text>
+  <text x="584" y="478" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>A lone leaf beyond the main branch—Lin Huiyin’s academic response</tspan>
+  </text>
+
+  
+  <rect x="560" y="530" width="660" height="80" rx="10" fill="#16213E" stroke="#8B6F47" stroke-width="1" />
+  <text x="580" y="565" font-family="'Georgia', Georgia, serif" font-size="16" fill="#C9A96E">
+    <tspan>"She was the first scholar to make truly significant contributions to Chinese architectural history and theory,</tspan>
+  </text>
+  <text x="580" y="592" font-family="'Georgia', Georgia, serif" font-size="16" fill="#C9A96E">
+    <tspan>  He is a founder of the discipline, and even more, a pioneer in thought"</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>06 / 10</tspan>
+  </text>
+</svg>

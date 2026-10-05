@@ -1,0 +1,95 @@
+#cloud-config
+#
+# One-click DigitalOcean Droplet provisioning.
+#
+# Paste this into the "User data" field when creating a Droplet (Advanced
+# Options), after replacing every CHANGE_ME below. Recommended size is
+# s-4vcpu-8gb: a Docling parse peaks near 2.3GB and the worker runs two at once.
+#
+# On first boot this installs Docker, clones the repository, writes both
+# environment files, and starts the stack. Give it a few minutes, then browse to
+# the Droplet's IP (or your domain once DNS points at it).
+
+package_update: true
+package_upgrade: true
+
+packages:
+  - ca-certificates
+  - curl
+  - git
+
+write_files:
+  # Values consumed by docker-compose.cloud.yml. Everything the stack needs to
+  # come up unattended lives here so no interactive step is required.
+  - path: /opt/sunairum/env/cloud.env
+    permissions: "0600"
+    content: |
+      # Leave DOMAIN empty to serve plain HTTP on the Droplet IP. Setting it to a
+      # domain whose DNS already points here makes Caddy issue a certificate
+      # automatically on first request.
+      DOMAIN=
+      POSTGRES_USER=postgres
+      POSTGRES_PASSWORD=CHANGE_ME_STRONG_DB_PASSWORD
+      POSTGRES_DB=sunairumdb
+      # Pull prebuilt images instead of building on the Droplet. Point this at
+      # your registry, or leave it and pass --build to deploy/up.sh instead.
+      IMAGE_PREFIX=CHANGE_ME_REGISTRY/sunairum
+      IMAGE_TAG=latest
+      STORAGE_MODE=local
+      SOURCE_PARSER=docling
+      DOCLING_DEVICE=cpu
+      SOURCE_PARSER_TIMEOUT_SECONDS=900
+      HF_HUB_OFFLINE=1
+      DOCLING_FORMULA_ENRICHMENT=0
+      CELERY_CONCURRENCY=2
+
+  # App secrets (LLM keys/models are set in the Settings UI after login).
+  - path: /opt/sunairum/env/fastapi.env
+    permissions: "0600"
+    content: |
+      SETTINGS_SECRET_KEY=CHANGE_ME_LONG_RANDOM_STRING
+
+  - path: /opt/sunairum/bootstrap.sh
+    permissions: "0755"
+    content: |
+      #!/usr/bin/env bash
+      set -euo pipefail
+
+      REPO="${SUNAIRUM_REPO:-https://github.com/CHANGE_ME/sunairum.git}"
+      APP_DIR=/opt/sunairum/app
+
+      curl -fsSL https://get.docker.com | sh
+
+      if [[ ! -d "$APP_DIR/.git" ]]; then
+        git clone --depth 1 "$REPO" "$APP_DIR"
+      fi
+      cd "$APP_DIR"
+
+      # The scripts expect these paths; symlinking keeps the secrets outside the
+      # git working tree so a `git pull` can never clobber them.
+      mkdir -p deploy
+      ln -sf /opt/sunairum/env/cloud.env deploy/cloud.env
+      ln -sf /opt/sunairum/env/fastapi.env deploy/fastapi.env
+
+      # Docling holds ~2.3GB per parse and LibreOffice spikes during rendered QA.
+      # Swap keeps a burst from OOM-killing the worker on an 8GB host.
+      if [[ ! -f /swapfile ]]; then
+        fallocate -l 4G /swapfile
+        chmod 600 /swapfile
+        mkswap /swapfile
+        swapon /swapfile
+        echo '/swapfile none swap sw 0 0' >> /etc/fstab
+      fi
+
+      # Falls back to building on the host when IMAGE_PREFIX still points at the
+      # placeholder registry, so a Droplet started without a registry still works.
+      if grep -q 'CHANGE_ME_REGISTRY' /opt/sunairum/env/cloud.env; then
+        ./deploy/up.sh --build
+      else
+        ./deploy/up.sh
+      fi
+
+runcmd:
+  - [ bash, /opt/sunairum/bootstrap.sh ]
+
+final_message: "sunairum is starting. Open http://$IPV4 once the images finish downloading."

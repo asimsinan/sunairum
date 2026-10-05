@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A96E" />
+      <stop offset="100%" stop-color="#E8D5B7" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4" />
+      <feOffset dx="0" dy="2" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.25" /></feComponentTransfer>
+      <feMerge><feMergeNode /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <radialGradient id="bgGlow" cx="30%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="#1A1A2E" />
+  <rect width="1280" height="720" fill="url(#bgGlow)" />
+
+  
+  <text x="60" y="42" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#C9A96E" letter-spacing="3">
+    <tspan>PART 01 · Architect Lin Huiyin</tspan>
+  </text>
+
+  
+  <rect x="60" y="55" width="4" height="32" fill="#C9A96E" />
+  <text x="80" y="82" font-family="'Georgia', Georgia, serif" font-size="32" font-weight="bold" fill="#E8E8E8">
+    <tspan>Architectural Practice in the Early Years After Returning to China</tspan>
+  </text>
+
+  
+  
+  <rect x="60" y="130" width="370" height="530" rx="12" fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" />
+  
+  <rect x="60" y="130" width="370" height="4" rx="2" fill="#C9A96E" />
+  
+  <rect x="80" y="152" width="60" height="24" rx="12" fill="#C9A96E" fill-opacity="0.15" />
+  <text x="110" y="169" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1929</tspan>
+  </text>
+  
+  <use data-icon="chunk/building" x="80" y="195" width="36" height="36" fill="#C9A96E" />
+  
+  <text x="80" y="260" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Liang Qichao’s tombstone</tspan>
+  </text>
+  
+  <text x="80" y="290" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>After returning from her studies</tspan>
+  </text>
+  <text x="80" y="312" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>The First Work</tspan>
+  </text>
+  <rect x="80" y="328" width="40" height="1" fill="#C9A96E" fill-opacity="0.3" />
+  <text x="80" y="355" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Liang Sicheng and Lin Huiyin for their father</tspan>
+  </text>
+  <text x="80" y="377" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Design a gravestone. Made of marble,</tspan>
+  </text>
+  <text x="80" y="399" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>2.8 meters high, 1.7 meters wide,</tspan>
+  </text>
+  <text x="80" y="421" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Tenon-like in form, with an archaic dignity.</tspan>
+  </text>
+
+  
+  <rect x="455" y="130" width="370" height="530" rx="12" fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" />
+  <rect x="455" y="130" width="370" height="4" rx="2" fill="#C9A96E" />
+  <rect x="475" y="152" width="60" height="24" rx="12" fill="#C9A96E" fill-opacity="0.15" />
+  <text x="505" y="169" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#C9A96E" text-anchor="middle">
+    <tspan>1929</tspan>
+  </text>
+  <use data-icon="chunk/castle" x="475" y="195" width="36" height="36" fill="#C9A96E" />
+  <text x="475" y="260" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Jilin University Stone Building</tspan>
+  </text>
+  <text x="475" y="290" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>"Liang Chen Tong Cai" Studio</tspan>
+  </text>
+  <text x="475" y="312" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>Collaborative design</tspan>
+  </text>
+  <rect x="475" y="328" width="40" height="1" fill="#C9A96E" fill-opacity="0.3" />
+  <text x="475" y="355" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>While at Northeastern University, participated in</tspan>
+  </text>
+  <text x="475" y="377" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Overall campus building master plan for Jilin University</tspan>
+  </text>
+  <text x="475" y="399" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>and the teaching building design; later belonging to</tspan>
+  </text>
+  <text x="475" y="421" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Northeast Electric Power University.</tspan>
+  </text>
+
+  
+  <rect x="850" y="130" width="370" height="530" rx="12" fill="#16213E" stroke="#2A2A4A" stroke-width="1" filter="url(#cardShadow)" />
+  <rect x="850" y="130" width="370" height="4" rx="2" fill="#E8D5B7" />
+  <rect x="870" y="152" width="60" height="24" rx="12" fill="#E8D5B7" fill-opacity="0.15" />
+  <text x="900" y="169" font-family="'Georgia', Arial, sans-serif" font-size="13" font-weight="bold" fill="#E8D5B7" text-anchor="middle">
+    <tspan>1928</tspan>
+  </text>
+  <use data-icon="chunk/building" x="870" y="195" width="36" height="36" fill="#E8D5B7" />
+  <text x="870" y="260" font-family="'Georgia', Georgia, serif" font-size="22" font-weight="bold" fill="#E8D5B7">
+    <tspan>Jihai Railway Terminal</tspan>
+  </text>
+  <text x="870" y="290" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>Lin Huiyin's overall design style</tspan>
+  </text>
+  <text x="870" y="312" font-family="'Georgia', Arial, sans-serif" font-size="16" fill="#E8E8E8">
+    <tspan>Liang Sicheng was responsible for the final approval</tspan>
+  </text>
+  <rect x="870" y="328" width="40" height="1" fill="#E8D5B7" fill-opacity="0.3" />
+  <text x="870" y="355" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Large Gothic architecture, viewed from above</tspan>
+  </text>
+  <text x="870" y="377" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>The overhead form resembles a crouching lion,</tspan>
+  </text>
+  <text x="870" y="399" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>The "lion's tail" is cleverly designed as a clock tower,</tspan>
+  </text>
+  <text x="870" y="421" font-family="'Georgia', Arial, sans-serif" font-size="14" fill="#A0A0B0">
+    <tspan>Symbolizing China as a Lion Just Awakening.</tspan>
+  </text>
+  
+  <rect x="870" y="440" width="330" height="180" rx="8" fill="#1A1A2E" />
+  <image href="../images/jihai_station_old.png" x="870" y="440" width="330" height="180" preserveAspectRatio="xMidYMid slice" />
+  <text x="1035" y="640" font-family="'Georgia', Arial, sans-serif" font-size="11" fill="#6B6B80" text-anchor="middle">
+    <tspan>Historical photos of Jihai Railway Terminal</tspan>
+  </text>
+
+  
+  <text x="1200" y="700" font-family="'Georgia', Arial, sans-serif" font-size="12" fill="#6B6B80" text-anchor="end">
+    <tspan>03 / 10</tspan>
+  </text>
+</svg>

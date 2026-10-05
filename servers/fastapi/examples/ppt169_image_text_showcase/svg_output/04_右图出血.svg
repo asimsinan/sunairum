@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="frostBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F4FA" />
+      <stop offset="100%" stop-color="#E4EEF8" />
+    </linearGradient>
+    <linearGradient id="textToImg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0F4FA" stop-opacity="1" />
+      <stop offset="60%" stop-color="#F0F4FA" stop-opacity="1" />
+      <stop offset="100%" stop-color="#F0F4FA" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="accentPrimary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6FF7" />
+      <stop offset="100%" stop-color="#4ECDC4" />
+    </linearGradient>
+    <clipPath id="rightImgClip">
+      <rect x="440" y="0" width="840" height="720" />
+    </clipPath>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#frostBg)" />
+
+  
+  <image href="../images/p04_right_img.png" x="440" y="0" width="840" height="720" clip-path="url(#rightImgClip)" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="0" width="680" height="720" fill="url(#textToImg)" />
+
+  
+  <rect x="60" y="50" width="360" height="3" rx="1.5" fill="url(#accentPrimary)" />
+
+  
+  <rect x="60" y="64" width="240" height="26" rx="4" fill="#7C6FF7" fill-opacity="0.1" />
+  <text x="70" y="81" font-family="Arial, sans-serif" font-size="13" fill="#7C6FF7">vector-illustration × frost-ice</text>
+
+  
+  <text x="60" y="120" font-family="Consolas, monospace" font-size="13" fill="#9090A0">P04</text>
+
+  
+  <text x="60" y="170" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" font-weight="bold" fill="#1A1A3A" textLength="192.0" lengthAdjust="spacingAndGlyphs">Bleed on the right side of the image</text>
+  <text x="60" y="210" font-family="Arial, 'Georgia', sans-serif" font-size="18" fill="#5A5A72">Right Image Bleed</text>
+
+  
+  <text x="60" y="270" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#2A2A4A">A vector illustration occupies a large area on the right,</text>
+  <text x="60" y="298" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#2A2A4A" textLength="231.0" lengthAdjust="spacingAndGlyphs">And bleed off the right edge of the canvas.</text>
+  <text x="60" y="346" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#6A6A8A">The text floats on the left; large image, small text</text>
+  <text x="60" y="374" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" fill="#6A6A8A" textLength="191.0" lengthAdjust="spacingAndGlyphs">Create powerful visual tension.</text>
+
+  
+  <rect x="60" y="422" width="4" height="4" rx="2" fill="#7C6FF7" />
+  <text x="76" y="432" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#2A2A4A" textLength="189.9" lengthAdjust="spacingAndGlyphs">Flat vector style with a strong geometric feel</text>
+
+  <rect x="60" y="460" width="4" height="4" rx="2" fill="#4ECDC4" />
+  <text x="76" y="470" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#2A2A4A" textLength="171.9" lengthAdjust="spacingAndGlyphs">Frosty white background, fresh and professional</text>
+
+  <rect x="60" y="498" width="4" height="4" rx="2" fill="#F5A623" />
+  <text x="76" y="508" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#2A2A4A">Bleed on the right edge, creating a pronounced borderless effect</text>
+
+  
+  <rect x="60" y="558" width="340" height="96" rx="8" fill="#FFFFFF" fill-opacity="0.8" stroke="#7C6FF7" stroke-opacity="0.2" stroke-width="1" />
+  <text x="80" y="585" font-family="Consolas, monospace" font-size="13" fill="#6A6A8A">Rendering</text>
+  <text x="180" y="585" font-family="Consolas, monospace" font-size="13" fill="#1A1A3A">vector-illustration</text>
+  <text x="80" y="608" font-family="Consolas, monospace" font-size="13" fill="#6A6A8A">Palette  </text>
+  <text x="180" y="608" font-family="Consolas, monospace" font-size="13" fill="#1A1A3A">frost-ice</text>
+  <text x="80" y="631" font-family="Consolas, monospace" font-size="13" fill="#6A6A8A">Layout  </text>
+  <text x="180" y="631" font-family="Consolas, monospace" font-size="13" fill="#1A1A3A">right bleed image + left text</text>
+
+  
+  <text x="1240" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#9090A0">04</text>
+</svg>

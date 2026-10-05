@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  <g id="header">
+    <rect x="64" y="56" width="6" height="56" rx="3" fill="#E8743B" />
+    <text x="86" y="90" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.92" font-weight="800" fill="#1B3A5C">Four key advantages of LoRA</text>
+    <text x="88" y="120" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#8A94A1" letter-spacing="1">FOUR KEY ADVANTAGES</text>
+  </g>
+
+  <g id="adv-01">
+    <rect x="64" y="158" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <text x="600" y="218" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="52" font-weight="800" fill="#1B3A5C" fill-opacity="0.07">01</text>
+    <rect x="96" y="186" width="56" height="56" rx="14" fill="#EAF0F6" />
+    <use data-icon="tabler-outline/share-2" x="110" y="200" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+    <text x="96" y="284" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1D2733" textLength="60.0" lengthAdjust="spacingAndGlyphs">Can be shared</text>
+    <text x="96" y="306" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" font-weight="700" fill="#1B3A5C" letter-spacing="1.5">ONE BASE · MANY MODULES</text>
+    <text x="96" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776">One pretrained foundation model + multiple small LoRA modules;</text>
+    <text x="96" y="360" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776" textLength="110.0" lengthAdjust="spacingAndGlyphs">Switch tasks by simply replacing <tspan font-weight="800" fill="#1B3A5C">A、B</tspan>,Significantly reduces storage requirements.</text>
+  </g>
+
+  <g id="adv-02">
+    <rect x="656" y="158" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <text x="1192" y="218" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="52" font-weight="800" fill="#3E7CB1" fill-opacity="0.08">02</text>
+    <rect x="688" y="186" width="56" height="56" rx="14" fill="#EAF0F6" />
+    <use data-icon="tabler-outline/bolt" x="702" y="200" width="28" height="28" fill="#3E7CB1" stroke-width="2" />
+    <text x="688" y="284" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1D2733" textLength="80.0" lengthAdjust="spacingAndGlyphs">Efficient training</text>
+    <text x="688" y="306" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" font-weight="700" fill="#3E7CB1" letter-spacing="1.5">LOWER HARDWARE BARRIER</text>
+    <text x="688" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776">No need to store gradients and optimizer states for frozen parameters;</text>
+    <text x="688" y="360" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776" textLength="125.0" lengthAdjust="spacingAndGlyphs">Greatest reduction in hardware requirements <tspan font-weight="800" fill="#1B3A5C">3×</tspan>。</text>
+  </g>
+
+  <g id="adv-03">
+    <rect x="64" y="408" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <text x="600" y="468" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="52" font-weight="800" fill="#E8743B" fill-opacity="0.10">03</text>
+    <rect x="96" y="436" width="56" height="56" rx="14" fill="#FBF0E9" />
+    <use data-icon="tabler-outline/gauge" x="110" y="450" width="28" height="28" fill="#E8743B" stroke-width="2" />
+    <text x="96" y="534" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1D2733" textLength="100.0" lengthAdjust="spacingAndGlyphs">Zero inference latency</text>
+    <text x="96" y="556" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" font-weight="700" fill="#E8743B" letter-spacing="1.5">NO ADDED INFERENCE LATENCY</text>
+    <text x="96" y="588" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776">At deployment, merge W = W₀+BA;</text>
+    <text x="96" y="610" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776" textLength="105.0" lengthAdjust="spacingAndGlyphs">With full-fine-tuning models<tspan font-weight="800" fill="#2E7D32">Isomorphic, with no added latency</tspan>。</text>
+  </g>
+
+  <g id="adv-04">
+    <rect x="656" y="408" width="560" height="226" rx="16" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <text x="1192" y="468" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="52" font-weight="800" fill="#1B3A5C" fill-opacity="0.07">04</text>
+    <rect x="688" y="436" width="56" height="56" rx="14" fill="#EAF0F6" />
+    <use data-icon="tabler-outline/puzzle" x="702" y="450" width="28" height="28" fill="#1B3A5C" stroke-width="2" />
+    <text x="688" y="534" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1D2733" textLength="100.0" lengthAdjust="spacingAndGlyphs">Orthogonally stackable</text>
+    <text x="688" y="556" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" font-weight="700" fill="#1B3A5C" letter-spacing="1.5">ORTHOGONAL · COMPOSABLE</text>
+    <text x="688" y="588" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776" textLength="143.2" lengthAdjust="spacingAndGlyphs">Orthogonal to many existing methods,</text>
+    <text x="688" y="610" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#5B6776" textLength="35.0" lengthAdjust="spacingAndGlyphs">Can be used with <tspan font-weight="800" fill="#1B3A5C">prefix-tuning</tspan> Use in combination with others.</text>
+  </g>
+
+  <g id="footer">
+    <text x="64" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11" fill="#8A94A1">Source: LoRA §1, §4.1 · Hu et al. 2021</text>
+    <text x="1216" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#8A94A1">09 / 15</text>
+  </g>
+</svg>

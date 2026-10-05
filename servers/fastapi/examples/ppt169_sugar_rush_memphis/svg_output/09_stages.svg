@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+
+  <g id="bg">
+    <rect width="1280" height="720" fill="#FFF8EE" />
+  </g>
+
+  
+  <g id="header">
+    <rect x="60" y="55" width="14" height="60" fill="#FFD93D" />
+    <text x="90" y="95" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="48" font-weight="900" fill="#1A1A2E" letter-spacing="1">5 STAGES, ONE WORLD</text>
+    <text x="90" y="125" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" font-weight="700" fill="#5C5C7A" letter-spacing="3">Central SUGAR DOME · Radiating to four sub-stages</text>
+  </g>
+
+  
+  <g id="bg-rings">
+    <circle cx="640" cy="420" r="280" fill="none" stroke="#1A1A2E" stroke-width="1.5" stroke-dasharray="3,8" opacity="0.25" />
+    <circle cx="640" cy="420" r="180" fill="none" stroke="#1A1A2E" stroke-width="1.5" stroke-dasharray="3,8" opacity="0.35" />
+  </g>
+
+  
+  <g id="spokes">
+    <line x1="640" y1="420" x2="280" y2="280" stroke="#FF3DA5" stroke-width="3" stroke-dasharray="6,6" />
+    <line x1="640" y1="420" x2="1000" y2="280" stroke="#00B8D9" stroke-width="3" stroke-dasharray="6,6" />
+    <line x1="640" y1="420" x2="280" y2="560" stroke="#00C896" stroke-width="3" stroke-dasharray="6,6" />
+    <line x1="640" y1="420" x2="1000" y2="560" stroke="#FFD93D" stroke-width="3" stroke-dasharray="6,6" />
+  </g>
+
+  
+  <g id="hub-center">
+    
+    <circle cx="640" cy="420" r="110" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="5" />
+    
+    <circle cx="640" cy="420" r="90" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="3" />
+    <use data-icon="chunk-filled/music" x="616" y="358" width="48" height="48" fill="#FF3DA5" />
+    <text x="640" y="430" text-anchor="middle" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="26" font-weight="900" fill="#1A1A2E" letter-spacing="1">SUGAR</text>
+    <text x="640" y="460" text-anchor="middle" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="26" font-weight="900" fill="#1A1A2E" letter-spacing="1">DOME</text>
+    <text x="640" y="488" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.49" font-weight="800" fill="#FF3DA5" letter-spacing="2">Main Stage · 30000</text>
+  </g>
+
+  
+  <g id="spoke-cherry">
+    <rect x="100" y="200" width="280" height="120" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <rect x="100" y="200" width="280" height="34" fill="#FF3DA5" />
+    <text x="240" y="223" text-anchor="middle" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A2E" letter-spacing="3">CHERRY STAGE · Rock</text>
+    <use data-icon="chunk-filled/bolt" x="120" y="248" width="32" height="32" fill="#FF3DA5" />
+    <text x="160" y="270" font-family="Impact, sans-serif" font-size="32" font-weight="900" fill="#1A1A2E" letter-spacing="-1">5,000</text>
+    <text x="160" y="290" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#5C5C7A" textLength="106.7" lengthAdjust="spacingAndGlyphs">Audience capacity · Northwest zone</text>
+    <text x="160" y="308" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" font-weight="600" fill="#5C5C7A">Day 2 Home Base · Fully Outdoors</text>
+  </g>
+
+  
+  <g id="spoke-neon">
+    <rect x="900" y="200" width="280" height="120" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <rect x="900" y="200" width="280" height="34" fill="#00B8D9" />
+    <text x="1040" y="223" text-anchor="middle" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="11.66" font-weight="900" fill="#1A1A2E" letter-spacing="3">NEON GRID · Electronic</text>
+    <use data-icon="chunk-filled/headphones" x="920" y="248" width="32" height="32" fill="#00B8D9" />
+    <text x="960" y="270" font-family="Impact, sans-serif" font-size="32" font-weight="900" fill="#1A1A2E" letter-spacing="-1">5,000</text>
+    <text x="960" y="290" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#5C5C7A" textLength="106.7" lengthAdjust="spacingAndGlyphs">Audience capacity · Northeast zone</text>
+    <text x="960" y="308" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" font-weight="600" fill="#5C5C7A" textLength="120.8" lengthAdjust="spacingAndGlyphs">Day 3 Home Base · Semi-Indoor Studio</text>
+  </g>
+
+  
+  <g id="spoke-mint">
+    <rect x="100" y="540" width="280" height="120" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <rect x="100" y="540" width="280" height="34" fill="#00C896" />
+    <text x="240" y="563" text-anchor="middle" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="16" font-weight="900" fill="#1A1A2E" letter-spacing="3">MINT GROVE · Folk</text>
+    <use data-icon="chunk-filled/heart" x="120" y="588" width="32" height="32" fill="#00C896" />
+    <text x="160" y="610" font-family="Impact, sans-serif" font-size="32" font-weight="900" fill="#1A1A2E" letter-spacing="-1">3,000</text>
+    <text x="160" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#5C5C7A" textLength="106.7" lengthAdjust="spacingAndGlyphs">Audience capacity · Southwest zone</text>
+    <text x="160" y="648" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" font-weight="600" fill="#5C5C7A" textLength="120.8" lengthAdjust="spacingAndGlyphs">Day 4 Home Base · Surrounded by Coconut Palms</text>
+  </g>
+
+  
+  <g id="spoke-yellow">
+    <rect x="900" y="540" width="280" height="120" rx="14" fill="#FFF8EE" stroke="#1A1A2E" stroke-width="4" />
+    <rect x="900" y="540" width="280" height="34" fill="#FFD93D" />
+    <text x="1040" y="563" text-anchor="middle" font-family="Impact, &quot;Arial Black&quot;, sans-serif" font-size="14.08" font-weight="900" fill="#1A1A2E" letter-spacing="3">YELLOW BLOCK · Hip-hop</text>
+    <use data-icon="chunk-filled/music" x="920" y="588" width="32" height="32" fill="#FFD93D" />
+    <text x="960" y="610" font-family="Impact, sans-serif" font-size="32" font-weight="900" fill="#1A1A2E" letter-spacing="-1">7,000</text>
+    <text x="960" y="630" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" font-weight="700" fill="#5C5C7A" textLength="106.7" lengthAdjust="spacingAndGlyphs">Audience capacity · Southeast zone</text>
+    <text x="960" y="648" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="8.40" font-weight="600" fill="#5C5C7A" textLength="120.8" lengthAdjust="spacingAndGlyphs">Day 5 Home Base · Neighborhood Vibe</text>
+  </g>
+
+  
+  <g id="decor">
+    <circle cx="640" cy="200" r="14" fill="#FFD93D" stroke="#1A1A2E" stroke-width="3" />
+    <circle cx="610" cy="220" r="6" fill="#FF3DA5" stroke="#1A1A2E" stroke-width="2" />
+    <circle cx="670" cy="220" r="6" fill="#00B8D9" stroke="#1A1A2E" stroke-width="2" />
+    <polygon points="640,610 660,640 620,640" fill="#00C896" stroke="#1A1A2E" stroke-width="3" />
+  </g>
+
+  
+  <g id="footer">
+    <text x="60" y="700" font-family="Arial, sans-serif" font-size="8.53" font-weight="600" fill="#5C5C7A">5 stages · up to 600m walking between venues · 30s shuttle service</text>
+    <text x="1220" y="700" text-anchor="end" font-family="Impact, sans-serif" font-size="14" font-weight="900" fill="#1A1A2E" letter-spacing="3">09 / 14</text>
+  </g>
+</svg>

@@ -1,0 +1,285 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.applyAnimationTimingToXml = applyAnimationTimingToXml;
+const FLY_SUBTYPE = { bottom: 4, left: 8, top: 1, right: 2 };
+const WIPE_FILTER = {
+    bottom: 'wipe(down)',
+    left: 'wipe(left)',
+    top: 'wipe(up)',
+    right: 'wipe(right)',
+};
+function presetFor(effect) {
+    switch (effect.kind) {
+        case 'appear':
+            return { id: 1, cls: 'entr', subtype: 0 };
+        case 'fade':
+            return { id: 10, cls: 'entr', subtype: 0 };
+        case 'fly':
+            return { id: 2, cls: 'entr', subtype: FLY_SUBTYPE[effect.direction] ?? 4 };
+        case 'zoom':
+            return { id: 53, cls: 'entr', subtype: 16 };
+        case 'wipe':
+            return { id: 22, cls: 'entr', subtype: FLY_SUBTYPE[effect.direction] ?? 4 };
+        case 'spin':
+            return { id: 8, cls: 'emph', subtype: 0 };
+        default:
+            return undefined;
+    }
+}
+function escapeXmlAttr(v) {
+    return v
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+}
+/**
+ * Resolve cNvPr @name → numeric @id(s). One name can map to several shapes
+ * (a DOM element split into background shape + text box shares its
+ * elementId); animations target all of them so the visual whole animates
+ * together.
+ */
+function resolveShapeIds(slideXml) {
+    const map = new Map();
+    const re = /<p:cNvPr\s+id="(\d+)"\s+name="([^"]*)"/g;
+    let m;
+    while ((m = re.exec(slideXml)) !== null) {
+        const list = map.get(m[2]);
+        if (list)
+            list.push(m[1]);
+        else
+            map.set(m[2], [m[1]]);
+    }
+    return map;
+}
+function nodeTypeFor(trigger) {
+    switch (trigger) {
+        case 'onClick':
+            return 'clickEffect';
+        case 'withPrevious':
+            return 'withEffect';
+        case 'afterPrevious':
+        default:
+            return 'afterEffect';
+    }
+}
+class IdAllocator {
+    constructor() {
+        this.nextId = 3;
+    }
+    next() {
+        return this.nextId++;
+    }
+}
+/** Behavior nodes (set/animEffect/anim/animRot) for one mapped effect. */
+function genBehaviorXml(effect, spid, dur, ids) {
+    const setVisibility = '<p:set><p:cBhvr>' +
+        `<p:cTn id="${ids.next()}" dur="1" fill="hold"><p:stCondLst><p:cond delay="0"/></p:stCondLst></p:cTn>` +
+        `<p:tgtEl><p:spTgt spid="${spid}"/></p:tgtEl>` +
+        '<p:attrNameLst><p:attrName>style.visibility</p:attrName></p:attrNameLst>' +
+        '</p:cBhvr><p:to><p:strVal val="visible"/></p:to></p:set>';
+    const animEffect = (filter) => `<p:animEffect transition="in" filter="${filter}">` +
+        `<p:cBhvr><p:cTn id="${ids.next()}" dur="${dur}"/><p:tgtEl><p:spTgt spid="${spid}"/></p:tgtEl></p:cBhvr>` +
+        '</p:animEffect>';
+    const animNum = (attr, fromVal, fromIsFloat) => '<p:anim calcmode="lin" valueType="num">' +
+        `<p:cBhvr additive="base"><p:cTn id="${ids.next()}" dur="${dur}" fill="hold"/>` +
+        `<p:tgtEl><p:spTgt spid="${spid}"/></p:tgtEl>` +
+        `<p:attrNameLst><p:attrName>${attr}</p:attrName></p:attrNameLst></p:cBhvr>` +
+        '<p:tavLst>' +
+        `<p:tav tm="0"><p:val>${fromIsFloat ? `<p:fltVal val="${fromVal}"/>` : `<p:strVal val="${fromVal}"/>`}</p:val></p:tav>` +
+        `<p:tav tm="100000"><p:val><p:strVal val="#${attr}"/></p:val></p:tav>` +
+        '</p:tavLst></p:anim>';
+    switch (effect.kind) {
+        case 'appear':
+            return setVisibility;
+        case 'fade':
+            return setVisibility + animEffect('fade');
+        case 'fly': {
+            const d = effect.direction;
+            const startX = d === 'left' ? '0-#ppt_w/2' : d === 'right' ? '1+#ppt_w/2' : '#ppt_x';
+            const startY = d === 'top' ? '0-#ppt_h/2' : d === 'bottom' ? '1+#ppt_h/2' : '#ppt_y';
+            return setVisibility + animNum('ppt_x', startX, false) + animNum('ppt_y', startY, false);
+        }
+        case 'zoom':
+            return (setVisibility +
+                animNum('ppt_w', '0', true) +
+                animNum('ppt_h', '0', true) +
+                animEffect('fade'));
+        case 'wipe':
+            return setVisibility + animEffect(WIPE_FILTER[effect.direction] ?? 'wipe(down)');
+        case 'spin': {
+            const by = Math.round((effect.angleDeg ?? 360) * 60000);
+            return (`<p:animRot by="${by}">` +
+                `<p:cBhvr><p:cTn id="${ids.next()}" dur="${dur}" fill="hold"/>` +
+                `<p:tgtEl><p:spTgt spid="${spid}"/></p:tgtEl>` +
+                '<p:attrNameLst><p:attrName>r</p:attrName></p:attrNameLst></p:cBhvr>' +
+                '</p:animRot>');
+        }
+        default:
+            return '';
+    }
+}
+/** One effect par: preset wrapper + behavior nodes. */
+function genEffectParXml(item, nodeType, ids) {
+    const { animation } = item;
+    const preset = presetFor(animation.effect);
+    if (!preset)
+        return '';
+    return ('<p:par>' +
+        `<p:cTn id="${ids.next()}" presetID="${preset.id}" presetClass="${preset.cls}" ` +
+        `presetSubtype="${preset.subtype}" fill="hold" grpId="0" nodeType="${nodeType}">` +
+        `<p:stCondLst><p:cond delay="${animation.delayMs}"/></p:stCondLst>` +
+        '<p:childTnLst>' +
+        genBehaviorXml(animation.effect, item.spid, animation.durationMs, ids) +
+        '</p:childTnLst>' +
+        '</p:cTn>' +
+        '</p:par>');
+}
+/** Total time until this item fully finishes (for afterPrevious scheduling). */
+function itemSpanMs(item) {
+    return item.animation.delayMs + item.animation.durationMs;
+}
+function genGroupXml(group, ids) {
+    let xml = '<p:par>';
+    xml += `<p:cTn id="${ids.next()}" fill="hold">`;
+    xml += '<p:stCondLst>';
+    if (group.auto) {
+        xml += '<p:cond delay="0"/>';
+    }
+    else {
+        xml += '<p:cond delay="indefinite"/><p:cond evt="onBegin" delay="0"><p:tn val="2"/></p:cond>';
+    }
+    xml += '</p:stCondLst>';
+    xml += '<p:childTnLst>';
+    // Each slot is one parallel bundle; slots chain sequentially via cumulative
+    // delay on the wrapping par. Within a slot, every effect is a sibling par
+    // sharing the same start delay, so they play in parallel.
+    let cumulative = 0;
+    for (let s = 0; s < group.slots.length; s++) {
+        const slot = group.slots[s];
+        if (slot.length === 0)
+            continue;
+        xml += '<p:par>';
+        xml += `<p:cTn id="${ids.next()}" fill="hold">`;
+        xml += `<p:stCondLst><p:cond delay="${cumulative}"/></p:stCondLst>`;
+        xml += '<p:childTnLst>';
+        for (const item of slot) {
+            xml += genEffectParXml(item, nodeTypeFor(item.animation.trigger), ids);
+        }
+        xml += '</p:childTnLst></p:cTn></p:par>';
+        // The next slot starts after the slowest effect in this slot finishes.
+        cumulative += slot.reduce((max, it) => Math.max(max, itemSpanMs(it)), 0);
+    }
+    xml += '</p:childTnLst></p:cTn></p:par>';
+    return xml;
+}
+/**
+ * Expand entries into per-effect items (an element with fade+fly becomes two
+ * sibling effect pars played in parallel), then group by trigger in document
+ * order:
+ * - onClick starts a new click group (and the first slot);
+ * - afterPrevious starts a new sequential slot in the open group, or opens
+ *   an auto-play group if none is open;
+ * - withPrevious joins the most recent slot of the open group (parallel with
+ *   the effect that precedes it), so effects derived from one source
+ *   animation (e.g. CSS fade+fly, or one anime.js call) play together.
+ */
+function groupEffects(items) {
+    const groups = [];
+    let current = null;
+    const openSlot = () => {
+        if (!current || current.slots.length === 0)
+            return null;
+        return current.slots[current.slots.length - 1];
+    };
+    const newSlot = (group) => {
+        const slot = [];
+        group.slots.push(slot);
+        return slot;
+    };
+    for (const item of items) {
+        const t = item.animation.trigger;
+        if (t === 'onClick') {
+            current = { auto: false, slots: [] };
+            groups.push(current);
+            newSlot(current).push(item);
+        }
+        else if (t === 'withPrevious') {
+            if (!current) {
+                current = { auto: true, slots: [] };
+                groups.push(current);
+            }
+            let slot = openSlot();
+            if (!slot)
+                slot = newSlot(current);
+            slot.push(item);
+        }
+        else {
+            // afterPrevious: a fresh sequential slot. Open an auto group if nothing
+            // is open yet.
+            if (!current) {
+                current = { auto: true, slots: [] };
+                groups.push(current);
+            }
+            newSlot(current).push(item);
+        }
+    }
+    return groups;
+}
+function applyAnimationTimingToXml(slideXml, enhancement) {
+    const spec = enhancement.animationData;
+    if (!spec || spec.entries.length === 0)
+        return slideXml;
+    const shapeIds = resolveShapeIds(slideXml);
+    const items = [];
+    const seenSpids = new Set();
+    for (const entry of spec.entries) {
+        const spids = shapeIds.get(escapeXmlAttr(entry.objectName));
+        if (!spids || spids.length === 0) {
+            console.warn(`⚠️  Animation target "${entry.objectName}" not found in slide XML — skipped.`);
+            continue;
+        }
+        for (const spid of spids) {
+            for (const animation of entry.animations) {
+                if (animation.effect.kind === 'unmapped')
+                    continue;
+                items.push({ spid, animation });
+                seenSpids.add(spid);
+            }
+        }
+    }
+    if (items.length === 0)
+        return slideXml;
+    const ids = new IdAllocator();
+    const groups = groupEffects(items);
+    let xml = '<p:timing><p:tnLst><p:par>';
+    xml += '<p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">';
+    xml += '<p:childTnLst>';
+    xml += '<p:seq concurrent="1" nextAc="seek">';
+    xml += '<p:cTn id="2" dur="indefinite" nodeType="mainSeq">';
+    xml += '<p:childTnLst>';
+    for (const group of groups) {
+        xml += genGroupXml(group, ids);
+    }
+    xml += '</p:childTnLst></p:cTn>';
+    xml += '<p:prevCondLst><p:cond evt="onPrev" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:prevCondLst>';
+    xml += '<p:nextCondLst><p:cond evt="onNext" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:nextCondLst>';
+    xml += '</p:seq>';
+    xml += '</p:childTnLst></p:cTn></p:par></p:tnLst>';
+    xml += '<p:bldLst>';
+    for (const spid of seenSpids) {
+        xml += `<p:bldP spid="${spid}" grpId="0" animBg="1"/>`;
+    }
+    xml += '</p:bldLst></p:timing>';
+    // Schema order: cSld, clrMapOvr, transition, timing, extLst.
+    const extLstIdx = slideXml.indexOf('<p:extLst');
+    if (extLstIdx >= 0) {
+        return slideXml.slice(0, extLstIdx) + xml + slideXml.slice(extLstIdx);
+    }
+    const closeIdx = slideXml.lastIndexOf('</p:sld>');
+    if (closeIdx < 0) {
+        console.warn('⚠️  Slide XML missing </p:sld> — animation timing not injected.');
+        return slideXml;
+    }
+    return slideXml.slice(0, closeIdx) + xml + slideXml.slice(closeIdx);
+}

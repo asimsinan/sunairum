@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <pattern id="dotP08" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+  <rect id="bg-grain" width="1280" height="720" fill="url(#dotP08)" />
+
+  <g id="header">
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <rect x="63" y="59" width="14" height="68" fill="#FF5C8A" opacity="0.7" />
+    <rect x="60" y="56" width="14" height="68" fill="#1E4DBC" />
+    <text x="92" y="98" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="33.60" fill="#1A1A1A" letter-spacing="-1" textLength="532.3" lengthAdjust="spacingAndGlyphs">More than 6 types of content you can fill in</text>
+    <text x="92" y="128" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#5A5A5A" letter-spacing="3">SIX CONTENT TYPES · THERE ARE NO MISTAKES · JUST WHIMS</text>
+  </g>
+
+  <line x1="60" y1="152" x2="1220" y2="152" stroke="#1A1A1A" stroke-width="3" />
+
+  
+  <g id="card-01">
+    <rect x="60" y="180" width="380" height="240" fill="#1E4DBC" />
+    <rect x="63" y="183" width="380" height="240" fill="#FF5C8A" opacity="0.55" />
+    <rect x="60" y="180" width="380" height="240" fill="#1E4DBC" />
+    <text x="408" y="226" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="44" fill="#FF5C8A" text-anchor="end">01</text>
+    <use data-icon="chunk-filled/pencil" x="86" y="200" width="56" height="56" fill="#F5EFE0" />
+    <text x="86" y="294" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#F5EFE0">Sketches / Comics</text>
+    <text x="86" y="320" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" letter-spacing="2">SKETCHES &amp; MINI-COMICS</text>
+    <line x1="86" y1="332" x2="200" y2="332" stroke="#F5EFE0" stroke-width="2" />
+    <text x="86" y="360" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="153.7" lengthAdjust="spacingAndGlyphs">Graffiti, four-panel comics, hand-drawn diaries</text>
+    <text x="86" y="382" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">The lettering can be ugly; the composition can be weak</text>
+    <text x="86" y="404" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#FF5C8A" textLength="100.9" lengthAdjust="spacingAndGlyphs">Not looking like the subject = style</text>
+  </g>
+
+  
+  <g id="card-02">
+    <rect x="450" y="180" width="380" height="240" fill="#FF5C8A" />
+    <rect x="453" y="183" width="380" height="240" fill="#1E4DBC" opacity="0.55" />
+    <rect x="450" y="180" width="380" height="240" fill="#FF5C8A" />
+    <text x="798" y="226" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="44" fill="#F5EFE0" text-anchor="end">02</text>
+    <use data-icon="chunk-filled/pen-nib" x="476" y="200" width="56" height="56" fill="#1A1A1A" />
+    <text x="476" y="294" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="163.2" lengthAdjust="spacingAndGlyphs">Poetry / Manifesto / Short Essay</text>
+    <text x="476" y="320" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1E4DBC" letter-spacing="2">POETRY &amp; MANIFESTOS</text>
+    <line x1="476" y1="332" x2="590" y2="332" stroke="#1A1A1A" stroke-width="2" />
+    <text x="476" y="360" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.82" fill="#1A1A1A">A 100-word manifesto, a slogan, a poem</text>
+    <text x="476" y="382" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.58" fill="#1A1A1A">The Riot Grrrl Manifesto Is the Paradigm</text>
+    <text x="476" y="404" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1E4DBC" textLength="100.9" lengthAdjust="spacingAndGlyphs">Short and precise ＞ long and hollow</text>
+  </g>
+
+  
+  <g id="card-03">
+    <rect x="840" y="180" width="380" height="240" fill="#E8A02E" />
+    <rect x="843" y="183" width="380" height="240" fill="#1E4DBC" opacity="0.55" />
+    <rect x="840" y="180" width="380" height="240" fill="#E8A02E" />
+    <text x="1188" y="226" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="44" fill="#1A1A1A" text-anchor="end">03</text>
+    <use data-icon="chunk-filled/sticky-note" x="866" y="200" width="56" height="56" fill="#1A1A1A" />
+    <text x="866" y="294" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="114.6" lengthAdjust="spacingAndGlyphs">Recipes + illustrations</text>
+    <text x="866" y="320" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1E4DBC" letter-spacing="2">RECIPES &amp; HOW-TOS</text>
+    <line x1="866" y1="332" x2="980" y2="332" stroke="#1A1A1A" stroke-width="2" />
+    <text x="866" y="360" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1A1A1A" textLength="170.9" lengthAdjust="spacingAndGlyphs">Grandmother’s pickle recipe + hand-drawn tools</text>
+    <text x="866" y="382" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1A1A1A" textLength="127.4" lengthAdjust="spacingAndGlyphs">"How to Repair a Bicycle" tutorial</text>
+    <text x="866" y="404" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1E4DBC" textLength="147.7" lengthAdjust="spacingAndGlyphs">Everyday practicality = the most prevalent form</text>
+  </g>
+
+  
+  <g id="card-04">
+    <rect x="60" y="440" width="380" height="240" fill="#1A1A1A" />
+    <rect x="63" y="443" width="380" height="240" fill="#FF5C8A" opacity="0.55" />
+    <rect x="60" y="440" width="380" height="240" fill="#1A1A1A" />
+    <text x="408" y="486" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="44" fill="#FF5C8A" text-anchor="end">04</text>
+    <use data-icon="chunk-filled/book" x="86" y="460" width="56" height="56" fill="#F5EFE0" />
+    <text x="86" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#F5EFE0" textLength="202.6" lengthAdjust="spacingAndGlyphs">Family Photos + Personal Writing</text>
+    <text x="86" y="580" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" letter-spacing="2">PHOTOS &amp; PERSONAL WRITING</text>
+    <line x1="86" y1="592" x2="200" y2="592" stroke="#F5EFE0" stroke-width="2" />
+    <text x="86" y="620" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="128.9" lengthAdjust="spacingAndGlyphs">Photocopies of old photos + annotations</text>
+    <text x="86" y="642" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">Family Stories / Travel Notes</text>
+    <text x="86" y="664" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#FF5C8A" textLength="72.9" lengthAdjust="spacingAndGlyphs">Sovereignty ＞ Privacy</text>
+  </g>
+
+  
+  <g id="card-05">
+    <rect x="450" y="440" width="380" height="240" fill="#1E4DBC" />
+    <rect x="453" y="443" width="380" height="240" fill="#E8A02E" opacity="0.55" />
+    <rect x="450" y="440" width="380" height="240" fill="#1E4DBC" />
+    <text x="798" y="486" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="44" fill="#E8A02E" text-anchor="end">05</text>
+    <use data-icon="chunk-filled/scissors" x="476" y="460" width="56" height="56" fill="#F5EFE0" />
+    <text x="476" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#F5EFE0">Collage + mixed media</text>
+    <text x="476" y="580" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#E8A02E" letter-spacing="2">COLLAGE &amp; MIXED MEDIA</text>
+    <line x1="476" y1="592" x2="590" y2="592" stroke="#F5EFE0" stroke-width="2" />
+    <text x="476" y="620" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0">Magazine tear-out + tape + stamp</text>
+    <text x="476" y="642" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" textLength="131.9" lengthAdjust="spacingAndGlyphs">Dictionary Page + Receipts + Lace</text>
+    <text x="476" y="664" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#E8A02E">Materiality = something a photocopier can't reproduce</text>
+  </g>
+
+  
+  <g id="card-06">
+    <rect x="840" y="440" width="380" height="240" fill="#FF5C8A" />
+    <rect x="843" y="443" width="380" height="240" fill="#1A1A1A" opacity="0.55" />
+    <rect x="840" y="440" width="380" height="240" fill="#FF5C8A" />
+    <text x="1188" y="486" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="44" fill="#1A1A1A" text-anchor="end">06</text>
+    <use data-icon="chunk-filled/brush" x="866" y="460" width="56" height="56" fill="#1A1A1A" />
+    <text x="866" y="554" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="900" fill="#1A1A1A" textLength="110.0" lengthAdjust="spacingAndGlyphs">Experimental visual</text>
+    <text x="866" y="580" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#1A1A1A" letter-spacing="2">EXPERIMENTAL VISUALS</text>
+    <line x1="866" y1="592" x2="980" y2="592" stroke="#1A1A1A" stroke-width="2" />
+    <text x="866" y="620" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1A1A1A" textLength="127.4" lengthAdjust="spacingAndGlyphs">Pure color blocks, pure textures, pure type</text>
+    <text x="866" y="642" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#1A1A1A" textLength="114.9" lengthAdjust="spacingAndGlyphs">Blank Pages = Reading Rhythm</text>
+    <text x="866" y="664" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#1E4DBC" textLength="128.9" lengthAdjust="spacingAndGlyphs">No information = a kind of information</text>
+  </g>
+
+  <g id="footer">
+    <line x1="60" y1="694" x2="1220" y2="694" stroke="#1A1A1A" stroke-width="1" />
+    <text x="60" y="710" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" letter-spacing="2">P08 · 6 CONTENT TYPES</text>
+    <text x="1220" y="710" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5A5A5A" text-anchor="end" letter-spacing="2">PICK ONE · PICK ALL · MAKE IT YOURS</text>
+  </g>
+</svg>

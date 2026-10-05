@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="topScrim11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5EFE0" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#F5EFE0" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="botScrim11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A" stop-opacity="0" />
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0.78" />
+    </linearGradient>
+    <pattern id="dotP11" x="0" y="0" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="0.7" fill="#1A1A1A" fill-opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <rect id="bg" width="1280" height="720" fill="#F5EFE0" />
+
+  
+  <g id="hero">
+    <image href="../images/berlin_bucherbogen.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+  </g>
+
+  
+  <rect id="wash" width="1280" height="720" fill="#F5EFE0" fill-opacity="0.55" />
+  <rect id="grain" width="1280" height="720" fill="url(#dotP11)" />
+
+  
+  <rect id="top-scrim" x="0" y="0" width="1280" height="200" fill="url(#topScrim11)" />
+  <g id="header">
+    <text x="60" y="80" font-family="Consolas, 'Courier New', monospace" font-size="9.10" fill="#1A1A1A" letter-spacing="4">PART 04 · Global Independent Bookstore No. 4 — Berlin</text>
+    <line x1="60" y1="96" x2="320" y2="96" stroke="#FF5C8A" stroke-width="3" />
+  </g>
+
+  
+  <g id="big-title">
+    <text x="640" y="380" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="100" fill="#FF5C8A" text-anchor="middle" letter-spacing="-2">BÜCHERBOGEN</text>
+    <text x="638" y="378" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="100" fill="#1A1A1A" text-anchor="middle" letter-spacing="-2">BÜCHERBOGEN</text>
+    <text x="640" y="430" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#1E4DBC" text-anchor="middle" letter-spacing="6">Berlin · BERLIN · S-BAHN ARCHES</text>
+  </g>
+
+  
+  <rect id="bot-scrim" x="0" y="500" width="1280" height="220" fill="url(#botScrim11)" />
+
+  <g id="bottom-info">
+    
+    <rect x="60" y="540" width="14" height="120" fill="#FF5C8A" />
+    <rect x="63" y="543" width="14" height="120" fill="#1E4DBC" opacity="0.6" />
+    <rect x="60" y="540" width="14" height="120" fill="#FF5C8A" />
+
+    <text x="92" y="568" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="16.80" font-weight="900" fill="#F5EFE0">Under the Arches of the S-BAHN Overpass</text>
+    <text x="92" y="600" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#F5EFE0">Brick-vaulted ceilings + rumbling trains + dust overhead — specializing in art / design / photography / film / architecture books</text>
+    <text x="92" y="624" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#F5EFE0">The paradigm of Berlin's “specialized theme bookstores”: Don't be comprehensive; be absolute</text>
+    <text x="92" y="654" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" font-weight="900" fill="#FF5C8A" textLength="155.3" lengthAdjust="spacingAndGlyphs">→ Bookstore = a world built around one theme</text>
+
+    
+    <rect x="900" y="540" width="320" height="120" fill="#1E4DBC" />
+    <rect x="903" y="543" width="320" height="120" fill="#FF5C8A" opacity="0.6" />
+    <rect x="900" y="540" width="320" height="120" fill="#1E4DBC" />
+    <text x="1060" y="586" font-family="Impact, 'Arial Black', 'Georgia', sans-serif" font-size="32" fill="#F5EFE0" text-anchor="middle">5 SUBJECTS</text>
+    <text x="1060" y="616" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#F5EFE0" text-anchor="middle">Art / Design / Photography / Film / Architecture</text>
+    <text x="1060" y="640" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#FF5C8A" text-anchor="middle" letter-spacing="2">UNDER ONE ARCHED VAULT</text>
+  </g>
+
+  <g id="page-num">
+    <text x="60" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#F5EFE0" letter-spacing="2">P11 · BERLIN BÜCHERBOGEN</text>
+    <text x="1220" y="708" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#F5EFE0" text-anchor="end" letter-spacing="2">EUROPEAN INDIE BOOKSTORE FINALE</text>
+  </g>
+</svg>

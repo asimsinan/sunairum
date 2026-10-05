@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <image href="../images/closing_mountain.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <defs>
+    <linearGradient id="closing_scrim" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5F1E8" stop-opacity="0.75" />
+      <stop offset="45%" stop-color="#F5F1E8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#F5F1E8" stop-opacity="0.55" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#closing_scrim)" />
+
+  
+  <text x="640" y="90" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="12.60" fill="#5C5852" letter-spacing="14">— Conclusion —</text>
+
+  
+  <text x="640" y="200" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="36.40" font-weight="700" fill="#1A1A1A" letter-spacing="8">Top-tier composure = Suppress the urge to show off × Steady your desire to win × Delayed gratification</text>
+
+  <line x1="540" y1="240" x2="740" y2="240" stroke="#A52A2A" stroke-width="2" />
+
+  
+  <g transform="translate(600, 270)">
+    <rect x="0" y="0" width="80" height="80" fill="#A52A2A" />
+    <text x="40" y="60" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="30.80" font-weight="700" fill="#F5F1E8" textLength="44.0" lengthAdjust="spacingAndGlyphs">Conceal</text>
+  </g>
+
+  
+  <g transform="translate(0, 410)">
+    <text x="640" y="0" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" fill="#1A1A1A" letter-spacing="4">Stay composed — and you won’t fear being temporarily underestimated</text>
+    <text x="640" y="60" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" fill="#1A1A1A" letter-spacing="4">If You Can Keep a Low Profile — You Won’t Fear a Temporary Lack of Applause</text>
+    <text x="640" y="120" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="23.80" fill="#1A1A1A" letter-spacing="4">Only those who can afford to wait can let the results speak for themselves</text>
+  </g>
+
+  
+  <line x1="580" y1="620" x2="700" y2="620" stroke="#A52A2A" stroke-width="2" />
+  <text x="640" y="660" text-anchor="middle" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.20" fill="#5C5852" letter-spacing="6">The Art of Accomplishing Things · A Complete Theory of Getting Things Done</text>
+
+  <text x="60" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#5C5852" textLength="58.9" lengthAdjust="spacingAndGlyphs">Concealing One’s Brilliance · Finale</text>
+  <text x="1220" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, &quot;Georgia SC&quot;, Arial, sans-serif" font-size="14" fill="#5C5852">14</text>
+</svg>

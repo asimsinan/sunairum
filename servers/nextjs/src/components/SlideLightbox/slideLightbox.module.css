@@ -1,0 +1,356 @@
+.slideLightbox {
+  --lb-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --lb-display: var(--font-sora), "Avenir Next", "Segoe UI", sans-serif;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: clamp(12px, 2.5vw, 28px);
+  background:
+    radial-gradient(900px 480px at 12% 0%, color-mix(in srgb, var(--accent-primary) 22%, transparent), transparent 55%),
+    radial-gradient(720px 420px at 90% 100%, color-mix(in srgb, var(--accent-secondary) 16%, transparent), transparent 58%),
+    color-mix(in srgb, #070b14 72%, transparent);
+  backdrop-filter: blur(16px) saturate(1.15);
+  -webkit-backdrop-filter: blur(16px) saturate(1.15);
+  animation: slideLightboxScrimIn 200ms var(--lb-ease);
+  cursor: pointer;
+}
+
+.slideLightboxPanel {
+  width: min(1100px, 100%);
+  height: min(860px, calc(100vh - 32px));
+  max-height: calc(100vh - 32px);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+  gap: 12px;
+  overflow: hidden;
+  padding: 14px 14px 12px;
+  border: 1px solid color-mix(in srgb, #fff 14%, transparent);
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, #fff 8%, transparent), transparent 36%),
+    color-mix(in srgb, var(--card-bg) 88%, #0b1220);
+  box-shadow:
+    0 1px 0 color-mix(in srgb, #fff 18%, transparent) inset,
+    0 28px 80px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  animation: slideLightboxPanelIn 240ms var(--lb-ease);
+  cursor: default;
+}
+
+.slideLightboxChrome {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 12px;
+  padding: 2px 4px 2px 6px;
+}
+
+.slideLightboxBrand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.slideLightboxMark {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-primary) 18%, transparent);
+}
+
+.slideLightboxEyebrow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-muted);
+  font-family: var(--lb-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.slideLightboxPager {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  padding: 5px 10px;
+  border: 1px solid color-mix(in srgb, var(--card-border) 80%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface-soft) 70%, transparent);
+  color: var(--text-muted);
+  font-family: var(--lb-display);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.slideLightboxIndex {
+  color: var(--text-primary);
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.slideLightboxSlash {
+  opacity: 0.45;
+}
+
+.slideLightboxClose {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border: 1px solid color-mix(in srgb, var(--card-border) 85%, transparent);
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--surface-soft) 80%, transparent);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.slideLightboxClose:hover {
+  border-color: color-mix(in srgb, var(--accent-primary) 40%, var(--card-border));
+  color: var(--accent-primary);
+  background: color-mix(in srgb, var(--accent-primary) 10%, transparent);
+}
+
+.slideLightboxStage {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: stretch;
+  gap: 10px;
+  min-height: 0;
+  height: 100%;
+}
+
+.slideLightboxSideNav {
+  width: 44px;
+  height: 44px;
+  align-self: center;
+  display: grid;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--card-border) 85%, transparent);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--card-bg) 82%, transparent);
+  color: var(--text-primary);
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition:
+    transform 160ms var(--lb-ease),
+    border-color 160ms ease,
+    color 160ms ease,
+    background 160ms ease,
+    opacity 160ms ease;
+}
+
+.slideLightboxSideNav:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: color-mix(in srgb, var(--accent-primary) 40%, var(--card-border));
+  color: var(--accent-primary);
+  background: color-mix(in srgb, var(--accent-primary) 10%, var(--card-bg));
+}
+
+.slideLightboxSideNav:disabled {
+  opacity: 0.28;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.slideLightboxFrame {
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--card-border) 70%, transparent);
+  border-radius: 16px;
+  background: #0a0d12;
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, #fff 6%, transparent) inset,
+    0 18px 48px rgba(0, 0, 0, 0.28);
+}
+
+.slideLightboxFrame :global(.slide-lightbox-host) {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+}
+
+.slideLightboxFrame :global(svg.slide-lightbox),
+.slideLightboxFrame :global(img.slide-lightbox-host) {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  background: #fff;
+  object-fit: contain;
+}
+
+.slideLightboxPlaceholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.slideLightboxProgress {
+  height: 3px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--text-primary) 8%, transparent);
+}
+
+.slideLightboxProgress > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+  transition: width 220ms var(--lb-ease);
+}
+
+.slideLightboxDock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px 4px 2px 6px;
+}
+
+.slideLightboxHint {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.slideLightboxDockSpacer {
+  flex: 1;
+}
+
+.slideLightboxAction {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 12px;
+  background: linear-gradient(
+    135deg,
+    var(--accent-primary),
+    color-mix(in srgb, var(--accent-secondary) 70%, var(--accent-primary))
+  );
+  color: #fff;
+  font: inherit;
+  font-family: var(--lb-display);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 28px color-mix(in srgb, var(--accent-primary) 28%, transparent);
+  transition: transform 160ms var(--lb-ease), box-shadow 160ms ease;
+}
+
+.slideLightboxAction:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px color-mix(in srgb, var(--accent-primary) 34%, transparent);
+}
+
+.slideLightboxAction:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.slideLightboxClose:focus-visible,
+.slideLightboxSideNav:focus-visible,
+.slideLightboxAction:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent-primary) 40%, transparent);
+  outline-offset: 2px;
+}
+
+@keyframes slideLightboxScrimIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideLightboxPanelIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (max-width: 720px) {
+  .slideLightbox { padding: 10px; }
+
+  .slideLightboxPanel {
+    padding: 10px;
+    border-radius: 18px;
+    gap: 10px;
+  }
+
+  .slideLightboxStage {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .slideLightboxSideNav {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--card-bg) 92%, transparent);
+  }
+
+  .slideLightboxSideNav[data-side='prev'] { left: 8px; }
+  .slideLightboxSideNav[data-side='next'] { right: 8px; }
+
+  .slideLightboxSideNav:hover:not(:disabled) {
+    transform: translateY(-50%);
+  }
+
+  .slideLightboxFrame {
+    border-radius: 14px;
+  }
+
+  .slideLightboxHint {
+    display: none;
+  }
+
+  .slideLightboxAction {
+    width: 100%;
+  }
+
+  .slideLightboxDock {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slideLightbox,
+  .slideLightboxPanel,
+  .slideLightboxAction,
+  .slideLightboxSideNav,
+  .slideLightboxProgress > span {
+    animation: none;
+    transition: none;
+  }
+}

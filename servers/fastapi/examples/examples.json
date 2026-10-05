@@ -1,0 +1,1831 @@
+{
+  "version": 1,
+  "updated": "2026-05-24",
+  "stats": {
+    "examples": 21,
+    "pages": 280,
+    "templates": 21
+  },
+  "projects": [
+    {
+      "id": "ppt169_attention_is_all_you_need",
+      "title": "Attention Is All You Need",
+      "description": "Deep read of the Transformer paper — academic blueprint style with diagrams, tables, and formulas.",
+      "icon": "🧠",
+      "color": "#1A365D",
+      "style": "technical",
+      "styleName": "Academic Blueprint",
+      "desc": "Deep read of the Transformer paper — academic blueprint style with diagrams, tables, and formulas.",
+      "tags": [
+        "Paper Reading",
+        "Transformer",
+        "Technical Blueprint"
+      ],
+      "isNew": true,
+      "folder": "ppt169_attention_is_all_you_need/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "Attention Is All You Need"
+        },
+        {
+          "file": "02_why_it_matters.svg",
+          "title": "why it matters",
+          "desc": "A simpler model, better results, less training"
+        },
+        {
+          "file": "03_sequence_evolution.svg",
+          "title": "sequence evolution",
+          "desc": "From recurrent chains to attention mesh"
+        },
+        {
+          "file": "04_rnn_cnn_limits.svg",
+          "title": "rnn cnn limits",
+          "desc": "Sequential bottleneck, path length, memory ceiling"
+        },
+        {
+          "file": "05_architecture_overview.svg",
+          "title": "architecture overview",
+          "desc": "Figure 1 Transformer architecture"
+        },
+        {
+          "file": "06_encoder_decoder.svg",
+          "title": "encoder decoder",
+          "desc": "Encoder stack vs decoder stack"
+        },
+        {
+          "file": "07_scaled_dot_product.svg",
+          "title": "scaled dot-product",
+          "desc": "The attention equation"
+        },
+        {
+          "file": "08_multi_head_attention.svg",
+          "title": "multi-head attention",
+          "desc": "Eight parallel attention heads"
+        },
+        {
+          "file": "09_three_uses.svg",
+          "title": "three uses",
+          "desc": "Encoder self, decoder masked, cross attention"
+        },
+        {
+          "file": "10_ffn_residual_layernorm.svg",
+          "title": "ffn residual layernorm",
+          "desc": "The supporting layer components"
+        },
+        {
+          "file": "11_positional_encoding.svg",
+          "title": "positional encoding",
+          "desc": "Sinusoidal order injection"
+        },
+        {
+          "file": "12_complexity_table.svg",
+          "title": "complexity table",
+          "desc": "Why constant path length matters"
+        },
+        {
+          "file": "13_training_setup.svg",
+          "title": "training setup",
+          "desc": "Hardware, schedule, optimizer, regularization"
+        },
+        {
+          "file": "14_results.svg",
+          "title": "results",
+          "desc": "WMT14 BLEU and training cost"
+        },
+        {
+          "file": "15_ablations.svg",
+          "title": "ablations",
+          "desc": "Five takeaways from the variation study"
+        },
+        {
+          "file": "16_conclusion.svg",
+          "title": "conclusion",
+          "desc": "One paper, a generation of models"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_lora_hu_2021",
+      "title": "LoRA Hu 2021",
+      "description": "LoRA paper walkthrough — cool technical blueprint style with structure diagrams and KPI cards.",
+      "icon": "🧠",
+      "color": "#1B3A5C",
+      "style": "technical",
+      "styleName": "Blueprint Technical",
+      "desc": "LoRA paper walkthrough — cool technical blueprint style with structure diagrams and KPI cards.",
+      "tags": [
+        "Paper Reading",
+        "LLM",
+        "Technical Blueprint"
+      ],
+      "isNew": true,
+      "folder": "ppt169_lora_hu_2021/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "LoRA"
+        },
+        {
+          "file": "02_agenda.svg",
+          "title": "agenda",
+          "desc": "desc"
+        },
+        {
+          "file": "03_problem.svg",
+          "title": "problem",
+          "desc": "desc"
+        },
+        {
+          "file": "04_limitations.svg",
+          "title": "limitations",
+          "desc": "desc"
+        },
+        {
+          "file": "05_insight.svg",
+          "title": "low-rank insight",
+          "desc": "desc"
+        },
+        {
+          "file": "06_method.svg",
+          "title": "method",
+          "desc": "W0, BA"
+        },
+        {
+          "file": "07_implementation.svg",
+          "title": "implementation",
+          "desc": "alpha"
+        },
+        {
+          "file": "08_transformer.svg",
+          "title": "transformer",
+          "desc": "desc"
+        },
+        {
+          "file": "09_advantages.svg",
+          "title": "advantages",
+          "desc": "LoRA"
+        },
+        {
+          "file": "10_latency.svg",
+          "title": "latency",
+          "desc": "Adapter , LoRA"
+        },
+        {
+          "file": "11_setup.svg",
+          "title": "setup",
+          "desc": "NLU NLG"
+        },
+        {
+          "file": "12_glue.svg",
+          "title": "glue",
+          "desc": "desc"
+        },
+        {
+          "file": "13_gpt3.svg",
+          "title": "gpt-3",
+          "desc": "175B"
+        },
+        {
+          "file": "14_understanding.svg",
+          "title": "understanding",
+          "desc": "? ?"
+        },
+        {
+          "file": "15_conclusion.svg",
+          "title": "conclusion",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_brutalist_ai_newspaper_2026",
+      "title": "Brutalist AI Newspaper 2026",
+      "description": "AI industry yearbook — brutalist broadsheet look with dense type and data grids.",
+      "icon": "📰",
+      "color": "#C8102E",
+      "style": "editorial",
+      "styleName": "Brutalist Newspaper",
+      "desc": "AI industry yearbook — brutalist broadsheet look with dense type and data grids.",
+      "tags": [
+        "Brutalist",
+        "Newspaper",
+        "Annual Report"
+      ],
+      "isNew": true,
+      "folder": "ppt169_brutalist_ai_newspaper_2026/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_issue_at_a_glance.svg",
+          "title": "issue at a glance",
+          "desc": "issue at a glance"
+        },
+        {
+          "file": "03_revenue_league.svg",
+          "title": "revenue league",
+          "desc": "revenue league"
+        },
+        {
+          "file": "04_arpu_divide.svg",
+          "title": "arpu divide",
+          "desc": "arpu divide"
+        },
+        {
+          "file": "05_training_cost.svg",
+          "title": "training cost",
+          "desc": "training cost"
+        },
+        {
+          "file": "06_inference_watts.svg",
+          "title": "inference watts",
+          "desc": "inference watts"
+        },
+        {
+          "file": "07_benchmarks_saturated.svg",
+          "title": "benchmarks saturated",
+          "desc": "benchmarks saturated"
+        },
+        {
+          "file": "08_three_rulebooks.svg",
+          "title": "three rulebooks",
+          "desc": "three rulebooks"
+        },
+        {
+          "file": "09_timeline.svg",
+          "title": "timeline",
+          "desc": "timeline"
+        },
+        {
+          "file": "10_closing_read.svg",
+          "title": "closing read",
+          "desc": "closing read"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_pritzker_2026",
+      "title": "Pritzker 2026",
+      "description": "Deep read of the 2026 Pritzker Architecture Prize — photography-led editorial design.",
+      "icon": "🏛️",
+      "color": "#594A3C",
+      "style": "editorial",
+      "styleName": "Architecture Editorial",
+      "desc": "Deep read of the 2026 Pritzker Architecture Prize — photography-led editorial design.",
+      "tags": [
+        "Architecture",
+        "Editorial",
+        "Reading Club"
+      ],
+      "isNew": true,
+      "folder": "ppt169_pritzker_2026/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_overview.svg",
+          "title": "overview",
+          "desc": "overview"
+        },
+        {
+          "file": "03_ando.svg",
+          "title": "ando",
+          "desc": "ando"
+        },
+        {
+          "file": "04_chipperfield.svg",
+          "title": "chipperfield",
+          "desc": "chipperfield"
+        },
+        {
+          "file": "05_zaha.svg",
+          "title": "zaha",
+          "desc": "zaha"
+        },
+        {
+          "file": "06_foster.svg",
+          "title": "foster",
+          "desc": "foster"
+        },
+        {
+          "file": "07_oma_sanaa.svg",
+          "title": "oma sanaa",
+          "desc": "oma sanaa"
+        },
+        {
+          "file": "08_zumthor.svg",
+          "title": "zumthor",
+          "desc": "zumthor"
+        },
+        {
+          "file": "09_gehry.svg",
+          "title": "gehry",
+          "desc": "gehry"
+        },
+        {
+          "file": "10_kere.svg",
+          "title": "kere",
+          "desc": "kere"
+        },
+        {
+          "file": "11_epilogue.svg",
+          "title": "epilogue",
+          "desc": "epilogue"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_global_ai_capital_2026",
+      "title": "Global AI Capital 2026",
+      "description": "Annual view of global AI capital flows — Bloomberg / Economist infographic style.",
+      "icon": "💰",
+      "color": "#1F3A5F",
+      "style": "consulting",
+      "styleName": "Bloomberg Editorial",
+      "desc": "Annual view of global AI capital flows — Bloomberg / Economist infographic style.",
+      "tags": [
+        "Data Journalism",
+        "Finance",
+        "Annual Review"
+      ],
+      "isNew": true,
+      "folder": "ppt169_global_ai_capital_2026/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_editor_note.svg",
+          "title": "editor note",
+          "desc": "editor note"
+        },
+        {
+          "file": "03_contents.svg",
+          "title": "contents",
+          "desc": "contents"
+        },
+        {
+          "file": "04_q1_vc_landscape.svg",
+          "title": "q1 vc landscape",
+          "desc": "q1 vc landscape"
+        },
+        {
+          "file": "05_hyperscaler_capex.svg",
+          "title": "hyperscaler capex",
+          "desc": "hyperscaler capex"
+        },
+        {
+          "file": "06_big_three_valuation_leap.svg",
+          "title": "big three valuation leap",
+          "desc": "big three valuation leap"
+        },
+        {
+          "file": "07_valuation_vs_revenue_bubble.svg",
+          "title": "valuation vs revenue bubble",
+          "desc": "valuation vs revenue bubble"
+        },
+        {
+          "file": "08_openai_investor_donut.svg",
+          "title": "openai investor donut",
+          "desc": "openai investor donut"
+        },
+        {
+          "file": "09_big_three_comparison.svg",
+          "title": "big three comparison",
+          "desc": "big three comparison"
+        },
+        {
+          "file": "10_china_five_ranking.svg",
+          "title": "china five ranking",
+          "desc": "china five ranking"
+        },
+        {
+          "file": "11_us_china_dual_track.svg",
+          "title": "us china dual track",
+          "desc": "us china dual track"
+        },
+        {
+          "file": "12_second_tier.svg",
+          "title": "second tier",
+          "desc": "second tier"
+        },
+        {
+          "file": "13_chapter_nvidia.svg",
+          "title": "chapter nvidia",
+          "desc": "chapter nvidia"
+        },
+        {
+          "file": "14_nvidia_sankey.svg",
+          "title": "nvidia sankey",
+          "desc": "nvidia sankey"
+        },
+        {
+          "file": "15_nvidia_pareto.svg",
+          "title": "nvidia pareto",
+          "desc": "nvidia pareto"
+        },
+        {
+          "file": "16_stargate_hub.svg",
+          "title": "stargate hub",
+          "desc": "stargate hub"
+        },
+        {
+          "file": "17_chapter_bubble.svg",
+          "title": "chapter bubble",
+          "desc": "chapter bubble"
+        },
+        {
+          "file": "18_capex_vs_revenue.svg",
+          "title": "capex vs revenue",
+          "desc": "capex vs revenue"
+        },
+        {
+          "file": "19_four_risks_quadrant.svg",
+          "title": "four risks quadrant",
+          "desc": "four risks quadrant"
+        },
+        {
+          "file": "20_closing.svg",
+          "title": "closing",
+          "desc": "closing"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_swiss_grid_systems",
+      "title": "Swiss Grid Systems",
+      "description": "Lecture on Swiss International Style — Müller-Brockmann homage.",
+      "icon": "🅢",
+      "color": "#C8102E",
+      "style": "creative",
+      "styleName": "Swiss Typographic",
+      "desc": "Lecture on Swiss International Style — Müller-Brockmann homage.",
+      "tags": [
+        "Swiss Style",
+        "Typography",
+        "Design History"
+      ],
+      "isNew": true,
+      "folder": "ppt169_swiss_grid_systems/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_quote.svg",
+          "title": "quote",
+          "desc": "quote"
+        },
+        {
+          "file": "03_origin.svg",
+          "title": "origin",
+          "desc": "origin"
+        },
+        {
+          "file": "04_principles.svg",
+          "title": "principles",
+          "desc": "principles"
+        },
+        {
+          "file": "05_figures.svg",
+          "title": "figures",
+          "desc": "figures"
+        },
+        {
+          "file": "06_brockmann.svg",
+          "title": "brockmann",
+          "desc": "brockmann"
+        },
+        {
+          "file": "07_typefaces.svg",
+          "title": "typefaces",
+          "desc": "typefaces"
+        },
+        {
+          "file": "08_grid_types.svg",
+          "title": "grid types",
+          "desc": "grid types"
+        },
+        {
+          "file": "09_modular.svg",
+          "title": "modular",
+          "desc": "modular"
+        },
+        {
+          "file": "10_negative_space.svg",
+          "title": "negative space",
+          "desc": "negative space"
+        },
+        {
+          "file": "11_outputs.svg",
+          "title": "outputs",
+          "desc": "outputs"
+        },
+        {
+          "file": "12_digital_era.svg",
+          "title": "digital era",
+          "desc": "digital era"
+        },
+        {
+          "file": "13_brands.svg",
+          "title": "brands",
+          "desc": "brands"
+        },
+        {
+          "file": "14_closing.svg",
+          "title": "closing",
+          "desc": "closing"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_glassmorphism_demo",
+      "title": "Glassmorphism Demo",
+      "description": "AI product launch — frosted-glass modern SaaS visual language.",
+      "icon": "💎",
+      "color": "#6366F1",
+      "style": "general",
+      "styleName": "Glassmorphism SaaS",
+      "desc": "AI product launch — frosted-glass modern SaaS visual language.",
+      "tags": [
+        "SaaS",
+        "Modern",
+        "Product Launch"
+      ],
+      "isNew": true,
+      "folder": "ppt169_glassmorphism_demo/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_hero_demo_to_prod.svg",
+          "title": "hero demo to prod",
+          "desc": "hero demo to prod"
+        },
+        {
+          "file": "03_three_pains.svg",
+          "title": "three pains",
+          "desc": "three pains"
+        },
+        {
+          "file": "04_agent_architecture.svg",
+          "title": "agent architecture",
+          "desc": "agent architecture"
+        },
+        {
+          "file": "05_three_modes.svg",
+          "title": "three modes",
+          "desc": "three modes"
+        },
+        {
+          "file": "06_tool_orchestration.svg",
+          "title": "tool orchestration",
+          "desc": "tool orchestration"
+        },
+        {
+          "file": "07_context_engineering.svg",
+          "title": "context engineering",
+          "desc": "context engineering"
+        },
+        {
+          "file": "08_kpi_dashboard.svg",
+          "title": "kpi dashboard",
+          "desc": "kpi dashboard"
+        },
+        {
+          "file": "09_metrics_trend.svg",
+          "title": "metrics trend",
+          "desc": "metrics trend"
+        },
+        {
+          "file": "10_failure_modes.svg",
+          "title": "failure modes",
+          "desc": "failure modes"
+        },
+        {
+          "file": "11_roadmap.svg",
+          "title": "roadmap",
+          "desc": "roadmap"
+        },
+        {
+          "file": "12_cta_closing.svg",
+          "title": "cta closing",
+          "desc": "cta closing"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_sugar_rush_memphis",
+      "title": "Sugar Rush Memphis",
+      "description": "Fictional festival handbook — Memphis design meets pop genre mash-up.",
+      "icon": "🎵",
+      "color": "#FF4488",
+      "style": "creative",
+      "styleName": "Memphis / Pop",
+      "desc": "Fictional festival handbook — Memphis design meets pop genre mash-up.",
+      "tags": [
+        "Memphis Design",
+        "Music Festival",
+        "Pop"
+      ],
+      "isNew": true,
+      "folder": "ppt169_sugar_rush_memphis/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_what.svg",
+          "title": "what",
+          "desc": "what"
+        },
+        {
+          "file": "03_numbers.svg",
+          "title": "numbers",
+          "desc": "numbers"
+        },
+        {
+          "file": "04_principles.svg",
+          "title": "principles",
+          "desc": "principles"
+        },
+        {
+          "file": "05_who.svg",
+          "title": "who",
+          "desc": "who"
+        },
+        {
+          "file": "06_headliners.svg",
+          "title": "headliners",
+          "desc": "headliners"
+        },
+        {
+          "file": "07_flavors.svg",
+          "title": "flavors",
+          "desc": "flavors"
+        },
+        {
+          "file": "08_where.svg",
+          "title": "where",
+          "desc": "where"
+        },
+        {
+          "file": "09_stages.svg",
+          "title": "stages",
+          "desc": "stages"
+        },
+        {
+          "file": "10_schedule.svg",
+          "title": "schedule",
+          "desc": "schedule"
+        },
+        {
+          "file": "11_vibes.svg",
+          "title": "vibes",
+          "desc": "vibes"
+        },
+        {
+          "file": "12_beyond.svg",
+          "title": "beyond",
+          "desc": "beyond"
+        },
+        {
+          "file": "13_tickets.svg",
+          "title": "tickets",
+          "desc": "tickets"
+        },
+        {
+          "file": "14_closing.svg",
+          "title": "closing",
+          "desc": "closing"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_indie_bookstore_zine_guide",
+      "title": "Indie Bookstore Zine Guide",
+      "description": "Independent bookstore zine primer — risograph craft and DIY poster aesthetics.",
+      "icon": "📖",
+      "color": "#E85D75",
+      "style": "creative",
+      "styleName": "Risograph Zine",
+      "desc": "Independent bookstore zine primer — risograph craft and DIY poster aesthetics.",
+      "tags": [
+        "Zine",
+        "Risograph",
+        "DIY"
+      ],
+      "isNew": true,
+      "folder": "ppt169_indie_bookstore_zine_guide/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_toc.svg",
+          "title": "toc",
+          "desc": "toc"
+        },
+        {
+          "file": "03_zine_what.svg",
+          "title": "zine what",
+          "desc": "zine what"
+        },
+        {
+          "file": "04_zine_history.svg",
+          "title": "zine history",
+          "desc": "zine history"
+        },
+        {
+          "file": "05_risograph_origin.svg",
+          "title": "risograph origin",
+          "desc": "risograph origin"
+        },
+        {
+          "file": "06_risograph_process.svg",
+          "title": "risograph process",
+          "desc": "risograph process"
+        },
+        {
+          "file": "07_zine_folding.svg",
+          "title": "zine folding",
+          "desc": "zine folding"
+        },
+        {
+          "file": "08_zine_content_types.svg",
+          "title": "zine content types",
+          "desc": "zine content types"
+        },
+        {
+          "file": "09_jimbocho.svg",
+          "title": "jimbocho",
+          "desc": "jimbocho"
+        },
+        {
+          "file": "10_three_cities.svg",
+          "title": "three cities",
+          "desc": "three cities"
+        },
+        {
+          "file": "11_berlin.svg",
+          "title": "berlin",
+          "desc": "berlin"
+        },
+        {
+          "file": "12_china_bookstore_map.svg",
+          "title": "china bookstore map",
+          "desc": "china bookstore map"
+        },
+        {
+          "file": "13_china_art_book_fair.svg",
+          "title": "china art book fair",
+          "desc": "china art book fair"
+        },
+        {
+          "file": "14_how_to_browse.svg",
+          "title": "how to browse",
+          "desc": "how to browse"
+        },
+        {
+          "file": "15_how_to_collect.svg",
+          "title": "how to collect",
+          "desc": "how to collect"
+        },
+        {
+          "file": "16_action_checklist.svg",
+          "title": "action checklist",
+          "desc": "action checklist"
+        },
+        {
+          "file": "17_sources.svg",
+          "title": "sources",
+          "desc": "sources"
+        },
+        {
+          "file": "18_outro.svg",
+          "title": "outro",
+          "desc": "outro"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_kubernetes_blueprint_2026",
+      "title": "Kubernetes Blueprint 2026",
+      "description": "Ten-page Kubernetes cluster architecture brief — isometric engineering blueprint style.",
+      "icon": "📐",
+      "color": "#3FB4D9",
+      "style": "general",
+      "styleName": "Engineering Blueprint",
+      "desc": "Ten-page Kubernetes cluster architecture brief — isometric engineering blueprint style.",
+      "tags": [
+        "Blueprint",
+        "Kubernetes",
+        "Technical Drawing"
+      ],
+      "isNew": true,
+      "folder": "ppt169_kubernetes_blueprint_2026/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_two_planes.svg",
+          "title": "two planes",
+          "desc": "two planes"
+        },
+        {
+          "file": "03_control_plane.svg",
+          "title": "control plane",
+          "desc": "control plane"
+        },
+        {
+          "file": "04_worker_node.svg",
+          "title": "worker node",
+          "desc": "worker node"
+        },
+        {
+          "file": "05_pod_lifecycle.svg",
+          "title": "pod lifecycle",
+          "desc": "pod lifecycle"
+        },
+        {
+          "file": "06_service_types.svg",
+          "title": "service types",
+          "desc": "service types"
+        },
+        {
+          "file": "07_storage.svg",
+          "title": "storage",
+          "desc": "storage"
+        },
+        {
+          "file": "08_ha_topology.svg",
+          "title": "ha topology",
+          "desc": "ha topology"
+        },
+        {
+          "file": "09_api_spine.svg",
+          "title": "api spine",
+          "desc": "api spine"
+        },
+        {
+          "file": "10_takeaways.svg",
+          "title": "takeaways",
+          "desc": "takeaways"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_high_rise_renewal",
+      "title": "High-Rise Renewal",
+      "description": "From Sydney to China — aging towers and regenerative housing, magazine editorial style.",
+      "icon": "🏙️",
+      "color": "#2D4A5F",
+      "style": "editorial",
+      "styleName": "Editorial Magazine",
+      "desc": "From Sydney to China — aging towers and regenerative housing, magazine editorial style.",
+      "tags": [
+        "Urban Renewal",
+        "Editorial",
+        "Architecture"
+      ],
+      "isNew": true,
+      "folder": "ppt169_high_rise_renewal/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_agenda.svg",
+          "title": "agenda",
+          "desc": "agenda"
+        },
+        {
+          "file": "03_warning_fire.svg",
+          "title": "warning fire",
+          "desc": "warning fire"
+        },
+        {
+          "file": "04_aging_highrise.svg",
+          "title": "aging highrise",
+          "desc": "aging highrise"
+        },
+        {
+          "file": "05_pruitt_igoe.svg",
+          "title": "pruitt igoe",
+          "desc": "pruitt igoe"
+        },
+        {
+          "file": "06_chapter_II.svg",
+          "title": "chapter II",
+          "desc": "chapter II"
+        },
+        {
+          "file": "07_quay_quarter.svg",
+          "title": "quay quarter",
+          "desc": "quay quarter"
+        },
+        {
+          "file": "08_eco_data.svg",
+          "title": "eco data",
+          "desc": "eco data"
+        },
+        {
+          "file": "09_shenzhen_mvrdv.svg",
+          "title": "shenzhen mvrdv",
+          "desc": "shenzhen mvrdv"
+        },
+        {
+          "file": "10_shanghai_edition.svg",
+          "title": "shanghai edition",
+          "desc": "shanghai edition"
+        },
+        {
+          "file": "11_one_wall_street.svg",
+          "title": "one wall street",
+          "desc": "one wall street"
+        },
+        {
+          "file": "12_chapter_IV.svg",
+          "title": "chapter IV",
+          "desc": "chapter IV"
+        },
+        {
+          "file": "13_pilot_cases.svg",
+          "title": "pilot cases",
+          "desc": "pilot cases"
+        },
+        {
+          "file": "14_real_difficulty.svg",
+          "title": "real difficulty",
+          "desc": "real difficulty"
+        },
+        {
+          "file": "15_ending.svg",
+          "title": "ending",
+          "desc": "ending"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_cangzhuo",
+      "title": "Cangzhuo",
+      "description": "Book talk on strategic restraint — new Chinese ink wash with generous white space.",
+      "icon": "🖋️",
+      "color": "#2C3E50",
+      "style": "creative",
+      "styleName": "Chinese Ink Aesthetic",
+      "desc": "Book talk on strategic restraint — new Chinese ink wash with generous white space.",
+      "tags": [
+        "Chinese Aesthetic",
+        "Editorial",
+        "Cultural"
+      ],
+      "isNew": true,
+      "folder": "ppt169_cangzhuo/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "cover",
+          "desc": "cover"
+        },
+        {
+          "file": "02_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "03_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "04_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "05_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "06_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "07_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "08_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "09_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "10_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "11_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "12_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "13_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "14_ .svg",
+          "title": "title",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_image_text_showcase",
+      "title": "Image-Text Showcase",
+      "description": "Twenty image-text composition patterns — each page varies rendering, palette, and layout.",
+      "icon": "🎨",
+      "color": "#7C6FF7",
+      "style": "creative",
+      "styleName": "Editorial Showcase",
+      "desc": "Twenty image-text composition patterns — each page varies rendering, palette, and layout.",
+      "tags": [
+        "Image-Text",
+        "Layout Patterns",
+        "Visual Reference"
+      ],
+      "isNew": true,
+      "folder": "ppt169_image_text_showcase/svg_final",
+      "cover": "01_.svg",
+      "slides": [
+        {
+          "file": "01_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "02_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "03_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "04_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "05_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "06_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "07_Z .svg",
+          "title": "Z",
+          "desc": "Z"
+        },
+        {
+          "file": "08_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "09_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "10_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "11_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "12_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "13_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "14_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "15_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "16_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "17_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "18_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "19_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "20_ .svg",
+          "title": "title",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_building_effective_agents",
+      "title": "Building Effective Agents",
+      "description": "Anthropic engineering blog on AI agent architectures and workflow patterns.",
+      "icon": "🤖",
+      "color": "#D4845A",
+      "style": "general",
+      "styleName": "General + Dark Tech",
+      "desc": "Anthropic engineering blog on AI agent architectures and workflow patterns.",
+      "tags": [
+        "Dark Theme",
+        "AI/ML",
+        "Anthropic"
+      ],
+      "isNew": false,
+      "folder": "ppt169_building_effective_agents/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "Cover",
+          "desc": "Cover"
+        },
+        {
+          "file": "02_what_are_agents.svg",
+          "title": "What Are Agents",
+          "desc": "What Are Agents"
+        },
+        {
+          "file": "03_when_to_use_agents.svg",
+          "title": "When To Use Agents",
+          "desc": "When To Use Agents"
+        },
+        {
+          "file": "04_augmented_llm.svg",
+          "title": "Augmented Llm",
+          "desc": "Augmented Llm"
+        },
+        {
+          "file": "05_prompt_chaining.svg",
+          "title": "Prompt Chaining",
+          "desc": "Prompt Chaining"
+        },
+        {
+          "file": "06_routing.svg",
+          "title": "Routing",
+          "desc": "Routing"
+        },
+        {
+          "file": "07_parallelization.svg",
+          "title": "Parallelization",
+          "desc": "Parallelization"
+        },
+        {
+          "file": "08_orchestrator_workers.svg",
+          "title": "Orchestrator Workers",
+          "desc": "Orchestrator Workers"
+        },
+        {
+          "file": "09_evaluator_optimizer.svg",
+          "title": "Evaluator Optimizer",
+          "desc": "Evaluator Optimizer"
+        },
+        {
+          "file": "10_agents.svg",
+          "title": "Agents",
+          "desc": "Agents"
+        },
+        {
+          "file": "11_agents_in_practice.svg",
+          "title": "Agents In Practice",
+          "desc": "Agents In Practice"
+        },
+        {
+          "file": "12_summary.svg",
+          "title": "Summary",
+          "desc": "Summary"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_fashion_weekly_digest",
+      "title": "Fashion Weekly Digest",
+      "description": "Magazine-style weekly digest for luxury and lifestyle brand news.",
+      "icon": "✨",
+      "color": "#C9A96E",
+      "style": "editorial",
+      "styleName": "Luxury Editorial",
+      "desc": "Magazine-style weekly digest for luxury and lifestyle brand news.",
+      "tags": [
+        "Luxury",
+        "Fashion",
+        "tags"
+      ],
+      "isNew": false,
+      "folder": "ppt169_fashion_weekly_digest/svg_final",
+      "cover": "01_.svg",
+      "slides": [
+        {
+          "file": "01_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "02_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "03_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "04_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "05_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "06_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "07_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "08_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "09_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "10_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "11_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "12_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "13_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "14_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "15_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "16_ .svg",
+          "title": "title",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_home_design_trends_2026",
+      "title": "Home Design Trends 2026",
+      "description": "Editorial guide to home color, material, and texture trends.",
+      "icon": "🏠",
+      "color": "#C4A882",
+      "style": "general",
+      "styleName": "Magazine Editorial",
+      "desc": "Editorial guide to home color, material, and texture trends.",
+      "tags": [
+        "tags",
+        "tags",
+        "CMT"
+      ],
+      "isNew": false,
+      "folder": "ppt169_home_design_trends_2026/svg_final",
+      "cover": "01_.svg",
+      "slides": [
+        {
+          "file": "01_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "02_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "03_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "04_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "05_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "06_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "07_CMT .svg",
+          "title": "CMT",
+          "desc": "CMT"
+        },
+        {
+          "file": "08_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "09_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "10_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "11_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "12_ .svg",
+          "title": "title",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_kimsoong_loyalty_programme",
+      "title": "Kimsoong Loyalty Programme",
+      "description": "MBB-style loyalty strategy proposal for an automotive brand.",
+      "icon": "💎",
+      "color": "#E8A838",
+      "style": "consulting",
+      "styleName": "Top Consulting",
+      "desc": "MBB-style loyalty strategy proposal for an automotive brand.",
+      "tags": [
+        "MBB",
+        "Loyalty",
+        "Automotive"
+      ],
+      "isNew": false,
+      "folder": "ppt169_kimsoong_loyalty_programme/svg_final",
+      "cover": "slide_01_cover.svg",
+      "slides": [
+        {
+          "file": "slide_01_cover.svg",
+          "title": "Cover",
+          "desc": "Cover"
+        },
+        {
+          "file": "slide_02_critical_challenge.svg",
+          "title": "Critical Challenge",
+          "desc": "Critical Challenge"
+        },
+        {
+          "file": "slide_03_company_profile.svg",
+          "title": "Company Profile",
+          "desc": "Company Profile"
+        },
+        {
+          "file": "slide_04_customer_profile.svg",
+          "title": "Customer Profile",
+          "desc": "Customer Profile"
+        },
+        {
+          "file": "slide_05_priorities_gap.svg",
+          "title": "Priorities Gap",
+          "desc": "Priorities Gap"
+        },
+        {
+          "file": "slide_06_root_cause.svg",
+          "title": "Root Cause",
+          "desc": "Root Cause"
+        },
+        {
+          "file": "slide_07_strategic_pillars.svg",
+          "title": "Strategic Pillars",
+          "desc": "Strategic Pillars"
+        },
+        {
+          "file": "slide_08_initiatives.svg",
+          "title": "Initiatives",
+          "desc": "Initiatives"
+        },
+        {
+          "file": "slide_09_roadmap.svg",
+          "title": "Roadmap",
+          "desc": "Roadmap"
+        },
+        {
+          "file": "slide_10_conclusion.svg",
+          "title": "Conclusion",
+          "desc": "Conclusion"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_lin_huiyin_architect",
+      "title": "Lin Huiyin: Architect",
+      "description": "Dark memorial editorial on Lin Huiyin's architectural contributions.",
+      "icon": "🏛️",
+      "color": "#C9A96E",
+      "style": "editorial",
+      "styleName": "",
+      "desc": "Dark memorial editorial on Lin Huiyin's architectural contributions.",
+      "tags": [
+        "tags",
+        "tags",
+        "tags"
+      ],
+      "isNew": false,
+      "folder": "ppt169_lin_huiyin_architect/svg_final",
+      "cover": "01_.svg",
+      "slides": [
+        {
+          "file": "01_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "02_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "03_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "04_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "05_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "06_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "07_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "08_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "09_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "10_ .svg",
+          "title": "title",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_lin_huiyin_architect_revised",
+      "title": "Lin Huiyin Reconsidered",
+      "description": "Light museum-catalog restaging of Lin Huiyin's architectural identity.",
+      "icon": "🏛️",
+      "color": "#A44A3F",
+      "style": "editorial",
+      "styleName": "",
+      "desc": "Light museum-catalog restaging of Lin Huiyin's architectural identity.",
+      "tags": [
+        "tags",
+        "tags",
+        "tags"
+      ],
+      "isNew": false,
+      "folder": "ppt169_lin_huiyin_architect_revised/svg_final",
+      "cover": "01_.svg",
+      "slides": [
+        {
+          "file": "01_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "02_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "03_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "04_ ： .svg",
+          "title": "：",
+          "desc": "："
+        },
+        {
+          "file": "05_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "06_ ， .svg",
+          "title": "，",
+          "desc": "，"
+        },
+        {
+          "file": "07_ 、 .svg",
+          "title": "、",
+          "desc": "、"
+        },
+        {
+          "file": "08_ .svg",
+          "title": "title",
+          "desc": "desc"
+        },
+        {
+          "file": "09_ .svg",
+          "title": "title",
+          "desc": "desc"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_liziqi_plant_dye_colors",
+      "title": "Li Ziqi Plant Dye Colors",
+      "description": "Traditional plant-dye color study told through an Eastern cultural narrative.",
+      "icon": "🌿",
+      "color": "#6B9AAE",
+      "style": "editorial",
+      "styleName": "",
+      "desc": "Traditional plant-dye color study told through an Eastern cultural narrative.",
+      "tags": [
+        "tags",
+        "tags",
+        "tags"
+      ],
+      "isNew": false,
+      "folder": "ppt169_liziqi_plant_dye_colors/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "Cover",
+          "desc": "Cover"
+        },
+        {
+          "file": "02_intro.svg",
+          "title": "Intro",
+          "desc": "Intro"
+        },
+        {
+          "file": "03_zhanpao_decode.svg",
+          "title": "Zhanpao Decode",
+          "desc": "Zhanpao Decode"
+        },
+        {
+          "file": "04_history.svg",
+          "title": "History",
+          "desc": "History"
+        },
+        {
+          "file": "05_natural_colors_1.svg",
+          "title": "Natural Colors 1",
+          "desc": "Natural Colors 1"
+        },
+        {
+          "file": "06_natural_colors_2.svg",
+          "title": "Natural Colors 2",
+          "desc": "Natural Colors 2"
+        },
+        {
+          "file": "07_poetic_colors_1.svg",
+          "title": "Poetic Colors 1",
+          "desc": "Poetic Colors 1"
+        },
+        {
+          "file": "08_poetic_colors_2.svg",
+          "title": "Poetic Colors 2",
+          "desc": "Poetic Colors 2"
+        },
+        {
+          "file": "09_dye_plants.svg",
+          "title": "Dye Plants",
+          "desc": "Dye Plants"
+        },
+        {
+          "file": "10_diy_dyeing.svg",
+          "title": "Diy Dyeing",
+          "desc": "Diy Dyeing"
+        },
+        {
+          "file": "11_xuetaojian.svg",
+          "title": "Xuetaojian",
+          "desc": "Xuetaojian"
+        },
+        {
+          "file": "12_ending.svg",
+          "title": "Ending",
+          "desc": "Ending"
+        }
+      ]
+    },
+    {
+      "id": "ppt169_general_dark_tech_claude_code_auto_mode",
+      "title": "Claude Code Auto Mode",
+      "description": "Anthropic AI safety engineering — classifier-based permissioning in a dark tech visual system.",
+      "icon": "🛡️",
+      "color": "#D4A574",
+      "style": "general",
+      "styleName": "General + Dark Tech",
+      "desc": "Anthropic AI safety engineering — classifier-based permissioning in a dark tech visual system.",
+      "tags": [
+        "Dark Theme",
+        "AI Safety",
+        "Anthropic"
+      ],
+      "isNew": false,
+      "folder": "ppt169_general_dark_tech_claude_code_auto_mode/svg_final",
+      "cover": "01_cover.svg",
+      "slides": [
+        {
+          "file": "01_cover.svg",
+          "title": "Cover",
+          "desc": "Claude Code Auto Mode"
+        },
+        {
+          "file": "02_approval_fatigue.svg",
+          "title": "Approval Fatigue",
+          "desc": "93% approval rate problem"
+        },
+        {
+          "file": "03_auto_mode.svg",
+          "title": "Auto Mode",
+          "desc": "Classifier-delegated approvals"
+        },
+        {
+          "file": "04_architecture.svg",
+          "title": "Architecture",
+          "desc": "Two layers of defense"
+        },
+        {
+          "file": "05_threat_model.svg",
+          "title": "Threat Model",
+          "desc": "Four threat categories"
+        },
+        {
+          "file": "06_permissions.svg",
+          "title": "Permissions",
+          "desc": "Three-tier permission system"
+        },
+        {
+          "file": "07_classifier.svg",
+          "title": "Classifier",
+          "desc": "Reasoning-blind by design"
+        },
+        {
+          "file": "08_results.svg",
+          "title": "Results",
+          "desc": "Evaluation metrics"
+        },
+        {
+          "file": "09_design_decisions.svg",
+          "title": "Design Decisions",
+          "desc": "Key engineering choices"
+        },
+        {
+          "file": "10_closing.svg",
+          "title": "Closing",
+          "desc": "Substantially safer"
+        }
+      ]
+    }
+  ]
+}

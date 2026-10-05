@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <clipPath id="attnClip"><rect x="64" y="150" width="430" height="470" rx="14" /></clipPath>
+  </defs>
+
+  <g id="bg"><rect width="1280" height="720" fill="#FFFFFF" /></g>
+
+  <g id="header">
+    <rect x="64" y="56" width="6" height="56" rx="3" fill="#E8743B" />
+    <text x="86" y="90" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22.40" font-weight="800" fill="#1B3A5C" textLength="256.0" lengthAdjust="spacingAndGlyphs">Adapts only to attention weights</text>
+    <text x="88" y="120" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#8A94A1" letter-spacing="1">APPLYING LoRA TO THE TRANSFORMER</text>
+  </g>
+
+  <g id="figure">
+    <rect x="64" y="150" width="430" height="470" rx="14" fill="#F4F7FA" />
+    <image href="../images/attention_apply.png" x="64" y="150" width="430" height="470" preserveAspectRatio="xMidYMid meet" clip-path="url(#attnClip)" id="_edit_7" />
+    <rect x="64" y="150" width="430" height="470" rx="14" fill="none" stroke="#D8DEE6" stroke-width="1.5" />
+    <text x="64" y="644" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.10" fill="#8A94A1">One LoRA bypass is attached to each of self-attention's Wq and Wv; MLP frozen</text>
+  </g>
+
+  <g id="point-scope">
+    <use data-icon="tabler-outline/sitemap" x="540" y="166" width="34" height="34" fill="#1B3A5C" stroke-width="2" />
+    <text x="586" y="192" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="14.00" font-weight="800" fill="#1D2733" textLength="222.0" lengthAdjust="spacingAndGlyphs">Scope: Four Projections, Only Two Move</text>
+    <text x="540" y="232" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733" textLength="90.6" lengthAdjust="spacingAndGlyphs">Self-attention included <tspan font-weight="800" fill="#1B3A5C">Wq / Wk / Wv / Wo</tspan></text>
+    <text x="540" y="262" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#1D2733" textLength="107.6" lengthAdjust="spacingAndGlyphs">Adapted only during experiments <tspan font-weight="800" fill="#E8743B">Wq、Wv</tspan>, freeze MLP (for simplicity and parameter efficiency)</text>
+  </g>
+
+  <g id="card-param">
+    <rect x="540" y="300" width="676" height="150" rx="14" fill="#F4F7FA" stroke="#D8DEE6" stroke-width="1" />
+    <text x="566" y="338" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" font-weight="800" fill="#1B3A5C" textLength="90.0" lengthAdjust="spacingAndGlyphs">Number of trainable parameters</text>
+    <image href="../images/formula_004.png" x="566" y="356" width="520" height="52" preserveAspectRatio="xMidYMid meet" />
+    <text x="566" y="432" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A94A1">L_LoRA = number of weight matrices to which LoRA is applied; grows linearly only with r</text>
+  </g>
+
+  <g id="kpi-reduction">
+    <rect x="540" y="478" width="330" height="142" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <text x="566" y="514" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15" font-weight="700" fill="#5B6776">Training VRAM (GPT-3 175B)</text>
+    <text x="566" y="566" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="30" font-weight="800" fill="#1B3A5C">1.2TB <tspan font-size="22" fill="#8A94A1">→</tspan> <tspan fill="#2E7D32">350GB</tspan></text>
+    <text x="566" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A94A1" textLength="111.7" lengthAdjust="spacingAndGlyphs">Reduced to approximately 1/3 of the original</text>
+
+    <rect x="886" y="478" width="330" height="142" rx="14" fill="#FFFFFF" stroke="#D8DEE6" stroke-width="1" />
+    <text x="912" y="514" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15" font-weight="700" fill="#5B6776">Checkpoint(r=4, Wq/Wv Only)</text>
+    <text x="912" y="566" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="30" font-weight="800" fill="#1B3A5C">350GB <tspan font-size="22" fill="#8A94A1">→</tspan> <tspan fill="#E8743B">35MB</tspan></text>
+    <text x="912" y="598" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="9.80" fill="#8A94A1" textLength="105.1" lengthAdjust="spacingAndGlyphs">Reduced by approximately 10,000×</text>
+  </g>
+
+  <g id="footer">
+    <text x="64" y="700" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11" fill="#8A94A1">Source: LoRA §4.2 · Hu et al. 2021</text>
+    <text x="1216" y="700" text-anchor="end" font-family="&quot;Georgia&quot;, Arial, sans-serif" font-size="11" fill="#8A94A1">08 / 15</text>
+  </g>
+</svg>

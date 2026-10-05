@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EDE0" />
+      <stop offset="100%" stop-color="#EDE0D0" />
+    </linearGradient>
+    <linearGradient id="imgBottomFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5EDE0" stop-opacity="0" />
+      <stop offset="70%" stop-color="#F5EDE0" stop-opacity="0" />
+      <stop offset="100%" stop-color="#F5EDE0" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="warmAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4704A" />
+      <stop offset="100%" stop-color="#D4A96A" />
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="1280" height="720" fill="url(#warmBg)" />
+
+  
+  <image href="../images/p05_top_img.png" x="0" y="0" width="1280" height="380" preserveAspectRatio="xMidYMid slice" />
+
+  
+  <rect x="0" y="0" width="1280" height="380" fill="url(#imgBottomFade)" />
+
+  
+  <line x1="60" y1="395" x2="1220" y2="395" stroke="#C4704A" stroke-opacity="0.3" stroke-width="1" />
+
+  
+  <text x="60" y="378" font-family="Consolas, monospace" font-size="10.08" fill="#8A6A4A">P05  ·  watercolor × warm-earth  ·  Three-column top image</text>
+
+  
+  
+  <text x="80" y="445" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="bold" fill="#3A2010" textLength="88.0" lengthAdjust="spacingAndGlyphs">Watercolor rendering</text>
+  <text x="80" y="468" font-family="Arial, 'Georgia', sans-serif" font-size="13" fill="#8A6A4A" letter-spacing="1">Watercolor Rendering</text>
+  <rect x="80" y="478" width="60" height="2" rx="1" fill="url(#warmAccent)" />
+  <text x="80" y="504" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="136.0" lengthAdjust="spacingAndGlyphs">Watercolor pigment on paper</text>
+  <text x="80" y="526" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="111.3" lengthAdjust="spacingAndGlyphs">Dye diffusion and permeation, edges</text>
+  <text x="80" y="548" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="77.3" lengthAdjust="spacingAndGlyphs">Naturally softened.</text>
+  <text x="80" y="586" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A6A4A" textLength="121.5" lengthAdjust="spacingAndGlyphs">Moist feel, organic texture,</text>
+  <text x="80" y="606" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A6A4A" textLength="113.2" lengthAdjust="spacingAndGlyphs">Suitable for emotional storytelling.</text>
+
+  
+  <line x1="453" y1="425" x2="453" y2="660" stroke="#C4704A" stroke-opacity="0.2" stroke-width="1" />
+
+  
+  <text x="480" y="445" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="bold" fill="#3A2010" textLength="110.0" lengthAdjust="spacingAndGlyphs">Warm earth palette</text>
+  <text x="480" y="468" font-family="Arial, 'Georgia', sans-serif" font-size="13" fill="#8A6A4A" letter-spacing="1">Warm-Earth Palette</text>
+  <rect x="480" y="478" width="60" height="2" rx="1" fill="url(#warmAccent)" />
+  <text x="480" y="504" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="120.7" lengthAdjust="spacingAndGlyphs">Terracotta, sand yellow, dusk orange</text>
+  <text x="480" y="526" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="111.3" lengthAdjust="spacingAndGlyphs">Establishing a warm tone,</text>
+  <text x="480" y="548" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="128.3" lengthAdjust="spacingAndGlyphs">Close to nature and humanity.</text>
+  <text x="480" y="586" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A6A4A">A higher color temperature creates a sense of warmth,</text>
+  <text x="480" y="606" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A6A4A" textLength="98.2" lengthAdjust="spacingAndGlyphs">Avoid a cold, detached feel.</text>
+
+  
+  <line x1="853" y1="425" x2="853" y2="660" stroke="#C4704A" stroke-opacity="0.2" stroke-width="1" />
+
+  
+  <text x="880" y="445" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="15.40" font-weight="bold" fill="#3A2010" textLength="132.0" lengthAdjust="spacingAndGlyphs">Three-column hero image layout</text>
+  <text x="880" y="468" font-family="Arial, 'Georgia', sans-serif" font-size="13" fill="#8A6A4A" letter-spacing="1">Top Image + 3-Column Text</text>
+  <rect x="880" y="478" width="60" height="2" rx="1" fill="url(#warmAccent)" />
+  <text x="880" y="504" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="119.0" lengthAdjust="spacingAndGlyphs">Full-Width Image Across the Top</text>
+  <text x="880" y="526" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="99.6" lengthAdjust="spacingAndGlyphs">Approximately 53% of the image,</text>
+  <text x="880" y="548" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="11.90" fill="#5A3A20" textLength="145.4" lengthAdjust="spacingAndGlyphs">Three equal-width columns of annotations below.</text>
+  <text x="880" y="586" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A6A4A" textLength="166.5" lengthAdjust="spacingAndGlyphs">The image is a header; the text is a footnote,</text>
+  <text x="880" y="606" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="10.50" fill="#8A6A4A" textLength="128.2" lengthAdjust="spacingAndGlyphs">The logic flows from top to bottom.</text>
+
+  
+  <text x="1220" y="700" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#8A6A4A">05</text>
+</svg>
